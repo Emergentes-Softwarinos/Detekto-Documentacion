@@ -1,3 +1,84 @@
+# Softwarinos - Report
+
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="LogoUPC">
+</p>
+
+# Universdiad Peruana de Ciencias Aplicadas
+
+# INGENIERÍA DE SOFTWARE
+
+### Ciclo: 7
+
+## CURSO: Arquitecturas De Software Emergentes | SECCIÓN 4253
+
+Profesor: De Los Rios Fernandez, Christian Luis
+
+# Proyecto de curso
+
+## Informe de Trabajo Final
+
+#### StartUp: Softwarinos
+
+#### Producto: Detekto
+
+### Integrantes:
+
+| Integrantes                            | Codigo     |
+| -------------------------------------- | ---------- |
+|  Ampudia Flores, Jose Carlos Isaac| u202112936 |
+|  De La Piedra Quintanilla, Erwin Miquel      | U202112179 |
+|  Elsner De La Torre Ugarte         | u202111654 |
+| Gutierrez Zumaeta, Manuel Alonso           | U202112353 |
+
+#### Ciclo 2025-10
+
+##### Abril, 2025
+
+---
+
+# Registro de Versiones del informe
+
+| Versión | Fecha | Autor | Descripción de modificación |
+|---------|-------|--------|------------------------------|
+| 0.1     |       |        |                              |
+| 0.2     |       |        |                              |
+| 0.3     |       |        |                              |
+| 0.4     |       |        |                              |
+| 0.5     |       |        |                              |
+
+# Project Report Collaboration Insights
+Para el desarrollo del proyecto, se ha utilizado la plataforma de GitHub para el control correcto de versiones y la colaboración de los integrantes del equipo. A continuación se presenta el link directo a la organización del equipo:
+
+**Link de organización Softwarinos:**  
+[https://github.com/Emergentes-Softwarinos](https://github.com/Emergentes-Softwarinos)
+
+## TB1
+
+Para la entrega de la TB1 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
+
+| Integrante           | Responsabilidad |
+|----------------------|-----------------|
+| José Ampudia         |                 |
+| Manuel Gutierrez     |                 |
+| Miquel De la Piedra  |                 |
+| Julio De la Torre    |                 |
+
+Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron *commits* respectivos con el fin de mantener el orden y un control de versiones eficiente.
+
+Para tener mejor precisión en los integrantes del equipo, a continuación presentamos los usuarios de GitHub de los integrantes:
+
+- José Ampudia (@IsaacAmp24)  
+- Manuel Gutierrez (@ManuGZ)  
+- Miquel De la Piedra (@MiquelDlp)  
+- Julio De la Torre (@)  
+
+A continuación se presentan las capturas del repositorio de GitHub donde se realizaron los avances correspondientes.
+
+# Tabla de contenidos
+
+# Studen Outcome
+
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
