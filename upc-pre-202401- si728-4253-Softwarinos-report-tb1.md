@@ -219,8 +219,23 @@ Refinamientos detallados para los escenarios de atributos de calidad, con el obj
 ### 4.2.3. Domain Message Flows Modeling.
 ### 4.2.4. Bounded Context Canvases.
 ### 4.2.5. Context Mapping.
+
 ## 4.3. Software Architecture.
 ### 4.3.1. Software Architecture System Landscape Diagram.
 ### 4.3.1. Software Architecture Context Level Diagrams.
+
+<p align="center">
+  <img src="assets/capitulo-4/structurizr-101688-SystemContext-001.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 ### 4.3.2. Software Architecture Container Level Diagrams.
+
+<p align="center">
+  <img src="assets/capitulo-4/structurizr-101688-Container-001.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 ### 4.3.3. Software Architecture Deployment Diagrams.
+
+<p align="center">
+  <img src="assets/capitulo-4/structurizr-101688-Component-001.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
