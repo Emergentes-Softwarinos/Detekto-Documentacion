@@ -215,26 +215,147 @@ Refinamientos detallados para los escenarios de atributos de calidad, con el obj
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
+Dentro de este punto nos encontramos con estos 9 pasos a realizar:
+
+**Step 1: Unstructured Exploration**
+
+En este paso, se detectaron los siguientes puntos, los cuales posteriormente fueron utilizados dentro del sistema.
+
+<img src="assets/capitulo-4/Eventstorming-Step-1.jpg" alt="Eventstorming-Step-1" width="900"/>
+
+**Step 2: Timelines:**
+
+En este paso se realizaron las distintas conexiones entre eventos del flujo de la aplicación.
+
+<img src="assets/capitulo-4/Eventstorming-Step-2.jpg" alt="Eventstorming-Step-2" width="900"/>
+
+**Step 3: Pain points**
+
+En este paso se colocaron los eventos críticos y sus respectivos pain events identificados.
+
+<img src="assets/capitulo-4/Eventstorming-Step-3.jpg" alt="Eventstorming-Step-3" width="900"/>
+
+**Step 4: Pivotal points**
+
+En este paso se incluyeron los pivotal points dentro del flujo de la aplicación
+
+<img src="assets/capitulo-4/Eventstorming-Step-4.jpg" alt="Eventstorming-Step-4" width="900"/>
+
+**Step 5: Commands**
+
+En este paso se identificó los comandos realizados por sus respectivos actores.
+
+<img src="assets/capitulo-4/Eventstorming-Step-5.jpg" alt="Eventstorming-Step-5" width="900"/>
+
+**Step 6: Policies**
+
+En este paso se incluyeron las políticas, escenarios donde la aplicación ejecuta alguna acción.
+
+<img src="assets/capitulo-4/Eventstorming-Step-6.jpg" alt="Eventstorming-Step-6" width="900"/>
+
+**Step 7: Read Models**
+
+En este paso se realizó el modelo de lectura de cada sistema de la aplicación.
+
+<img src="assets/capitulo-4/Eventstorming-Step-7.jpg" alt="Eventstorming-Step-7" width="900"/>
+
+**Step 8: External systems**
+
+En este paso se identificaron algunos sistemas externos.
+
+<img src="assets/capitulo-4/Eventstorming-Step-8.jpg" alt="Eventstorming-Step-8" width="900"/>
+
+**Step 9: Aggregates**
+
+En este paso se implementan los agregados de cada sistema de la aplicación.
+
+<img src="assets/capitulo-4/Eventstorming-Step-9.jpg" alt="Eventstorming-Step-9" width="900"/>
+
 ### 4.2.2. Candidate Context Discovery.
+
+En este punto luego de la realización del Event storming, se identificaron los bounded context a trabajar. En este caso se lograron identificar 6.
+
+<img src="assets/capitulo-4/Context Discovery-IAM.jpg" alt="Context Discovery-IAM" width="900"/>
+
+<img src="assets/capitulo-4/Context Discovery-Object-Recognition.jpg" alt="Context Discovery-Object-Recognition" width="900"/>
+
+<img src="assets/capitulo-4/Context Discovery-Notification.jpg" alt="Context Discovery-Notification" width="900"/>
+
+<img src="assets/capitulo-4/Context Discovery-Tracking-And-Monitoring.jpg" alt="Context Discovery-Tracking-And-Monitoring" width="900"/>
+
+<img src="assets/capitulo-4/Context Discovery-Reporting.jpg" alt="Context Discovery-Reporting" width="900"/>
+
+<img src="assets/capitulo-4/Context Discovery-Sales.jpg" alt="Context Discovery-Sales" width="900"/>
+
+Aquí podemos apreciarlo completo:
+
+<img src="assets/capitulo-4/Context Discovery.jpg" alt="Context Discovery" width="900"/>
+
 ### 4.2.3. Domain Message Flows Modeling.
+
+**Actor:** Supplier
+
+**Escenario:** El proveedor inicia sesión
+
+<img src="assets/capitulo-4/Modeling 1.jpg" alt="Modeling 1" width="900"/>
+
+**Actor:** Supplier
+
+**Escenario:** El proveedor registra una venta luego del escaneo exitoso
+
+<img src="assets/capitulo-4/Modeling 2.jpg" alt="Modeling 2" width="900"/>
+
+**Actor:** Supplier
+
+**Escenario:** El proveedor registra una venta luego del escaneo exitoso
+
+<img src="assets/capitulo-4/Modeling 3.jpg" alt="Modeling 3" width="900"/>
+
+**Actor:** Admin
+
+**Escenario:** El administrador revisa rutas y estado en vivo de vendedores
+
+<img src="assets/capitulo-4/Modeling 4.jpg" alt="Modeling 4" width="900"/>
+
 ### 4.2.4. Bounded Context Canvases.
+
+- IAM:
+
+<img src="assets/capitulo-4/IAM.jpg" alt="IAM" width="900"/>
+
+- Sales:
+
+<img src="assets/capitulo-4/Sales.jpg" alt="Sales" width="900"/>
+
+- Object Recognition:
+
+<img src="assets/capitulo-4/Object Recognition.jpg" alt="Object Recognition" width="900"/>
+
+- Tracking & Monitoring:
+
+<img src="assets/capitulo-4/Tracking & Monitoring.jpg" alt="Tracking & Monitoring" width="900"/>
+
+- Notifications:
+
+<img src="assets/capitulo-4/Notifications.jpg" alt="Notifications" width="900"/>
+
 ### 4.2.5. Context Mapping.
 
 ## 4.3. Software Architecture.
 ### 4.3.1. Software Architecture System Landscape Diagram.
-### 4.3.1. Software Architecture Context Level Diagrams.
+### 4.3.2. Software Architecture Context Level Diagrams.
 
 <p align="center">
   <img src="assets/capitulo-4/structurizr-101688-SystemContext-001.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
-### 4.3.2. Software Architecture Container Level Diagrams.
+### 4.3.3. Software Architecture Container Level Diagrams.
 
 <p align="center">
   <img src="assets/capitulo-4/structurizr-101688-Container-001.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
-### 4.3.3. Software Architecture Deployment Diagrams.
+### 4.3.4. Software Architecture Deployment Diagrams.
 
 <p align="center">
   <img src="assets/capitulo-4/structurizr-101688-Component-001.png" alt="Imagen extraída de Figma" width="900"/>
