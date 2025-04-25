@@ -109,6 +109,14 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 ## 3.1. To-Be Scenario Mapping.
 ## 3.2. User Stories.
 ## 3.3. Impact Mapping.
+- Vendedor
+
+<img src="assets/capitulo-3/Impact map 1.png" alt="Impact map 1" width="900"/>
+
+- Administrador
+
+<img src="assets/capitulo-3/Impact map 2.png" alt="Impact map 2" width="900"/>
+
 ## 3.4. Product Backlog.
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
