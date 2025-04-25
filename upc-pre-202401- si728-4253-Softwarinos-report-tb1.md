@@ -113,7 +113,31 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
 ### 4.1.1. Design Purpose.
+El propósito del diseño es desarrollar una solución tecnológica compuesta por una aplicación móvil para vendedores y una aplicación web para administradores. Esta solución debe facilitar la **gestión de productos**, **ventas y stock**, optimizando los tiempos de atención y asegurando la trazabilidad de las operaciones.
+
 ### 4.1.2. Attribute-Driven Design Inputs.
+- Como **vendedor**, quiero usar reconocimiento de objetos para identificar productos rápidamente.
+
+- Como **vendedor**, quiero verificar el stock en tiempo real para confirmar la disponibilidad del producto.
+
+- Como **vendedor**, quiero reservar productos para asegurar que estén disponibles para el cliente.
+
+- Como **vendedor**, quiero registrar las ventas para llevar un control de las transacciones.
+
+- Como **vendedor**, quiero generar facturas para entregar un comprobante de compra al cliente.
+
+- Como **administrador**, quiero revisar las ventas para mantener el control financiero.
+
+- Como **administrador**, quiero ver y actualizar la lista de productos desde la web.
+
+- Como **administrador**, quiero gestionar el inventario para evitar desabastecimientos o excesos.
+
+- Como **administrador**, quiero crear y gestionar usuarios con diferentes roles y permisos.
+
+- Como **administrador**, quiero generar reportes de ventas e inventario para la toma de decisiones.
+
+- Como **cliente**, quiero ver el catálogo de productos con sus descripciones y precios.
+
 #### 4.1.2.1. Primary Functionality (Primary User Stories).
 #### 4.1.2.2. Quality attribute Scenarios.
 #### 4.1.2.3. Constraints.
