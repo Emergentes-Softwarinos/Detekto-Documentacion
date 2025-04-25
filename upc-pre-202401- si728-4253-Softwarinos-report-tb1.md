@@ -107,7 +107,7 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 
 ### 1.2.1 Antecedentes y problemática
 
-**What (¿Qué?)**  
+- **What (¿Qué?)**  
  El problema principal es la dificultad que enfrentan ferreterías y comercios de productos físicos para identificar, buscar y gestionar herramientas y materiales de forma rápida y precisa. Los sistemas actuales no están adaptados al sector y requieren conocimientos técnicos o procesos manuales lentos.
 
 - **When (¿Cuándo?)**  
@@ -131,17 +131,6 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
-
-
-#### 1.2.2.2. Lean UX Assumptions.
-
-#### 1.2.2.3. Lean UX Hypothesis Statements.
-
-#### 1.2.2.4. Lean UX Canvas.
-
-## 1.3. Segmentos objetivo.
-
-
 El estado actual de la gestión de productos en las ferreterías está centrado principalmente en métodos tradicionales, como catálogos físicos y búsqueda manual, lo que resulta en tiempos de espera largos, ineficiencia en la atención al cliente y una gestión de inventario poco precisa. Lo que los sistemas existentes no logran abordar es la integración efectiva de tecnología para agilizar la identificación de productos, mejorar la precisión en el registro de ventas e inventario, y optimizar el seguimiento de las operaciones comerciales.
 
 Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una solución móvil innovadora que utiliza reconocimiento visual a través de la cámara del dispositivo. Nos enfocaremos en proporcionar una plataforma que permita a los vendedores identificar productos rápidamente, registrar ventas, acceder a informes de inventario en tiempo real y obtener reportes automatizados. Además, simplificaremos la gestión del inventario y mejoraremos la comunicación entre vendedores y administradores, todo desde una interfaz sencilla y fácil de usar.
@@ -149,7 +138,6 @@ Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una 
 Nuestro enfoque inicial será dirigirnos a ferreterías y pequeños comercios especializados en herramientas y materiales, proporcionando una solución tecnológica accesible que optimice sus procesos. Sabremos que hemos tenido éxito cuando veamos una disminución significativa en los tiempos de atención al cliente, una mejora en la precisión del inventario y una mayor satisfacción tanto de empleados como de clientes, resultando en un aumento en las ventas y eficiencia operativa.
 
 #### 1.2.2.2. Lean UX Assumptions.
-
 - **Business Assumptions**
 
 Los vendedores y administradores de ferreterías necesitan una herramienta rápida y sencilla para identificar productos y gestionar inventarios.
@@ -200,7 +188,6 @@ Nos diferenciamos al ofrecer una solución sencilla y enfocada, con reconocimien
     La app no requiere conocimientos técnicos avanzados, lo que permite una adopción rápida incluso por usuarios con baja familiaridad digital.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-
 - **Creemos que** la experiencia del vendedor mejorará si se ofrece reconocimiento automático de herramientas mediante la cámara del móvil.**Sabremos que hemos tenido éxito, cuando** el tiempo promedio de identificación de productos disminuya en un 50% durante el primer mes de uso.
 
 - **Creemos que** los administradores podrán tomar mejores decisiones si se les proporciona un panel con reportes automáticos de ventas e inventario.**Sabremos que hemos tenido éxito, cuando** el 70% de los administradores usen el panel semanalmente y reporten una mejora en la gestión del stock en los primeros tres meses.
@@ -210,16 +197,15 @@ Nos diferenciamos al ofrecer una solución sencilla y enfocada, con reconocimien
 - **Creemos que** Detekto tendrá una mayor aceptación que soluciones genéricas si se enfoca únicamente en ferreterías. **Sabremos que hemos tenido éxito, cuando** al menos el 60% de los usuarios prefieren Detekto sobre otros sistemas después de un mes de uso, según encuestas de satisfacción.
 
 #### 1.2.2.4. Lean UX Canvas.
-
 <img src="assets/CAP1/LeanUXCanvas.png" alt="LeanUxCanvas">
 
 ## 1.3. Segmentos objetivo.
 
-En esta sección hemos definido dos segmentos objetivo, que representan los públicos a los que estará dirigido nuestro trabajo.
+El estado actual de la gestión de productos en las ferreterías está centrado principalmente en métodos tradicionales, como catálogos físicos y búsqueda manual, lo que resulta en tiempos de espera largos, ineficiencia en la atención al cliente y una gestión de inventario poco precisa. Lo que los sistemas existentes no logran abordar es la integración efectiva de tecnología para agilizar la identificación de productos, mejorar la precisión en el registro de ventas e inventario, y optimizar el seguimiento de las operaciones comerciales.
 
-- **Vendedor**: El vendedor va ser el segmento objetivo principal ya que este va a interactuar con la aplicación todo el tiempo, además que será el que tendrá las funcionalidades principales, las cuales una de ellas son el reconocimiento de objetos para que se le facilite la búsqueda de productos, la consulta de stock y la reserva del producto cuando va a realizar una venta a una persona.
+Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una solución móvil innovadora que utiliza reconocimiento visual a través de la cámara del dispositivo. Nos enfocaremos en proporcionar una plataforma que permita a los vendedores identificar productos rápidamente, registrar ventas, acceder a informes de inventario en tiempo real y obtener reportes automatizados. Además, simplificaremos la gestión del inventario y mejoraremos la comunicación entre vendedores y administradores, todo desde una interfaz sencilla y fácil de usar.
 
-- **Administrador**: En este caso el administrador tendrá un rol de supervisor, ya que este no interactúa con la aplicación móvil, sino que tiene una aplicación web donde va a poder ver la lista de los productos, las ventas de que hizo el vendedor, y ademas podra hacer una proyección de cuantas ganancias podría generar un vendedor en un rango de tiempo que el límite.
+Nuestro enfoque inicial será dirigirnos a ferreterías y pequeños comercios especializados en herramientas y materiales, proporcionando una solución tecnológica accesible que optimice sus procesos. Sabremos que hemos tenido éxito cuando veamos una disminución significativa en los tiempos de atención al cliente, una mejora en la precisión del inventario y una mayor satisfacción tanto de empleados como de clientes, resultando en un aumento en las ventas y eficiencia operativa.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -227,10 +213,6 @@ En esta sección hemos definido dos segmentos objetivo, que representan los púb
 
 ### 2.1.1. Análisis competitivo.
 
-
-### 2.1.2. Estrategias y tácticas frente a competidores.
-
-=======
 <table><tr><th colspan="6" valign="top">Competitive Analysis Landscape</th></tr>
 <tr><td colspan="1" valign="top">¿Por qué llevar a cabo este análisis?</td><td colspan="5" valign="top">El objetivo de este análisis es identificar las características de los competidores y encontrar maneras de diferenciarnos.</td></tr>
 <tr><td colspan="2" rowspan="2" valign="top">Startup y Competidores</td><td colspan="1" valign="top">Detekto</td><td colspan="1" valign="top">TradeGecko</td><td colspan="1" valign="top">Zoho CRM</td><td colspan="1" valign="top">Shopify</td></tr>
@@ -528,14 +510,6 @@ En esta sección, se definen términos clave para el dominio del negocio, basán
 - **Restock (Reabastecimiento)**: Acción de reponer productos que se han agotado en el inventario.
 
 - **Visual Search (Búsqueda visual)**: Método para encontrar un producto a través de una imagen o la cámara, en lugar de una búsqueda por nombre.
-
-### 2.3.2. User Task Matrix.
-
-### 2.3.3. Empathy Mapping.
-
-### 2.3.4. As-is Scenario Mapping.
-
-## 2.4. Ubiquitous Language.
 
 # Capítulo III: Requirements Specification
 
