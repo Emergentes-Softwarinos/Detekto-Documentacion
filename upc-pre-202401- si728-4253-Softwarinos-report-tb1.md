@@ -145,7 +145,13 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 | 22 | HU-15 | Consultar historial de rutas por fecha | Como administrador, quiero consultar rutas seguidas por los vendedores. | 3 |
 | 23 | HU-18 | Consultar Historial de Asistencia | Como administrador, quiero consultar el historial de asistencia de vendedores. | 3 |
 | 24 | HU-20 | Generar Reporte Mensual | Como administrador, quiero generar un reporte mensual de asistencia. | 2 |
-
+| 25 | TS-01 | Desarrollar API para registro de usuario | Como Developer, quiero desarrollar una API que permita registrar cuentas de usuario. | 3 |
+| 26 | TS-02 | Desarrollar API para autenticación de usuario | Como Developer, quiero crear una API que valide credenciales y genere token de autenticación. | 3 |
+| 27 | TS-03 | Desarrollar API para escanear productos | Como Developer, quiero crear una API que reciba imagen o código de barras y devuelva información del producto. | 5 |
+| 28 | TS-04 | Desarrollar API para registrar una venta | Como Developer, quiero crear una API que registre productos vendidos, cantidades y total. | 5 |
+| 29 | TS-05 | Desarrollar API para generar reportes de ventas | Como Developer, quiero crear una API que genere reportes filtrados por fechas, vendedores o categorías. | 5 |
+| 30 | TS-06 | Desarrollar API para exportación de reportes | Como Developer, quiero crear una API que permita exportar los reportes en PDF o Excel. | 3 |
+| 31 | TS-07 | Desarrollar API para geolocalización de vendedores | Como Developer, quiero crear una API que registre coordenadas de vendedores en tiempo real. | 5 |
 
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
