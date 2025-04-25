@@ -118,6 +118,35 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 <img src="assets/capitulo-3/Impact map 2.png" alt="Impact map 2" width="900"/>
 
 ## 3.4. Product Backlog.
+
+| Orden | User Story ID | Título | Descripción | Story Points |
+|:-----:|:-------------:|:------:|:-----------:|:------------:|
+| 1 | HU-01 | Registrar cuenta | Como usuario, quiero crear una cuenta para poder acceder a la aplicación. | 2 |
+| 2 | HU-02 | Iniciar sesión | Como usuario, quiero ingresar a mi cuenta para utilizar la aplicación. | 1 |
+| 3 | HU-05 | Escanear productos con la cámara | Como vendedor, quiero identificar productos escaneándolos con la cámara para ahorrar tiempo. | 5 |
+| 4 | HU-06 | Verificar disponibilidad en stock | Como vendedor, quiero conocer el stock de un producto escaneado para saber si puedo venderlo. | 3 |
+| 5 | HU-07 | Reservar producto escaneado | Como vendedor, quiero reservar productos para asegurar su disponibilidad. | 3 |
+| 6 | HU-08 | Ver historial de escaneos recientes | Como vendedor, quiero ver los últimos productos escaneados para agilizar consultas. | 2 |
+| 7 | HU-09 | Registrar una venta | Como vendedor, quiero registrar una venta para llevar control de las transacciones. | 5 |
+| 8 | HU-10 | Generar recibo de venta | Como vendedor, quiero generar un recibo luego de registrar una venta para el cliente. | 3 |
+| 9 | HU-11 | Cancelar venta registrada recientemente | Como vendedor, quiero cancelar una venta reciente en caso de error. | 3 |
+| 10 | HU-16 | Registro de Entrada | Como vendedor, quiero registrar mi hora de entrada al trabajo. | 2 |
+| 11 | HU-17 | Registro de Salida | Como vendedor, quiero registrar mi hora de salida para completar la jornada. | 2 |
+| 12 | HU-19 | Recordatorio de Marcación | Como vendedor, quiero recibir una notificación si olvido marcar entrada. | 2 |
+| 13 | HU-03 | Cerrar sesión | Como usuario, quiero cerrar sesión para mantener mis datos seguros. | 1 |
+| 14 | HU-04 | Recuperar Contraseña | Como usuario, quiero recuperar mi contraseña si la olvido. | 2 |
+| 15 | HU-12 | Revisar ventas realizadas | Como administrador, quiero revisar ventas realizadas por los vendedores. | 5 |
+| 16 | HU-21 | Visualización de reportes diarios de ventas | Como administrador, quiero ver reportes diarios de ventas para gestionar stock. | 5 |
+| 17 | HU-22 | Visualización sobre sugerencias de compras | Como administrador, quiero recibir sugerencias automáticas de compras. | 3 |
+| 18 | HU-23 | Visualización de proyecciones mensuales o rango | Como administrador, quiero ver proyecciones de ventas y stock. | 3 |
+| 19 | HU-24 | Exportar reportes a formatos descargables | Como administrador, quiero exportar los reportes en PDF o Excel. | 2 |
+| 20 | HU-13 | Ver ubicación de vendedores activos | Como administrador, quiero ver en el mapa la ubicación de vendedores. | 5 |
+| 21 | HU-14 | Recibir alertas por inactividad o desvíos | Como administrador, quiero recibir alertas si un vendedor está inactivo o desviado. | 5 |
+| 22 | HU-15 | Consultar historial de rutas por fecha | Como administrador, quiero consultar rutas seguidas por los vendedores. | 3 |
+| 23 | HU-18 | Consultar Historial de Asistencia | Como administrador, quiero consultar el historial de asistencia de vendedores. | 3 |
+| 24 | HU-20 | Generar Reporte Mensual | Como administrador, quiero generar un reporte mensual de asistencia. | 2 |
+
+
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
 ### 4.1.1. Design Purpose.
