@@ -58,12 +58,12 @@ Para el desarrollo del proyecto, se ha utilizado la plataforma de GitHub para el
 
 Para la entrega de la TB1 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
 
-| Integrante          | Responsabilidad |
-| ------------------- | --------------- |
-| José Ampudia        |                 |
-| Manuel Gutierrez    |                 |
-| Miquel De la Piedra |                 |
-| Julio De la Torre   |                 |
+| Integrante          | Responsabilidad                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| José Ampudia        | Desarrollo del diseño de las entrevistas, registro de entrevistas, Análisis de entrevistas, Needfinding, User Personas, User Task Matrix, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping y User Stories                                                                                                                                                                        |
+| Manuel Gutierrez    | Desarrollo de Solution Profile, Antecedentes y problemática, Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements, Lean UX Canvas, Segmentos objetivos, Competidores, Análisis competitivo, Estrategias y tácticas frente a competidorees y Registro de entrevistas                                                                                                       |
+| Miquel De la Piedra | Desarrollo del Impact Mapping, Product Backlog, Strategic-Level Attribute-Driven Design, Design Purpose, Attribute-Driven Design Inputs, Primary Functionality (Primary User Stories), Quality attribute Scenarios, Constraints, Architectural Drivers Backlog, Architectural Design Decisions y Quality Attribute Scenario Refinements y Registro de entrevistas                                                    |
+| Julio De la Torre   | Desarrollo de Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping y Software Architecture, Software Architecture System Landscape Diagram, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams y Software Architecture Deployment Diagrams y Registro de entrevistas |
 
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron _commits_ respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
@@ -72,7 +72,7 @@ Para tener mejor precisión en los integrantes del equipo, a continuación prese
 - José Ampudia (@IsaacAmp24)
 - Manuel Gutierrez (@ManuGZ)
 - Miquel De la Piedra (@MiquelDlp)
-- Julio De la Torre (@)
+- Julio De la Torre (@JulioElsnerDLTU)
 
 A continuación se presentan las capturas del repositorio de GitHub donde se realizaron los avances correspondientes.
 
@@ -135,15 +135,140 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
     - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
     - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
-# Studen Outcome
-ABET – EAC - Student Outcome 3
-**Criterio**: Capacidad de comunicarse efectivamente con un rango de audiencias.  
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+### Capítulo V: Tactical-Level Software Design
 
-| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
-|------------------------|-------------------------|------------------|
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. |                         |                  |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. |                         |                  |
+- [5.X. Bounded Context: Nombre del Contexto](#5x-bounded-context-nombre-del-contexto)
+  - [5.X.1. Domain Layer](#5x1-domain-layer)
+  - [5.X.2. Interface Layer](#5x2-interface-layer)
+  - [5.X.3. Application Layer](#5x3-application-layer)
+  - [5.X.4. Infrastructure Layer](#5x4-infrastructure-layer)
+  - [5.X.6. Bounded Context Software Architecture Component Level Diagrams](#5x6-bounded-context-software-architecture-component-level-diagrams)
+  - [5.X.7. Bounded Context Software Architecture Code Level Diagrams](#5x7-bounded-context-software-architecture-code-level-diagrams)
+    - [5.X.7.1. Domain Layer Class Diagrams](#5x71-domain-layer-class-diagrams)
+    - [5.X.7.2. Database Design Diagram](#5x72-database-design-diagram)
+
+### Capítulo VI: Solution UX Design
+
+- [6.1. Style Guidelines](#61-style-guidelines)
+  - [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+  - [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+- [6.2. Information Architecture](#62-information-architecture)
+  - [6.2.2. Labeling Systems](#622-labeling-systems)
+  - [6.2.3. Searching Systems](#623-searching-systems)
+  - [6.2.4. SEO Tags and Meta Tags](#624-seo-tags-and-meta-tags)
+  - [6.2.5. Navigation Systems](#625-navigation-systems)
+- [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+  - [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+  - [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+- [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+  - [6.4.1. Applications Wireframes](#641-applications-wireframes)
+  - [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)
+  - [6.4.3. Applications Mock-ups](#643-applications-mock-ups)
+  - [6.4.4. Applications User Flow Diagrams](#644-applications-user-flow-diagrams)
+- [6.5. Applications Prototyping](#65-applications-prototyping)
+
+### Capítulo VII: Product Implementation, Validation & Deployment
+
+- [7.1. Software Configuration Management](#71-software-configuration-management)
+  - [7.1.1. Development Environment Configuration](#711-development-environment-configuration)
+  - [7.1.2. Source Code Management](#712-source-code-management)
+  - [7.1.3. Code Style Guide & Conventions](#713-code-style-guide--conventions)
+  - [7.1.4. Deployment Configuration](#714-deployment-configuration)
+- [7.2. Solution Implementation](#72-solution-implementation)
+  - [7.2.X. Sprint n](#72x-sprint-n)
+    - [7.2.X.1. Sprint Planning](#72x1-sprint-planning)
+    - [7.2.X.2. Sprint Backlog](#72x2-sprint-backlog)
+    - [7.2.X.3. Development Evidence](#72x3-development-evidence)
+    - [7.2.X.4. Testing Suite Evidence](#72x4-testing-suite-evidence)
+    - [7.2.X.5. Execution Evidence](#72x5-execution-evidence)
+    - [7.2.X.6. Services Documentation](#72x6-services-documentation)
+    - [7.2.X.7. Deployment Evidence](#72x7-deployment-evidence)
+    - [7.2.X.8. Team Collaboration Insights](#72x8-team-collaboration-insights)
+- [7.3. Validation Interviews](#73-validation-interviews)
+  - [7.3.1. Diseño de Entrevistas](#731-diseño-de-entrevistas)
+  - [7.3.2. Registro de Entrevistas](#732-registro-de-entrevistas)
+  - [7.3.3. Evaluaciones según heurísticas](#733-evaluaciones-según-heurísticas)
+- [7.4. Video About-the-Product](#74-video-about-the-product)
+
+### Conclusiones
+
+- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+
+### Video About-the-Team
+
+- [Video del equipo](#video-del-equipo)
+
+### Bibliografía
+
+- [Referencias](#referencias)
+
+### Anexos
+
+- [Anexos](#anexos)
+
+# Student Outcome
+
+ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un
+rango de audiencias.
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
+      <td>
+        <strong>José Ampudia</strong><br />
+        <strong>TB1</strong><br />
+        Participó activamente en entrevistas con usuarios para la recopilación de información clave sobre necesidades reales. Durante estas sesiones, empleó un lenguaje claro y empático para asegurar la comprensión del propósito del proyecto, facilitando así una retroalimentación útil y precisa.
+        <br /><br />
+        <strong>Manuel Gutierrez</strong><br />
+        <strong>TB1</strong><br />
+        Comunicó de manera clara la problemática y el enfoque estratégico del proyecto durante las entrevistas con usuarios y discusiones del equipo, asegurando que todos comprendieran la visión general del producto. Además, facilitó sesiones explicativas sobre la propuesta de valor frente a competidores.
+        <br /><br />
+        <strong>Miquel De la Piedra</strong><br />
+        <strong>TB1</strong><br />
+        Explicó el propósito y funcionamiento del Impact Mapping a su equipo, así como las decisiones de diseño arquitectónico a nivel estratégico, asegurando que todos los miembros comprendieran la relación entre funcionalidades y metas del proyecto.
+        <br /><br />
+        <strong>Julio De la Torre</strong><br />
+        <strong>TB1</strong><br />
+        Facilitó el entendimiento de conceptos técnicos complejos como el EventStorming, Candidate Context Discovery y la arquitectura del sistema mediante presentaciones orales y debates dentro del equipo, adaptando el lenguaje técnico según el nivel de conocimiento de la audiencia.
+      </td>
+      <td>
+        Las habilidades de comunicación oral del equipo permitieron un entendimiento claro y compartido del proyecto tanto a nivel técnico como no técnico, mejorando la colaboración con usuarios y entre los miembros del equipo.
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
+      <td>
+        <strong>José Ampudia</strong><br />
+        <strong>TB1</strong><br />
+        Redactó documentos como el análisis de entrevistas, User Personas, y escenarios As-Is/To-Be de forma estructurada y clara, facilitando la comprensión por parte del equipo y stakeholders del contexto del usuario y sus necesidades.
+        <br /><br />
+        <strong>Manuel Gutierrez</strong><br />
+        <strong>TB1</strong><br />
+        Elaboró entregables como el Lean UX Canvas, Problem Statements y el análisis competitivo con una redacción precisa y orientada a la toma de decisiones estratégicas. Su documentación fue esencial para definir la propuesta de valor del proyecto.
+        <br /><br />
+        <strong>Miquel De la Piedra</strong><br />
+        <strong>TB1</strong><br />
+        Documentó el diseño arquitectónico a través del Attribute-Driven Design y Backlog técnico, asegurando claridad en los lineamientos técnicos para los futuros desarrolladores y partes interesadas.
+        <br /><br />
+        <strong>Julio De la Torre</strong><br />
+        <strong>TB1</strong><br />
+        Generó documentación técnica detallada sobre los componentes de la arquitectura del sistema, diagramas y mapeos de contexto, facilitando así la comprensión integral del sistema por parte de audiencias tanto técnicas como no técnicas.
+      </td>
+      <td>
+        La calidad de los entregables escritos permitió transmitir efectivamente tanto el enfoque de usuario como las decisiones técnicas, mejorando la comunicación y coordinación entre todos los actores involucrados.
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br><br>
 
 # Capítulo I: Introducción
 
@@ -161,12 +286,12 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Foto                                       | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Foto Manuel](assets/CAP1/FotoManuel.png) | **Nombre:** Manuel Alonso Gutierrez Zumaeta<br>**Código:** u202112353<br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                                        |
-| ![Foto Julio](ruta/a/la/foto)              | **Nombre:** Julio Elsner De La Torre Ugarte<br>**Código:** u202111654<br>**Descripción:** Estudiante de Ingeniería de software, tengo 21 años. Cuento con experiencia en desarrollo de aplicaciones Web Full Stack (Front, Back-end) y bases de datos. Me considero una persona indagadora y que hace las cosas con una idea plasmada antes de realizarla.                                                                                                                                                                 |
-| ![Foto Miquel](ruta/a/la/foto)             | **Nombre:** Erwin Miquel De la Piedra Quintanilla<br>**Código:** u202112179<br>**Descripción:** Soy Miquel De la Piedra, tengo 21 años, estudiante de la carrera de Ingeniería de Software. Poseo conocimientos relacionados a la programación en C++, Python, HTML y CSS. Además poseo experiencia con el manejo de bases de datos. Considero que estos conocimientos ayudarán a la realización de este trabajo, además de mejorar nuestros métodos de organización y trabajo en equipo.                                  |
-| ![Foto José](ruta/a/la/foto)               | **Nombre:** José Carlos Isaac Ampudia Flores<br>**Código:** u202112936<br>**Descripción:** Soy estudiante de Ingeniería de Software, con sólida formación en desarrollo Backend utilizando frameworks como Spring Boot. También cuento con conocimientos en el desarrollo Frontend, trabajando con herramientas como Angular. Me caracterizo por mi capacidad para trabajar bajo presión, así como por mi enfoque organizado y metódico, lo que me permite adaptarme correctamente a los desafíos del entorno tecnológico. |
+| Foto                                                              | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Foto Manuel](assets/CAP1/FotoManuel.png)                        | **Nombre:** Manuel Alonso Gutierrez Zumaeta<br>**Código:** u202112353<br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                                        |
+| ![Foto Julio](ruta/a/la/foto)                                     | **Nombre:** Julio Elsner De La Torre Ugarte<br>**Código:** u202111654<br>**Descripción:** Estudiante de Ingeniería de software, tengo 21 años. Cuento con experiencia en desarrollo de aplicaciones Web Full Stack (Front, Back-end) y bases de datos. Me considero una persona indagadora y que hace las cosas con una idea plasmada antes de realizarla.                                                                                                                                                                 |
+| ![Foto Miquel](ruta/a/la/foto)                                    | **Nombre:** Erwin Miquel De la Piedra Quintanilla<br>**Código:** u202112179<br>**Descripción:** Soy Miquel De la Piedra, tengo 21 años, estudiante de la carrera de Ingeniería de Software. Poseo conocimientos relacionados a la programación en C++, Python, HTML y CSS. Además poseo experiencia con el manejo de bases de datos. Considero que estos conocimientos ayudarán a la realización de este trabajo, además de mejorar nuestros métodos de organización y trabajo en equipo.                                  |
+| ![Foto José](./assets/CAP1/Perfil-Integrantes/rostro-Jocais.jpeg) | **Nombre:** José Carlos Isaac Ampudia Flores<br>**Código:** u202112936<br>**Descripción:** Soy estudiante de Ingeniería de Software, con sólida formación en desarrollo Backend utilizando frameworks como Spring Boot. También cuento con conocimientos en el desarrollo Frontend, trabajando con herramientas como Angular. Me caracterizo por mi capacidad para trabajar bajo presión, así como por mi enfoque organizado y metódico, lo que me permite adaptarme correctamente a los desafíos del entorno tecnológico. |
 
 ## 1.2. Solution Profile
 
