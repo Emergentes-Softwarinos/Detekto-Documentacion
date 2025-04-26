@@ -28,7 +28,7 @@ Profesor: De Los Rios Fernandez, Christian Luis
 | -------------------------------------- | ---------- |
 |  Ampudia Flores, Jose Carlos Isaac| u202112936 |
 |  De La Piedra Quintanilla, Erwin Miquel      | U202112179 |
-|  Elsner De La Torre Ugarte         | u202111654 |
+|  Elsner De La Torre Ugarte, Julio Esteban         | u202111654 |
 | Gutierrez Zumaeta, Manuel Alonso           | U202112353 |
 
 #### Ciclo 2025-10
