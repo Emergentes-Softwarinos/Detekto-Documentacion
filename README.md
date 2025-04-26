@@ -62,7 +62,7 @@ Para la entrega de la TB1 se realizó una reunión donde se asignaron las respon
 | José Ampudia         |                 |
 | Manuel Gutierrez     |                 |
 | Miquel De la Piedra  |                 |
-| Julio De la Torre    |                 |
+| Julio De la Torre    |   Diagrama C4 Y todos sus aspectos              |
 
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron *commits* respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
