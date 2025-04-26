@@ -107,6 +107,16 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 ## 2.4. Ubiquitous Language.
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
+En esta sección, se visualiza el rendimiento esperado de la solución propuesta después de su implementación, se presentarán los flujos de trabajo, las interacciones y las mejoras con respecto al estado actual, resaltando cómo la aplicación propuesta resolverá problemas y optimizará los procesos existentes.
+
+**Segmento 1: Vendedor:**
+
+![To-be-Vendedor](./assets/capitulo-3/To-Be%20Vendedor.png)
+
+**Segmento 2: Administrador:**
+
+![To-be-Administrador](./assets/capitulo-3/To-Be%20Administrador.png)
+
 ## 3.2. User Stories.
 En esta sección, se presentan las User Stories que rescatan las necesidades principales de nuestros usuarios finales, tanto vendedores como los administradores. Esto nos ayuda a definir y a priorizar funcionalidades críticas para asegurar que la aplicación cumpla con las expectativas del usuario.
 
