@@ -538,7 +538,60 @@ Se han planteado varias interrogantes dirigidas a nuestro público objetivo, con
 
 ### 2.2.2. Registro de entrevistas.
 
+**Entrevistas realizadas a Vendedores (Segmento 1):**
+
+| **Entrevista 1** | **Carlos Raul** |
+| --- | --- |
+| **Edad** | 23 |
+| **Ocupación** | Vendedor en una ferretería |
+| **Distrito** | Villa El Salvador  |
+| **Fecha** | 23/04/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento1_entrevista1.png"/> | Carlos, un joven vendedor de 23 años que trabaja en una ferretería desde hace casi dos años, compartió su experiencia diaria atendiendo clientes. Actualmente, realiza búsquedas de productos de forma manual, lo que le toma tiempo, especialmente cuando el cliente no conoce el nombre del artículo. En esos casos, Carlos intenta adivinar a partir de fotos o descripciones, lo que muchas veces genera demoras o incluso pérdida de ventas. Destacó que una de sus principales frustraciones es no encontrar rápidamente los productos o confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos usa con frecuencia su celular durante el trabajo y se siente cómodo con la tecnología, por lo que considera muy útil una app con reconocimiento de objetos mediante cámara. Espera que esta herramienta le permita identificar productos rápidamente, verificar su precio, stock y ubicación dentro de la tienda para mejorar su atención y eficiencia.|
+| **URL de la grabación**  | [Ver grabación](Link-de-la-entrevista-completa)  |
+| **Timming** | 0:05 - 21:06 |
+
+
+
+| **Entrevista 2** | **Roberto Carranza** |
+| --- | --- |
+| **Edad** | 25 |
+| **Ocupación** | Vendedor de ferretería |
+| **Distrito** | Jesús María |
+| **Fecha** | 24/02/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento1_entrevista2.png"/> | Roberto es un joven vendedor en una ferretería. Actualmente, en su trabajo utilizan un software antiguo para buscar stock y precios, lo cual resulta lento y ha ocasionado pérdida de ventas. Una de sus principales frustraciones es cuando los clientes traen una muestra sin saber el nombre del producto; él tiene que adivinar el nombre y la marca, ya que el sistema solo muestra resultados si se ingresan exactamente esos datos. Roberto considera que una aplicación que reconozca los productos a partir de una muestra y muestre diferentes marcas con precios y stock disponibles le facilitaría mucho el proceso de venta. |
+| **URL de la grabación** | [Ver grabación](#) |
+| **Timming** | 0:03 - 16:13 |
+
+
+
+
+
+
+
+
+**Entrevistas realizadas a Administradores (Segmento 2):**
+
+| **Entrevista 4** | **Luna Doly** |
+| --- | --- |
+| **Edad** | 30 |
+| **Ocupación** | Administradora de una ferretería |
+| **Distrito** | Jesús María, Lima |
+| **Fecha** | 23/04/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento2_entrevista1.png"/> | La entrevista se realizó con Luna, administradora de una ferretería en Lima con más de 7 años de experiencia en el cargo. Actualmente gestiona el negocio utilizando principalmente Excel y realiza el seguimiento del stock y las ventas de forma manual. Está interesada en contar con una plataforma web sencilla que le permita visualizar el rendimiento de los vendedores, los productos más vendidos y hacer proyecciones de ganancias. Aunque se siente cómoda usando computadoras, prefiere herramientas simples y visuales. Sus principales frustraciones incluyen la falta de información actualizada y errores en los registros. Como administradora, su objetivo es optimizar la gestión del negocio, crecer y mejorar la organización interna con ayuda de herramientas digitales. |
+| **URL de la grabación** | [Ver grabación](#) |
+| **Timming** | 0:03 - 16:13 |
+
+
+
 ### 2.2.3. Análisis de entrevistas.
+
+En base a las entrevistas realizadas, se ha llegado a la conclusión de 1 análisis para cada segmento objetivo.
+
+**Segmento 1: Vendedor**
+
+
+**Segmento 2: Administrador**
+
 
 ## 2.3. Needfinding.
 
@@ -548,11 +601,11 @@ A continuación se presentan los perfiles de nuestros segmentos objetivos, tales
 
 - Segmento 1: Vendedor:
 
-<img src="assets/CAP2/User1.png">
+![UP-Vendedor](./assets/CAP2/User-Personas/UP_Vendedor_Juan%20Fernando.png)
 
 - Segmento 2: Administrador:
 
-<img src="assets/CAP2/User2.png">
+![UP-Administrador](./assets/CAP2/User-Personas/UP_Administradora_Alexandra.png)
 
 ### 2.3.2. User Task Matrix.
 
@@ -641,13 +694,13 @@ Las tareas que realizan en una empresa de ferretería son bastante similares a c
 
 Mediante este gráfico se evidencia las percepciones y sentimientos de los usuarios al interactuar con nuestra solución, este análisis nos permite conocer sobre sus desafíos que ellos poseen, y diseñar una propuesta más adecuada y centrada a sus requisitos.
 
-Segmento 1 - Vendedor:
+- Segmento 1 - Vendedor:
 
-<img src="assets/CAP2/Empathy1.png">
+![Empathy Map Vendedor](./assets/CAP2/Empathy-Mapping/EmpathyMapping_Vendedor_Juan%20Fernando.png)
 
-Segmento 2 - Administrador:
+- Segmento 2 - Administrador:
 
-<img src="assets/CAP2/Empathy2.png">
+![Empathy Map Administrador](./assets/CAP2/Empathy-Mapping/EmpathyMapping_Administrador_Alexandra.png)
 
 ### 2.3.4. As-is Scenario Mapping.
 
@@ -655,11 +708,11 @@ En esta sección, se describen los procesos cotidianos, antes de la implementaci
 
 - Segmento 1 - Vendedor:
 
-<img src="assets/CAP2/asis1.png">
+![As-is Scenario Mapping Vendedor](./assets/CAP2/As-Is-Scenario-Mapping/As-Is%20Vendedor.png)
 
 - Segmento 2 - Administrador:
 
-<img src="assets/CAP2/asis2.png">
+![As-is Scenario Mapping Administrador](./assets/CAP2/As-Is-Scenario-Mapping/As-Is%20Administrador.png)
 
 ## 2.4. Ubiquitous Language.
 
