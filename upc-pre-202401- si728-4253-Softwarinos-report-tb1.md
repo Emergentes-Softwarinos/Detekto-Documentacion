@@ -77,74 +77,63 @@ Para tener mejor precisión en los integrantes del equipo, a continuación prese
 A continuación se presentan las capturas del repositorio de GitHub donde se realizaron los avances correspondientes.
 
 # Tabla de contenidos
+- [Student Outcome](#student-outcome)
 
-### [Registro de versiones del informe](#registro-de-versiones-del-informe)
+[Capítulo I: Introducción](#capítulo-i-introducción)
+  - [1.1. Startup Profile](#11-startup-profile)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+  - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+    - [1.2.2. Lean UX Process](#122-lean-ux-process)
+      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-### [Project Report Collaboration Insights](#project-report-collaboration-insights)
+[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [2.1. Competidores](#21-competidores)
+    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2. Entrevistas](#22-entrevistas)
+    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  - [2.3. Needfinding](#23-needfinding)
+    - [2.3.1. User Personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-### [Contenido](#contenido)
+[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  - [3.2. User Stories](#32-user-stories)
+  - [3.3. Impact Mapping](#33-impact-mapping)
+  - [3.4. Product Backlog](#34-product-backlog)
 
-### [Student Outcome](#student-outcome-1)
-
-### Capítulo I: Introducción
-
-- [1.1. Startup Profile](#11-startup-profile)
-  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-  - [1.2.2. Lean UX Process](#122-lean-ux-process)
-    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-### Capítulo II: Requirements Elicitation & Analysis
-
-- [2.1. Competidores](#21-competidores)
-  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-  - [2.3.1. User Personas](#231-user-personas)
-  - [2.3.2. User Task Matrix](#232-user-task-matrix)
-  - [2.3.3. Empathy Mapping](#233-empathy-mapping)
-  - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
-- [2.4. Ubiquitous Language](#24-ubiquitous-language)
-
-### Capítulo III: Requirements Specification
-
-- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-- [3.2. User Stories](#32-user-stories)
-- [3.3. Impact Mapping](#33-impact-mapping)
-- [3.4. Product Backlog](#34-product-backlog)
-
-### Capítulo IV: Strategic-Level Software Design
-
-- [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-  - [4.1.1. Design Purpose](#411-design-purpose)
-  - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-    - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-    - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-    - [4.1.2.3. Constraints](#4123-constraints)
-  - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-  - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-  - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-- [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
-  - [4.2.1. EventStorming](#421-eventstorming)
-  - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
-  - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-  - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
-  - [4.2.5. Context Mapping](#425-context-mapping)
-- [4.3. Software Architecture](#43-software-architecture)
-  - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
-  - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
-  - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
-  - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+[Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
+  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+    - [4.1.1. Design Purpose](#411-design-purpose)
+    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+      - [4.1.2.3. Constraints](#4123-constraints)
+    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+    - [4.2.1. EventStorming](#421-eventstorming)
+    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+    - [4.2.5. Context Mapping](#425-context-mapping)
+  - [4.3. Software Architecture](#43-software-architecture)
+    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
 ### Capítulo V: Tactical-Level Software Design
 
@@ -308,7 +297,7 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 
 ### 1.2.1 Antecedentes y problemática
 
-**What (¿Qué?)**  
+- **What (¿Qué?)**  
  El problema principal es la dificultad que enfrentan ferreterías y comercios de productos físicos para identificar, buscar y gestionar herramientas y materiales de forma rápida y precisa. Los sistemas actuales no están adaptados al sector y requieren conocimientos técnicos o procesos manuales lentos.
 
 - **When (¿Cuándo?)**  
@@ -332,7 +321,6 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
-
 El estado actual de la gestión de productos en las ferreterías está centrado principalmente en métodos tradicionales, como catálogos físicos y búsqueda manual, lo que resulta en tiempos de espera largos, ineficiencia en la atención al cliente y una gestión de inventario poco precisa. Lo que los sistemas existentes no logran abordar es la integración efectiva de tecnología para agilizar la identificación de productos, mejorar la precisión en el registro de ventas e inventario, y optimizar el seguimiento de las operaciones comerciales.
 
 Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una solución móvil innovadora que utiliza reconocimiento visual a través de la cámara del dispositivo. Nos enfocaremos en proporcionar una plataforma que permita a los vendedores identificar productos rápidamente, registrar ventas, acceder a informes de inventario en tiempo real y obtener reportes automatizados. Además, simplificaremos la gestión del inventario y mejoraremos la comunicación entre vendedores y administradores, todo desde una interfaz sencilla y fácil de usar.
@@ -340,7 +328,6 @@ Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una 
 Nuestro enfoque inicial será dirigirnos a ferreterías y pequeños comercios especializados en herramientas y materiales, proporcionando una solución tecnológica accesible que optimice sus procesos. Sabremos que hemos tenido éxito cuando veamos una disminución significativa en los tiempos de atención al cliente, una mejora en la precisión del inventario y una mayor satisfacción tanto de empleados como de clientes, resultando en un aumento en las ventas y eficiencia operativa.
 
 #### 1.2.2.2. Lean UX Assumptions.
-
 - **Business Assumptions**
 
 Los vendedores y administradores de ferreterías necesitan una herramienta rápida y sencilla para identificar productos y gestionar inventarios.
@@ -391,7 +378,6 @@ Nos diferenciamos al ofrecer una solución sencilla y enfocada, con reconocimien
     La app no requiere conocimientos técnicos avanzados, lo que permite una adopción rápida incluso por usuarios con baja familiaridad digital.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-
 - **Creemos que** la experiencia del vendedor mejorará si se ofrece reconocimiento automático de herramientas mediante la cámara del móvil.**Sabremos que hemos tenido éxito, cuando** el tiempo promedio de identificación de productos disminuya en un 50% durante el primer mes de uso.
 
 - **Creemos que** los administradores podrán tomar mejores decisiones si se les proporciona un panel con reportes automáticos de ventas e inventario.**Sabremos que hemos tenido éxito, cuando** el 70% de los administradores usen el panel semanalmente y reporten una mejora en la gestión del stock en los primeros tres meses.
@@ -401,16 +387,15 @@ Nos diferenciamos al ofrecer una solución sencilla y enfocada, con reconocimien
 - **Creemos que** Detekto tendrá una mayor aceptación que soluciones genéricas si se enfoca únicamente en ferreterías. **Sabremos que hemos tenido éxito, cuando** al menos el 60% de los usuarios prefieren Detekto sobre otros sistemas después de un mes de uso, según encuestas de satisfacción.
 
 #### 1.2.2.4. Lean UX Canvas.
-
 <img src="assets/CAP1/LeanUXCanvas.png" alt="LeanUxCanvas">
 
 ## 1.3. Segmentos objetivo.
 
-En esta sección hemos definido dos segmentos objetivo, que representan los públicos a los que estará dirigido nuestro trabajo.
+El estado actual de la gestión de productos en las ferreterías está centrado principalmente en métodos tradicionales, como catálogos físicos y búsqueda manual, lo que resulta en tiempos de espera largos, ineficiencia en la atención al cliente y una gestión de inventario poco precisa. Lo que los sistemas existentes no logran abordar es la integración efectiva de tecnología para agilizar la identificación de productos, mejorar la precisión en el registro de ventas e inventario, y optimizar el seguimiento de las operaciones comerciales.
 
-- **Vendedor**: El vendedor va ser el segmento objetivo principal ya que este va a interactuar con la aplicación todo el tiempo, además que será el que tendrá las funcionalidades principales, las cuales una de ellas son el reconocimiento de objetos para que se le facilite la búsqueda de productos, la consulta de stock y la reserva del producto cuando va a realizar una venta a una persona.
+Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una solución móvil innovadora que utiliza reconocimiento visual a través de la cámara del dispositivo. Nos enfocaremos en proporcionar una plataforma que permita a los vendedores identificar productos rápidamente, registrar ventas, acceder a informes de inventario en tiempo real y obtener reportes automatizados. Además, simplificaremos la gestión del inventario y mejoraremos la comunicación entre vendedores y administradores, todo desde una interfaz sencilla y fácil de usar.
 
-- **Administrador**: En este caso el administrador tendrá un rol de supervisor, ya que este no interactúa con la aplicación móvil, sino que tiene una aplicación web donde va a poder ver la lista de los productos, las ventas de que hizo el vendedor, y ademas podra hacer una proyección de cuantas ganancias podría generar un vendedor en un rango de tiempo que el límite.
+Nuestro enfoque inicial será dirigirnos a ferreterías y pequeños comercios especializados en herramientas y materiales, proporcionando una solución tecnológica accesible que optimice sus procesos. Sabremos que hemos tenido éxito cuando veamos una disminución significativa en los tiempos de atención al cliente, una mejora en la precisión del inventario y una mayor satisfacción tanto de empleados como de clientes, resultando en un aumento en las ventas y eficiencia operativa.
 
 # Capítulo II: Requirements Elicitation & Analysis
 
@@ -491,9 +476,65 @@ Para enfrentar a TradeGecko, que ofrece sólidas funciones de gestión de invent
 
 Una estrategia de marketing centrada en demostrar el funcionamiento en tiempo real de la app, mediante videos y casos de éxito, junto a alianzas con cadenas de ferreterías, distribuidores de herramientas y cámaras de comercio local, puede permitir a Detekto ganar visibilidad y confianza. Además, capacitar a los usuarios con contenido sencillo y práctico ayudará a reducir barreras tecnológicas en sectores menos digitalizados.
 
+
 ## 2.2. Entrevistas.
 
 ### 2.2.1. Diseño de entrevistas.
+
+
+Se han planteado varias interrogantes dirigidas a nuestro público objetivo, con el fin de recolectar información que nos proporcionen requisitos, lo que fortalecerá para el desarrollo de nuestra solución.
+
+- Segmento 1: Vendedor
+
+  - Preguntas generales (Vendedor):
+
+    - ¿Cuál es tu nombre y edad?
+    - ¿En qué distrito vives actualmente?
+    - ¿Cuál es tu estado civil y con quién vives?
+    - ¿Cuál es tu ocupación actual y cuántos años llevas trabajando como vendedor?
+    - ¿Con qué frecuencia usas el celular o dispositivos móviles en tu trabajo?
+
+  - Preguntas sobre necesidades (Vendedor)
+
+    - ¿Cómo sueles buscar un producto en la tienda actualmente?
+    - ¿Qué haces cuando un cliente no sabe el nombre de lo que necesita, pero lo describe o muestra una imagen?
+    - ¿Cómo verificas si hay stock de un producto?
+    - ¿Te sientes cómodo usando tecnología como apps móviles para trabajar? ¿Por qué?
+
+  - Preguntas para profundizar (Vendedor)
+
+    - ¿Te ha pasado que pierdes una venta por no encontrar rápido el producto?
+    - ¿Usas alguna aplicación o sistema digital actualmente en tu trabajo? ¿Cuál?
+    - ¿Qué tipo de celular usas? (marca/modelo)
+    - ¿Qué tan frecuentemente accedes a redes sociales o apps desde el celular?
+    - ¿Qué esperas de una app que te ayude en tu trabajo como vendedor?
+    - ¿Qué es lo que más te frustra de tu día a día en el trabajo?
+
+- Segmento 2: Administrador
+
+  - Preguntas generales (Administrador):
+
+    - ¿Cuál es su nombre y edad?
+    - ¿Dónde vive actualmente?
+    - ¿Cuál es su ocupación dentro del negocio? ¿Desde cuándo ocupa ese cargo?
+    - ¿Qué nivel educativo tiene?
+    - ¿Con qué frecuencia utiliza una computadora en su trabajo?
+
+  - Preguntas sobre necesidades (Administrador)
+
+    - ¿Cómo realiza actualmente el seguimiento de productos y stock en la tienda?
+    - ¿Qué tipo de información le gustaría ver respecto a las ventas que realizan los vendedores?
+    - ¿Cómo hace proyecciones o predicciones de ingresos o ganancias?
+    - ¿Usa alguna herramienta digital (Excel, sistema contable, etc.) para la gestión del negocio?
+    - ¿Qué tan cómodo se siente usando plataformas web o dashboards de datos?
+
+  - Preguntas para profundizar (Administrador)
+
+    - ¿Qué tipo de decisiones toma a partir de la información de ventas?
+    - ¿Con qué frecuencia revisa el rendimiento de los vendedores?
+    - ¿Qué tipo de reportes o gráficos le gustaría ver en una plataforma web?
+    - ¿Qué le frustra más al momento de hacer seguimiento o gestión del negocio?
+    - ¿Cuáles son sus objetivos principales como administrador de la tienda?
 
 ### 2.2.2. Registro de entrevistas.
 
@@ -503,13 +544,162 @@ Una estrategia de marketing centrada en demostrar el funcionamiento en tiempo re
 
 ### 2.3.1. User Personas.
 
+A continuación se presentan los perfiles de nuestros segmentos objetivos, tales como los Vendedores, y los Administradores de las ferreterías, esta información es primordial para entender las necesidades específicas y diseñar una herramienta que facilite la detección de objetos de ferretería y de esta manera aumentar sus ventas.
+
+- Segmento 1: Vendedor:
+
+<img src="assets/CAP2/User1.png">
+
+- Segmento 2: Administrador:
+
+<img src="assets/CAP2/User2.png">
+
 ### 2.3.2. User Task Matrix.
+
+En esta sección se detallan las tareas principales de los segmentos objetivos, en este caso, los vendedores y administradores de ferreterías, así como su frecuencia e importancia.
+
+<table border="1">
+  <tr>
+    <th rowspan="2">Tareas</th>
+    <th colspan="2">Vendedores</th>
+    <th colspan="2">Administradores</th>
+  </tr>
+  <tr>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <td>Buscar productos en el almacén o tienda</td>
+    <td>Diario</td>
+    <td>Alta</td>
+    <td>Quincenal</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Identificar productos a partir de imágenes o descripciones</td>
+    <td>Diario</td>
+    <td>Alta</td>
+    <td>Rara vez</td>
+    <td>Baja</td>
+  </tr>
+  <tr>
+    <td>Consultar stock</td>
+    <td>Diario</td>
+    <td>Alta</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Reservar productos para un cliente</td>
+    <td>Varias veces por semana</td>
+    <td>Alta</td>
+    <td>Ocasional</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Registrar ventas o informar sobre ventas realizadas</td>
+    <td>Diario</td>
+    <td>Alta</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Hacer seguimiento a ventas realizadas</td>
+    <td>Rara vez</td>
+    <td>Media</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Analizar productos más vendidos</td>
+    <td>Rara vez</td>
+    <td>Media</td>
+    <td>Semanal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Hacer proyecciones de ingresos</td>
+    <td>-</td>
+    <td>-</td>
+    <td>Quincenal</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Interactuar con tecnología</td>
+    <td>Diario</td>
+    <td>Media</td>
+    <td>Diario</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
+Las tareas que realizan en una empresa de ferretería son bastante similares a cualquier empresa de ventas, lo cual nos permite identificar las principales necesidades de nuestro público objetivo. A través de este análisis se pudo entender que, el vendedor realiza principalmente tareas operativas con una frecuencia diaria, relacionadas con la atención al cliente y búsqueda de productos. Por otro lado, la administradora desempeña un rol más estratégico y analítico, con tareas menos frecuentes pero de alta importancia, enfocadas a la supervisión de las ventas. Se destaca que ambos segmentos interactúan con herramientas digitales, aunque el enfoque y los propósitos son distintos.
 
 ### 2.3.3. Empathy Mapping.
 
+Mediante este gráfico se evidencia las percepciones y sentimientos de los usuarios al interactuar con nuestra solución, este análisis nos permite conocer sobre sus desafíos que ellos poseen, y diseñar una propuesta más adecuada y centrada a sus requisitos.
+
+Segmento 1 - Vendedor:
+
+<img src="assets/CAP2/Empathy1.png">
+
+Segmento 2 - Administrador:
+
+<img src="assets/CAP2/Empathy2.png">
+
 ### 2.3.4. As-is Scenario Mapping.
 
+En esta sección, se describen los procesos cotidianos, antes de la implementación de nuestra solución, esto nos permite identificar desafíos que sufren nuestro segmento objetivo, y a través de estos, encontrar oportunidades de mejora para mejorar el reconocimiento de objetos y mejorar las ventas en el sector ferretero.
+
+- Segmento 1 - Vendedor:
+
+<img src="assets/CAP2/asis1.png">
+
+- Segmento 2 - Administrador:
+
+<img src="assets/CAP2/asis2.png">
+
 ## 2.4. Ubiquitous Language.
+
+En esta sección, se definen términos clave para el dominio del negocio, basándose en el enfoque de Ubiquitous Language propuesto por Eric Evans en Domain-Driven Design. Estas definiciones buscan asegurar una comunicación clara y efectiva entre los miembros del equipo, alineando el vocabulario técnico con las necesidades del proyecto.
+
+- **Product (Producto)**: Herramienta o material físico que se encuentra en venta dentro de la ferretería.
+
+- **Stock (Stock/Inventario)**: Cantidad disponible de cada producto en el almacén o tienda.
+
+- **Sale (Venta)**: Transacción realizada entre un vendedor y un cliente por uno o más productos.
+
+- **Seller (Vendedor)**: Persona encargada de atender al cliente, identificar los productos y concretar las ventas.
+
+- **Administrator (Administrador)**: Persona responsable de supervisar el negocio, controlar las ventas y monitorear el inventario.
+
+- **Recognition (Reconocimiento visual)**: Proceso por el cual la app identifica un producto mediante la cámara del celular.
+
+- **Reservation (Reserva)**: Acción de apartar un producto para un cliente hasta que se concrete su compra.
+
+- **Report (Reporte)**: Documento o visualización con datos organizados sobre ventas, productos o inventario.
+
+- **Projection (Proyección)**: Estimación de ventas o ingresos futuros basada en el análisis de datos pasados.
+
+- **Unavailable Product (Producto no disponible):** Producto que no se encuentra en stock al momento de la búsqueda.
+
+- **Best Seller (Producto más vendido)**: Producto que ha tenido mayor número de ventas en un período determinado.
+
+- **Break in Stock (Quiebre de stock)**: Situación en la que se agota un producto y no se cuenta con reposición inmediata.
+
+- **Storefront (Mostrador)**: Zona de atención al cliente donde el vendedor interactúa directamente y realiza las ventas.
+
+- **Warehouse (Almacén)**: Espacio físico donde se guardan los productos no exhibidos.
+
+- **Shift (Turno)**: Período asignado de trabajo para los vendedores en el día.
+
+- **Sales Summary (Resumen de ventas)**: Informe breve que muestra el total de ventas realizadas en un día o período específico.
+
+- **Restock (Reabastecimiento)**: Acción de reponer productos que se han agotado en el inventario.
+
+- **Visual Search (Búsqueda visual)**: Método para encontrar un producto a través de una imagen o la cámara, en lugar de una búsqueda por nombre.
 
 # Capítulo III: Requirements Specification
 
