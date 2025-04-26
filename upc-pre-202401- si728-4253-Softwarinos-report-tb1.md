@@ -944,11 +944,47 @@ Aquí podemos apreciarlo completo:
 
 <img src="assets/capitulo-4/Notifications.jpg" alt="Notifications" width="900"/>
 
-### 4.2.5. Context Mapping.
+### 4.1.2 Context Mapping
 
+Después de realizar la técnica de **EventStorming**, se identificaron los siguientes **4 Bounded Contexts**:
+
+- **Stock Management**  
+  Encargado de la gestión automática de inventario mediante reconocimiento de objetos usando modelos de TensorFlow.
+
+- **Sales Tracking**  
+  Encargado de registrar, visualizar y analizar las ventas realizadas a lo largo del día mediante la aplicación web.
+
+- **User Management**  
+  Responsable de la creación, autenticación y gestión de usuarios en el sistema.
+
+- **Product Catalog**  
+  Encargado de almacenar y administrar información detallada de los productos (nombre, descripción, precio, imagen de referencia, etc).
+
+---
+
+Se ha decidido utilizar los patrones de **Conformist** y **Customer/Supplier** para definir la relación entre los Bounded Contexts:
+
+## Conformist
+
+- **Definición:**  
+  Los Bounded Contexts tienen modelos de dominio similares y pueden adaptarse fácilmente entre sí sin comprometer la integridad de sus modelos. Se adopta un enfoque conformista cuando no se requiere modificar el modelo del proveedor.
+
+- **Uso en el sistema:**  
+  El Bounded Context de **Sales Tracking** necesita acceder a datos de productos gestionados por **Product Catalog** (por ejemplo, nombre del producto, precio) para poder registrar ventas correctamente.  
+  Dado que el modelo de producto es estable y compatible, **Sales Tracking** actúa como **Conformist** respecto a **Product Catalog**.
+
+---
+
+<img src="assets/capitulo-4/ContextMapping.png" alt="Context Mapping" width="900"/>
+
+Link del LucidChart: https://lucid.app/lucidchart/ebfb06fe-73a6-4849-b4dc-4d220b98fe36/edit?viewport_loc=-1926%2C-1255%2C1933%2C1013%2C0_0&invitationId=inv_c91eb06c-12ca-4864-a806-19eaf5e528d8
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
+
+<p align="center">
+  <img src="assets/capitulo-4/SystemLandscape.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
 
 ### 4.3.2. Software Architecture Context Level Diagrams.
 
