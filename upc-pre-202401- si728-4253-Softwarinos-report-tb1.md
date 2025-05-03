@@ -989,18 +989,18 @@ Link del LucidChart: https://lucid.app/lucidchart/ebfb06fe-73a6-4849-b4dc-4d220b
 ### 4.3.2. Software Architecture Context Level Diagrams.
 
 <p align="center">
-  <img src="assets/capitulo-4/structurizr-101688-SystemContext-001.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-4/contexto.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 ### 4.3.3. Software Architecture Container Level Diagrams.
 
 <p align="center">
-  <img src="assets/capitulo-4/structurizr-101688-Container-001.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-4/contenedores.png" width="900"/>
 </p>
 
 ### 4.3.4. Software Architecture Deployment Diagrams.
 
 <p align="center">
-  <img src="assets/capitulo-4/structurizr-101688-Component-001.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-4/Deploy.jpg" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
