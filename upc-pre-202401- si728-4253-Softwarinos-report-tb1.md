@@ -145,7 +145,7 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 #### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.1.7.2. Bounded Context Database Design Diagram.
 
-## 5.1. Bounded Context: OBJECT RECOGNITION
+## 5.2. Bounded Context: OBJECT RECOGNITION
 ### 5.2.1. Domain Layer.
 ### 5.2.2. Interface Layer.
 ### 5.2.3. Application Layer.
@@ -155,7 +155,7 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.2.7.2. Bounded Context Database Design Diagram.
 
-## 5.1. Bounded Context: SALES
+## 5.3. Bounded Context: SALES
 ### 5.3.1. Domain Layer.
 ### 5.3.2. Interface Layer.
 ### 5.3.3. Application Layer.
@@ -165,25 +165,25 @@ A continuación se presentan las capturas del repositorio de GitHub donde se rea
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.3.7.2. Bounded Context Database Design Diagram.
 
-## 5.1. Bounded Context: NOTIFICATIONS
-### 5.3.1. Domain Layer.
-### 5.3.2. Interface Layer.
-### 5.3.3. Application Layer.
-### 5.3.4. Infrastructure Layer.
-### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
-### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
-#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
-#### 5.3.7.2. Bounded Context Database Design Diagram.
+## 5.4. Bounded Context: NOTIFICATIONS
+### 5.4.1. Domain Layer.
+### 5.4.2. Interface Layer.
+### 5.4.3. Application Layer.
+### 5.4.4. Infrastructure Layer.
+### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+### 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+#### 5.4.7.2. Bounded Context Database Design Diagram.
 
-## 5.1. Bounded Context: TRACKING & MONITORING
-### 5.3.1. Domain Layer.
-### 5.3.2. Interface Layer.
-### 5.3.3. Application Layer.
-### 5.3.4. Infrastructure Layer.
-### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
-### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
-#### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
-#### 5.3.7.2. Bounded Context Database Design Diagram.
+## 5.5. Bounded Context: TRACKING & MONITORING
+### 5.5.1. Domain Layer.
+### 5.5.2. Interface Layer.
+### 5.5.3. Application Layer.
+### 5.5.4. Infrastructure Layer.
+### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
+#### 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
+#### 5.5.7.2. Bounded Context Database Design Diagram.
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines.
