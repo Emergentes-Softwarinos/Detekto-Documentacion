@@ -944,6 +944,10 @@ Aquí podemos apreciarlo completo:
 
 <img src="assets/capitulo-4/Notifications.jpg" alt="Notifications" width="900"/>
 
+- Reporting:
+
+<img src="assets/capitulo-4/Reporting.jpg" alt="Reporting" width="900"/>
+
 ### 4.1.2 Context Mapping
 
 Después de realizar la técnica de **EventStorming**, se identificaron los siguientes **4 Bounded Contexts**:
