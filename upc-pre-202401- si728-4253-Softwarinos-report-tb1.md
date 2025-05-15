@@ -370,19 +370,248 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines.
+En esta sección se definirán las guías visuales clave para el diseño de DETEKTO, incluyendo colores, tipografía, logotipo y tono de comunicación. Estos lineamentos asegurarán una identidad coherente y profesional que refleje los valores de confianza e innovación de la marc
 ### 6.1.1. General Style Guidelines.
+Es fundamental considerar las decisiones y elementos visuales que respaldan los principios generales de diseño para DETEKTO. Por esta razón, resulta esencial definir aspectos clave como la identidad de marca, la paleta de colores y la tipografía. Además, es necesario establecer el tono de comunicación y el lenguaje utilizado, que abarcan características como divertido o serio, formal o casual, respetuoso o irreverente, y entusiasta o sereno.
 ### 6.1.2. Web, Mobile & Devices Style Guidelines.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/D.png" alt="LogoUPC">
+</p>
+
+<p align="justify">
+DETEKTO representa innovación, confianza y eficiencia en la gestión y ventas y stock con reconocimiento por objetos con IA. Nuestra esencia radica en ofrecer soluciones tecnológicas modernas que permiten monitorear, optimizar y mejorar sus ventas. La marca es sinónimo de precisión, confiabilidad y una experiencia de usuario simplificada, orientada a un entorno urbano inteligente.
+</p>
+<p align="justify">
+Logotipo: El logotipo de DETEKTO refleja la identidad de una marca moderna, segura y tecnológica. Mediante una combinación de colores vivos y un diseño minimalista pero sofisticado, el logo simboliza la eficiencia, la confianza y el uso de tecnología de vanguardia en la vigilancia de parqueo. Este logotipo debe transmitir una imagen clara de control, innovación y accesibilidad para usuarios y operadores.
+Colores:
+</p>
+
+<p align="center">
+  <img src="./assets/Capitulo-6/unnamed.png" alt="LogoUPC">
+</p>
+<p align="justify">
+Se ha utilizado los colores blanco, negro y azul oscuro como colores principales para nuestro diseño.
+🔵 Azul oscuro (#2E3447): El color azul oscuro se utiliza como color principal de la marca, aportando confianza, seguridad y modernidad. Representa la tecnología y la eficiencia que caracterizan a DETEKTO en su enfoque hacia la optimización del estacionamiento urbano. Es protagonista en los botones principales, encabezados y elementos destacados de la interfaz.
+
+⚪ Blanco (#FFFFFF): El blanco se emplea como color de fondo predominante, transmitiendo limpieza, claridad y simplicidad en la experiencia del usuario. Sirve como base para resaltar los demás colores y garantizar una lectura fluida, orden visual y una navegación intuitiva.
+
+⚫ Gris (#4F566B / #8E9099): Los tonos grises se utilizan para los textos secundarios, bordes de campos de entrada, íconos y elementos informativos. Brindan equilibrio visual, profesionalismo y elegancia. Este color apoya al azul oscuro sin competir con él, manteniendo una estética sobria y tecnológica.
+</p>
+Tipografía:
+
+<p align="center">
+  <img src="./assets/Capitulo-6/tipografia.png" alt="LogoUPC">
+</p>
+
+<p align="justify">
+La tipografía utilizada para DETEKTO es Inter , la cual es, moderna y legible, con líneas limpias y claras. Se ha elegido una fuente que refleje la tecnología y la seguridad de la marca, mientras mantiene un aspecto novedoso y actual. Usaremos las variantes Regular, Medium, Semi-Bold y Bold.
+
+Tonos de Comunicación:
+
+- Formal / Confiable: En DETEKTO adoptamos un tono formal y profesional que transmite confianza y responsabilidad, especialmente en lo relacionado a la seguridad del usuario y la gestión de sus reservas. Sin embargo, mantenemos una comunicación cercana y comprensible, accesible para todos los usuarios que buscan una solución eficiente para estacionar.
+
+- Respetuoso / Cercano: Siempre nos comunicamos con respeto, claridad y empatía. Entendemos las frustraciones comunes en la búsqueda de estacionamiento y respondemos con soluciones y mensajes que conectan con las verdaderas necesidades de nuestros usuarios, manteniendo una relación transparente y honesta.
+
+- Entusiasta / Sereno: Transmitimos entusiasmo por cambiar la forma en que las personas se estacionan en la ciudad, destacando nuestra innovación tecnológica y eficiencia. Al mismo tiempo, mantenemos un tono sereno y confiable que le brinda al usuario la tranquilidad de saber que su experiencia con DETEKTOUp será rápida, segura y sin complicaciones.
+</p>
+
 ## 6.2. Information Architecture.
 ### 6.2.2. Labeling Systems.
+
+<p align="justify">
+En esta sección se presenta el sistema de etiquetado que Detekto utilizará para facilitar la comprensión y navegación dentro de la plataforma, tanto en la aplicación como en la landing page. Los encabezados estarán organizados de forma clara, accesible y adaptada a los distintos perfiles de usuarios.
+</p>
+<p align="justify">
+Inicio/Home: Vista principal con acceso a funcionalidades clave, como escaneo de productos, sincronización de stock, historial de ventas y alertas de inventario. Se incluirá una introducción breve sobre la misión de Detekto: optimizar la gestión de ventas y control de inventario en tiempo real usando tecnologías inteligentes.
+<p align="justify">
+Funcionalidades/Features: Se describirán las principales funcionalidades, como el reconocimiento automático de objetos, actualización en tiempo real del stock, generación de reportes de ventas, integración con sistemas de gestión y facilidad de uso para pequeños y medianos negocios. También se destacará el valor agregado de la automatización del proceso de inventariado mediante escaneo móvil.
+<p align="justify">
+Preguntas Frecuentes/FAQs: Se responderán preguntas comunes sobre cómo registrarse, realizar escaneos, sincronizar datos con sistemas externos, revisar el historial de stock y ventas, así como la configuración de notificaciones automáticas.
+<p align="justify">
+Contáctanos/Contact Us: Incluirá canales de atención como correo electrónico, WhatsApp y un formulario de contacto directo para soporte técnico o consultas comerciales.
+</p>
+
 ### 6.2.3. Searching Systems.
+<p align="justify">
+En esta sección se presenta el sistema de etiquetado que <strong>Detekto</strong> utilizará para facilitar la comprensión y navegación dentro de la plataforma, tanto en la aplicación como en la landing page. Los encabezados estarán organizados de forma clara, accesible y adaptada a los distintos perfiles de usuarios.
+</p>
+
+<p align="justify">
+<strong>Inicio/Home:</strong> Vista principal con acceso a funcionalidades clave, como escaneo de productos, sincronización de stock, historial de ventas y alertas de inventario. Se incluirá una introducción breve sobre la misión de Detekto: optimizar la gestión de ventas y control de inventario en tiempo real usando tecnologías inteligentes.
+</p>
+
+<p align="justify">
+<strong>Funcionalidades/Features:</strong> Se describirán las principales funcionalidades, como el reconocimiento automático de objetos, actualización en tiempo real del stock, generación de reportes de ventas, integración con sistemas de gestión y facilidad de uso para pequeños y medianos negocios. También se destacará el valor agregado de la automatización del proceso de inventariado mediante escaneo móvil.
+</p>
+
+<p align="justify">
+<strong>Preguntas Frecuentes/FAQs:</strong> Se responderán preguntas comunes sobre cómo registrarse, realizar escaneos, sincronizar datos con sistemas externos, revisar el historial de stock y ventas, así como la configuración de notificaciones automáticas.
+</p>
+
+<p align="justify">
+<strong>Contáctanos/Contact Us:</strong> Incluirá canales de atención como correo electrónico, WhatsApp y un formulario de contacto directo para soporte técnico o consultas comerciales.
+</p>
+
+<p align="justify">
+<strong>5.2.3. SEO Tags and Meta Tags</strong><br>
+Para optimizar la visibilidad de <strong>Detekto</strong> en los motores de búsqueda, se definirán las siguientes etiquetas SEO y metadatos para su landing page:
+</p>
+
+<p align="justify">
+<strong>Title:</strong> Detekto | Gestión inteligente de stock y ventas con escaneo móvil.<br>
+<strong>Description:</strong> Detekto - Escanea, reconoce productos y actualiza tu inventario en tiempo real desde tu celular.<br>
+<strong>Keywords:</strong> gestión de ventas, control de stock, escaneo de productos, inventario inteligente, reconocimiento de objetos, Detekto app.<br>
+<strong>Author:</strong> Detekto Team<br>
+<strong>Canonical:</strong> [URL principal de la landing page, por definir]
+</p>
+
+<p align="justify">
+<strong>6.2.3. Searching Systems</strong><br>
+El sistema de búsqueda en <strong>Detekto</strong> ha sido diseñado para brindar rapidez, precisión y facilidad de uso, adaptándose a las necesidades operativas de usuarios que gestionan inventario desde dispositivos móviles. Existen dos modalidades principales de búsqueda implementadas dentro de la plataforma:
+</p>
+
+<p align="justify">
+<strong>1. Búsqueda por escaneo (Scan-to-Search)</strong><br>
+El núcleo de Detekto es su sistema de reconocimiento de objetos mediante cámara o escáner móvil. Al escanear un producto, el sistema:
+<ul>
+<li>Reconoce el objeto utilizando visión por computadora y machine learning.</li>
+<li>Busca automáticamente el producto en la base de datos del inventario.</li>
+<li>Devuelve los datos asociados, como nombre del producto, cantidad en stock, precio, historial de ventas y alertas relacionadas.</li>
+</ul>
+Esta búsqueda es ideal para situaciones de alta rotación de productos o actualización inmediata de inventario.
+</p>
+
+<p align="justify">
+<strong>2. Búsqueda textual (Text Search)</strong><br>
+La aplicación también permite la búsqueda manual mediante texto para mayor flexibilidad. El usuario puede introducir:
+<ul>
+<li>Nombre del producto.</li>
+<li>Código SKU.</li>
+<li>Categoría o etiqueta personalizada.</li>
+</ul>
+El motor de búsqueda implementa funcionalidades de <em>autocompletado</em>, <em>tolerancia a errores tipográficos (fuzzy search)</em> y <em>filtros por estado de stock</em>, lo que facilita encontrar productos incluso en catálogos extensos.
+</p>
+
+<p align="justify">
+<strong>Características adicionales:</strong>
+<ul>
+<li>Historial de búsquedas recientes.</li>
+<li>Resultados ordenados por relevancia y frecuencia de actualización.</li>
+<li>Acceso rápido desde la barra de navegación superior.</li>
+</ul>
+Estas funcionalidades permiten que tanto operadores de almacén como encargados de ventas accedan de forma inmediata a la información necesaria, optimizando la toma de decisiones y reduciendo errores operativos.
+</p>
+
+
 ### 6.2.4. SEO Tags and Meta Tags.
+<p align="justify">
+Para optimizar la visibilidad de Detekto en los motores de búsqueda, se definirán las siguientes etiquetas SEO y metadatos para su landing page:
+<p align="justify">
+Title: Detekto | Gestión inteligente de stock y ventas con escaneo móvil.
+<p align="justify">
+Description: Detekto - Escanea, reconoce productos y actualiza tu inventario en tiempo real desde tu celular.
+<p align="justify">
+Keywords: gestión de ventas, control de stock, escaneo de productos, inventario inteligente, reconocimiento de objetos, Detekto app.
+<p align="justify">
+Author: Detekto Team
+<p align="justify">
+Canonical: [URL principal de la landing page, por definir]
+
 ### 6.2.5. Navigation Systems.
+
+<p align="justify">
+La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experiencia fluida, intuitiva y centrada en las tareas más frecuentes del usuario relacionadas con la gestión de ventas e inventario.
+</p>
+
+<p align="justify">
+<strong>Menú de navegación principal:</strong> Estará disponible en la parte inferior (en dispositivos móviles) o lateral (en tabletas), con acceso directo a secciones como “Inicio”, “Escanear Producto”, “Inventario”, “Ventas”, “Alertas” y “Perfil”. Este menú prioriza las acciones operativas más comunes en el flujo de trabajo de supervisores y vendedores.
+</p>
+
+<p align="justify">
+<strong>Búsqueda centralizada:</strong> Se incluirá un campo de búsqueda visible y accesible desde la pantalla principal para localizar rápidamente productos por nombre, código SKU o categoría. También podrá activarse el escáner directamente desde esta barra de búsqueda.
+</p>
+
+<p align="justify">
+<strong>Botones de acción estratégicos (CTAs):</strong> Botones como “Escanear Ahora”, “Actualizar Stock”, “Registrar Venta”, “Enviar Reporte” y “Ver Detalles” estarán claramente identificados y ubicados en lugares clave dentro de cada flujo, facilitando la interacción eficiente con la aplicación.
+</p>
+
+<p align="justify">
+<strong>Navegación coherente y simplificada:</strong> Toda la plataforma mantendrá una estructura de navegación consistente, con iconografía clara, rutas predecibles, menú de retroceso accesible y jerarquías visuales definidas. Esto permite que tanto nuevos usuarios como operadores experimentados puedan moverse rápidamente dentro de la aplicación sin curva de aprendizaje significativa.
+</p>
+
+
 ## 6.3. Landing Page UI Design.
+
+**...:**
+
+
+
 ### 6.3.1. Landing Page Wireframe.
 ### 6.3.2. Landing Page Mock-up.
 ## 6.4. Applications UX/UI Design.
+
+**Incia sesion, Registrom, Recupera tu cuenta:**
+<p align="center">
+  <img src="./assets/Capitulo-6/login.png" alt="LogoUPC">
+</p>
+<br>
+
+**Recupera tu cuenta:**
+<p align="center">
+  <img src="./assets/Capitulo-6/recover.png" alt="LogoUPC">
+</p>
+<br>
+
+**Inicio y Ventas:**
+<p align="center">
+  <img src="./assets/Capitulo-6/inicio.png" alt="LogoUPC">
+</p>
+<br>
+
+**Buscar Objeto y Métricas**
+<p align="center">
+  <img src="./assets/Capitulo-6/buscar.png" alt="LogoUPC">
+</p>
+<br>
+
+**Ganancias, Stock y Agregar Ítem:**
+<p align="center">
+  <img src="./assets/Capitulo-6/ganancias.png" alt="LogoUPC">
+</p>
+<br>
+
+**Escaneo de objetos, Stock IA:**
+<p align="center">
+  <img src="./assets/Capitulo-6/escaneo.png" alt="LogoUPC">
+</p>
+<br>
+
+**Perfil:**
+<p align="center">
+  <img src="./assets/Capitulo-6/perfil.png" alt="LogoUPC">
+</p>
+<br>
+
+
+
 ### 6.4.1. Applications Wireframes.
+
+**PAGINA 1:**
+<p align="center">
+  <img src="./assets/Capitulo-6/1.png" alt="LogoUPC">
+</p>
+<br>
+
+**PAGINA 2:**
+<p align="center">
+  <img src="./assets/Capitulo-6/1.png" alt="LogoUPC">
+</p>
+<br>
+
 ### 6.4.2. Applications Wireflow Diagrams.
+
+
 ### 6.4.2. Applications Mock-ups.
 ### 6.4.3. Applications User Flow Diagrams.
 ## 6.5. Applications Prototyping.
