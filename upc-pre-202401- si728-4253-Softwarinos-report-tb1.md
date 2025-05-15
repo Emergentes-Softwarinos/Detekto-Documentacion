@@ -612,6 +612,7 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 ### 6.4.2. Applications Wireflow Diagrams.
 
 
+
 ### 6.4.2. Applications Mock-ups.
 ### 6.4.3. Applications User Flow Diagrams.
 ## 6.5. Applications Prototyping.
