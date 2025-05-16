@@ -322,9 +322,11 @@ En la capa de infraestructura del contexto de IAM de la aplicacion, se definen l
 ### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de IAM. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 
-
+![Diagrama de componentes del contexto de IAM](./assets/capitulo-5/bc-iam/component-bc-iam.png)
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+
+
 #### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.1.7.2. Bounded Context Database Design Diagram.
 
@@ -334,6 +336,9 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 ### 5.2.3. Application Layer.
 ### 5.2.4. Infrastructure Layer.
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de OBJECT RECOGNITION. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
+![Diagrama de componentes del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/component-bc-object-recongition-detekto.png)
+
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.2.7.2. Bounded Context Database Design Diagram.
@@ -344,6 +349,9 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 ### 5.3.3. Application Layer.
 ### 5.3.4. Infrastructure Layer.
 ### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
+Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de SALES. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
+![Diagrama de componentes del contexto de SALES](./assets/capitulo-5/bc-sales/component-bc-sales-detekto.png)
+
 ### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.3.7.2. Bounded Context Database Design Diagram.
@@ -354,6 +362,9 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 ### 5.4.3. Application Layer.
 ### 5.4.4. Infrastructure Layer.
 ### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de NOTIFICATIONS. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
+![Diagrama de componentes del contexto de NOTIFICATIONS](./assets/capitulo-5/bc-notification/component-bc-notification-detekto.png)
+
 ### 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.4.7.2. Bounded Context Database Design Diagram.
@@ -364,6 +375,8 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 ### 5.5.3. Application Layer.
 ### 5.5.4. Infrastructure Layer.
 ### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de TRACKING & MONITORING. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
+![Diagrama de componentes del contexto de TRACKING & MONITORING](./assets/capitulo-5/bc-monitoring/component-bc-monitoring-detekto.png)
 ### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
 #### 5.5.7.2. Bounded Context Database Design Diagram.
