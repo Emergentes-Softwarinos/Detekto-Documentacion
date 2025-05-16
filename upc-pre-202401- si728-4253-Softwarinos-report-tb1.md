@@ -352,7 +352,14 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+En esta seccion se presentan los diagramas de clases del contexto de OBJECT RECOGNITION, en el que se muestrran las entidades claves para la gestion del reconocimiento de objetos, junto la relacion que tienen los mismos.
+
+![Diagrama de clases del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/object-recognition-class-diagram.png)
+
 #### 5.2.7.2. Bounded Context Database Design Diagram.
+En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de OBJECT RECOGNITION. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
+
+![Diagrama de base de datos del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/object-recognition-db.png)
 
 ## 5.3. Bounded Context: SALES
 ### 5.3.1. Domain Layer.
