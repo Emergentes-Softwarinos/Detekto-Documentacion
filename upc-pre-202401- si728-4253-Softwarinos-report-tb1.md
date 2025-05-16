@@ -325,9 +325,17 @@ Esta seccion presenta los diagramas de componentes de la arquitectura de softwar
 ![Diagrama de componentes del contexto de IAM](./assets/capitulo-5/bc-iam/component-bc-iam.png)
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+En esta seccion, el equipo de Softwarinos presenta la implementacion de los componentes dentro de cada contexto.
 
+  - **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de IAM.
+
+  - **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
 
 #### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+En esta seccion se presentan los diagramas de clases del contexto de IAM, en el que se muestrran las entidades claves para la autenticacion del usuario, los roles, junto la relacion que tienen los mismos
+
+![Diagrama de clases del contexto de IAM](./assets/capitulo-5/bc-iam/iam-class-diagram.png)
+
 #### 5.1.7.2. Bounded Context Database Design Diagram.
 
 ## 5.2. Bounded Context: OBJECT RECOGNITION
