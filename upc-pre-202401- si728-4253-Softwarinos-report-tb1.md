@@ -343,9 +343,150 @@ En esta seccion, el diagrama de base de datos nos muestra la estructura de las t
 
 ## 5.2. Bounded Context: OBJECT RECOGNITION
 ### 5.2.1. Domain Layer.
+En la capa de dominio del contexto de Object-Recognition de la aplicación, se definen las entidades centrales que permiten registrar y gestionar los datos generados por el reconocimiento visual de herramientas y materiales. Este contexto no realiza inferencias directamente, sino que registra los resultados obtenidos desde la app móvil y permite el seguimiento de versiones del modelo de reconocimiento.
+
+### Aggregate 1: ImageRecognition
+
+| **Nombre** | **Categoría** | **Proposito** |
+|------------|----------------|----------------|
+| ImageRecognition | Entidad        | Representa una imagen escaneada por la app móvil que ha sido identificada mediante reconocimiento visual. Guarda el resultado, la confianza del modelo, y el producto reconocido. |
+
+#### Atributos del ImageRecognition
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|------------|------------------|-----------------|-----------------|
+| id         | UUID             | Privado         | Identificador único de la imagen reconocida. |
+| nombreArchivo | String           | Privado         | Nombre del archivo de la imagen escaneada. |
+| resultado  | String           | Privado         | Resultado del reconocimiento visual (Ej: "Destornillador"). |
+| fechaEscaneo | LocalDateTime | Privado         | Fecha y hora en que se realizó el escaneo. |
+| productoId | UUID | Privado | Identificador al producto reconocido (referencia al contexto externo **SALES**). |
+| estado | EstadoReconocimiento | Privado | Estado del reconocimiento (Ej: "Pendiente", "Exitoso", "Fallido"). |
+
+#### Metodos del ImageRecognition
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|------------|---------------------|-----------------|-----------------|
+| Constructor | Void | Public | Constructor de la clase ImageRecognition. |
+| asociarProducto | Void | Public | Asocia un producto al reconocimiento de la imagen. |
+| actualizarEstado | Void | Public | Actualiza el estado del reconocimiento. |
+
+### Aggregate 2: VersionModeloReconocimiento
+
+| **Nombre** | **Categoría** | **Proposito** |
+|------------|----------------|----------------|
+| VersionModeloReconocimiento | Entidad        | 	Representa una versión del modelo de reconocimiento visual utilizado en la app Detekto, incluyendo información sobre la fecha de implementación y el estado del modelo. |
+
+#### Atributos del VersionModeloReconocimiento
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|------------|------------------|-----------------|-----------------|
+| id         | UUID             | Privado         | Identificador único de la versión del modelo. |
+| version   | String           | Privado         | Número de versión del modelo (Ej: "1.0.0"). |
+| rutaModelo | String           | Privado         | Ruta del modelo .tflite utilizado para el reconocimiento. |
+| fechaImplementacion | LocalDateTime | Privado | Fecha y hora en que se implementó la versión del modelo. |
+
+#### Metodos del VersionModeloReconocimiento
+
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|------------|---------------------|-----------------|-----------------|
+| Constructor | Void | Public | Constructor de la clase VersionModeloReconocimiento. |
+| esVersionActual | Boolean | Public | Verifica si la versión del modelo es la actual. |
+
+#### Enum 1: EstadoReconocimiento
+
+| **Nombre** | **Categoría** | **Proposito** |
+|------------|----------------|----------------|
+| EstadoReconocimiento | Enumeración   | Enum que representa los posibles estados de un reconocimiento visual. |
+
+#### Valores del Enum
+  - **PENDIENTE**: El reconocimiento está pendiente de ser procesado.
+  - **EXITOSO**: El reconocimiento se realizó con éxito y se obtuvo un resultado.
+  - **FALLIDO**: El reconocimiento falló y no se obtuvo un resultado.
+
 ### 5.2.2. Interface Layer.
+En esta capa se define el controlador encargado de recibir solicitudes relacionadas con el registro y gestión de imágenes reconocidas. Aunque el reconocimiento ocurre en la app móvil, el backend permite guardar y auditar estos eventos.
+
+#### Controller: ReconocimientoController
+
+| **Nombre**                | **Categoría** | **Propósito** |
+|---------------------------|---------------|---------------|
+| ReconocimientoController  | Controlador   | Maneja las solicitudes HTTP relacionadas con la recepción de imágenes reconocidas desde la app móvil. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|----------------------|---------------------|-----------------|-----------------|
+| registrarImagen      | ResponseEntity      | Público         | Recibe una imagen reconocida y la registra en el sistema. |
+| obtenerPorProducto   | ResponseEntity      | Público         | Devuelve las imágenes asociadas a un determinado producto. |
+| obtenerEstadisticas  | ResponseEntity      | Público         | Devuelve estadísticas sobre los resultados del reconocimiento. |
+
+
 ### 5.2.3. Application Layer.
+En esta capa se orquesta la lógica del dominio. El servicio principal permite registrar imágenes y asociarlas con una versión del modelo.
+
+#### Service: ReconocimientoService
+
+| **Nombre**               | **Categoría** | **Propósito** |
+|--------------------------|----------------|----------------|
+| ReconocimientoService    | Servicio       | Encapsula la lógica de negocio para registrar imágenes reconocidas y asociarlas a modelos y productos. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno**       | **Visibilidad** | **Descripción** |
+|----------------------|---------------------------|-----------------|-----------------|
+| registrarImagen      | ImagenReconocida          | Público         | Registra una imagen reconocida con su predicción y versión del modelo. |
+| asociarProducto      | Void                      | Público         | Asocia un producto a una imagen previamente registrada. |
+| actualizarEstado     | Void                      | Público         | Cambia el estado de una imagen reconocida. |
+
+#### Service: VersionModeloService
+
+| **Nombre**            | **Categoría** | **Propósito** |
+|-----------------------|---------------|----------------|
+| ModelVersionService   | Servicio       | Maneja la lógica de negocio relacionada con el control de versiones del modelo de reconocimiento visual. |
+
+**Métodos**
+
+| **Nombre**                  | **Tipo de retorno**               | **Visibilidad** | **Descripción** |
+|-----------------------------|-----------------------------------|-----------------|-----------------|
+| registrarNuevaVersion       | VersionModeloReconocimiento       | Público         | Registra una nueva versión del modelo. |
+| establecerComoActual        | Void                              | Público         | Marca una versión como la actual. |
+| obtenerVersionActual        | VersionModeloReconocimiento       | Público         | Devuelve la versión actual en uso. |
+| listarVersiones             | List<VersionModeloReconocimiento> | Público         | Retorna todas las versiones del modelo. |
+
+
+
 ### 5.2.4. Infrastructure Layer.
+Esta capa se encarga de manejar la persistencia de las entidades del dominio, así como integrarse con sistemas externos si se requiere almacenar imágenes o versiones del modelo.
+
+#### Repository: ImagenReconocidaRepository
+
+| **Nombre**                  | **Categoría** | **Propósito** |
+|-----------------------------|----------------|----------------|
+| ImagenReconocidaRepository  | Repositorio    | Accede a la base de datos para guardar y recuperar imágenes reconocidas. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno**            | **Visibilidad** | **Descripción** |
+|----------------------|--------------------------------|-----------------|-----------------|
+| save                 | ImagenReconocida               | Público         | Guarda una nueva imagen reconocida. |
+| findByProductoId     | List<ImagenReconocida>         | Público         | Recupera imágenes por ID de producto. |
+
+---
+
+#### Repository: VersionModeloRepository
+
+| **Nombre**             | **Categoría** | **Propósito** |
+|------------------------|----------------|----------------|
+| VersionModeloRepository | Repositorio   | Accede a las versiones de los modelos cargados. |
+
+**Métodos**
+
+| **Nombre**       | **Tipo de retorno**                 | **Visibilidad** | **Descripción** |
+|------------------|-------------------------------------|-----------------|-----------------|
+| save             | VersionModeloReconocimiento         | Público         | Guarda una nueva versión del modelo. |
+| findActual       | VersionModeloReconocimiento         | Público         | Recupera la versión del modelo marcada como actual. |
+
+
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de **OBJECT RECOGNITION**. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 ![Diagrama de componentes del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/component-bc-object-recongition-detekto.png)
@@ -518,9 +659,112 @@ En esta seccion, el diagrama de base de datos nos muestra la estructura de las t
 
 ## 5.4. Bounded Context: NOTIFICATIONS
 ### 5.4.1. Domain Layer.
+En la capa de dominio del contexto de Notifications, se definen las entidades y servicios que permiten gestionar el envío de notificaciones hacia los administradores o usuarios del sistema. Las notificaciones pueden enviarse a través de canales externos como el correo electrónico, y se lleva un registro de su estado.
+
+#### Aggregate 1: Notificacion
+
+| **Nombre**    | **Categoría** | **Propósito** |
+|---------------|---------------|----------------|
+| Notificacion  | Entidad       | Representa un mensaje dirigido a un usuario, el cual puede ser enviado mediante un canal externo como el correo electrónico. |
+
+**Atributos**
+
+| **Nombre**       | **Tipo de dato**     | **Visibilidad** | **Descripción** |
+|------------------|----------------------|------------------|-----------------|
+| id               | UUID                 | Privado          | Identificador único de la notificación. |
+| destinatarioEmail| String               | Privado          | Correo del destinatario de la notificación. |
+| asunto           | String               | Privado          | Título o asunto de la notificación. |
+| mensaje          | String               | Privado          | Contenido del mensaje enviado. |
+| fechaEnvio       | LocalDateTime        | Privado          | Fecha y hora en la que se intentó enviar la notificación. |
+| estado           | EstadoNotificacion   | Privado          | Estado actual de la notificación (enviada, fallida, pendiente). |
+
+**Métodos**
+
+| **Nombre**             | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|------------------------|---------------------|------------------|-----------------|
+| Constructor            | Void                | Público          | Constructor de la clase. |
+| marcarComoEnviada      | Void                | Público          | Cambia el estado a ENVIADA. |
+| marcarComoFallida      | Void                | Público          | Cambia el estado a FALLIDA. |
+
+#### Enum: EstadoNotificacion
+
+| **Nombre**             | **Categoría** | **Propósito** |
+|------------------------|---------------|----------------|
+| EstadoNotificacion     | Enumeración   | Enum que representa el estado actual de una notificación enviada. |
+
+**Valores del Enum**
+
+  - **ENVIADA**: La notificación fue enviada exitosamente.
+  - **FALLIDA**: La notificación no pudo ser enviada.
+  - **PENDIENTE**: La notificación está pendiente de envío.
+
+
 ### 5.4.2. Interface Layer.
+En esta capa se define el controlador que expone los endpoints para consultar o generar notificaciones desde otros módulos de la aplicación.
+
+#### Controller: NotificacionesController
+
+| **Nombre**                  | **Categoría** | **Propósito** |
+|-----------------------------|---------------|----------------|
+| NotificacionesController    | Controlador   | Maneja las solicitudes relacionadas con la generación y visualización de notificaciones. |
+
+**Métodos**
+
+| **Nombre**              | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|-------------------------|---------------------|------------------|-----------------|
+| enviarNotificacion      | ResponseEntity      | Público          | Recibe los datos de una notificación y la envía al destinatario. |
+| listarNotificaciones    | ResponseEntity      | Público          | Devuelve la lista de notificaciones registradas. |
+| obtenerPorEstado        | ResponseEntity      | Público          | Devuelve las notificaciones según su estado. |
+
+
 ### 5.4.3. Application Layer.
+En esta capa se orquesta el envío de notificaciones, validando la lógica del negocio antes de delegar a la infraestructura el envío final.
+
+#### Service: NotificacionService
+
+| **Nombre**           | **Categoría** | **Propósito** |
+|----------------------|---------------|----------------|
+| NotificacionService  | Servicio      | Se encarga de validar, registrar y gestionar el proceso de envío de una notificación. |
+
+**Métodos**
+
+| **Nombre**                | **Tipo de retorno** | **Visibilidad** | **Descripción** |
+|---------------------------|---------------------|------------------|-----------------|
+| crearYEnviarNotificacion  | Notificacion        | Público          | Registra una nueva notificación y gestiona su envío. |
+| listarNotificaciones      | List<Notificacion>  | Público          | Devuelve la lista de notificaciones registradas. |
+| obtenerPorEstado          | List<Notificacion>  | Público          | Devuelve notificaciones según su estado. |
+
+#### External Service Interface: EmailSender
+
+| **Nombre**      | **Categoría** | **Propósito** |
+|-----------------|---------------|----------------|
+| EmailSender     | Interface     | Representa un proveedor externo de correo que permite el envío de notificaciones. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno** | **Descripción** |
+|----------------------|---------------------|-----------------|
+| enviar               | Boolean             | Envía un correo al destinatario y retorna si fue exitoso. |
+
+
 ### 5.4.4. Infrastructure Layer.
+Esta capa se encarga de la persistencia de las notificaciones y de su envío a través de sistemas externos como servicios de correo.
+
+#### Repository: NotificacionRepository
+
+| **Nombre**              | **Categoría** | **Propósito** |
+|-------------------------|---------------|----------------|
+| NotificacionRepository  | Repositorio   | Maneja la persistencia de las notificaciones. |
+
+**Métodos**
+
+| **Nombre**           | **Tipo de retorno**    | **Visibilidad** | **Descripción** |
+|----------------------|------------------------|------------------|-----------------|
+| save                 | Notificacion           | Público          | Guarda una notificación en la base de datos. |
+| findByEstado         | List<Notificacion>     | Público          | Recupera notificaciones filtradas por estado. |
+| findAll              | List<Notificacion>     | Público          | Devuelve todas las notificaciones registradas. |
+
+
 ### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de **NOTIFICATIONS**. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 
