@@ -174,7 +174,6 @@ En la capa de dominio del contexto de IAM de la aplicacion, se definen las entid
 | **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
 |------------|------------------|-----------------|-----------------|
 | id         | UUID             | Privado         | Identificador único del rol. |
-|
 | nombre     | String           | Privado         | Nombre del rol. |
 | permisos   | List<String>     | Privado         | Lista de permisos asociados al rol. |
 
