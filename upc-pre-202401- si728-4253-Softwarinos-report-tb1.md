@@ -555,8 +555,33 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 
 
 ## 6.3. Landing Page UI Design.
+## 6.4.2. Applications Mock-ups
 
-**...:**
+En esta sección se presentan los **mock-ups de la aplicación DETEKTO**, desarrollados en la herramienta de diseño Figma. Los mock-ups muestran de forma detallada la interfaz gráfica de usuario para cada uno de los módulos principales de la app, representando el diseño visual estático que servirá como base para la implementación.
+
+Los mock-ups fueron diseñados considerando principios de usabilidad, accesibilidad y consistencia visual. Se utilizaron paletas de colores neutros con acentos en verde para transmitir claridad y profesionalismo, tipografías legibles y una distribución limpia de los elementos en pantalla.
+
+Entre las pantallas diseñadas se incluyen:
+
+- Registro e inicio de sesión de usuarios.
+- Recuperación de contraseña mediante verificación de código.
+- Pantalla de inicio con acceso a las funciones principales.
+- Gestión de stock (visualización, escaneo de productos, y agregado de nuevos ítems).
+- Módulo de ventas y productos más vendidos.
+- Calendario con actividades programadas.
+- Búsqueda de productos en inventario.
+- Visualización de métricas y reportes económicos.
+- Perfil del usuario y calificación de la experiencia.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/a.png" alt="LogoUPC">
+</p>
+
+<p align="center">
+  <img src="./assets/Capitulo-6/aa.png" alt="LogoUPC">
+</p>
+
+Estos mock-ups permitieron validar con usuarios la disposición de los elementos y obtener retroalimentación temprana sobre la experiencia visual, lo que facilitó mejoras iterativas antes del desarrollo funcional.
 
 
 
@@ -624,8 +649,142 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 
 ### 6.4.2. Applications Wireflow Diagrams.
 
+<p align="justify">
+Los siguientes diagramas de wireflow representan visualmente las pantallas y transiciones más relevantes de la aplicación móvil DETEKTO, diseñada para la gestión de ventas en ferreterías. A diferencia del user flow, los wireflows integran tanto la lógica de navegación como la disposición preliminar de los elementos visuales en cada vista, lo cual permite validar tempranamente la experiencia de usuario (UX) antes del diseño definitivo.
 
+**login-wireflow-mov**
+<p align="justify">
+-Este wireflow refleja el proceso de autenticación en la aplicación DETEKTO. Comprende las pantallas de registro e inicio de sesión, incluyendo validaciones básicas y opciones como el acceso a términos y condiciones. Se prioriza una interfaz simple y clara para garantizar un acceso ágil desde dispositivos móviles.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/w1.png" alt="LogoUPC">
+</p>
+<br>
+
+
+**ventas-wireflow-mov**
+<p align="justify">
+- Este flujo simula el proceso de revisión de ventas. Desde la pantalla de resumen hasta el detalle de productos más vendidos, permite al usuario filtrar por fecha o categoría y visualizar datos clave que apoyan la toma de decisiones en tiempo real.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/w2.png" alt="LogoUPC">
+</p>
+<br>
+
+**EscaneoIA-wireflow**
+<p align="justify">
+- Uno de los elementos diferenciadores de DETEKTO es su capacidad de detectar productos mediante visión por computadora. Este flujo muestra cómo el usuario puede escanear el entorno de su almacén o tienda, y la app detecta automáticamente productos mediante IA, listando los artículos reconocidos y facilitando su registro en el inventario sin intervención manual.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/w3.png" alt="LogoUPC">
+</p>
+<br>
+
+
+**métricas-wireflow-mov**
+<p align="justify">
+- Aquí se representa la visualización de indicadores clave como ventas del día, productos con mayor rotación y distribución de ingresos. Este flujo permite al usuario analizar rápidamente el rendimiento del negocio y detectar oportunidades de mejora.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/w4.png" alt="LogoUPC">
+</p>
+<br>
+
+
+**perfil-wireflow-mov**
+<p align="justify">
+- Describe el flujo de navegación hacia la configuración del perfil del usuario. Se incluye la posibilidad de editar información personal y cerrar sesión, manteniendo una estructura simple y funcional.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/w5.png" alt="LogoUPC">
+</p>
+<br>
 
 ### 6.4.2. Applications Mock-ups.
+
+
+
 ### 6.4.3. Applications User Flow Diagrams.
+
+<p align="justify">
+En esta sección se describen los principales flujos de usuario diseñados para la aplicación móvil del proyecto DETEKTO, orientada a la gestión y control de inventario mediante inteligencia artificial. Cada flujo representa el recorrido lógico que realiza un usuario al interactuar con las funcionalidades del sistema, asegurando una experiencia intuitiva, funcional y alineada con los objetivos del negocio.
+
+
+<br>
+<p align="justify">
+El flujo de autenticación incluye el registro de nuevos usuarios, recuperación de contraseña y el inicio de sesión. El usuario puede crear una cuenta ingresando su correo electrónico y contraseña, verificar su identidad mediante un código, y luego acceder a la aplicación. Este proceso garantiza la seguridad de los datos y el acceso controlado al sistema.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/perfil.png" alt="LogoUPC">
+</p>
+<br>
+
+
+<p align="justify">
+Una vez dentro, el usuario llega a la pantalla Inicio, donde se visualizan opciones resumidas como acceso al inventario, ventas, métricas y calendario. Este dashboard principal actúa como el punto central para acceder a las funcionalidades clave de la app.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/inicio.png" alt="LogoUPC">
+</p>
+<br>
+
+
+<p align="justify">
+En el flujo de gestión de stock, el usuario puede visualizar los productos disponibles, agregar nuevos ítems con descripción, imagen y categoría, y escanear objetos físicos mediante la cámara para su identificación automática con IA. Este flujo es fundamental para mantener actualizado el inventario de forma eficiente.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/escaneo.png" alt="LogoUPC">
+</p>
+<br>
+
+
+<p align="justify">
+El módulo de ventas permite al usuario registrar ventas, consultar un histórico de transacciones, buscar productos vendidos, y visualizar los productos más comercializados. Además, se integra una sección de ganancias y métricas con visualización gráfica del rendimiento económico, facilitando la toma de decisiones basada en datos.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/44.png" alt="LogoUPC">
+</p>
+
+<p align="justify">
+También se contemplan flujos para gestión de calendario (con seguimiento por fechas de actividades o ventas), perfil del usuario, visualización de imágenes asociadas a productos, y una sección de calificación donde los usuarios pueden valorar su experiencia con la aplicación.
+
+<p align="center">
+  <img src="./assets/Capitulo-6/perfil.png" alt="LogoUPC">
+</p>
+<br>
+
+<p align="justify">
+Estos flujos, modelados y validados a través de Figma, aseguran una experiencia de usuario clara, eficiente y alineada con los objetivos operativos de la aplicación DETEKTO.
+
 ## 6.5. Applications Prototyping.
+
+<p align="justify">
+Para validar la experiencia de usuario y la disposición visual de las principales funcionalidades de la aplicación DETEKTO, se utilizó Figma como herramienta principal de prototipado. Esta plataforma permitió diseñar interfaces interactivas de alta fidelidad que simulan el comportamiento real de la aplicación en dispositivos móviles. A través de Figma se definieron los flujos de navegación, la jerarquía visual de los componentes, y se incorporaron interacciones básicas para pruebas tempranas con usuarios. El uso de prototipos facilitó la retroalimentación continua y la toma de decisiones centradas en el usuario, mejorando significativamente la usabilidad antes del desarrollo final.
+
+**AUTENTICACIÓN**
+
+<p align="center">
+  <img src="./assets/Capitulo-6/11.png" alt="LogoUPC">
+</p>
+<br>
+
+**INICIO Y VENTAS**
+
+<p align="center">
+  <img src="./assets/Capitulo-6/12.png" alt="LogoUPC">
+</p>
+<br>
+
+**STOCK CON IA**
+
+<p align="center">
+  <img src="./assets/Capitulo-6/13.png" alt="LogoUPC">
+</p>
+<br>
+
+**PERFIL Y MÉTRICAS**
+
+<p align="center">
+  <img src="./assets/Capitulo-6/14.png" alt="LogoUPC">
+</p>
+<br>
