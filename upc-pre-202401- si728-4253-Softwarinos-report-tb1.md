@@ -393,8 +393,6 @@ Una venta contiene productos, cantidades, totales y la información del cliente 
 | marcarComoPagada    | Void                | Public           | Cambia el estado de la venta a "PAGADA".        |
 | cancelar            | Void                | Public           | Cancela la venta cambiando su estado.           |
 
----
-
 ### Aggregate 2: Product
 
 | **Nombre**   | **Categoría** | **Propósito** |
@@ -414,8 +412,6 @@ Una venta contiene productos, cantidades, totales y la información del cliente 
 | **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
 |----------------------|---------------------|------------------|-------------------------------------------------|
 | calcularSubtotal     | Decimal             | Public           | Calcula el subtotal del ítem (cantidad * precio). |
-
----
 
 ### Enumerado: EstadoVenta
 
@@ -514,11 +510,11 @@ En esta seccion, el equipo de Softwarinos presenta la implementacion de los comp
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
 En esta seccion se presentan los diagramas de clases del contexto de SALES, en el que se muestrran las entidades claves para la autenticacion del usuario, los roles, junto la relacion que tienen los mismos
 
-![Diagrama de clases del contexto de IAM](./assets/capitulo-5/bc-sales/sales-class-diagram.png)
+![Diagrama de clases del contexto de SALES](./assets/capitulo-5/bc-sales/sales-class-diagram.png)
 #### 5.3.7.2. Bounded Context Database Design Diagram.
 En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de SALES. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
 
-![Diagrama de base de datos del contexto de IAM](./assets/capitulo-5/bc-sales/sales-db.png)
+![Diagrama de base de datos del contexto de SALES](./assets/capitulo-5/bc-sales/sales-db.png)
 
 ## 5.4. Bounded Context: NOTIFICATIONS
 ### 5.4.1. Domain Layer.
@@ -549,15 +545,161 @@ En esta seccion, el diagrama de base de datos nos muestra la estructura de las t
 
 ## 5.5. Bounded Context: TRACKING & MONITORING
 ### 5.5.1. Domain Layer.
+
+En la capa de dominio del contexto de **Tracking & Monitoring**, se definen las entidades responsables de representar la ubicación de los usuarios y el seguimiento en tiempo real.  
+Este módulo permite almacenar, actualizar y consultar la posición geográfica de un usuario para fines de monitoreo, seguridad o logística.
+
+
+### Aggregate 1: Location
+
+| **Nombre** | **Categoría** | **Propósito** |
+|------------|----------------|----------------|
+| Location   | Entidad        | Representa la ubicación geográfica de un usuario en un momento determinado. |
+
+#### Atributos del Location
+
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
+|----------------|------------------|------------------|-------------------------------------------------|
+| id             | UUID             | Privado          | Identificador único de la ubicación.            |
+| userId         | UUID             | Privado          | Identificador del usuario al que pertenece.     |
+| latitud        | Double           | Privado          | Coordenada de latitud.                          |
+| longitud       | Double           | Privado          | Coordenada de longitud.                         |
+| fechaHora      | DateTime         | Privado          | Fecha y hora en la que se registró la ubicación.|
+
+#### Métodos del Location
+
+| **Nombre**     | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
+|----------------|---------------------|------------------|--------------------------------------------------|
+| actualizar     | Void                | Public           | Permite actualizar latitud y longitud.           |
+| esReciente     | Boolean             | Public           | Indica si la ubicación fue registrada recientemente. |
+
+### Aggregate 2: TrackingSession
+
+| **Nombre**       | **Categoría** | **Propósito** |
+|------------------|----------------|----------------|
+| TrackingSession  | Entidad        | Representa una sesión de seguimiento activo de un usuario. |
+
+#### Atributos del TrackingSession
+
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                       |
+|----------------|------------------|------------------|-------------------------------------------------------|
+| id             | UUID             | Privado          | Identificador único de la sesión.                     |
+| userId         | UUID             | Privado          | Usuario que está siendo monitoreado.                  |
+| inicio         | DateTime         | Privado          | Fecha y hora de inicio del seguimiento.               |
+| fin            | DateTime?        | Privado          | Fecha y hora de finalización (puede ser nula).        |
+| ubicaciones    | List<Location>   | Privado          | Lista de ubicaciones registradas durante la sesión.   |
+
+#### Métodos del TrackingSession
+
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                             |
+|--------------------|---------------------|------------------|-------------------------------------------------------------|
+| agregarUbicacion   | Void                | Public           | Añade una nueva ubicación al historial de la sesión.        |
+| finalizarSesion    | Void                | Public           | Marca la sesión como finalizada.                           |
+| obtenerRecorrido   | List<Location>      | Public           | Devuelve la lista de ubicaciones ordenadas cronológicamente.|
+
+
 ### 5.5.2. Interface Layer.
+En la capa de interfaz del contexto de TRACKING & MONITORING de la aplicacion, se definen los controladores y servicios que manejan las solicitudes y respuestas de la API. Los controladores son responsables de recibir las solicitudes HTTP y devolver las respuestas correspondientes.
+
+### Controller 1: MonitoringController
+
+| **Nombre**           | **Categoría** | **Propósito**                                           |
+|----------------------|----------------|----------------------------------------------------------|
+| MonitoringController | Controlador    | Expone endpoints públicos para geolocalizar usuarios.    |
+
+#### Atributos del MonitoringController
+
+| **Nombre**         | **Tipo de dato**    | **Visibilidad** | **Descripción**                                         |
+|--------------------|---------------------|------------------|----------------------------------------------------------|
+| monitoringService  | MonitoringService   | Privado          | Servicio que contiene la lógica de negocio de localización. |
+
+#### Métodos del MonitoringController
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                |
+|------------------|---------------------|------------------|-----------------------------------------------------------------|
+| getCurrentLocation | ResponseEntity    | Public           | Retorna la ubicación actual del usuario.                        |
+| trackUserLocation  | ResponseEntity    | Public           | Realiza el seguimiento de un usuario en tiempo real.            |
+
 ### 5.5.3. Application Layer.
+
+En la capa de aplicacion del contexto de TRACKING & MONITORING de la aplicacion, se definen los servicios que manejan la logica de negocio relacionada con los usuarios y roles. Estos servicios son utilizados por los controladores para realizar las operaciones necesarias.
+
+### Service 1: MonitoringService
+
+| **Nombre**          | **Categoría** | **Propósito**                                                  |
+|---------------------|----------------|-----------------------------------------------------------------|
+| MonitoringService   | Servicio       | Gestiona la lógica de negocio para la obtención de ubicación.  |
+
+### Atributos del MonitoringService
+
+| **Nombre**      | **Tipo de dato** | **Visibilidad** | **Descripción**                                        |
+|------------------|------------------|------------------|--------------------------------------------------------|
+| mapsApiClient    | MapsAPIClient    | Privado          | Cliente que consume la API de geolocalización externa. |
+
+#### Métodos del MonitoringService
+
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                               |
+|------------------|---------------------|------------------|----------------------------------------------------------------|
+| fetchLocation    | Location            | Public           | Consulta la ubicación del usuario mediante el sistema externo. |
+| trackInRealtime  | Stream<Location>    | Public           | Inicia la monitorización en tiempo real de un usuario.         |
+
+
 ### 5.5.4. Infrastructure Layer.
+
+Esta capa define el repositorio responsable de acceder y persistir los datos relacionados con la ubicación y sesiones de seguimiento en la base de datos del sistema.
+
+### Repository 1: LocationRepository
+
+| **Nombre**         | **Categoría** | **Propósito**                                                                 |
+|--------------------|----------------|--------------------------------------------------------------------------------|
+| LocationRepository | Repositorio    | Gestiona la persistencia de las ubicaciones geográficas de los usuarios.      |
+
+#### Métodos del LocationRepository
+
+| **Nombre**         | **Tipo de retorno**  | **Visibilidad** | **Descripción**                                                    |
+|--------------------|----------------------|------------------|--------------------------------------------------------------------|
+| save               | Location             | Public           | Guarda una nueva ubicación en la base de datos.                   |
+| findByUserId       | List<Location>       | Public           | Obtiene todas las ubicaciones asociadas a un usuario.             |
+| findLatestByUserId | Location             | Public           | Retorna la última ubicación registrada de un usuario.             |
+| deleteByUserId     | Void                 | Public           | Elimina las ubicaciones asociadas a un usuario.                   |
+
+### Repository 2: TrackingSessionRepository
+
+| **Nombre**                | **Categoría** | **Propósito**                                                        |
+|---------------------------|----------------|-----------------------------------------------------------------------|
+| TrackingSessionRepository | Repositorio    | Administra el acceso a las sesiones de seguimiento de los usuarios.  |
+
+#### Métodos del TrackingSessionRepository
+
+| **Nombre**             | **Tipo de retorno**   | **Visibilidad** | **Descripción**                                                       |
+|------------------------|-----------------------|------------------|------------------------------------------------------------------------|
+| save                   | TrackingSession       | Public           | Guarda una nueva sesión de seguimiento.                               |
+| findActiveByUserId     | TrackingSession       | Public           | Devuelve la sesión activa actual de un usuario, si existe.            |
+| findById               | TrackingSession       | Public           | Busca una sesión por su identificador.                                |
+| closeSessionById       | Void                  | Public           | Finaliza una sesión marcándola con fecha de cierre.                   |
+| getSessionHistoryByUserId | List<TrackingSession> | Public        | Retorna todas las sesiones de seguimiento de un usuario.              |
+
+
 ### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de TRACKING & MONITORING. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 ![Diagrama de componentes del contexto de TRACKING & MONITORING](./assets/capitulo-5/bc-monitoring/component-bc-monitoring-detekto.png)
 ### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
+En esta seccion, el equipo de Softwarinos presenta la implementacion de los componentes dentro de cada contexto.
+
+Domain Layer Class Diagrams: Muestra la estructura de las clases y sus relaciones en el contexto de TRACKING & MONITORING.
+
+Database Design Diagram: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
 #### 5.5.7.1. Bounded Context Domain Layer Class Diagrams.
+
+En esta seccion se presentan los diagramas de clases del contexto de TRACKING & MONITORING, en el que se muestrran las entidades claves para la autenticacion del usuario, los roles, junto la relacion que tienen los mismos
+
+![Diagrama de clases del contexto de TRACKING & MONITORING](./assets/capitulo-5/bc-monitoring/monitoring-class-diagram.png)
+
 #### 5.5.7.2. Bounded Context Database Design Diagram.
+
+En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de TRACKING & MONITORING. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
+
+![Diagrama de base de datos del contexto de TRACKING & MONITORING](./assets/capitulo-5/bc-monitoring/monitoring-db.png)
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines.
