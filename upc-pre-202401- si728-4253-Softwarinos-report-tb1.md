@@ -337,6 +337,9 @@ En esta seccion se presentan los diagramas de clases del contexto de IAM, en el 
 ![Diagrama de clases del contexto de IAM](./assets/capitulo-5/bc-iam/iam-class-diagram.png)
 
 #### 5.1.7.2. Bounded Context Database Design Diagram.
+En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de IAM. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
+
+![Diagrama de base de datos del contexto de IAM](./assets/capitulo-5/bc-iam/user-db.png)
 
 ## 5.2. Bounded Context: OBJECT RECOGNITION
 ### 5.2.1. Domain Layer.
