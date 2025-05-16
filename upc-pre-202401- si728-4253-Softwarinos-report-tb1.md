@@ -761,6 +761,8 @@ Estos flujos, modelados y validados a través de Figma, aseguran una experiencia
 <p align="justify">
 Para validar la experiencia de usuario y la disposición visual de las principales funcionalidades de la aplicación DETEKTO, se utilizó Figma como herramienta principal de prototipado. Esta plataforma permitió diseñar interfaces interactivas de alta fidelidad que simulan el comportamiento real de la aplicación en dispositivos móviles. A través de Figma se definieron los flujos de navegación, la jerarquía visual de los componentes, y se incorporaron interacciones básicas para pruebas tempranas con usuarios. El uso de prototipos facilitó la retroalimentación continua y la toma de decisiones centradas en el usuario, mejorando significativamente la usabilidad antes del desarrollo final.
 
+[Link del FIGMA ] https://www.figma.com/design/XiGtsnDoXifDBnXt2Oa9aS/Mobile-Application-DETEKTO?node-id=0-1&m=dev&t=HzUVRliOD5R4HZXO-1
+
 **AUTENTICACIÓN**
 
 <p align="center">
