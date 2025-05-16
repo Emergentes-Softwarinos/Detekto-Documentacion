@@ -363,16 +363,162 @@ En esta seccion, el diagrama de base de datos nos muestra la estructura de las t
 
 ## 5.3. Bounded Context: SALES
 ### 5.3.1. Domain Layer.
+
+En la capa de dominio del contexto de SALES de la aplicación, se definen las entidades principales que permiten registrar y gestionar las ventas realizadas por los usuarios.  
+Una venta contiene productos, cantidades, totales y la información del cliente que realizó la compra.
+
+### Aggregate 1: Sale
+
+| **Nombre** | **Categoría** | **Propósito** |
+|------------|----------------|----------------|
+| Sale       | Entidad        | Representa una venta realizada dentro de la aplicación, incluyendo la fecha, los productos vendidos, el cliente y el estado de la transacción. |
+
+#### Atributos del Sale
+
+| **Nombre**      | **Tipo de dato**  | **Visibilidad** | **Descripción**                                  |
+|-----------------|-------------------|------------------|--------------------------------------------------|
+| id              | UUID              | Privado          | Identificador único de la venta.                 |
+| fecha           | DateTime          | Privado          | Fecha en la que se realizó la venta.             |
+| total           | Decimal           | Privado          | Monto total de la venta.                         |
+| metodoPago      | String            | Privado          | Medio de pago utilizado por el cliente.          |
+| usuarioId       | UUID              | Privado          | ID del usuario que realizó la venta.             |
+| estado          | EstadoVenta       | Privado          | Estado actual de la venta.                       |
+| items           | List<Product>   | Privado          | Lista de productos vendidos en la transacción.   |
+
+#### Métodos del Sale
+
+| **Nombre**          | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
+|---------------------|---------------------|------------------|-------------------------------------------------|
+| calcularTotal       | Decimal             | Public           | Calcula el monto total de la venta.             |
+| marcarComoPagada    | Void                | Public           | Cambia el estado de la venta a "PAGADA".        |
+| cancelar            | Void                | Public           | Cancela la venta cambiando su estado.           |
+
+---
+
+### Aggregate 2: Product
+
+| **Nombre**   | **Categoría** | **Propósito** |
+|--------------|----------------|----------------|
+| Product    | Entidad        | Representa un producto incluido en una venta, con su cantidad y precio unitario. |
+
+#### Atributos del Product
+
+| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                             |
+|-------------------|------------------|------------------|---------------------------------------------|
+| productoId        | UUID             | Privado          | ID del producto vendido.                    |
+| cantidad          | Int              | Privado          | Cantidad vendida del producto.              |
+| precioUnitario    | Decimal          | Privado          | Precio por unidad del producto en la venta. |
+
+#### Métodos del Product
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
+|----------------------|---------------------|------------------|-------------------------------------------------|
+| calcularSubtotal     | Decimal             | Public           | Calcula el subtotal del ítem (cantidad * precio). |
+
+---
+
+### Enumerado: EstadoVenta
+
+| **Nombre**     | **Tipo** | **Propósito**                                      |
+|----------------|----------|----------------------------------------------------|
+| EstadoVenta    | Enum     | Define el estado de una venta dentro del sistema.  |
+
+**Valores posibles:**
+- PENDIENTE  
+- PAGADA  
+- CANCELADA
+
+
 ### 5.3.2. Interface Layer.
+En la capa de interfaz del contexto de SALES de la aplicacion, se definen los controladores y servicios que manejan las solicitudes y respuestas de la API. Los controladores son responsables de recibir las solicitudes HTTP y devolver las respuestas correspondientes.
+
+### Controller 1: SalesController
+
+| **Nombre** | **Categoría** | **Proposito** |
+|------------|----------------|----------------|
+| SalesController | Controlador | Expone endpoints públicos para la gestión de ventas. |
+
+#### Atributos del SalesController
+
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
+|------------|------------------|-----------------|-----------------|
+| saleService | SaleService     | Privado         | Servicio que maneja la lógica de negocio de las ventas. |
+
+#### Metodos del SalesController
+
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                                 |
+|--------------------|---------------------|------------------|----------------------------------------------------------------------------------|
+| registerSale        | ResponseEntity      | Public           | Método para registrar una nueva venta en el sistema.                            |
+| getAllSales         | ResponseEntity      | Public           | Método para obtener todas las ventas registradas en la aplicación.              |
+| getSaleById         | ResponseEntity      | Public           | Método para obtener los detalles de una venta por su ID.                        |
+| deleteSale          | ResponseEntity      | Public           | Método para eliminar una venta existente.                                       |
+| getSalesByUserId    | ResponseEntity      | Public           | Método para obtener todas las ventas realizadas por un usuario específico.      |
+
 ### 5.3.3. Application Layer.
+En la capa de aplicacion del contexto de IAM de la aplicacion, se definen los servicios que manejan la logica de negocio relacionada con los usuarios y roles. Estos servicios son utilizados por los controladores para realizar las operaciones necesarias.
+
+### Service 1: SalesService
+
+| **Nombre**       | **Categoría** | **Propósito**                                                                 |
+|------------------|----------------|--------------------------------------------------------------------------------|
+| SalesService     | Servicio       | Maneja la lógica de negocio relacionada con el registro, consulta y gestión de ventas. |
+
+### Atributos del SalesService
+
+| **Nombre**         | **Tipo de dato**    | **Visibilidad** | **Descripción**                                             |
+|--------------------|---------------------|------------------|-------------------------------------------------------------|
+| salesRepository    | SalesRepository     | Privado          | Repositorio que gestiona la persistencia de las ventas.     |
+
+#### Métodos del SalesService
+
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                                  |
+|----------------------|---------------------|------------------|----------------------------------------------------------------------------------|
+| registerSale         | Sale                | Public           | Registra una nueva venta en el sistema.                                          |
+| getAllSales          | List<Sale>          | Public           | Retorna todas las ventas registradas en la aplicación.                          |
+| getSaleById          | Sale                | Public           | Obtiene los detalles de una venta a partir de su ID.                             |
+| deleteSale           | Void                | Public           | Elimina una venta existente por su ID.                                           |
+| getSalesByUserId     | List<Sale>          | Public           | Devuelve las ventas asociadas a un usuario específico.                          |
+
+
 ### 5.3.4. Infrastructure Layer.
+En la capa de infraestructura del contexto de SALES de la aplicacion, se definen los repositorios que manejan la persistencia de los usuarios y roles. Estos repositorios son utilizados por los servicios para realizar las operaciones necesarias.
+
+### Repository 1: SalesRepository
+
+| **Nombre**         | **Categoría** | **Propósito**                                                       |
+|--------------------|----------------|----------------------------------------------------------------------|
+| SalesRepository    | Repositorio    | Maneja la persistencia de las ventas en la base de datos.           |
+
+#### Métodos del SalesRepository
+
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                      |
+|--------------------|---------------------|------------------|----------------------------------------------------------------------|
+| findAll            | List<Sale>          | Public           | Retorna todas las ventas almacenadas.                                |
+| findById           | Sale                | Public           | Busca una venta por su ID.                                           |
+| findByUserId       | List<Sale>          | Public           | Devuelve las ventas asociadas a un usuario específico.               |
+| save               | Sale                | Public           | Guarda una venta en la base de datos.                                |
+| deleteById         | Void                | Public           | Elimina una venta específica de la base de datos.                    |
+
+
 ### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de **SALES**. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 ![Diagrama de componentes del contexto de SALES](./assets/capitulo-5/bc-sales/component-bc-sales-detekto.png)
 
 ### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
+En esta seccion, el equipo de Softwarinos presenta la implementacion de los componentes dentro de cada contexto.
+
+  - **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de SALES.
+
+  - **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
+
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+En esta seccion se presentan los diagramas de clases del contexto de SALES, en el que se muestrran las entidades claves para la autenticacion del usuario, los roles, junto la relacion que tienen los mismos
+
+![Diagrama de clases del contexto de IAM](./assets/capitulo-5/bc-sales/sales-class-diagram.png)
 #### 5.3.7.2. Bounded Context Database Design Diagram.
+En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de SALES. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
+
+![Diagrama de base de datos del contexto de IAM](./assets/capitulo-5/bc-sales/sales-db.png)
 
 ## 5.4. Bounded Context: NOTIFICATIONS
 ### 5.4.1. Domain Layer.
