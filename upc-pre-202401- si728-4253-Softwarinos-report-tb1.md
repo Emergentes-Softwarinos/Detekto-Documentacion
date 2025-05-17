@@ -576,7 +576,104 @@ Se han planteado varias interrogantes dirigidas a nuestro público objetivo, con
 
 ### 2.2.2. Registro de entrevistas.
 
+**Entrevistas realizadas a Vendedores (Segmento 1):**
+
+| **Entrevista 1** | **Carlos Raul** |
+| --- | --- |
+| **Edad** | 23 |
+| **Ocupación** | Vendedor en una ferretería |
+| **Distrito** | Villa El Salvador  |
+| **Fecha** | 23/04/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento1_entrevista1.png"/> | Carlos, un joven vendedor de 23 años que trabaja en una ferretería desde hace casi dos años, compartió su experiencia diaria atendiendo clientes. Actualmente, realiza búsquedas de productos de forma manual, lo que le toma tiempo, especialmente cuando el cliente no conoce el nombre del artículo. En esos casos, Carlos intenta adivinar a partir de fotos o descripciones, lo que muchas veces genera demoras o incluso pérdida de ventas. Destacó que una de sus principales frustraciones es no encontrar rápidamente los productos o confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos usa con frecuencia su celular durante el trabajo y se siente cómodo con la tecnología, por lo que considera muy útil una app con reconocimiento de objetos mediante cámara. Espera que esta herramienta le permita identificar productos rápidamente, verificar su precio, stock y ubicación dentro de la tienda para mejorar su atención y eficiencia.|
+| **URL de la grabación**  | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  |
+| **Timming** | 0:00 - 5:57 |
+
+
+
+| **Entrevista 2** | **Roberto Carranza** |
+| --- | --- |
+| **Edad** | 25 |
+| **Ocupación** | Vendedor de ferretería |
+| **Distrito** | Jesús María |
+| **Fecha** | 24/02/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento1_entrevista2.png"/> | Roberto es un joven vendedor en una ferretería. Actualmente, en su trabajo utilizan un software antiguo para buscar stock y precios, lo cual resulta lento y ha ocasionado pérdida de ventas. Una de sus principales frustraciones es cuando los clientes traen una muestra sin saber el nombre del producto; él tiene que adivinar el nombre y la marca, ya que el sistema solo muestra resultados si se ingresan exactamente esos datos. Roberto considera que una aplicación que reconozca los productos a partir de una muestra y muestre diferentes marcas con precios y stock disponibles le facilitaría mucho el proceso de venta. |
+| **URL de la grabación** | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Timming** | 5:56 - 13:07 |
+
+| **Entrevista 3** | **Joaquin Rivadeneyra** |
+| --- | --- |
+| **Edad** | 30 |
+| **Ocupación** | Vendedor de ferretería |
+| **Distrito** | San Isidro |
+| **Fecha** | 25/02/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento1_entrevista3.png"/> | La entrevista fue realizada a Joaquín Rivadeneyra, vendedor de una ferretería en San Isidro. Él nos comentó que, aunque actualmente manejan algunas operaciones básicas usando Excel, la actualización manual de la información sobre productos y ventas suele generar problemas, como retrasos y errores. Además, expresó su interés en poder visualizar las ventas de productos directamente desde su celular, de manera organizada por día, semana o mes, a través de una aplicación móvil. Joaquín mostró apertura e interés en adoptar nuevas herramientas digitales que le permitan enfocarse más en brindar una mejor atención al cliente y dejar de lado tareas manuales que podrían automatizarse. |
+| **URL de la grabación** | [Ver grabación](https://drive.google.com/file/d/1zkr3rz3kmR91LIvie-rRVOKwGDu31ldK/view?usp=sharing) |
+| **Timming** | 13:08 - 14:59 |
+
+
+
+
+
+
+**Entrevistas realizadas a Administradores (Segmento 2):**
+
+| **Entrevista 4** | **Luna Doly** |
+| --- | --- |
+| **Edad** | 30 |
+| **Ocupación** | Administradora de una ferretería |
+| **Distrito** | Jesús María, Lima |
+| **Fecha** | 23/04/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento2_entrevista1.png"/> | La entrevista se realizó con Luna, administradora de una ferretería en Lima con más de 7 años de experiencia en el cargo. Actualmente gestiona el negocio utilizando principalmente Excel y realiza el seguimiento del stock y las ventas de forma manual. Está interesada en contar con una plataforma web sencilla que le permita visualizar el rendimiento de los vendedores, los productos más vendidos y hacer proyecciones de ganancias. Aunque se siente cómoda usando computadoras, prefiere herramientas simples y visuales. Sus principales frustraciones incluyen la falta de información actualizada y errores en los registros. Como administradora, su objetivo es optimizar la gestión del negocio, crecer y mejorar la organización interna con ayuda de herramientas digitales. |
+| **URL de la grabación** | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Timming** | 15:00 - 19:29 |
+
+| **Entrevista 5** | **Sandro Alarcon** |
+| --- | --- |
+| **Edad** | 22 |
+| **Ocupación** | Administradora de una ferretería |
+| **Distrito** | San Juan de Lurigancho |
+| **Fecha** | 25/04/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento2_entrevista2.png"/> | La entrevista fue realizada a Sandro Alarcón, administrador de stock en una ferretería ubicada en Lima. Nos comentó que actualmente sigue utilizando métodos tradicionales como Excel para llevar el control de su inventario y reportes de productos. Sin embargo, señala que este proceso manual suele generar errores y retrasos, ya que depende mucho de la actualización constante y del cruce de información entre áreas. Sandro expresó su interés en adoptar nuevas herramientas digitales que puedan automatizar la gestión de stock y facilitar el trabajo de su equipo, considerando que una mejor organización beneficiaría directamente la eficiencia de las operaciones de la ferretería.
+
+ |
+| **URL de la grabación** | [Ver grabación](https://drive.google.com/file/d/1iID1DdarOEO1mxRYp2umK0TZTGq7Nanh/view?usp=sharing) |
+| **Timming** | 19:30 - 23:54 |
+
+| **Entrevista 6** | **Oscar Palacios** |
+| --- | --- |
+| **Edad** | 64 |
+| **Ocupación** | Administradora de una ferretería |
+| **Distrito** | Ica, Ica |
+| **Fecha** | 25/04/2025 |
+| <img src="./assets/CAP2/entrevistas/segmento2_entrevista3.png"/> | La entrevista fue realizada a Oscar Palacios, administrador de una ferreteria en Ica, el nos comento como aun mantiene el uso tecnologias populares como Excel, para el manejo de su stock y sus ventas; sin embargo nos comenta también que esto lo mantiene con complicaciones, ya que es necesario realizar este procedemiento de manera manual y estar revisando constantemente los posibles cambios que puedan realizar, además de mantenerlo actualizado manualmente. Nos comenta también su gusto por utilizar nuevas herramientas que le ayuden con estos procesos y ayuden a sus trbajadores, ya que para él ellos son los principales pilares de su negocio.|
+| **URL de la grabación** | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Timming** | 23:54 - 34:57 |
+
 ### 2.2.3. Análisis de entrevistas.
+
+En base a las entrevistas realizadas, se ha llegado a la conclusión de 1 análisis para cada segmento objetivo.
+
+**Segmento 1: Vendedor**
+
+- Entrevista 1: Carlos Raul
+Carlos es un joven vendedor de 23 años que tiene casi dos años trabajando en una ferretería. Actualmente, se enfrenta a la frustración de buscar productos de forma manual, lo que genera demoras, especialmente cuando los clientes no saben el nombre del producto. Su principal desafío es encontrar rápidamente los productos y confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos se siente cómodo utilizando tecnología y considera útil una app con reconocimiento de objetos para mejorar la eficiencia en su trabajo. Esto le permitiría identificar productos, verificar precios y disponibilidad en tiempo real, mejorando la atención al cliente.
+
+- Entrevista 2: Roberto Carranza
+Roberto, un vendedor de 25 años, utiliza un software antiguo para gestionar el stock y los precios de los productos, lo cual resulta ineficiente y le ha causado pérdidas de ventas. Uno de sus mayores problemas es cuando los clientes traen muestras sin saber el nombre del producto, ya que el sistema solo responde a búsquedas exactas. Roberto ve el valor de una aplicación que pueda reconocer productos a partir de una muestra y mostrar diferentes opciones con precios y stock disponible. Esto facilitaría su trabajo, permitiéndole ofrecer mejores opciones al cliente de manera más rápida.
+
+- Entrevista 3: Joaquín Rivadeneyra
+Joaquín, un vendedor de 30 años, utiliza Excel para gestionar productos y ventas, pero esto le genera retrasos y errores debido a la actualización manual de la información. Él expresó su interés en una solución que le permita ver las ventas de productos desde su celular, organizadas por día, semana o mes. Está dispuesto a adoptar nuevas herramientas digitales que optimicen su tiempo y le permitan enfocarse más en brindar atención al cliente, delegando tareas administrativas a la tecnología. Esto reflejó una clara necesidad de herramientas que automatizan el proceso de visualización y gestión de ventas.
+
+**Segmento 2: Administrador**
+
+- Entrevista 4: Luna Doly
+Luna es una administradora de 30 años con más de 7 años de experiencia en el sector. Actualmente, gestiona el negocio utilizando Excel, lo que le genera frustraciones debido a la falta de información actualizada y errores en los registros. Luna busca una plataforma web sencilla que le permita visualizar el rendimiento de los vendedores, identificar los productos más vendidos y hacer proyecciones de ganancias. A pesar de que se siente cómoda usando computadoras, prefiere herramientas simples y visuales que faciliten la gestión de su negocio, mejoren la organización interna y optimicen los procesos.
+
+- Entrevista 5: Sandro Alarcón
+Sandro, administrador de 22 años, utiliza Excel para llevar el control del inventario y los reportes de productos. Aunque se siente cómodo con esta herramienta, reconoce que el proceso manual puede generar errores y retrasos, lo que afecta la eficiencia operativa. Sandro está interesado en herramientas digitales que puedan automatizar la gestión del stock, mejorando la organización y eficiencia de las operaciones de la ferretería. Considera que una solución digital permitiría una mejor coordinación entre los equipos y una optimización de los procesos.
+
+- Entrevista 6: Oscar Palacios
+Oscar, administrador de 64 años en Ica, también utiliza Excel para la gestión de stock y ventas, lo que le ha causado complicaciones debido a la necesidad de actualizar la información manualmente. Aunque sigue siendo dependiente de métodos tradicionales, está abierto a adoptar nuevas herramientas digitales que ayuden a automatizar los procesos y optimicen la gestión de la ferretería. Oscar ve a sus trabajadores como los pilares del negocio y considera que la tecnología podría facilitar su trabajo, mejorando la eficiencia en la operación.
 
 ## 2.3. Needfinding.
 
