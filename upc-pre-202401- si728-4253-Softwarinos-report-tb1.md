@@ -1276,6 +1276,39 @@ Con el objetivo de priorizar las historias de usuario clave para el funcionamien
 
 #### 4.1.2.3. Constraints.
 
+A continuación se detallan las restricciones arquitectónicas que impactan el desarrollo de la aplicación:
+
+**Topología de la red:**
+
+La aplicación debe operar correctamente en redes locales heterogéneas, ya que será utilizada por distintas ferreterías que pueden tener infraestructuras de red limitadas o no estandarizadas. El sistema debe garantizar una conexión estable con APIs privadas de cada negocio y permitir reintentos en caso de fallos por latencia o pérdida de conexión.
+
+**Proveedor de base de datos:**
+
+No se utilizará una base de datos centralizada para toda la información operacional de las ferreterías. En su lugar, cada ferretería mantendrá su propio sistema de gestión (ERP, inventario, etc.), y Detekto deberá conectarse mediante APIs específicas provistas por cada cliente. Esto implica que el sistema debe ser capaz de adaptarse a distintos esquemas de datos y formatos de respuesta, usando adaptadores o middlewares para la integración. Internamente, Detekto podrá mantener una base temporal para almacenamiento de eventos o ventas, con consultas diarias sincronizadas.
+
+**Entorno web:**
+
+La aplicación web para administradores debe estar preparada para interactuar con APIs externas (propias de cada ferretería) y con el backend de Detekto. Debe permitir configuración de endpoints por cliente, manejo de autenticación por API Key o token JWT, y ser compatible con navegadores modernos (Chrome, Firefox, Safari). Debe alojarse en servidores seguros con configuración HTTPS y protección CORS activa.
+
+**Servidores:**
+
+El backend de Detekto será desplegado en contenedores Docker bajo infraestructura cloud (Railway, Render o similares). Debido a las limitaciones de estos entornos (recursos, concurrencia, tiempo de actividad), se deben evitar procesos de sincronización pesados o que dependan de disponibilidad constante de las APIs externas. Se recomienda establecer mecanismos de consulta programada (ej. cron jobs nocturnos) para actualizar información crítica como ventas e inventario.
+
+**Software de terceros:**
+
+Detekto debe integrarse con servicios externos según las necesidades de cada ferretería. Esto incluye:
+
+APIs propias del cliente (ERP, stock, catálogo)
+
+Servicios de notificación (email, WhatsApp Business API)
+
+Herramientas de localización o seguimiento (Google Maps API u open source alternativos)
+La aplicación debe manejar límites de consumo (rate limits) y fallos en integraciones de forma desacoplada.
+
+**Normas y regulaciones:**
+
+Detekto debe garantizar que los datos de cada ferretería se manejen de forma aislada y segura (multitenancy). Cada instancia debe respetar la privacidad del cliente, evitando compartir o almacenar de forma cruzada información sensible. Además, se debe cumplir con la Ley N° 29733 de Protección de Datos Personales. Toda la comunicación debe realizarse mediante conexiones cifradas (TLS), y los accesos deben estar protegidos mediante autenticación robusta por rol (administrador, vendedor, cliente).
+
 ### 4.1.2.2. Technical Stories
 
 Estas historias técnicas representan tareas esenciales para el soporte de funcionalidades clave, así como la mantenibilidad, rendimiento y seguridad de la aplicación.
@@ -1390,7 +1423,7 @@ En este paso se implementan los agregados de cada sistema de la aplicación.
 
 ### 4.2.2. Candidate Context Discovery.
 
-En este punto luego de la realización del Event storming, se identificaron los bounded context a trabajar. En este caso se lograron identificar 6.
+En este punto luego de la realización del Event storming, se identificaron los bounded context a trabajar. En este caso se lograron identificar 5.
 
 <img src="assets/capitulo-4/Context Discovery-IAM.jpg" alt="Context Discovery-IAM" width="900"/>
 
@@ -1399,8 +1432,6 @@ En este punto luego de la realización del Event storming, se identificaron los 
 <img src="assets/capitulo-4/Context Discovery-Notification.jpg" alt="Context Discovery-Notification" width="900"/>
 
 <img src="assets/capitulo-4/Context Discovery-Tracking-And-Monitoring.jpg" alt="Context Discovery-Tracking-And-Monitoring" width="900"/>
-
-<img src="assets/capitulo-4/Context Discovery-Reporting.jpg" alt="Context Discovery-Reporting" width="900"/>
 
 <img src="assets/capitulo-4/Context Discovery-Sales.jpg" alt="Context Discovery-Sales" width="900"/>
 
