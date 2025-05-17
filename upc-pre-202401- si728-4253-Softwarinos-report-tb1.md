@@ -33,30 +33,30 @@ Profesor: De Los Rios Fernandez, Christian Luis
 
 #### Ciclo 2025-10
 
-##### Abril, 2025
+##### Mayo, 2025
 
 ---
 
 # Registro de Versiones del informe
 
-| Versión | Fecha      | Autor               | Descripción de modificación                                                                                                                            |
-| ------- | ---------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 0.1     | 19-04-2025 | Manuel Gutierrez    | Redacción de Student Outcome, Startup Profile, Descripción de la Startup y Perfiles del equipo.                                                        |
-| 0.2     | 21-04-2025 | Jose Ampudia        | Elaboración del Solution Profile: Antecedentes, Problemática, Lean UX Process (Problem Statements, Assumptions, Hypotheses, Canvas).                   |
-| 0.3     | 22-04-2025 | Miquel De la Piedra | Desarrollo de Segmentos Objetivo, análisis de Competidores, estrategias y tácticas frente a la competencia.                                            |
-| 0.4     | 23-04-2025 | Julio Elsner        | Diseño de entrevistas, registro de entrevistas y análisis de entrevistas.                                                                              |
-| 0.5     | 24-04-2025 | Manuel Gutierrez    | Elaboración de Needfinding: User Personas, User Task Matrix, Empathy Mapping, As-is Scenario Mapping.                                                  |
-| 0.6     | 24-04-2025 | Miquel De la Piedra | Creación de Ubiquitous Language.                                                                                                                       |
-| 0.7     | 25-04-2025 | Julio Elsner        | Desarrollo del To-Be Scenario Mapping, User Stories e Impact Mapping.                                                                                  |
-| 0.8     | 25-04-2025 | Jose Ampudia        | Construcción del Product Backlog y definición del Strategic-Level Attribute-Driven Design: Design Purpose, Inputs, Constraints, Architectural Drivers. |
-| 0.9     | 26-04-2025 | Manuel Gutierrez    | Desarrollo de EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Context Mapping.                                              |
-| 1.0     | 26-04-2025 | Jose Ampudia        | Finalización de Software Architecture: Landscape Diagram, Context Level, Container Level y Deployment Diagrams.                                        |
+| Versión | Fecha      | Autor                          | Descripción de modificación                                                                                                                                |
+| ------- | ---------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 0.1     | 19-04-2025 | Manuel Gutierrez               | Redacción de Student Outcome, Startup Profile, Descripción de la Startup y Perfiles del equipo.                                                            |
+| 0.2     | 21-04-2025 | Jose Ampudia                   | Elaboración del Solution Profile: Antecedentes, Problemática, Lean UX Process (Problem Statements, Assumptions, Hypotheses, Canvas).                       |
+| 0.3     | 22-04-2025 | Miquel De la Piedra            | Desarrollo de Segmentos Objetivo, análisis de Competidores, estrategias y tácticas frente a la competencia.                                                |
+| 0.4     | 23-04-2025 | Julio Elsner                   | Diseño de entrevistas, registro de entrevistas y análisis de entrevistas.                                                                                  |
+| 0.5     | 24-04-2025 | Manuel Gutierrez               | Elaboración de Needfinding: User Personas, User Task Matrix, Empathy Mapping, As-is Scenario Mapping.                                                      |
+| 0.6     | 24-04-2025 | Miquel De la Piedra            | Creación de Ubiquitous Language.                                                                                                                           |
+| 0.7     | 25-04-2025 | Julio Elsner                   | Desarrollo del To-Be Scenario Mapping, User Stories e Impact Mapping.                                                                                      |
+| 0.8     | 25-04-2025 | Jose Ampudia                   | Construcción del Product Backlog y definición del Strategic-Level Attribute-Driven Design: Design Purpose, Inputs, Constraints, Architectural Drivers.     |
+| 0.9     | 26-04-2025 | Manuel Gutierrez               | Desarrollo de EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Context Mapping.                                                  |
+| 1.0     | 26-04-2025 | Jose Ampudia                   | Finalización de Software Architecture: Landscape Diagram, Context Level, Container Level y Deployment Diagrams.                                            |
 | 1.1     | 30-04-2025 | Julio Elsner, Manuel Gutierrez | Inicio de redacción del Capítulo V: Tactical-Level Software Design. Revisión de estructura por capas y definición inicial del contexto Object-Recognition. |
-| 1.2     | 02-05-2025 | Julio Elsner, Jose Ampudia     | Desarrollo de las secciones Domain Layer e Interface Layer del contexto Object-Recognition.                                                           |
-| 1.3     | 10-05-2025 | Manuel Gutierrez, Jose Ampudia | Desarrollo de Application Layer e Infrastructure Layer del contexto Object-Recognition.                                                               |
-| 1.4     | 13-05-2025 | Julio Elsner                   | Redacción del Bounded Context: NOTIFICATIONS. Inicio del Capítulo VI con Style Guidelines y General Style Guidelines.                                |
-| 1.5     | 16-05-2025 | Miquel De la Piedra            | Redacción de Web, Mobile & Devices Style Guidelines, y desarrollo de Labeling, Searching y SEO Tags Systems.                                         |
-| 1.6     | 17-05-2025 | Jose Ampudia                   | Avance en Navigation Systems, Landing Page Wireframe y Mock-up. Diseño de Applications Wireframes y Wireflow Diagrams.                              |
+| 1.2     | 02-05-2025 | Julio Elsner, Jose Ampudia     | Desarrollo de las secciones Domain Layer e Interface Layer del contexto Object-Recognition.                                                                |
+| 1.3     | 10-05-2025 | Manuel Gutierrez, Jose Ampudia | Desarrollo de Application Layer e Infrastructure Layer del contexto Object-Recognition.                                                                    |
+| 1.4     | 13-05-2025 | Julio Elsner                   | Redacción del Bounded Context: NOTIFICATIONS. Inicio del Capítulo VI con Style Guidelines y General Style Guidelines.                                      |
+| 1.5     | 16-05-2025 | Miquel De la Piedra            | Redacción de Web, Mobile & Devices Style Guidelines, y desarrollo de Labeling, Searching y SEO Tags Systems.                                               |
+| 1.6     | 17-05-2025 | Jose Ampudia                   | Avance en Navigation Systems, Landing Page Wireframe y Mock-up. Diseño de Applications Wireframes y Wireflow Diagrams.                                     |
 
 # Project Report Collaboration Insights
 
@@ -69,7 +69,6 @@ Para el desarrollo del proyecto, se ha utilizado la plataforma de GitHub para el
 
 Para la entrega de la TB1 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
 
-
 | Integrante          | Responsabilidad                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | José Ampudia        | Desarrollo del diseño de las entrevistas, registro de entrevistas, Análisis de entrevistas, Needfinding, User Personas, User Task Matrix, Empathy Mapping, As-Is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping y User Stories                                                                                                                                                                        |
@@ -80,13 +79,12 @@ Para la entrega de la TB1 se realizó una reunión donde se asignaron las respon
 ## TB2
 
 Para la entrega de la TB2 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
-| Integrante          | Responsabilidad                                                                                                                                                                                                                                                                                                         |
+| Integrante | Responsabilidad |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| José Ampudia        | Desarrollo de las secciones Domain Layer, Interface Layer, Application Layer e Infrastructure Layer del contexto Object-Recognition. Participación en diseño de Landing Page (wireframe y mock-up), Applications Wireframes y Wireflow Diagrams.                                                                    |
-| Manuel Gutierrez    | Redacción inicial del Capítulo V: Tactical-Level Software Design. Participación en la definición del contexto Object-Recognition y desarrollo de Application Layer e Infrastructure Layer.                                                                                                                           |
-| Miquel De la Piedra | Desarrollo de Style Guidelines para Web, Mobile & Devices. Creación de sistemas de etiquetado, búsqueda y SEO (Labeling Systems, Searching Systems y SEO Tags).                                                                                                               |
-| Julio Elsner        | Revisión de estructura por capas y redacción inicial del Capítulo V. Desarrollo del Bounded Context: NOTIFICATIONS. Redacción de General Style Guidelines e inicio del Capítulo VI. Participación en Domain Layer e Interface Layer del contexto Object-Recognition.         |
-
+| José Ampudia | Desarrollo de las secciones Domain Layer, Interface Layer, Application Layer e Infrastructure Layer del contexto Object-Recognition. Participación en diseño de Landing Page (wireframe y mock-up), Applications Wireframes y Wireflow Diagrams. |
+| Manuel Gutierrez | Redacción inicial del Capítulo V: Tactical-Level Software Design. Participación en la definición del contexto Object-Recognition y desarrollo de Application Layer e Infrastructure Layer. |
+| Miquel De la Piedra | Desarrollo de Style Guidelines para Web, Mobile & Devices. Creación de sistemas de etiquetado, búsqueda y SEO (Labeling Systems, Searching Systems y SEO Tags). |
+| Julio Elsner | Revisión de estructura por capas y redacción inicial del Capítulo V. Desarrollo del Bounded Context: NOTIFICATIONS. Redacción de General Style Guidelines e inicio del Capítulo VI. Participación en Domain Layer e Interface Layer del contexto Object-Recognition. |
 
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron _commits_ respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
@@ -100,63 +98,68 @@ Para tener mejor precisión en los integrantes del equipo, a continuación prese
 A continuación se presentan las capturas del repositorio de GitHub donde se realizaron los avances correspondientes.
 
 # Tabla de contenidos
+
 - [Student Outcome](#student-outcome)
 
 [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
 [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. Empathy Mapping](#233-empathy-mapping)
-    - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. Empathy Mapping](#233-empathy-mapping)
+  - [2.3.4. As-is Scenario Mapping](#234-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
 [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. User Stories](#32-user-stories)
-  - [3.3. Impact Mapping](#33-impact-mapping)
-  - [3.4. Product Backlog](#34-product-backlog)
+
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Impact Mapping](#33-impact-mapping)
+- [3.4. Product Backlog](#34-product-backlog)
 
 [Capítulo IV: Strategic-Level Software Design](#capítulo-iv-strategic-level-software-design)
-  - [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
-    - [4.1.1. Design Purpose](#411-design-purpose)
-    - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
-      - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
-      - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
-      - [4.1.2.3. Constraints](#4123-constraints)
-    - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
-    - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
-    - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
-  - [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
-    - [4.2.1. EventStorming](#421-eventstorming)
-    - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
-    - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
-    - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
-    - [4.2.5. Context Mapping](#425-context-mapping)
-  - [4.3. Software Architecture](#43-software-architecture)
-    - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
-    - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
-    - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
-    - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+
+- [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
+  - [4.1.1. Design Purpose](#411-design-purpose)
+  - [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+    - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+    - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+    - [4.1.2.3. Constraints](#4123-constraints)
+  - [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+  - [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+  - [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+- [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+  - [4.2.1. EventStorming](#421-eventstorming)
+  - [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+  - [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+  - [4.2.4. Bounded Context Canvases](#424-bounded-context-canvases)
+  - [4.2.5. Context Mapping](#425-context-mapping)
+- [4.3. Software Architecture](#43-software-architecture)
+  - [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+  - [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+  - [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+  - [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
 ### Capítulo V: Tactical-Level Software Design
 
@@ -249,18 +252,30 @@ rango de audiencias.
         <strong>José Ampudia</strong><br />
         <strong>TB1</strong><br />
         Participó activamente en entrevistas con usuarios para la recopilación de información clave sobre necesidades reales. Durante estas sesiones, empleó un lenguaje claro y empático para asegurar la comprensión del propósito del proyecto, facilitando así una retroalimentación útil y precisa.
-        <br /><br />
+        <br />
+        <strong>TB2</strong><br />
+        Explicó verbalmente la estructura y funcionalidad de las capas Domain, Interface, Application e Infrastructure del contexto Object-Recognition durante sesiones técnicas del equipo, logrando que todos comprendieran la relación entre cada componente y su rol en el sistema.
+        <br />
         <strong>Manuel Gutierrez</strong><br />
         <strong>TB1</strong><br />
         Comunicó de manera clara la problemática y el enfoque estratégico del proyecto durante las entrevistas con usuarios y discusiones del equipo, asegurando que todos comprendieran la visión general del producto. Además, facilitó sesiones explicativas sobre la propuesta de valor frente a competidores.
+        <br />
+        <strong>TB2</strong><br />
+        Presentó en reuniones del equipo la redacción inicial del Capítulo V, articulando de forma clara cómo se definió el contexto Object-Recognition y las decisiones tomadas sobre la Application Layer e Infrastructure Layer, facilitando su validación por parte de todos los miembros.
         <br /><br />
         <strong>Miquel De la Piedra</strong><br />
         <strong>TB1</strong><br />
         Explicó el propósito y funcionamiento del Impact Mapping a su equipo, así como las decisiones de diseño arquitectónico a nivel estratégico, asegurando que todos los miembros comprendieran la relación entre funcionalidades y metas del proyecto.
+        <br />
+        <strong>TB2</strong><br />
+        Expuso verbalmente las Style Guidelines diseñadas para plataformas Web y Mobile, detallando cómo se aplican los sistemas de etiquetado, búsqueda y SEO en el diseño UX, y resolvió dudas técnicas del equipo para alinear la arquitectura de información con el estilo visual.
         <br /><br />
-        <strong>Julio De la Torre</strong><br />
+        <strong>Julio Elsner</strong><br />
         <strong>TB1</strong><br />
         Facilitó el entendimiento de conceptos técnicos complejos como el EventStorming, Candidate Context Discovery y la arquitectura del sistema mediante presentaciones orales y debates dentro del equipo, adaptando el lenguaje técnico según el nivel de conocimiento de la audiencia.
+        <br />
+        <strong>TB2</strong><br />
+        Expuso oralmente el diseño por capas del contexto NOTIFICATIONS, así como la justificación de la redacción inicial del Capítulo VI. Además, facilitó la comunicación entre los miembros para integrar su trabajo con la Domain e Interface Layer del contexto Object-Recognition.
       </td>
       <td>
         Las habilidades de comunicación oral del equipo permitieron un entendimiento claro y compartido del proyecto tanto a nivel técnico como no técnico, mejorando la colaboración con usuarios y entre los miembros del equipo.
@@ -272,18 +287,30 @@ rango de audiencias.
         <strong>José Ampudia</strong><br />
         <strong>TB1</strong><br />
         Redactó documentos como el análisis de entrevistas, User Personas, y escenarios As-Is/To-Be de forma estructurada y clara, facilitando la comprensión por parte del equipo y stakeholders del contexto del usuario y sus necesidades.
+        <br />
+        <strong>TB2</strong><br />
+        Documentó las capas Domain, Interface, Application e Infrastructure del contexto Object-Recognition con una redacción técnica clara. También aportó en los wireframes y wireflows de las aplicaciones, describiendo los flujos con enfoque funcional y técnico.
         <br /><br />
         <strong>Manuel Gutierrez</strong><br />
         <strong>TB1</strong><br />
         Elaboró entregables como el Lean UX Canvas, Problem Statements y el análisis competitivo con una redacción precisa y orientada a la toma de decisiones estratégicas. Su documentación fue esencial para definir la propuesta de valor del proyecto.
+        <br />
+        <strong>TB2</strong><br />
+        Redactó el borrador estructurado del Capítulo V, describiendo con claridad el enfoque general del diseño táctico. También explicó por escrito las funcionalidades clave de las capas Application e Infrastructure, permitiendo una interpretación consistente por parte de todos.
         <br /><br />
         <strong>Miquel De la Piedra</strong><br />
         <strong>TB1</strong><br />
         Documentó el diseño arquitectónico a través del Attribute-Driven Design y Backlog técnico, asegurando claridad en los lineamientos técnicos para los futuros desarrolladores y partes interesadas.
+        <br />
+        <strong>TB2</strong><br />
+        Escribió las guías de estilo visual y la arquitectura de información para Web y Mobile, incluyendo el desarrollo de los sistemas de etiquetado, búsqueda y SEO. Su redacción estructurada facilitó la implementación posterior por parte del equipo de desarrollo.
         <br /><br />
-        <strong>Julio De la Torre</strong><br />
+        <strong>Julio Elsner</strong><br />
         <strong>TB1</strong><br />
         Generó documentación técnica detallada sobre los componentes de la arquitectura del sistema, diagramas y mapeos de contexto, facilitando así la comprensión integral del sistema por parte de audiencias tanto técnicas como no técnicas.
+        <br />
+        <strong>TB2</strong><br />
+        Redactó el contexto NOTIFICATIONS en el Capítulo V, definiendo sus capas y describiendo sus interacciones. También elaboró las secciones introductorias del Capítulo VI, estableciendo las bases conceptuales del diseño UX de forma clara y coherente.
       </td>
       <td>
         La calidad de los entregables escritos permitió transmitir efectivamente tanto el enfoque de usuario como las decisiones técnicas, mejorando la comunicación y coordinación entre todos los actores involucrados.
@@ -291,7 +318,6 @@ rango de audiencias.
     </tr>
   </tbody>
 </table>
-<br><br>
 
 # Capítulo I: Introducción
 
@@ -312,8 +338,8 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 | Foto                                                              | Nombre y Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Foto Manuel](assets/CAP1/FotoManuel.png)                        | **Nombre:** Manuel Alonso Gutierrez Zumaeta<br>**Código:** u202112353<br>**Descripción:** Soy Manuel Gutierrez, estudiante de la carrera de Ingeniería de Software, tengo 20 años. Tengo experiencia en el desarrollo de aplicaciones web, tanto frontend como backend, programación móvil en Flutter. Me considero una persona responsable y que se propone hacer un buen trabajo.                                                                                                                                        |
-| ![Foto Julio](assets/CAP1/Perfil-Integrantes/FOTOCARNET25.jpg)                                     | **Nombre:** Julio Elsner De La Torre Ugarte<br>**Código:** u202111654<br>**Descripción:** Estudiante de Ingeniería de software, tengo 21 años. Cuento con experiencia en desarrollo de aplicaciones Web Full Stack (Front, Back-end) y bases de datos. Me considero una persona indagadora y que hace las cosas con una idea plasmada antes de realizarla.                                                                                                                                                                 |
-| ![Foto Miquel](assets/CAP1/Perfil-Integrantes/FotoMiquel.png)                                    | **Nombre:** Erwin Miquel De la Piedra Quintanilla<br>**Código:** u202112179<br>**Descripción:** Soy Miquel De la Piedra, tengo 21 años, estudiante de la carrera de Ingeniería de Software. Poseo conocimientos relacionados a la programación en C++, Python, HTML y CSS. Además poseo experiencia con el manejo de bases de datos. Considero que estos conocimientos ayudarán a la realización de este trabajo, además de mejorar nuestros métodos de organización y trabajo en equipo.                                  |
+| ![Foto Julio](assets/CAP1/Perfil-Integrantes/FOTOCARNET25.jpg)    | **Nombre:** Julio Elsner De La Torre Ugarte<br>**Código:** u202111654<br>**Descripción:** Estudiante de Ingeniería de software, tengo 21 años. Cuento con experiencia en desarrollo de aplicaciones Web Full Stack (Front, Back-end) y bases de datos. Me considero una persona indagadora y que hace las cosas con una idea plasmada antes de realizarla.                                                                                                                                                                 |
+| ![Foto Miquel](assets/CAP1/Perfil-Integrantes/FotoMiquel.png)     | **Nombre:** Erwin Miquel De la Piedra Quintanilla<br>**Código:** u202112179<br>**Descripción:** Soy Miquel De la Piedra, tengo 21 años, estudiante de la carrera de Ingeniería de Software. Poseo conocimientos relacionados a la programación en C++, Python, HTML y CSS. Además poseo experiencia con el manejo de bases de datos. Considero que estos conocimientos ayudarán a la realización de este trabajo, además de mejorar nuestros métodos de organización y trabajo en equipo.                                  |
 | ![Foto José](./assets/CAP1/Perfil-Integrantes/rostro-Jocais.jpeg) | **Nombre:** José Carlos Isaac Ampudia Flores<br>**Código:** u202112936<br>**Descripción:** Soy estudiante de Ingeniería de Software, con sólida formación en desarrollo Backend utilizando frameworks como Spring Boot. También cuento con conocimientos en el desarrollo Frontend, trabajando con herramientas como Angular. Me caracterizo por mi capacidad para trabajar bajo presión, así como por mi enfoque organizado y metódico, lo que me permite adaptarme correctamente a los desafíos del entorno tecnológico. |
 
 ## 1.2. Solution Profile
@@ -321,7 +347,7 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 ### 1.2.1 Antecedentes y problemática
 
 - **What (¿Qué?)**  
- El problema principal es la dificultad que enfrentan ferreterías y comercios de productos físicos para identificar, buscar y gestionar herramientas y materiales de forma rápida y precisa. Los sistemas actuales no están adaptados al sector y requieren conocimientos técnicos o procesos manuales lentos.
+  El problema principal es la dificultad que enfrentan ferreterías y comercios de productos físicos para identificar, buscar y gestionar herramientas y materiales de forma rápida y precisa. Los sistemas actuales no están adaptados al sector y requieren conocimientos técnicos o procesos manuales lentos.
 
 - **When (¿Cuándo?)**  
   Este problema ocurre diariamente en el momento de la atención al cliente, la búsqueda de productos en almacén, la actualización del inventario y el registro de ventas. Es especialmente crítico durante horas de alta demanda o cuando se requiere atención eficiente.
@@ -344,6 +370,7 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
+
 En las ferreterías, la gestión de productos y la atención al cliente siguen dependiendo en gran medida de métodos tradicionales como la búsqueda manual, el uso de catálogos físicos y sistemas poco especializados. Esta situación genera tiempos de espera prolongados, errores frecuentes en la identificación de productos, una experiencia deficiente para el cliente y una gestión de inventario ineficiente.
 
 Aunque existen plataformas genéricas de ventas y CRM, estas no se adaptan a las particularidades del rubro ferretero. El problema de fondo radica en la falta de soluciones tecnológicas específicas que automaticen y agilicen tareas operativas críticas como la identificación de productos y el control del stock.
@@ -353,12 +380,14 @@ Para resolver esta brecha, Detekto propone una solución tecnológica innovadora
 Además, Detekto mejorará la coordinación entre vendedores y administradores a través de una interfaz intuitiva, diseñada para entornos de trabajo con alta demanda, ruido y limitaciones técnicas. El enfoque se orienta a ferreterías pequeñas y medianas que buscan digitalizarse sin incurrir en altos costos o en procesos complejos de implementación.
 
 Sabremos que hemos tenido éxito cuando se logre:
+
 - Reducir significativamente los tiempos de atención al cliente.
 - Aumentar la precisión del inventario registrado.
 - Mejorar la satisfacción tanto del cliente como del personal.
 - Observar un incremento en las ventas derivado de procesos más ágiles y eficientes.
 
 #### 1.2.2.2. Lean UX Assumptions.
+
 - **Business Assumptions**
 
   - Las ferreterías requieren una solución especializada que agilice la identificación de productos y mejore la eficiencia operativa, ya que los sistemas actuales son generalistas y no se adaptan a sus procesos específicos.
@@ -425,6 +454,7 @@ Sabremos que hemos tenido éxito cuando se logre:
   **Sabremos que hemos tenido éxito cuando** al menos el 60% de los usuarios prefieran Detekto sobre otras soluciones según los resultados de encuestas de satisfacción después del primer mes.
 
 #### 1.2.2.4. Lean UX Canvas.
+
 <img src="assets/CAP1/LeanUXCanvas.png" alt="LeanUxCanvas">
 
 ## 1.3. Segmentos objetivo.
@@ -514,11 +544,9 @@ Para enfrentar a TradeGecko, que ofrece sólidas funciones de gestión de invent
 
 Una estrategia de marketing centrada en demostrar el funcionamiento en tiempo real de la app, mediante videos y casos de éxito, junto a alianzas con cadenas de ferreterías, distribuidores de herramientas y cámaras de comercio local, puede permitir a Detekto ganar visibilidad y confianza. Además, capacitar a los usuarios con contenido sencillo y práctico ayudará a reducir barreras tecnológicas en sectores menos digitalizados.
 
-
 ## 2.2. Entrevistas.
 
 ### 2.2.1. Diseño de entrevistas.
-
 
 Se han planteado varias interrogantes dirigidas a nuestro público objetivo, con el fin de recolectar información que nos proporcionen requisitos, lo que fortalecerá para el desarrollo de nuestra solución.
 
@@ -578,76 +606,69 @@ Se han planteado varias interrogantes dirigidas a nuestro público objetivo, con
 
 **Entrevistas realizadas a Vendedores (Segmento 1):**
 
-| **Entrevista 1** | **Carlos Raul** |
-| --- | --- |
-| **Edad** | 23 |
-| **Ocupación** | Vendedor en una ferretería |
-| **Distrito** | Villa El Salvador  |
-| **Fecha** | 23/04/2025 |
-| <img src="./assets/CAP2/entrevistas/segmento1_entrevista1.png"/> | Carlos, un joven vendedor de 23 años que trabaja en una ferretería desde hace casi dos años, compartió su experiencia diaria atendiendo clientes. Actualmente, realiza búsquedas de productos de forma manual, lo que le toma tiempo, especialmente cuando el cliente no conoce el nombre del artículo. En esos casos, Carlos intenta adivinar a partir de fotos o descripciones, lo que muchas veces genera demoras o incluso pérdida de ventas. Destacó que una de sus principales frustraciones es no encontrar rápidamente los productos o confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos usa con frecuencia su celular durante el trabajo y se siente cómodo con la tecnología, por lo que considera muy útil una app con reconocimiento de objetos mediante cámara. Espera que esta herramienta le permita identificar productos rápidamente, verificar su precio, stock y ubicación dentro de la tienda para mejorar su atención y eficiencia.|
-| **URL de la grabación**  | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  |
-| **Timming** | 0:00 - 5:57 |
+| **Entrevista 1**                                                 | **Carlos Raul**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**                                                         | 23                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Ocupación**                                                    | Vendedor en una ferretería                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Distrito**                                                     | Villa El Salvador                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Fecha**                                                        | 23/04/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <img src="./assets/CAP2/entrevistas/segmento1_entrevista1.png"/> | Carlos, un joven vendedor de 23 años que trabaja en una ferretería desde hace casi dos años, compartió su experiencia diaria atendiendo clientes. Actualmente, realiza búsquedas de productos de forma manual, lo que le toma tiempo, especialmente cuando el cliente no conoce el nombre del artículo. En esos casos, Carlos intenta adivinar a partir de fotos o descripciones, lo que muchas veces genera demoras o incluso pérdida de ventas. Destacó que una de sus principales frustraciones es no encontrar rápidamente los productos o confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos usa con frecuencia su celular durante el trabajo y se siente cómodo con la tecnología, por lo que considera muy útil una app con reconocimiento de objetos mediante cámara. Espera que esta herramienta le permita identificar productos rápidamente, verificar su precio, stock y ubicación dentro de la tienda para mejorar su atención y eficiencia. |
+| **URL de la grabación**                                          | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Timming**                                                      | 0:00 - 5:57                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
-
-
-| **Entrevista 2** | **Roberto Carranza** |
-| --- | --- |
-| **Edad** | 25 |
-| **Ocupación** | Vendedor de ferretería |
-| **Distrito** | Jesús María |
-| **Fecha** | 24/02/2025 |
+| **Entrevista 2**                                                 | **Roberto Carranza**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**                                                         | 25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Ocupación**                                                    | Vendedor de ferretería                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Distrito**                                                     | Jesús María                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Fecha**                                                        | 24/02/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | <img src="./assets/CAP2/entrevistas/segmento1_entrevista2.png"/> | Roberto es un joven vendedor en una ferretería. Actualmente, en su trabajo utilizan un software antiguo para buscar stock y precios, lo cual resulta lento y ha ocasionado pérdida de ventas. Una de sus principales frustraciones es cuando los clientes traen una muestra sin saber el nombre del producto; él tiene que adivinar el nombre y la marca, ya que el sistema solo muestra resultados si se ingresan exactamente esos datos. Roberto considera que una aplicación que reconozca los productos a partir de una muestra y muestre diferentes marcas con precios y stock disponibles le facilitaría mucho el proceso de venta. |
-| **URL de la grabación** | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timming** | 5:56 - 13:07 |
+| **URL de la grabación**                                          | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                   |
+| **Timming**                                                      | 5:56 - 13:07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-| **Entrevista 3** | **Joaquin Rivadeneyra** |
-| --- | --- |
-| **Edad** | 30 |
-| **Ocupación** | Vendedor de ferretería |
-| **Distrito** | San Isidro |
-| **Fecha** | 25/02/2025 |
+| **Entrevista 3**                                                 | **Joaquin Rivadeneyra**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**                                                         | 30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Ocupación**                                                    | Vendedor de ferretería                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Distrito**                                                     | San Isidro                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Fecha**                                                        | 25/02/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | <img src="./assets/CAP2/entrevistas/segmento1_entrevista3.png"/> | La entrevista fue realizada a Joaquín Rivadeneyra, vendedor de una ferretería en San Isidro. Él nos comentó que, aunque actualmente manejan algunas operaciones básicas usando Excel, la actualización manual de la información sobre productos y ventas suele generar problemas, como retrasos y errores. Además, expresó su interés en poder visualizar las ventas de productos directamente desde su celular, de manera organizada por día, semana o mes, a través de una aplicación móvil. Joaquín mostró apertura e interés en adoptar nuevas herramientas digitales que le permitan enfocarse más en brindar una mejor atención al cliente y dejar de lado tareas manuales que podrían automatizarse. |
-| **URL de la grabación** | [Ver grabación](https://drive.google.com/file/d/1zkr3rz3kmR91LIvie-rRVOKwGDu31ldK/view?usp=sharing) |
-| **Timming** | 13:08 - 14:59 |
-
-
-
-
-
+| **URL de la grabación**                                          | [Ver grabación](https://drive.google.com/file/d/1zkr3rz3kmR91LIvie-rRVOKwGDu31ldK/view?usp=sharing)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Timming**                                                      | 13:08 - 14:59                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 
 **Entrevistas realizadas a Administradores (Segmento 2):**
 
-| **Entrevista 4** | **Luna Doly** |
-| --- | --- |
-| **Edad** | 30 |
-| **Ocupación** | Administradora de una ferretería |
-| **Distrito** | Jesús María, Lima |
-| **Fecha** | 23/04/2025 |
+| **Entrevista 4**                                                 | **Luna Doly**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Edad**                                                         | 30                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Ocupación**                                                    | Administradora de una ferretería                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Distrito**                                                     | Jesús María, Lima                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Fecha**                                                        | 23/04/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | <img src="./assets/CAP2/entrevistas/segmento2_entrevista1.png"/> | La entrevista se realizó con Luna, administradora de una ferretería en Lima con más de 7 años de experiencia en el cargo. Actualmente gestiona el negocio utilizando principalmente Excel y realiza el seguimiento del stock y las ventas de forma manual. Está interesada en contar con una plataforma web sencilla que le permita visualizar el rendimiento de los vendedores, los productos más vendidos y hacer proyecciones de ganancias. Aunque se siente cómoda usando computadoras, prefiere herramientas simples y visuales. Sus principales frustraciones incluyen la falta de información actualizada y errores en los registros. Como administradora, su objetivo es optimizar la gestión del negocio, crecer y mejorar la organización interna con ayuda de herramientas digitales. |
-| **URL de la grabación** | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timming** | 15:00 - 19:29 |
+| **URL de la grabación**                                          | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Timming**                                                      | 15:00 - 19:29                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
-| **Entrevista 5** | **Sandro Alarcon** |
-| --- | --- |
-| **Edad** | 22 |
-| **Ocupación** | Administradora de una ferretería |
-| **Distrito** | San Juan de Lurigancho |
-| **Fecha** | 25/04/2025 |
-| <img src="./assets/CAP2/entrevistas/segmento2_entrevista2.png"/> | La entrevista fue realizada a Sandro Alarcón, administrador de stock en una ferretería ubicada en Lima. Nos comentó que actualmente sigue utilizando métodos tradicionales como Excel para llevar el control de su inventario y reportes de productos. Sin embargo, señala que este proceso manual suele generar errores y retrasos, ya que depende mucho de la actualización constante y del cruce de información entre áreas. Sandro expresó su interés en adoptar nuevas herramientas digitales que puedan automatizar la gestión de stock y facilitar el trabajo de su equipo, considerando que una mejor organización beneficiaría directamente la eficiencia de las operaciones de la ferretería.
+| **Entrevista 5**                                                 | **Sandro Alarcon**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**                                                         | 22                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Ocupación**                                                    | Administradora de una ferretería                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Distrito**                                                     | San Juan de Lurigancho                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Fecha**                                                        | 25/04/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| <img src="./assets/CAP2/entrevistas/segmento2_entrevista2.png"/> | La entrevista fue realizada a Sandro Alarcón, administrador de stock en una ferretería ubicada en Lima. Nos comentó que actualmente sigue utilizando métodos tradicionales como Excel para llevar el control de su inventario y reportes de productos. Sin embargo, señala que este proceso manual suele generar errores y retrasos, ya que depende mucho de la actualización constante y del cruce de información entre áreas. Sandro expresó su interés en adoptar nuevas herramientas digitales que puedan automatizar la gestión de stock y facilitar el trabajo de su equipo, considerando que una mejor organización beneficiaría directamente la eficiencia de las operaciones de la ferretería. |
 
- |
+|
 | **URL de la grabación** | [Ver grabación](https://drive.google.com/file/d/1iID1DdarOEO1mxRYp2umK0TZTGq7Nanh/view?usp=sharing) |
 | **Timming** | 19:30 - 23:54 |
 
-| **Entrevista 6** | **Oscar Palacios** |
-| --- | --- |
-| **Edad** | 64 |
-| **Ocupación** | Administradora de una ferretería |
-| **Distrito** | Ica, Ica |
-| **Fecha** | 25/04/2025 |
-| <img src="./assets/CAP2/entrevistas/segmento2_entrevista3.png"/> | La entrevista fue realizada a Oscar Palacios, administrador de una ferreteria en Ica, el nos comento como aun mantiene el uso tecnologias populares como Excel, para el manejo de su stock y sus ventas; sin embargo nos comenta también que esto lo mantiene con complicaciones, ya que es necesario realizar este procedemiento de manera manual y estar revisando constantemente los posibles cambios que puedan realizar, además de mantenerlo actualizado manualmente. Nos comenta también su gusto por utilizar nuevas herramientas que le ayuden con estos procesos y ayuden a sus trbajadores, ya que para él ellos son los principales pilares de su negocio.|
-| **URL de la grabación** | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
-| **Timming** | 23:54 - 34:57 |
+| **Entrevista 6**                                                 | **Oscar Palacios**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Edad**                                                         | 64                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Ocupación**                                                    | Administradora de una ferretería                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Distrito**                                                     | Ica, Ica                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Fecha**                                                        | 25/04/2025                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <img src="./assets/CAP2/entrevistas/segmento2_entrevista3.png"/> | La entrevista fue realizada a Oscar Palacios, administrador de una ferreteria en Ica, el nos comento como aun mantiene el uso tecnologias populares como Excel, para el manejo de su stock y sus ventas; sin embargo nos comenta también que esto lo mantiene con complicaciones, ya que es necesario realizar este procedemiento de manera manual y estar revisando constantemente los posibles cambios que puedan realizar, además de mantenerlo actualizado manualmente. Nos comenta también su gusto por utilizar nuevas herramientas que le ayuden con estos procesos y ayuden a sus trbajadores, ya que para él ellos son los principales pilares de su negocio. |
+| **URL de la grabación**                                          | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EQyW_4djMuFMgKZ8MJIkTT8BO4xZSEQEqDnaa-aJvuoJhg?e=7c6UWt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                                                                                                                                                                                                                |
+| **Timming**                                                      | 23:54 - 34:57                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -656,24 +677,24 @@ En base a las entrevistas realizadas, se ha llegado a la conclusión de 1 análi
 **Segmento 1: Vendedor**
 
 - Entrevista 1: Carlos Raul
-Carlos es un joven vendedor de 23 años que tiene casi dos años trabajando en una ferretería. Actualmente, se enfrenta a la frustración de buscar productos de forma manual, lo que genera demoras, especialmente cuando los clientes no saben el nombre del producto. Su principal desafío es encontrar rápidamente los productos y confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos se siente cómodo utilizando tecnología y considera útil una app con reconocimiento de objetos para mejorar la eficiencia en su trabajo. Esto le permitiría identificar productos, verificar precios y disponibilidad en tiempo real, mejorando la atención al cliente.
+  Carlos es un joven vendedor de 23 años que tiene casi dos años trabajando en una ferretería. Actualmente, se enfrenta a la frustración de buscar productos de forma manual, lo que genera demoras, especialmente cuando los clientes no saben el nombre del producto. Su principal desafío es encontrar rápidamente los productos y confirmar su disponibilidad, ya que no cuentan con un sistema digital de stock. Carlos se siente cómodo utilizando tecnología y considera útil una app con reconocimiento de objetos para mejorar la eficiencia en su trabajo. Esto le permitiría identificar productos, verificar precios y disponibilidad en tiempo real, mejorando la atención al cliente.
 
 - Entrevista 2: Roberto Carranza
-Roberto, un vendedor de 25 años, utiliza un software antiguo para gestionar el stock y los precios de los productos, lo cual resulta ineficiente y le ha causado pérdidas de ventas. Uno de sus mayores problemas es cuando los clientes traen muestras sin saber el nombre del producto, ya que el sistema solo responde a búsquedas exactas. Roberto ve el valor de una aplicación que pueda reconocer productos a partir de una muestra y mostrar diferentes opciones con precios y stock disponible. Esto facilitaría su trabajo, permitiéndole ofrecer mejores opciones al cliente de manera más rápida.
+  Roberto, un vendedor de 25 años, utiliza un software antiguo para gestionar el stock y los precios de los productos, lo cual resulta ineficiente y le ha causado pérdidas de ventas. Uno de sus mayores problemas es cuando los clientes traen muestras sin saber el nombre del producto, ya que el sistema solo responde a búsquedas exactas. Roberto ve el valor de una aplicación que pueda reconocer productos a partir de una muestra y mostrar diferentes opciones con precios y stock disponible. Esto facilitaría su trabajo, permitiéndole ofrecer mejores opciones al cliente de manera más rápida.
 
 - Entrevista 3: Joaquín Rivadeneyra
-Joaquín, un vendedor de 30 años, utiliza Excel para gestionar productos y ventas, pero esto le genera retrasos y errores debido a la actualización manual de la información. Él expresó su interés en una solución que le permita ver las ventas de productos desde su celular, organizadas por día, semana o mes. Está dispuesto a adoptar nuevas herramientas digitales que optimicen su tiempo y le permitan enfocarse más en brindar atención al cliente, delegando tareas administrativas a la tecnología. Esto reflejó una clara necesidad de herramientas que automatizan el proceso de visualización y gestión de ventas.
+  Joaquín, un vendedor de 30 años, utiliza Excel para gestionar productos y ventas, pero esto le genera retrasos y errores debido a la actualización manual de la información. Él expresó su interés en una solución que le permita ver las ventas de productos desde su celular, organizadas por día, semana o mes. Está dispuesto a adoptar nuevas herramientas digitales que optimicen su tiempo y le permitan enfocarse más en brindar atención al cliente, delegando tareas administrativas a la tecnología. Esto reflejó una clara necesidad de herramientas que automatizan el proceso de visualización y gestión de ventas.
 
 **Segmento 2: Administrador**
 
 - Entrevista 4: Luna Doly
-Luna es una administradora de 30 años con más de 7 años de experiencia en el sector. Actualmente, gestiona el negocio utilizando Excel, lo que le genera frustraciones debido a la falta de información actualizada y errores en los registros. Luna busca una plataforma web sencilla que le permita visualizar el rendimiento de los vendedores, identificar los productos más vendidos y hacer proyecciones de ganancias. A pesar de que se siente cómoda usando computadoras, prefiere herramientas simples y visuales que faciliten la gestión de su negocio, mejoren la organización interna y optimicen los procesos.
+  Luna es una administradora de 30 años con más de 7 años de experiencia en el sector. Actualmente, gestiona el negocio utilizando Excel, lo que le genera frustraciones debido a la falta de información actualizada y errores en los registros. Luna busca una plataforma web sencilla que le permita visualizar el rendimiento de los vendedores, identificar los productos más vendidos y hacer proyecciones de ganancias. A pesar de que se siente cómoda usando computadoras, prefiere herramientas simples y visuales que faciliten la gestión de su negocio, mejoren la organización interna y optimicen los procesos.
 
 - Entrevista 5: Sandro Alarcón
-Sandro, administrador de 22 años, utiliza Excel para llevar el control del inventario y los reportes de productos. Aunque se siente cómodo con esta herramienta, reconoce que el proceso manual puede generar errores y retrasos, lo que afecta la eficiencia operativa. Sandro está interesado en herramientas digitales que puedan automatizar la gestión del stock, mejorando la organización y eficiencia de las operaciones de la ferretería. Considera que una solución digital permitiría una mejor coordinación entre los equipos y una optimización de los procesos.
+  Sandro, administrador de 22 años, utiliza Excel para llevar el control del inventario y los reportes de productos. Aunque se siente cómodo con esta herramienta, reconoce que el proceso manual puede generar errores y retrasos, lo que afecta la eficiencia operativa. Sandro está interesado en herramientas digitales que puedan automatizar la gestión del stock, mejorando la organización y eficiencia de las operaciones de la ferretería. Considera que una solución digital permitiría una mejor coordinación entre los equipos y una optimización de los procesos.
 
 - Entrevista 6: Oscar Palacios
-Oscar, administrador de 64 años en Ica, también utiliza Excel para la gestión de stock y ventas, lo que le ha causado complicaciones debido a la necesidad de actualizar la información manualmente. Aunque sigue siendo dependiente de métodos tradicionales, está abierto a adoptar nuevas herramientas digitales que ayuden a automatizar los procesos y optimicen la gestión de la ferretería. Oscar ve a sus trabajadores como los pilares del negocio y considera que la tecnología podría facilitar su trabajo, mejorando la eficiencia en la operación.
+  Oscar, administrador de 64 años en Ica, también utiliza Excel para la gestión de stock y ventas, lo que le ha causado complicaciones debido a la necesidad de actualizar la información manualmente. Aunque sigue siendo dependiente de métodos tradicionales, está abierto a adoptar nuevas herramientas digitales que ayuden a automatizar los procesos y optimicen la gestión de la ferretería. Oscar ve a sus trabajadores como los pilares del negocio y considera que la tecnología podría facilitar su trabajo, mejorando la eficiencia en la operación.
 
 ## 2.3. Needfinding.
 
@@ -839,6 +860,7 @@ En esta sección, se definen términos clave para el dominio del negocio, basán
 # Capítulo III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping.
+
 En esta sección, se visualiza el rendimiento esperado de la solución propuesta después de su implementación, se presentarán los flujos de trabajo, las interacciones y las mejoras con respecto al estado actual, resaltando cómo la aplicación propuesta resolverá problemas y optimizará los procesos existentes.
 
 **Segmento 1: Vendedor:**
@@ -850,6 +872,7 @@ En esta sección, se visualiza el rendimiento esperado de la solución propuesta
 ![To-be-Administrador](./assets/capitulo-3/To-Be%20Administrador.png)
 
 ## 3.2. User Stories.
+
 En esta sección, se presentan las User Stories que rescatan las necesidades principales de nuestros usuarios finales, tanto vendedores como los administradores. Esto nos ayuda a definir y a priorizar funcionalidades críticas para asegurar que la aplicación cumpla con las expectativas del usuario.
 
 <table align="center">
@@ -1310,6 +1333,7 @@ En esta sección, se presentan las User Stories que rescatan las necesidades pri
 </table>
 
 ## 3.3. Impact Mapping.
+
 - Vendedor
 
 <img src="assets/capitulo-3/Impact map 1.png" alt="Impact map 1" width="900"/>
@@ -1320,39 +1344,39 @@ En esta sección, se presentan las User Stories que rescatan las necesidades pri
 
 ## 3.4. Product Backlog.
 
-| Orden | User Story ID | Título | Descripción | Story Points |
-|:-----:|:-------------:|:------:|:-----------:|:------------:|
-| 1 | HU-01 | Registrar cuenta | Como usuario, quiero crear una cuenta para poder acceder a la aplicación. | 2 |
-| 2 | HU-02 | Iniciar sesión | Como usuario, quiero ingresar a mi cuenta para utilizar la aplicación. | 1 |
-| 3 | HU-05 | Escanear productos con la cámara | Como vendedor, quiero identificar productos escaneándolos con la cámara para ahorrar tiempo. | 5 |
-| 4 | HU-06 | Verificar disponibilidad en stock | Como vendedor, quiero conocer el stock de un producto escaneado para saber si puedo venderlo. | 3 |
-| 5 | HU-07 | Reservar producto escaneado | Como vendedor, quiero reservar productos para asegurar su disponibilidad. | 3 |
-| 6 | HU-08 | Ver historial de escaneos recientes | Como vendedor, quiero ver los últimos productos escaneados para agilizar consultas. | 2 |
-| 7 | HU-09 | Registrar una venta | Como vendedor, quiero registrar una venta para llevar control de las transacciones. | 5 |
-| 8 | HU-10 | Generar recibo de venta | Como vendedor, quiero generar un recibo luego de registrar una venta para el cliente. | 3 |
-| 9 | HU-11 | Cancelar venta registrada recientemente | Como vendedor, quiero cancelar una venta reciente en caso de error. | 3 |
-| 10 | HU-16 | Registro de Entrada | Como vendedor, quiero registrar mi hora de entrada al trabajo. | 2 |
-| 11 | HU-17 | Registro de Salida | Como vendedor, quiero registrar mi hora de salida para completar la jornada. | 2 |
-| 12 | HU-19 | Recordatorio de Marcación | Como vendedor, quiero recibir una notificación si olvido marcar entrada. | 2 |
-| 13 | HU-03 | Cerrar sesión | Como usuario, quiero cerrar sesión para mantener mis datos seguros. | 1 |
-| 14 | HU-04 | Recuperar Contraseña | Como usuario, quiero recuperar mi contraseña si la olvido. | 2 |
-| 15 | HU-12 | Revisar ventas realizadas | Como administrador, quiero revisar ventas realizadas por los vendedores. | 5 |
-| 16 | HU-21 | Visualización de reportes diarios de ventas | Como administrador, quiero ver reportes diarios de ventas para gestionar stock. | 5 |
-| 17 | HU-22 | Visualización sobre sugerencias de compras | Como administrador, quiero recibir sugerencias automáticas de compras. | 3 |
-| 18 | HU-23 | Visualización de proyecciones mensuales o rango | Como administrador, quiero ver proyecciones de ventas y stock. | 3 |
-| 19 | HU-24 | Exportar reportes a formatos descargables | Como administrador, quiero exportar los reportes en PDF o Excel. | 2 |
-| 20 | HU-13 | Ver ubicación de vendedores activos | Como administrador, quiero ver en el mapa la ubicación de vendedores. | 5 |
-| 21 | HU-14 | Recibir alertas por inactividad o desvíos | Como administrador, quiero recibir alertas si un vendedor está inactivo o desviado. | 5 |
-| 22 | HU-15 | Consultar historial de rutas por fecha | Como administrador, quiero consultar rutas seguidas por los vendedores. | 3 |
-| 23 | HU-18 | Consultar Historial de Asistencia | Como administrador, quiero consultar el historial de asistencia de vendedores. | 3 |
-| 24 | HU-20 | Generar Reporte Mensual | Como administrador, quiero generar un reporte mensual de asistencia. | 2 |
-| 25 | TS-01 | Desarrollar API para registro de usuario | Como Developer, quiero desarrollar una API que permita registrar cuentas de usuario. | 3 |
-| 26 | TS-02 | Desarrollar API para autenticación de usuario | Como Developer, quiero crear una API que valide credenciales y genere token de autenticación. | 3 |
-| 27 | TS-03 | Desarrollar API para escanear productos | Como Developer, quiero crear una API que reciba imagen o código de barras y devuelva información del producto. | 5 |
-| 28 | TS-04 | Desarrollar API para registrar una venta | Como Developer, quiero crear una API que registre productos vendidos, cantidades y total. | 5 |
-| 29 | TS-05 | Desarrollar API para generar reportes de ventas | Como Developer, quiero crear una API que genere reportes filtrados por fechas, vendedores o categorías. | 5 |
-| 30 | TS-06 | Desarrollar API para exportación de reportes | Como Developer, quiero crear una API que permita exportar los reportes en PDF o Excel. | 3 |
-| 31 | TS-07 | Desarrollar API para geolocalización de vendedores | Como Developer, quiero crear una API que registre coordenadas de vendedores en tiempo real. | 5 |
+| Orden | User Story ID |                       Título                       |                                                  Descripción                                                   | Story Points |
+| :---: | :-----------: | :------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :----------: |
+|   1   |     HU-01     |                  Registrar cuenta                  |                   Como usuario, quiero crear una cuenta para poder acceder a la aplicación.                    |      2       |
+|   2   |     HU-02     |                   Iniciar sesión                   |                     Como usuario, quiero ingresar a mi cuenta para utilizar la aplicación.                     |      1       |
+|   3   |     HU-05     |          Escanear productos con la cámara          |          Como vendedor, quiero identificar productos escaneándolos con la cámara para ahorrar tiempo.          |      5       |
+|   4   |     HU-06     |         Verificar disponibilidad en stock          |         Como vendedor, quiero conocer el stock de un producto escaneado para saber si puedo venderlo.          |      3       |
+|   5   |     HU-07     |            Reservar producto escaneado             |                   Como vendedor, quiero reservar productos para asegurar su disponibilidad.                    |      3       |
+|   6   |     HU-08     |        Ver historial de escaneos recientes         |              Como vendedor, quiero ver los últimos productos escaneados para agilizar consultas.               |      2       |
+|   7   |     HU-09     |                Registrar una venta                 |              Como vendedor, quiero registrar una venta para llevar control de las transacciones.               |      5       |
+|   8   |     HU-10     |              Generar recibo de venta               |             Como vendedor, quiero generar un recibo luego de registrar una venta para el cliente.              |      3       |
+|   9   |     HU-11     |      Cancelar venta registrada recientemente       |                      Como vendedor, quiero cancelar una venta reciente en caso de error.                       |      3       |
+|  10   |     HU-16     |                Registro de Entrada                 |                         Como vendedor, quiero registrar mi hora de entrada al trabajo.                         |      2       |
+|  11   |     HU-17     |                 Registro de Salida                 |                  Como vendedor, quiero registrar mi hora de salida para completar la jornada.                  |      2       |
+|  12   |     HU-19     |             Recordatorio de Marcación              |                    Como vendedor, quiero recibir una notificación si olvido marcar entrada.                    |      2       |
+|  13   |     HU-03     |                   Cerrar sesión                    |                      Como usuario, quiero cerrar sesión para mantener mis datos seguros.                       |      1       |
+|  14   |     HU-04     |                Recuperar Contraseña                |                           Como usuario, quiero recuperar mi contraseña si la olvido.                           |      2       |
+|  15   |     HU-12     |             Revisar ventas realizadas              |                    Como administrador, quiero revisar ventas realizadas por los vendedores.                    |      5       |
+|  16   |     HU-21     |    Visualización de reportes diarios de ventas     |                Como administrador, quiero ver reportes diarios de ventas para gestionar stock.                 |      5       |
+|  17   |     HU-22     |     Visualización sobre sugerencias de compras     |                     Como administrador, quiero recibir sugerencias automáticas de compras.                     |      3       |
+|  18   |     HU-23     |  Visualización de proyecciones mensuales o rango   |                         Como administrador, quiero ver proyecciones de ventas y stock.                         |      3       |
+|  19   |     HU-24     |     Exportar reportes a formatos descargables      |                        Como administrador, quiero exportar los reportes en PDF o Excel.                        |      2       |
+|  20   |     HU-13     |        Ver ubicación de vendedores activos         |                     Como administrador, quiero ver en el mapa la ubicación de vendedores.                      |      5       |
+|  21   |     HU-14     |     Recibir alertas por inactividad o desvíos      |              Como administrador, quiero recibir alertas si un vendedor está inactivo o desviado.               |      5       |
+|  22   |     HU-15     |       Consultar historial de rutas por fecha       |                    Como administrador, quiero consultar rutas seguidas por los vendedores.                     |      3       |
+|  23   |     HU-18     |         Consultar Historial de Asistencia          |                 Como administrador, quiero consultar el historial de asistencia de vendedores.                 |      3       |
+|  24   |     HU-20     |              Generar Reporte Mensual               |                      Como administrador, quiero generar un reporte mensual de asistencia.                      |      2       |
+|  25   |     TS-01     |      Desarrollar API para registro de usuario      |              Como Developer, quiero desarrollar una API que permita registrar cuentas de usuario.              |      3       |
+|  26   |     TS-02     |   Desarrollar API para autenticación de usuario    |         Como Developer, quiero crear una API que valide credenciales y genere token de autenticación.          |      3       |
+|  27   |     TS-03     |      Desarrollar API para escanear productos       | Como Developer, quiero crear una API que reciba imagen o código de barras y devuelva información del producto. |      5       |
+|  28   |     TS-04     |      Desarrollar API para registrar una venta      |           Como Developer, quiero crear una API que registre productos vendidos, cantidades y total.            |      5       |
+|  29   |     TS-05     |  Desarrollar API para generar reportes de ventas   |    Como Developer, quiero crear una API que genere reportes filtrados por fechas, vendedores o categorías.     |      5       |
+|  30   |     TS-06     |    Desarrollar API para exportación de reportes    |             Como Developer, quiero crear una API que permita exportar los reportes en PDF o Excel.             |      3       |
+|  31   |     TS-07     | Desarrollar API para geolocalización de vendedores |          Como Developer, quiero crear una API que registre coordenadas de vendedores en tiempo real.           |      5       |
 
 # Capítulo IV: Strategic-Level Software Design.
 
@@ -1363,6 +1387,7 @@ En esta sección, se presentan las User Stories que rescatan las necesidades pri
 El propósito del diseño es desarrollar una solución tecnológica compuesta por una aplicación móvil para vendedores y una aplicación web para administradores. Esta solución debe facilitar la **gestión de productos**, **ventas y stock**, optimizando los tiempos de atención y asegurando la trazabilidad de las operaciones.
 
 ### 4.1.2. Attribute-Driven Design Inputs.
+
 - Como **vendedor**, quiero usar reconocimiento de objetos para identificar productos rápidamente.
 
 - Como **vendedor**, quiero verificar el stock en tiempo real para confirmar la disponibilidad del producto.
@@ -1386,22 +1411,25 @@ El propósito del diseño es desarrollar una solución tecnológica compuesta po
 - Como **cliente**, quiero ver el catálogo de productos con sus descripciones y precios.
 
 #### 4.1.2.1. Primary Functionality (Primary User Stories).
-Con el objetivo de priorizar las historias de usuario clave para el funcionamiento básico del sistema y la satisfacción de los usuarios finales, se listaron aquellas con mayor impacto funcional y valor de negocio en el *product backlog*.
 
-| ID   | Título                                  | Descripción                                                                                                                                                                                                                             | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                           | Relacionado con (Epic ID) |
-|------|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| US01 | Reconocimiento de Producto por Imagen    | Como vendedor, quiero escanear un producto con la cámara del celular para obtener su información automáticamente, de forma rápida y precisa.                                                                                           | Escenario 1: Reconocimiento exitoso. Dado que el vendedor escanea un producto, cuando el sistema reconoce el objeto, entonces se muestra su información (nombre, precio, stock).<br>Escenario 2: Error en reconocimiento. Dado que el sistema no reconoce el producto, cuando el vendedor lo escanea, entonces se muestra un mensaje indicando que no se encontró y se sugiere verificar la imagen o buscar manualmente. | EP01                       |
-| US02 | Registro de Venta                        | Como vendedor, quiero registrar rápidamente la venta de un producto reconocido, para agilizar el proceso de atención al cliente.                                                                                                        | Escenario 1: Venta registrada correctamente. Dado que el producto fue reconocido, cuando el vendedor selecciona "Registrar venta", entonces la venta se almacena en el sistema y se actualiza el stock.<br>Escenario 2: Error en el registro. Dado un fallo en el sistema, cuando el vendedor intenta registrar la venta, entonces se muestra un mensaje de error y se sugiere reintentar.                            | EP02                       |
-| US03 | Seguimiento de Ventas                    | Como administrador, quiero acceder a un panel donde pueda ver un resumen de las ventas realizadas, para monitorear el rendimiento del negocio.                                                                                        | Escenario 1: Visualización de estadísticas. Dado que el administrador accede al panel de ventas, cuando selecciona un rango de fechas, entonces el sistema muestra gráficos y datos agregados.<br>Escenario 2: Fallo en la carga del panel. Dado un error del sistema, cuando el administrador intenta visualizar las estadísticas, entonces se muestra un mensaje indicando la falla.                         | EP03                       |
-| US04 | Proyecciones de Ventas                   | Como administrador, quiero ver proyecciones de ventas futuras basadas en el historial, para tomar decisiones informadas sobre inventario y estrategia comercial.                                                                       | Escenario 1: Proyección generada. Dado que el sistema cuenta con suficientes datos históricos, cuando el administrador solicita una proyección, entonces se muestra un gráfico con estimaciones de venta.<br>Escenario 2: Datos insuficientes. Dado que el historial de ventas es insuficiente, cuando se solicite una proyección, el sistema informará que no puede generar predicciones precisas aún.             | EP04                       |
+Con el objetivo de priorizar las historias de usuario clave para el funcionamiento básico del sistema y la satisfacción de los usuarios finales, se listaron aquellas con mayor impacto funcional y valor de negocio en el _product backlog_.
+
+| ID   | Título                                | Descripción                                                                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                  | Relacionado con (Epic ID) |
+| ---- | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- |
+| US01 | Reconocimiento de Producto por Imagen | Como vendedor, quiero escanear un producto con la cámara del celular para obtener su información automáticamente, de forma rápida y precisa.                     | Escenario 1: Reconocimiento exitoso. Dado que el vendedor escanea un producto, cuando el sistema reconoce el objeto, entonces se muestra su información (nombre, precio, stock).<br>Escenario 2: Error en reconocimiento. Dado que el sistema no reconoce el producto, cuando el vendedor lo escanea, entonces se muestra un mensaje indicando que no se encontró y se sugiere verificar la imagen o buscar manualmente. | EP01                      |
+| US02 | Registro de Venta                     | Como vendedor, quiero registrar rápidamente la venta de un producto reconocido, para agilizar el proceso de atención al cliente.                                 | Escenario 1: Venta registrada correctamente. Dado que el producto fue reconocido, cuando el vendedor selecciona "Registrar venta", entonces la venta se almacena en el sistema y se actualiza el stock.<br>Escenario 2: Error en el registro. Dado un fallo en el sistema, cuando el vendedor intenta registrar la venta, entonces se muestra un mensaje de error y se sugiere reintentar.                               | EP02                      |
+| US03 | Seguimiento de Ventas                 | Como administrador, quiero acceder a un panel donde pueda ver un resumen de las ventas realizadas, para monitorear el rendimiento del negocio.                   | Escenario 1: Visualización de estadísticas. Dado que el administrador accede al panel de ventas, cuando selecciona un rango de fechas, entonces el sistema muestra gráficos y datos agregados.<br>Escenario 2: Fallo en la carga del panel. Dado un error del sistema, cuando el administrador intenta visualizar las estadísticas, entonces se muestra un mensaje indicando la falla.                                   | EP03                      |
+| US04 | Proyecciones de Ventas                | Como administrador, quiero ver proyecciones de ventas futuras basadas en el historial, para tomar decisiones informadas sobre inventario y estrategia comercial. | Escenario 1: Proyección generada. Dado que el sistema cuenta con suficientes datos históricos, cuando el administrador solicita una proyección, entonces se muestra un gráfico con estimaciones de venta.<br>Escenario 2: Datos insuficientes. Dado que el historial de ventas es insuficiente, cuando se solicite una proyección, el sistema informará que no puede generar predicciones precisas aún.                  | EP04                      |
+
 #### 4.1.2.2. Quality attribute Scenarios.
-| **Aspecto**     | **Escenario**                                                                                       | **Respuesta**                                                                                  |
-|------------------|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Rendimiento      | Cuando un vendedor escanea un objeto, la aplicación debe mostrar la información del producto en 2 segundos. | Alta prioridad, debe cumplirse para asegurar la satisfacción del usuario.                     |
-| Usabilidad       | La interfaz de la aplicación móvil debe ser intuitiva, permitiendo que un nuevo vendedor aprenda las funciones básicas en 10 minutos de uso inicial. | El diseño debe priorizar la claridad y la navegación sencilla.                                |
-| Seguridad        | El acceso a datos sensibles como los registros de ventas debe requerir mecanismos de autenticación y autorización. | Crítico para proteger la información del negocio.                                             |
-| Disponibilidad   | La aplicación debe estar disponible el 99.9% del tiempo durante las horas de trabajo.             | Necesario para operaciones diarias confiables.                                                |
-| Mantenibilidad   | El código debe ser modular y bien documentado para permitir actualizaciones y depuraciones sencillas. | Mejora la eficiencia del desarrollo y soporte a largo plazo.                                  |
+
+| **Aspecto**    | **Escenario**                                                                                                                                        | **Respuesta**                                                             |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Rendimiento    | Cuando un vendedor escanea un objeto, la aplicación debe mostrar la información del producto en 2 segundos.                                          | Alta prioridad, debe cumplirse para asegurar la satisfacción del usuario. |
+| Usabilidad     | La interfaz de la aplicación móvil debe ser intuitiva, permitiendo que un nuevo vendedor aprenda las funciones básicas en 10 minutos de uso inicial. | El diseño debe priorizar la claridad y la navegación sencilla.            |
+| Seguridad      | El acceso a datos sensibles como los registros de ventas debe requerir mecanismos de autenticación y autorización.                                   | Crítico para proteger la información del negocio.                         |
+| Disponibilidad | La aplicación debe estar disponible el 99.9% del tiempo durante las horas de trabajo.                                                                | Necesario para operaciones diarias confiables.                            |
+| Mantenibilidad | El código debe ser modular y bien documentado para permitir actualizaciones y depuraciones sencillas.                                                | Mejora la eficiencia del desarrollo y soporte a largo plazo.              |
 
 #### 4.1.2.3. Constraints.
 
@@ -1442,58 +1470,57 @@ Detekto debe garantizar que los datos de cada ferretería se manejen de forma ai
 
 Estas historias técnicas representan tareas esenciales para el soporte de funcionalidades clave, así como la mantenibilidad, rendimiento y seguridad de la aplicación.
 
-| Technical Story ID | Título                                 | Descripción                                                                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                       | Relacionado con (Epic ID) |
-|--------------------|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| TS01               | Integración del Reconocimiento por Cámara | Implementar la funcionalidad que permite acceder a la cámara del dispositivo móvil para capturar imágenes y analizarlas con el modelo de IA.        | Escenario 1: Acceso correcto a la cámara. Cuando el usuario activa la cámara desde la app, entonces se debe abrir correctamente y permitir capturar una imagen.<br>Escenario 2: Fallo de acceso. Si la cámara no puede abrirse, mostrar error. | EP01                       |
-| TS02               | Entrenamiento del Modelo de IA          | Entrenar y validar un modelo de machine learning capaz de identificar productos desde imágenes capturadas.                                          | Escenario 1: Precisión mayor al 90%. Al evaluar el modelo, debe alcanzar al menos un 90% de precisión en el reconocimiento.<br>Escenario 2: Generación de reporte de métricas de desempeño del modelo.                                      | EP01                       |
-| TS03               | API de Ventas                           | Diseñar e implementar una API RESTful para registrar y consultar ventas realizadas a través de la aplicación móvil.                                 | Escenario 1: Registro exitoso. Cuando se envía una venta por POST, debe almacenarse correctamente y devolver una respuesta 200.<br>Escenario 2: Validación de campos obligatorios en el request.                                           | EP02                       |
-| TS04               | Panel de Control para Administradores   | Crear el módulo backend y frontend para mostrar las estadísticas de ventas y proyecciones a los administradores.                                   | Escenario 1: El administrador puede consultar estadísticas por fecha y ver gráficos.<br>Escenario 2: El sistema debe alertar si los datos son insuficientes para proyecciones.                                                            | EP03 / EP04                |
-| TS05               | Sistema de Autenticación                | Implementar un sistema de autenticación segura con tokens JWT para proteger rutas de administrador y vendedor.                                     | Escenario 1: Login válido. Dado un usuario registrado, cuando introduce sus credenciales, recibe un token JWT válido.<br>Escenario 2: Acceso restringido sin token. Si no hay token, no se puede acceder a rutas protegidas.               | EP03                       |
-
+| Technical Story ID | Título                                    | Descripción                                                                                                                                  | Criterios de Aceptación                                                                                                                                                                                                                        | Relacionado con (Epic ID) |
+| ------------------ | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| TS01               | Integración del Reconocimiento por Cámara | Implementar la funcionalidad que permite acceder a la cámara del dispositivo móvil para capturar imágenes y analizarlas con el modelo de IA. | Escenario 1: Acceso correcto a la cámara. Cuando el usuario activa la cámara desde la app, entonces se debe abrir correctamente y permitir capturar una imagen.<br>Escenario 2: Fallo de acceso. Si la cámara no puede abrirse, mostrar error. | EP01                      |
+| TS02               | Entrenamiento del Modelo de IA            | Entrenar y validar un modelo de machine learning capaz de identificar productos desde imágenes capturadas.                                   | Escenario 1: Precisión mayor al 90%. Al evaluar el modelo, debe alcanzar al menos un 90% de precisión en el reconocimiento.<br>Escenario 2: Generación de reporte de métricas de desempeño del modelo.                                         | EP01                      |
+| TS03               | API de Ventas                             | Diseñar e implementar una API RESTful para registrar y consultar ventas realizadas a través de la aplicación móvil.                          | Escenario 1: Registro exitoso. Cuando se envía una venta por POST, debe almacenarse correctamente y devolver una respuesta 200.<br>Escenario 2: Validación de campos obligatorios en el request.                                               | EP02                      |
+| TS04               | Panel de Control para Administradores     | Crear el módulo backend y frontend para mostrar las estadísticas de ventas y proyecciones a los administradores.                             | Escenario 1: El administrador puede consultar estadísticas por fecha y ver gráficos.<br>Escenario 2: El sistema debe alertar si los datos son insuficientes para proyecciones.                                                                 | EP03 / EP04               |
+| TS05               | Sistema de Autenticación                  | Implementar un sistema de autenticación segura con tokens JWT para proteger rutas de administrador y vendedor.                               | Escenario 1: Login válido. Dado un usuario registrado, cuando introduce sus credenciales, recibe un token JWT válido.<br>Escenario 2: Acceso restringido sin token. Si no hay token, no se puede acceder a rutas protegidas.                   | EP03                      |
 
 ### 4.1.3. Architectural Drivers Backlog
 
 Esta sección identifica los impulsores clave de la arquitectura que influyen significativamente en las decisiones de diseño del sistema.
 
-| Driver ID | Título de Driver                     | Descripción                                                                                                           | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
-|-----------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------|----------------------------------------------|
-| AD01      | Rendimiento en Reconocimiento de Objetos | El sistema debe reconocer objetos en menos de 2 segundos para asegurar fluidez en la experiencia de venta.            | High                          | High                                         |
-| AD02      | Seguridad de Datos de Ventas         | Los datos de ventas y usuarios deben estar protegidos mediante autenticación y autorización robusta.                  | High                          | Medium                                       |
-| AD03      | Escalabilidad del Sistema            | El sistema debe poder escalar a múltiples usuarios y dispositivos sin pérdida significativa de rendimiento.           | Medium                        | High                                         |
-| AD04      | Disponibilidad de la Aplicación      | La app debe estar disponible el 99.9% del tiempo durante horarios de venta.                                           | High                          | Medium                                       |
-| AD05      | Mantenibilidad del Código            | El sistema debe tener un código modular y documentado para facilitar actualizaciones futuras.                         | Medium                        | Medium                                       |
-| AD06      | Interfaz Intuitiva                   | La interfaz debe ser lo suficientemente sencilla como para que un nuevo usuario la aprenda en 10 minutos.             | High                          | Low                                          |
+| Driver ID | Título de Driver                         | Descripción                                                                                                 | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
+| --------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- | ----------------------------- | -------------------------------------------- |
+| AD01      | Rendimiento en Reconocimiento de Objetos | El sistema debe reconocer objetos en menos de 2 segundos para asegurar fluidez en la experiencia de venta.  | High                          | High                                         |
+| AD02      | Seguridad de Datos de Ventas             | Los datos de ventas y usuarios deben estar protegidos mediante autenticación y autorización robusta.        | High                          | Medium                                       |
+| AD03      | Escalabilidad del Sistema                | El sistema debe poder escalar a múltiples usuarios y dispositivos sin pérdida significativa de rendimiento. | Medium                        | High                                         |
+| AD04      | Disponibilidad de la Aplicación          | La app debe estar disponible el 99.9% del tiempo durante horarios de venta.                                 | High                          | Medium                                       |
+| AD05      | Mantenibilidad del Código                | El sistema debe tener un código modular y documentado para facilitar actualizaciones futuras.               | Medium                        | Medium                                       |
+| AD06      | Interfaz Intuitiva                       | La interfaz debe ser lo suficientemente sencilla como para que un nuevo usuario la aprenda en 10 minutos.   | High                          | Low                                          |
 
 ### 4.1.4. Architectural Design Decisions.
 
-
 Esta sección documenta las decisiones arquitectónicas clave tomadas durante el desarrollo del sistema, incluyendo el contexto, las alternativas evaluadas y las razones de la elección final.
 
-| Decisión ID | Título de la Decisión                          | Descripción                                                                                                                                                                 | Justificación                                                                                                  |
-|-------------|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| DD01        | Uso de Arquitectura Basada en Componentes      | Se decidió estructurar la aplicación móvil y backend en componentes independientes (reconocimiento, ventas, autenticación, administración, etc.).                         | Favorece la mantenibilidad, permite trabajo paralelo y facilita futuras migraciones a microservicios.         |
-| DD02        | Integración de Modelo IA con TensorFlow Lite   | Se optó por usar TensorFlow Lite para correr el modelo de reconocimiento de objetos directamente en dispositivos móviles.                                                  | Alta precisión y velocidad en dispositivos móviles; buena compatibilidad con Android/iOS.                     |
-| DD03        | Almacenamiento en Firebase y Firestore         | Se eligió Firebase Authentication y Firestore para el backend de autenticación y almacenamiento de datos.                                                                  | Reduce complejidad operativa, ofrece escalabilidad y se integra fácilmente con apps móviles.                  |
-| DD04        | Uso de JWT para Autenticación                  | Se decidió implementar autenticación basada en tokens JWT para proteger endpoints y gestionar sesiones de usuario.                                                         | Es una solución moderna, segura y ampliamente utilizada en aplicaciones móviles/web.                          |
-| DD05        | Framework Flutter para el Frontend             | Se seleccionó Flutter como tecnología base para el desarrollo de la app móvil.                                                                                              | Permite desarrollo multiplataforma nativo (Android/iOS), alta velocidad de desarrollo y buena experiencia UX. |
-| DD06        | API RESTful para Comunicación entre Módulos    | Se adoptó REST como estilo arquitectónico para la comunicación entre frontend y backend.                                                                                    | Simplicidad, amplia adopción y fácil de consumir desde cualquier cliente HTTP.                                |
-| DD07        | Diseño Responsivo y Accesibilidad              | Se tomó la decisión de diseñar la interfaz siguiendo principios de diseño accesible y adaptable a distintos tamaños de pantalla.                                            | Mejora la experiencia del usuario y asegura inclusión de distintos perfiles de usuarios.                      |
+| Decisión ID | Título de la Decisión                        | Descripción                                                                                                                                       | Justificación                                                                                                 |
+| ----------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| DD01        | Uso de Arquitectura Basada en Componentes    | Se decidió estructurar la aplicación móvil y backend en componentes independientes (reconocimiento, ventas, autenticación, administración, etc.). | Favorece la mantenibilidad, permite trabajo paralelo y facilita futuras migraciones a microservicios.         |
+| DD02        | Integración de Modelo IA con TensorFlow Lite | Se optó por usar TensorFlow Lite para correr el modelo de reconocimiento de objetos directamente en dispositivos móviles.                         | Alta precisión y velocidad en dispositivos móviles; buena compatibilidad con Android/iOS.                     |
+| DD03        | Almacenamiento en Firebase y Firestore       | Se eligió Firebase Authentication y Firestore para el backend de autenticación y almacenamiento de datos.                                         | Reduce complejidad operativa, ofrece escalabilidad y se integra fácilmente con apps móviles.                  |
+| DD04        | Uso de JWT para Autenticación                | Se decidió implementar autenticación basada en tokens JWT para proteger endpoints y gestionar sesiones de usuario.                                | Es una solución moderna, segura y ampliamente utilizada en aplicaciones móviles/web.                          |
+| DD05        | Framework Flutter para el Frontend           | Se seleccionó Flutter como tecnología base para el desarrollo de la app móvil.                                                                    | Permite desarrollo multiplataforma nativo (Android/iOS), alta velocidad de desarrollo y buena experiencia UX. |
+| DD06        | API RESTful para Comunicación entre Módulos  | Se adoptó REST como estilo arquitectónico para la comunicación entre frontend y backend.                                                          | Simplicidad, amplia adopción y fácil de consumir desde cualquier cliente HTTP.                                |
+| DD07        | Diseño Responsivo y Accesibilidad            | Se tomó la decisión de diseñar la interfaz siguiendo principios de diseño accesible y adaptable a distintos tamaños de pantalla.                  | Mejora la experiencia del usuario y asegura inclusión de distintos perfiles de usuarios.                      |
 
 ### 4.1.5. Quality Attribute Scenario Refinements
 
 Refinamientos detallados para los escenarios de atributos de calidad, con el objetivo de precisar sus condiciones, respuestas esperadas y métricas asociadas.
 
-| Quality Attribute | Escenario Original                                                                 | Refinamiento                                                                                                                               |
-|-------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Rendimiento       | Mostrar información del producto en 2 segundos tras escanear un objeto              | El sistema debe garantizar que el tiempo total desde que el usuario abre la cámara hasta mostrar los resultados no exceda los 2000 ms.     |
-| Usabilidad        | Interfaz intuitiva que permita aprender funciones básicas en 10 minutos             | Al menos el 90% de los nuevos usuarios debe poder completar una venta simulada en menos de 10 minutos sin ayuda externa.                   |
-| Seguridad         | Requiere autenticación para acceder a datos sensibles                               | El acceso a datos sensibles debe requerir autenticación multifactor y roles de usuario (admin/vendedor) diferenciados.                    |
-| Disponibilidad    | Disponible el 99.9% del tiempo durante horas de trabajo                             | Debe haber monitoreo activo y recuperación automática ante fallos para garantizar la disponibilidad mínima de 99.9% entre 8am y 8pm.       |
-| Mantenibilidad    | Código modular y documentado                                                         | Todo nuevo módulo debe incluir pruebas unitarias, comentarios explicativos y cumplir con las guías internas de estilo y arquitectura.      |
+| Quality Attribute | Escenario Original                                                      | Refinamiento                                                                                                                           |
+| ----------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Rendimiento       | Mostrar información del producto en 2 segundos tras escanear un objeto  | El sistema debe garantizar que el tiempo total desde que el usuario abre la cámara hasta mostrar los resultados no exceda los 2000 ms. |
+| Usabilidad        | Interfaz intuitiva que permita aprender funciones básicas en 10 minutos | Al menos el 90% de los nuevos usuarios debe poder completar una venta simulada en menos de 10 minutos sin ayuda externa.               |
+| Seguridad         | Requiere autenticación para acceder a datos sensibles                   | El acceso a datos sensibles debe requerir autenticación multifactor y roles de usuario (admin/vendedor) diferenciados.                 |
+| Disponibilidad    | Disponible el 99.9% del tiempo durante horas de trabajo                 | Debe haber monitoreo activo y recuperación automática ante fallos para garantizar la disponibilidad mínima de 99.9% entre 8am y 8pm.   |
+| Mantenibilidad    | Código modular y documentado                                            | Todo nuevo módulo debe incluir pruebas unitarias, comentarios explicativos y cumplir con las guías internas de estilo y arquitectura.  |
+
 ## 4.2. Strategic-Level Domain-Driven Design.
 
-
 ### 4.2.1. EventStorming.
+
 Dentro de este punto nos encontramos con estos 9 pasos a realizar:
 
 **Step 1: Unstructured Exploration**
@@ -1654,12 +1681,13 @@ Se ha decidido utilizar los patrones de **Conformist** y **Customer/Supplier** p
 <img src="assets/capitulo-4/ContextMapping.png" alt="Context Mapping" width="900"/>
 
 Link del LucidChart: https://lucid.app/lucidchart/ebfb06fe-73a6-4849-b4dc-4d220b98fe36/edit?viewport_loc=-1926%2C-1255%2C1933%2C1013%2C0_0&invitationId=inv_c91eb06c-12ca-4864-a806-19eaf5e528d8
+
 ## 4.3. Software Architecture.
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
 
 <p align="center">
-  <img src="assets/capitulo-4/SystemLandscape.png" alt="Imagen extraída de Figma" width="900"/>
+  <img src="assets/capitulo-4/landscape.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
 ### 4.3.2. Software Architecture Context Level Diagrams.
@@ -1668,383 +1696,400 @@ Link del LucidChart: https://lucid.app/lucidchart/ebfb06fe-73a6-4849-b4dc-4d220b
   <img src="assets/capitulo-4/contexto.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
-
 ### 4.3.3. Software Architecture Deployment Diagrams.
 
 <p align="center">
-  <img src="assets/capitulo-4/contenedores.png" width="900"/>
+  <img src="assets/capitulo-4/det1.png" width="900"/>
+</p>
+<p align="center">
+  <img src="assets/capitulo-4/det2.png" width="900"/>
 </p>
 
-
 # Capítulo V: Tactical-Level Software Design.
+
 ## 5.1. Bounded Context: IAM
+
 ### 5.1.1. Domain Layer.
+
 En la capa de dominio del contexto de IAM de la aplicacion, se definen las entidades del usuario y roles. El usuario representa a diferentes tipos de usuarios que interactuan con la aplicacion. Los roles definen los permisos y privilegios de cada usuario.
 
 ### Aggregate 1: Usuario
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| Usuario    | Entidad        | Representa a un usuario de la aplicación de Detekto, y contiene información sobre la identidad y los roles del usuario. |
+| **Nombre** | **Categoría** | **Proposito**                                                                                                           |
+| ---------- | ------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Usuario    | Entidad       | Representa a un usuario de la aplicación de Detekto, y contiene información sobre la identidad y los roles del usuario. |
 
 #### Atributos del Usuario
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| id         | UUID             | Privado         | Identificador único del usuario. |
-| nombre     | String           | Privado         | Nombre del usuario. |
-| email      | String           | Privado         | Correo electrónico del usuario. |
-| password   | String           | Privado         | Contraseña del usuario. |
-| fechaCreacion | DateTime      | Privado         | Fecha de creación del usuario. |
+| **Nombre**    | **Tipo de dato** | **Visibilidad** | **Descripción**                  |
+| ------------- | ---------------- | --------------- | -------------------------------- |
+| id            | UUID             | Privado         | Identificador único del usuario. |
+| nombre        | String           | Privado         | Nombre del usuario.              |
+| email         | String           | Privado         | Correo electrónico del usuario.  |
+| password      | String           | Privado         | Contraseña del usuario.          |
+| fechaCreacion | DateTime         | Privado         | Fecha de creación del usuario.   |
 
 #### Metodos del Usuario
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| Constructor | Void | Public | Constructor de la clase Usuario. |
-| authenticateUser | Boolean | Public | Autentica al usuario utilizando su correo electrónico y contraseña. |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                     |
+| ---------------- | ------------------- | --------------- | ------------------------------------------------------------------- |
+| Constructor      | Void                | Public          | Constructor de la clase Usuario.                                    |
+| authenticateUser | Boolean             | Public          | Autentica al usuario utilizando su correo electrónico y contraseña. |
 
 ### Aggregate 2: Role
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| Role       | Entidad        | Representa un rol de usuario en la aplicación de Detekto, y contiene información sobre los permisos asociados a ese rol. |
+| **Nombre** | **Categoría** | **Proposito**                                                                                                            |
+| ---------- | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Role       | Entidad       | Representa un rol de usuario en la aplicación de Detekto, y contiene información sobre los permisos asociados a ese rol. |
 
 #### Atributos del Role
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| id         | UUID             | Privado         | Identificador único del rol. |
-| nombre     | String           | Privado         | Nombre del rol. |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                     |
+| ---------- | ---------------- | --------------- | ----------------------------------- |
+| id         | UUID             | Privado         | Identificador único del rol.        |
+| nombre     | String           | Privado         | Nombre del rol.                     |
 | permisos   | List<String>     | Privado         | Lista de permisos asociados al rol. |
 
 #### Metodos del Role
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| Constructor | Void | Public | Constructor de la clase Role. |
-| addPermission | Void | Public | Agrega un permiso al rol. |
-| getPermissions | List<String> | Public | Devuelve la lista de permisos asociados al rol. |
+| **Nombre**     | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
+| -------------- | ------------------- | --------------- | ----------------------------------------------- |
+| Constructor    | Void                | Public          | Constructor de la clase Role.                   |
+| addPermission  | Void                | Public          | Agrega un permiso al rol.                       |
+| getPermissions | List<String>        | Public          | Devuelve la lista de permisos asociados al rol. |
 
 ### 5.1.2. Interface Layer.
+
 En la capa de interfaz del contexto de IAM de la aplicacion, se definen los controladores y servicios que manejan las solicitudes y respuestas de la API. Los controladores son responsables de recibir las solicitudes HTTP y devolver las respuestas correspondientes.
 
 ### Controller 1: UsersController
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| UsersController | Controlador | Maneja las solicitudes relacionadas con los usuarios, como la autenticación y la creación de nuevos usuarios. |
+| **Nombre**      | **Categoría** | **Proposito**                                                                                                 |
+| --------------- | ------------- | ------------------------------------------------------------------------------------------------------------- |
+| UsersController | Controlador   | Maneja las solicitudes relacionadas con los usuarios, como la autenticación y la creación de nuevos usuarios. |
 
 #### Atributos del UsersController
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| userService | UserService     | Privado         | Servicio que maneja la lógica de negocio relacionada con los usuarios. |
-| roleService | RoleService     | Privado         | Servicio que maneja la lógica de negocio relacionada con los roles. |
+| **Nombre**  | **Tipo de dato** | **Visibilidad** | **Descripción**                                                        |
+| ----------- | ---------------- | --------------- | ---------------------------------------------------------------------- |
+| userService | UserService      | Privado         | Servicio que maneja la lógica de negocio relacionada con los usuarios. |
+| roleService | RoleService      | Privado         | Servicio que maneja la lógica de negocio relacionada con los roles.    |
 
 #### Metodos del UsersController
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| authenticateUser | ResponseEntity | Public | Metodo para el inicio de sesion de un usuario usando credenciales y devuelve un token JWT. |
-| registerUser | ResponseEntity | Public | Metodo para registrar un nuevo usuario en la aplicacion. |
-| getAllUsers | ResponseEntity | Public | Metodo para obtener todos los usuarios registrados en la aplicacion. |
-| getUserById | ResponseEntity | Public | Metodo para obtener un usuario por su ID. |
-| updateUser | ResponseEntity | Public | Metodo para actualizar la informacion de un usuario. |
-| deleteUser | ResponseEntity | Public | Metodo para eliminar un usuario de la aplicacion. |
-| getUserRoles | ResponseEntity | Public | Metodo para obtener los roles de un usuario. |
-
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                                            |
+| ---------------- | ------------------- | --------------- | ------------------------------------------------------------------------------------------ |
+| authenticateUser | ResponseEntity      | Public          | Metodo para el inicio de sesion de un usuario usando credenciales y devuelve un token JWT. |
+| registerUser     | ResponseEntity      | Public          | Metodo para registrar un nuevo usuario en la aplicacion.                                   |
+| getAllUsers      | ResponseEntity      | Public          | Metodo para obtener todos los usuarios registrados en la aplicacion.                       |
+| getUserById      | ResponseEntity      | Public          | Metodo para obtener un usuario por su ID.                                                  |
+| updateUser       | ResponseEntity      | Public          | Metodo para actualizar la informacion de un usuario.                                       |
+| deleteUser       | ResponseEntity      | Public          | Metodo para eliminar un usuario de la aplicacion.                                          |
+| getUserRoles     | ResponseEntity      | Public          | Metodo para obtener los roles de un usuario.                                               |
 
 ### Controller 2: RolesController
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| RolesController | Controlador | Maneja las solicitudes relacionadas con los roles, como la creación y asignación de roles a usuarios. |
+| **Nombre**      | **Categoría** | **Proposito**                                                                                         |
+| --------------- | ------------- | ----------------------------------------------------------------------------------------------------- |
+| RolesController | Controlador   | Maneja las solicitudes relacionadas con los roles, como la creación y asignación de roles a usuarios. |
 
 #### Atributos del RolesController
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| roleService | RoleService     | Privado         | Servicio que maneja la lógica de negocio relacionada con los roles. |
-| userService | UserService     | Privado         | Servicio que maneja la lógica de negocio relacionada con los usuarios. |
+| **Nombre**  | **Tipo de dato** | **Visibilidad** | **Descripción**                                                        |
+| ----------- | ---------------- | --------------- | ---------------------------------------------------------------------- |
+| roleService | RoleService      | Privado         | Servicio que maneja la lógica de negocio relacionada con los roles.    |
+| userService | UserService      | Privado         | Servicio que maneja la lógica de negocio relacionada con los usuarios. |
 
 #### Metodos del RolesController
 
-
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| getAllRoles | ResponseEntity | Public | Metodo para obtener todos los roles disponibles en la aplicacion. |
-| assignRoleToUser | ResponseEntity | Public | Metodo para asignar un rol a un usuario. |
-| removeRoleFromUser | ResponseEntity | Public | Metodo para eliminar un rol de un usuario. |
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                   |
+| ------------------ | ------------------- | --------------- | ----------------------------------------------------------------- |
+| getAllRoles        | ResponseEntity      | Public          | Metodo para obtener todos los roles disponibles en la aplicacion. |
+| assignRoleToUser   | ResponseEntity      | Public          | Metodo para asignar un rol a un usuario.                          |
+| removeRoleFromUser | ResponseEntity      | Public          | Metodo para eliminar un rol de un usuario.                        |
 
 ### 5.1.3. Application Layer.
+
 En la capa de aplicacion del contexto de IAM de la aplicacion, se definen los servicios que manejan la logica de negocio relacionada con los usuarios y roles. Estos servicios son utilizados por los controladores para realizar las operaciones necesarias.
 
 ### Service 1: UserService
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| UserService | Servicio       | Maneja la logica de negocio relacionada con los usuarios, como la autenticacion y la gestion de usuarios. |
+
+| **Nombre**  | **Categoría** | **Proposito**                                                                                             |
+| ----------- | ------------- | --------------------------------------------------------------------------------------------------------- |
+| UserService | Servicio      | Maneja la logica de negocio relacionada con los usuarios, como la autenticacion y la gestion de usuarios. |
 
 ### Atributos del UserService
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| userRepository | UserRepository | Privado         | Repositorio que maneja la persistencia de los usuarios. |
-| passwordEncoder | PasswordEncoder | Privado         | Codificador de contraseñas para la autenticacion de usuarios. |
-| jwtHandler | JwtHandler | Privado         | Manejador de tokens JWT para la autenticacion de usuarios. |
+| **Nombre**      | **Tipo de dato** | **Visibilidad** | **Descripción**                                               |
+| --------------- | ---------------- | --------------- | ------------------------------------------------------------- |
+| userRepository  | UserRepository   | Privado         | Repositorio que maneja la persistencia de los usuarios.       |
+| passwordEncoder | PasswordEncoder  | Privado         | Codificador de contraseñas para la autenticacion de usuarios. |
+| jwtHandler      | JwtHandler       | Privado         | Manejador de tokens JWT para la autenticacion de usuarios.    |
 
 #### Metodos del UserService
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| authenticateUser | User | Public | Autentica a un usuario utilizando su correo electronico y contraseña. |
-| registerUser | User | Public | Registra un nuevo usuario en la aplicacion. |
-| getAllUsers | List<User> | Public | Devuelve todos los usuarios registrados en la aplicacion. |
-| updateUser | User | Public | Actualiza la informacion de un usuario. |
-| deleteUser | Void | Public | Elimina un usuario de la aplicacion. |
-| getUserById | User | Public | Devuelve un usuario por su ID. |
-| getUserByEmail | User | Public | Devuelve un usuario por su correo electronico. |
-| getUserRoles | List<Role> | Public | Devuelve los roles de un usuario. |
-| assignRoleToUser | Void | Public | Asigna un rol a un usuario. |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                       |
+| ---------------- | ------------------- | --------------- | --------------------------------------------------------------------- |
+| authenticateUser | User                | Public          | Autentica a un usuario utilizando su correo electronico y contraseña. |
+| registerUser     | User                | Public          | Registra un nuevo usuario en la aplicacion.                           |
+| getAllUsers      | List<User>          | Public          | Devuelve todos los usuarios registrados en la aplicacion.             |
+| updateUser       | User                | Public          | Actualiza la informacion de un usuario.                               |
+| deleteUser       | Void                | Public          | Elimina un usuario de la aplicacion.                                  |
+| getUserById      | User                | Public          | Devuelve un usuario por su ID.                                        |
+| getUserByEmail   | User                | Public          | Devuelve un usuario por su correo electronico.                        |
+| getUserRoles     | List<Role>          | Public          | Devuelve los roles de un usuario.                                     |
+| assignRoleToUser | Void                | Public          | Asigna un rol a un usuario.                                           |
 
 #### Service 2: RoleService
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| RoleService | Servicio       | Maneja la logica de negocio relacionada con los roles, como la creacion y asignacion de roles a usuarios. |
+| **Nombre**  | **Categoría** | **Proposito**                                                                                             |
+| ----------- | ------------- | --------------------------------------------------------------------------------------------------------- |
+| RoleService | Servicio      | Maneja la logica de negocio relacionada con los roles, como la creacion y asignacion de roles a usuarios. |
 
 #### Atributos del RoleService
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| roleRepository | RoleRepository | Privado         | Repositorio que maneja la persistencia de los roles. |
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                      |
+| -------------- | ---------------- | --------------- | ---------------------------------------------------- |
+| roleRepository | RoleRepository   | Privado         | Repositorio que maneja la persistencia de los roles. |
 
 #### Metodos del RoleService
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| getAllRoles | List<Role> | Public | Devuelve todos los roles disponibles en la aplicacion. |
-| assignRoleToUser | Void | Public | Asigna un rol a un usuario. |
-| removeRoleFromUser | Void | Public | Elimina un rol de un usuario. |
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                        |
+| ------------------ | ------------------- | --------------- | ------------------------------------------------------ |
+| getAllRoles        | List<Role>          | Public          | Devuelve todos los roles disponibles en la aplicacion. |
+| assignRoleToUser   | Void                | Public          | Asigna un rol a un usuario.                            |
+| removeRoleFromUser | Void                | Public          | Elimina un rol de un usuario.                          |
 
 ### 5.1.4. Infrastructure Layer.
+
 En la capa de infraestructura del contexto de IAM de la aplicacion, se definen los repositorios que manejan la persistencia de los usuarios y roles. Estos repositorios son utilizados por los servicios para realizar las operaciones necesarias.
 
 ### Repository 1: UserRepository
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| UserRepository | Repositorio    | Maneja la persistencia de los usuarios en la base de datos. |
+| **Nombre**     | **Categoría** | **Proposito**                                               |
+| -------------- | ------------- | ----------------------------------------------------------- |
+| UserRepository | Repositorio   | Maneja la persistencia de los usuarios en la base de datos. |
 
 #### Metodos del UserRepository
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| findByEmail | User | Public | Busca un usuario por su correo electronico. |
-| findById | User | Public | Busca un usuario por su ID. |
-| existsByEmail | Boolean | Public | Verifica si un usuario existe por su correo electronico. |
-| save | User | Public | Guarda un usuario en la base de datos. |
-| delete | Void | Public | Elimina un usuario de la base de datos. |
+| **Nombre**    | **Tipo de retorno** | **Visibilidad** | **Descripción**                                          |
+| ------------- | ------------------- | --------------- | -------------------------------------------------------- |
+| findByEmail   | User                | Public          | Busca un usuario por su correo electronico.              |
+| findById      | User                | Public          | Busca un usuario por su ID.                              |
+| existsByEmail | Boolean             | Public          | Verifica si un usuario existe por su correo electronico. |
+| save          | User                | Public          | Guarda un usuario en la base de datos.                   |
+| delete        | Void                | Public          | Elimina un usuario de la base de datos.                  |
 
 ### Repository 2: RoleRepository
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| RoleRepository | Repositorio    | Maneja la persistencia de los roles en la base de datos. |
+| **Nombre**     | **Categoría** | **Proposito**                                            |
+| -------------- | ------------- | -------------------------------------------------------- |
+| RoleRepository | Repositorio   | Maneja la persistencia de los roles en la base de datos. |
 
 #### Metodos del RoleRepository
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| findById | Role | Public | Busca un rol por su ID. |
-| findByName | Role | Public | Busca un rol por su nombre. |
-| save | Role | Public | Guarda un rol en la base de datos. |
-| deleteById | Void | Public | Elimina un rol de la base de datos. |
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                     |
+| ---------- | ------------------- | --------------- | ----------------------------------- |
+| findById   | Role                | Public          | Busca un rol por su ID.             |
+| findByName | Role                | Public          | Busca un rol por su nombre.         |
+| save       | Role                | Public          | Guarda un rol en la base de datos.  |
+| deleteById | Void                | Public          | Elimina un rol de la base de datos. |
 
 ### 5.1.6. Bounded Context Software Architecture Component Level Diagrams.
+
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de IAM. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 
 ![Diagrama de componentes del contexto de IAM](./assets/capitulo-5/bc-iam/component-bc-iam.png)
 
 ### 5.1.7. Bounded Context Software Architecture Code Level Diagrams.
+
 En esta seccion, el equipo de Softwarinos presenta la implementacion de los componentes dentro de cada contexto.
 
-  - **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de IAM.
+- **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de IAM.
 
-  - **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
+- **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
 
 #### 5.1.7.1. Bounded Context Domain Layer Class Diagrams.
+
 En esta seccion se presentan los diagramas de clases del contexto de IAM, en el que se muestrran las entidades claves para la autenticacion del usuario, los roles, junto la relacion que tienen los mismos
 
 ![Diagrama de clases del contexto de IAM](./assets/capitulo-5/bc-iam/iam-class-diagram.png)
 
 #### 5.1.7.2. Bounded Context Database Design Diagram.
+
 En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de IAM. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
 
 ![Diagrama de base de datos del contexto de IAM](./assets/capitulo-5/bc-iam/user-db.png)
 
 ## 5.2. Bounded Context: OBJECT RECOGNITION
+
 ### 5.2.1. Domain Layer.
+
 En la capa de dominio del contexto de Object-Recognition de la aplicación, se definen las entidades centrales que permiten registrar y gestionar los datos generados por el reconocimiento visual de herramientas y materiales. Este contexto no realiza inferencias directamente, sino que registra los resultados obtenidos desde la app móvil y permite el seguimiento de versiones del modelo de reconocimiento.
 
 ### Aggregate 1: ImageRecognition
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| ImageRecognition | Entidad        | Representa una imagen escaneada por la app móvil que ha sido identificada mediante reconocimiento visual. Guarda el resultado, la confianza del modelo, y el producto reconocido. |
+| **Nombre**       | **Categoría** | **Proposito**                                                                                                                                                                     |
+| ---------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ImageRecognition | Entidad       | Representa una imagen escaneada por la app móvil que ha sido identificada mediante reconocimiento visual. Guarda el resultado, la confianza del modelo, y el producto reconocido. |
 
 #### Atributos del ImageRecognition
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| id         | UUID             | Privado         | Identificador único de la imagen reconocida. |
-| nombreArchivo | String           | Privado         | Nombre del archivo de la imagen escaneada. |
-| resultado  | String           | Privado         | Resultado del reconocimiento visual (Ej: "Destornillador"). |
-| fechaEscaneo | LocalDateTime | Privado         | Fecha y hora en que se realizó el escaneo. |
-| productoId | UUID | Privado | Identificador al producto reconocido (referencia al contexto externo **SALES**). |
-| estado | EstadoReconocimiento | Privado | Estado del reconocimiento (Ej: "Pendiente", "Exitoso", "Fallido"). |
+| **Nombre**    | **Tipo de dato**     | **Visibilidad** | **Descripción**                                                                  |
+| ------------- | -------------------- | --------------- | -------------------------------------------------------------------------------- |
+| id            | UUID                 | Privado         | Identificador único de la imagen reconocida.                                     |
+| nombreArchivo | String               | Privado         | Nombre del archivo de la imagen escaneada.                                       |
+| resultado     | String               | Privado         | Resultado del reconocimiento visual (Ej: "Destornillador").                      |
+| fechaEscaneo  | LocalDateTime        | Privado         | Fecha y hora en que se realizó el escaneo.                                       |
+| productoId    | UUID                 | Privado         | Identificador al producto reconocido (referencia al contexto externo **SALES**). |
+| estado        | EstadoReconocimiento | Privado         | Estado del reconocimiento (Ej: "Pendiente", "Exitoso", "Fallido").               |
 
 #### Metodos del ImageRecognition
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| Constructor | Void | Public | Constructor de la clase ImageRecognition. |
-| asociarProducto | Void | Public | Asocia un producto al reconocimiento de la imagen. |
-| actualizarEstado | Void | Public | Actualiza el estado del reconocimiento. |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                    |
+| ---------------- | ------------------- | --------------- | -------------------------------------------------- |
+| Constructor      | Void                | Public          | Constructor de la clase ImageRecognition.          |
+| asociarProducto  | Void                | Public          | Asocia un producto al reconocimiento de la imagen. |
+| actualizarEstado | Void                | Public          | Actualiza el estado del reconocimiento.            |
 
 ### Aggregate 2: VersionModeloReconocimiento
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| VersionModeloReconocimiento | Entidad        | 	Representa una versión del modelo de reconocimiento visual utilizado en la app Detekto, incluyendo información sobre la fecha de implementación y el estado del modelo. |
+| **Nombre**                  | **Categoría** | **Proposito**                                                                                                                                                           |
+| --------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| VersionModeloReconocimiento | Entidad       | Representa una versión del modelo de reconocimiento visual utilizado en la app Detekto, incluyendo información sobre la fecha de implementación y el estado del modelo. |
 
 #### Atributos del VersionModeloReconocimiento
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| id         | UUID             | Privado         | Identificador único de la versión del modelo. |
-| version   | String           | Privado         | Número de versión del modelo (Ej: "1.0.0"). |
-| rutaModelo | String           | Privado         | Ruta del modelo .tflite utilizado para el reconocimiento. |
-| fechaImplementacion | LocalDateTime | Privado | Fecha y hora en que se implementó la versión del modelo. |
+| **Nombre**          | **Tipo de dato** | **Visibilidad** | **Descripción**                                           |
+| ------------------- | ---------------- | --------------- | --------------------------------------------------------- |
+| id                  | UUID             | Privado         | Identificador único de la versión del modelo.             |
+| version             | String           | Privado         | Número de versión del modelo (Ej: "1.0.0").               |
+| rutaModelo          | String           | Privado         | Ruta del modelo .tflite utilizado para el reconocimiento. |
+| fechaImplementacion | LocalDateTime    | Privado         | Fecha y hora en que se implementó la versión del modelo.  |
 
 #### Metodos del VersionModeloReconocimiento
 
-| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------|---------------------|-----------------|-----------------|
-| Constructor | Void | Public | Constructor de la clase VersionModeloReconocimiento. |
-| esVersionActual | Boolean | Public | Verifica si la versión del modelo es la actual. |
+| **Nombre**      | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+| --------------- | ------------------- | --------------- | ---------------------------------------------------- |
+| Constructor     | Void                | Public          | Constructor de la clase VersionModeloReconocimiento. |
+| esVersionActual | Boolean             | Public          | Verifica si la versión del modelo es la actual.      |
 
 #### Enum 1: EstadoReconocimiento
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
+| **Nombre**           | **Categoría** | **Proposito**                                                         |
+| -------------------- | ------------- | --------------------------------------------------------------------- |
 | EstadoReconocimiento | Enumeración   | Enum que representa los posibles estados de un reconocimiento visual. |
 
 #### Valores del Enum
-  - **PENDIENTE**: El reconocimiento está pendiente de ser procesado.
-  - **EXITOSO**: El reconocimiento se realizó con éxito y se obtuvo un resultado.
-  - **FALLIDO**: El reconocimiento falló y no se obtuvo un resultado.
+
+- **PENDIENTE**: El reconocimiento está pendiente de ser procesado.
+- **EXITOSO**: El reconocimiento se realizó con éxito y se obtuvo un resultado.
+- **FALLIDO**: El reconocimiento falló y no se obtuvo un resultado.
 
 ### 5.2.2. Interface Layer.
+
 En esta capa se define el controlador encargado de recibir solicitudes relacionadas con el registro y gestión de imágenes reconocidas. Aunque el reconocimiento ocurre en la app móvil, el backend permite guardar y auditar estos eventos.
 
 #### Controller: ReconocimientoController
 
-| **Nombre**                | **Categoría** | **Propósito** |
-|---------------------------|---------------|---------------|
-| ReconocimientoController  | Controlador   | Maneja las solicitudes HTTP relacionadas con la recepción de imágenes reconocidas desde la app móvil. |
+| **Nombre**               | **Categoría** | **Propósito**                                                                                         |
+| ------------------------ | ------------- | ----------------------------------------------------------------------------------------------------- |
+| ReconocimientoController | Controlador   | Maneja las solicitudes HTTP relacionadas con la recepción de imágenes reconocidas desde la app móvil. |
 
 **Métodos**
 
-| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|----------------------|---------------------|-----------------|-----------------|
-| registrarImagen      | ResponseEntity      | Público         | Recibe una imagen reconocida y la registra en el sistema. |
-| obtenerPorProducto   | ResponseEntity      | Público         | Devuelve las imágenes asociadas a un determinado producto. |
-| obtenerEstadisticas  | ResponseEntity      | Público         | Devuelve estadísticas sobre los resultados del reconocimiento. |
-
+| **Nombre**          | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                |
+| ------------------- | ------------------- | --------------- | -------------------------------------------------------------- |
+| registrarImagen     | ResponseEntity      | Público         | Recibe una imagen reconocida y la registra en el sistema.      |
+| obtenerPorProducto  | ResponseEntity      | Público         | Devuelve las imágenes asociadas a un determinado producto.     |
+| obtenerEstadisticas | ResponseEntity      | Público         | Devuelve estadísticas sobre los resultados del reconocimiento. |
 
 ### 5.2.3. Application Layer.
+
 En esta capa se orquesta la lógica del dominio. El servicio principal permite registrar imágenes y asociarlas con una versión del modelo.
 
 #### Service: ReconocimientoService
 
-| **Nombre**               | **Categoría** | **Propósito** |
-|--------------------------|----------------|----------------|
-| ReconocimientoService    | Servicio       | Encapsula la lógica de negocio para registrar imágenes reconocidas y asociarlas a modelos y productos. |
+| **Nombre**            | **Categoría** | **Propósito**                                                                                          |
+| --------------------- | ------------- | ------------------------------------------------------------------------------------------------------ |
+| ReconocimientoService | Servicio      | Encapsula la lógica de negocio para registrar imágenes reconocidas y asociarlas a modelos y productos. |
 
 **Métodos**
 
-| **Nombre**           | **Tipo de retorno**       | **Visibilidad** | **Descripción** |
-|----------------------|---------------------------|-----------------|-----------------|
-| registrarImagen      | ImagenReconocida          | Público         | Registra una imagen reconocida con su predicción y versión del modelo. |
-| asociarProducto      | Void                      | Público         | Asocia un producto a una imagen previamente registrada. |
-| actualizarEstado     | Void                      | Público         | Cambia el estado de una imagen reconocida. |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                        |
+| ---------------- | ------------------- | --------------- | ---------------------------------------------------------------------- |
+| registrarImagen  | ImagenReconocida    | Público         | Registra una imagen reconocida con su predicción y versión del modelo. |
+| asociarProducto  | Void                | Público         | Asocia un producto a una imagen previamente registrada.                |
+| actualizarEstado | Void                | Público         | Cambia el estado de una imagen reconocida.                             |
 
 #### Service: VersionModeloService
 
-| **Nombre**            | **Categoría** | **Propósito** |
-|-----------------------|---------------|----------------|
-| ModelVersionService   | Servicio       | Maneja la lógica de negocio relacionada con el control de versiones del modelo de reconocimiento visual. |
+| **Nombre**          | **Categoría** | **Propósito**                                                                                            |
+| ------------------- | ------------- | -------------------------------------------------------------------------------------------------------- |
+| ModelVersionService | Servicio      | Maneja la lógica de negocio relacionada con el control de versiones del modelo de reconocimiento visual. |
 
 **Métodos**
 
-| **Nombre**                  | **Tipo de retorno**               | **Visibilidad** | **Descripción** |
-|-----------------------------|-----------------------------------|-----------------|-----------------|
-| registrarNuevaVersion       | VersionModeloReconocimiento       | Público         | Registra una nueva versión del modelo. |
-| establecerComoActual        | Void                              | Público         | Marca una versión como la actual. |
-| obtenerVersionActual        | VersionModeloReconocimiento       | Público         | Devuelve la versión actual en uso. |
-| listarVersiones             | List<VersionModeloReconocimiento> | Público         | Retorna todas las versiones del modelo. |
-
-
+| **Nombre**            | **Tipo de retorno**               | **Visibilidad** | **Descripción**                         |
+| --------------------- | --------------------------------- | --------------- | --------------------------------------- |
+| registrarNuevaVersion | VersionModeloReconocimiento       | Público         | Registra una nueva versión del modelo.  |
+| establecerComoActual  | Void                              | Público         | Marca una versión como la actual.       |
+| obtenerVersionActual  | VersionModeloReconocimiento       | Público         | Devuelve la versión actual en uso.      |
+| listarVersiones       | List<VersionModeloReconocimiento> | Público         | Retorna todas las versiones del modelo. |
 
 ### 5.2.4. Infrastructure Layer.
+
 Esta capa se encarga de manejar la persistencia de las entidades del dominio, así como integrarse con sistemas externos si se requiere almacenar imágenes o versiones del modelo.
 
 #### Repository: ImagenReconocidaRepository
 
-| **Nombre**                  | **Categoría** | **Propósito** |
-|-----------------------------|----------------|----------------|
-| ImagenReconocidaRepository  | Repositorio    | Accede a la base de datos para guardar y recuperar imágenes reconocidas. |
+| **Nombre**                 | **Categoría** | **Propósito**                                                            |
+| -------------------------- | ------------- | ------------------------------------------------------------------------ |
+| ImagenReconocidaRepository | Repositorio   | Accede a la base de datos para guardar y recuperar imágenes reconocidas. |
 
 **Métodos**
 
-| **Nombre**           | **Tipo de retorno**            | **Visibilidad** | **Descripción** |
-|----------------------|--------------------------------|-----------------|-----------------|
-| save                 | ImagenReconocida               | Público         | Guarda una nueva imagen reconocida. |
-| findByProductoId     | List<ImagenReconocida>         | Público         | Recupera imágenes por ID de producto. |
+| **Nombre**       | **Tipo de retorno**    | **Visibilidad** | **Descripción**                       |
+| ---------------- | ---------------------- | --------------- | ------------------------------------- |
+| save             | ImagenReconocida       | Público         | Guarda una nueva imagen reconocida.   |
+| findByProductoId | List<ImagenReconocida> | Público         | Recupera imágenes por ID de producto. |
 
 ---
 
 #### Repository: VersionModeloRepository
 
-| **Nombre**             | **Categoría** | **Propósito** |
-|------------------------|----------------|----------------|
+| **Nombre**              | **Categoría** | **Propósito**                                   |
+| ----------------------- | ------------- | ----------------------------------------------- |
 | VersionModeloRepository | Repositorio   | Accede a las versiones de los modelos cargados. |
 
 **Métodos**
 
-| **Nombre**       | **Tipo de retorno**                 | **Visibilidad** | **Descripción** |
-|------------------|-------------------------------------|-----------------|-----------------|
-| save             | VersionModeloReconocimiento         | Público         | Guarda una nueva versión del modelo. |
-| findActual       | VersionModeloReconocimiento         | Público         | Recupera la versión del modelo marcada como actual. |
-
+| **Nombre** | **Tipo de retorno**         | **Visibilidad** | **Descripción**                                     |
+| ---------- | --------------------------- | --------------- | --------------------------------------------------- |
+| save       | VersionModeloReconocimiento | Público         | Guarda una nueva versión del modelo.                |
+| findActual | VersionModeloReconocimiento | Público         | Recupera la versión del modelo marcada como actual. |
 
 ### 5.2.6. Bounded Context Software Architecture Component Level Diagrams.
+
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de **OBJECT RECOGNITION**. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 ![Diagrama de componentes del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/component-bc-object-recongition-detekto.png)
 
 ### 5.2.7. Bounded Context Software Architecture Code Level Diagrams.
+
 #### 5.2.7.1. Bounded Context Domain Layer Class Diagrams.
+
 En esta seccion se presentan los diagramas de clases del contexto de OBJECT RECOGNITION, en el que se muestrran las entidades claves para la gestion del reconocimiento de objetos, junto la relacion que tienen los mismos.
 
 ![Diagrama de clases del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/object-recognition-class-diagram.png)
 
 #### 5.2.7.2. Bounded Context Database Design Diagram.
+
 En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de OBJECT RECOGNITION. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
 
 ![Diagrama de base de datos del contexto de OBJECT RECOGNITION](./assets/capitulo-5/bc-object-recognition/object-recognition-db.png)
 
 ## 5.3. Bounded Context: SALES
+
 ### 5.3.1. Domain Layer.
 
 En la capa de dominio del contexto de SALES de la aplicación, se definen las entidades principales que permiten registrar y gestionar las ventas realizadas por los usuarios.  
@@ -2052,359 +2097,370 @@ Una venta contiene productos, cantidades, totales y la información del cliente 
 
 ### Aggregate 1: Sale
 
-| **Nombre** | **Categoría** | **Propósito** |
-|------------|----------------|----------------|
-| Sale       | Entidad        | Representa una venta realizada dentro de la aplicación, incluyendo la fecha, los productos vendidos, el cliente y el estado de la transacción. |
+| **Nombre** | **Categoría** | **Propósito**                                                                                                                                  |
+| ---------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sale       | Entidad       | Representa una venta realizada dentro de la aplicación, incluyendo la fecha, los productos vendidos, el cliente y el estado de la transacción. |
 
 #### Atributos del Sale
 
-| **Nombre**      | **Tipo de dato**  | **Visibilidad** | **Descripción**                                  |
-|-----------------|-------------------|------------------|--------------------------------------------------|
-| id              | UUID              | Privado          | Identificador único de la venta.                 |
-| fecha           | DateTime          | Privado          | Fecha en la que se realizó la venta.             |
-| total           | Decimal           | Privado          | Monto total de la venta.                         |
-| metodoPago      | String            | Privado          | Medio de pago utilizado por el cliente.          |
-| usuarioId       | UUID              | Privado          | ID del usuario que realizó la venta.             |
-| estado          | EstadoVenta       | Privado          | Estado actual de la venta.                       |
-| items           | List<Product>   | Privado          | Lista de productos vendidos en la transacción.   |
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                                |
+| ---------- | ---------------- | --------------- | ---------------------------------------------- |
+| id         | UUID             | Privado         | Identificador único de la venta.               |
+| fecha      | DateTime         | Privado         | Fecha en la que se realizó la venta.           |
+| total      | Decimal          | Privado         | Monto total de la venta.                       |
+| metodoPago | String           | Privado         | Medio de pago utilizado por el cliente.        |
+| usuarioId  | UUID             | Privado         | ID del usuario que realizó la venta.           |
+| estado     | EstadoVenta      | Privado         | Estado actual de la venta.                     |
+| items      | List<Product>    | Privado         | Lista de productos vendidos en la transacción. |
 
 #### Métodos del Sale
 
-| **Nombre**          | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
-|---------------------|---------------------|------------------|-------------------------------------------------|
-| calcularTotal       | Decimal             | Public           | Calcula el monto total de la venta.             |
-| marcarComoPagada    | Void                | Public           | Cambia el estado de la venta a "PAGADA".        |
-| cancelar            | Void                | Public           | Cancela la venta cambiando su estado.           |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                          |
+| ---------------- | ------------------- | --------------- | ---------------------------------------- |
+| calcularTotal    | Decimal             | Public          | Calcula el monto total de la venta.      |
+| marcarComoPagada | Void                | Public          | Cambia el estado de la venta a "PAGADA". |
+| cancelar         | Void                | Public          | Cancela la venta cambiando su estado.    |
 
 ### Aggregate 2: Product
 
-| **Nombre**   | **Categoría** | **Propósito** |
-|--------------|----------------|----------------|
-| Product    | Entidad        | Representa un producto incluido en una venta, con su cantidad y precio unitario. |
+| **Nombre** | **Categoría** | **Propósito**                                                                    |
+| ---------- | ------------- | -------------------------------------------------------------------------------- |
+| Product    | Entidad       | Representa un producto incluido en una venta, con su cantidad y precio unitario. |
 
 #### Atributos del Product
 
-| **Nombre**        | **Tipo de dato** | **Visibilidad** | **Descripción**                             |
-|-------------------|------------------|------------------|---------------------------------------------|
-| productoId        | UUID             | Privado          | ID del producto vendido.                    |
-| cantidad          | Int              | Privado          | Cantidad vendida del producto.              |
-| precioUnitario    | Decimal          | Privado          | Precio por unidad del producto en la venta. |
+| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                             |
+| -------------- | ---------------- | --------------- | ------------------------------------------- |
+| productoId     | UUID             | Privado         | ID del producto vendido.                    |
+| cantidad       | Int              | Privado         | Cantidad vendida del producto.              |
+| precioUnitario | Decimal          | Privado         | Precio por unidad del producto en la venta. |
 
 #### Métodos del Product
 
-| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                 |
-|----------------------|---------------------|------------------|-------------------------------------------------|
-| calcularSubtotal     | Decimal             | Public           | Calcula el subtotal del ítem (cantidad * precio). |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                    |
+| ---------------- | ------------------- | --------------- | -------------------------------------------------- |
+| calcularSubtotal | Decimal             | Public          | Calcula el subtotal del ítem (cantidad \* precio). |
 
 ### Enumerado: EstadoVenta
 
-| **Nombre**     | **Tipo** | **Propósito**                                      |
-|----------------|----------|----------------------------------------------------|
-| EstadoVenta    | Enum     | Define el estado de una venta dentro del sistema.  |
+| **Nombre**  | **Tipo** | **Propósito**                                     |
+| ----------- | -------- | ------------------------------------------------- |
+| EstadoVenta | Enum     | Define el estado de una venta dentro del sistema. |
 
 **Valores posibles:**
-- PENDIENTE  
-- PAGADA  
+
+- PENDIENTE
+- PAGADA
 - CANCELADA
 
-
 ### 5.3.2. Interface Layer.
+
 En la capa de interfaz del contexto de SALES de la aplicacion, se definen los controladores y servicios que manejan las solicitudes y respuestas de la API. Los controladores son responsables de recibir las solicitudes HTTP y devolver las respuestas correspondientes.
 
 ### Controller 1: SalesController
 
-| **Nombre** | **Categoría** | **Proposito** |
-|------------|----------------|----------------|
-| SalesController | Controlador | Expone endpoints públicos para la gestión de ventas. |
+| **Nombre**      | **Categoría** | **Proposito**                                        |
+| --------------- | ------------- | ---------------------------------------------------- |
+| SalesController | Controlador   | Expone endpoints públicos para la gestión de ventas. |
 
 #### Atributos del SalesController
 
-| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción** |
-|------------|------------------|-----------------|-----------------|
-| saleService | SaleService     | Privado         | Servicio que maneja la lógica de negocio de las ventas. |
+| **Nombre**  | **Tipo de dato** | **Visibilidad** | **Descripción**                                         |
+| ----------- | ---------------- | --------------- | ------------------------------------------------------- |
+| saleService | SaleService      | Privado         | Servicio que maneja la lógica de negocio de las ventas. |
 
 #### Metodos del SalesController
 
-| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                                 |
-|--------------------|---------------------|------------------|----------------------------------------------------------------------------------|
-| registerSale        | ResponseEntity      | Public           | Método para registrar una nueva venta en el sistema.                            |
-| getAllSales         | ResponseEntity      | Public           | Método para obtener todas las ventas registradas en la aplicación.              |
-| getSaleById         | ResponseEntity      | Public           | Método para obtener los detalles de una venta por su ID.                        |
-| deleteSale          | ResponseEntity      | Public           | Método para eliminar una venta existente.                                       |
-| getSalesByUserId    | ResponseEntity      | Public           | Método para obtener todas las ventas realizadas por un usuario específico.      |
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                            |
+| ---------------- | ------------------- | --------------- | -------------------------------------------------------------------------- |
+| registerSale     | ResponseEntity      | Public          | Método para registrar una nueva venta en el sistema.                       |
+| getAllSales      | ResponseEntity      | Public          | Método para obtener todas las ventas registradas en la aplicación.         |
+| getSaleById      | ResponseEntity      | Public          | Método para obtener los detalles de una venta por su ID.                   |
+| deleteSale       | ResponseEntity      | Public          | Método para eliminar una venta existente.                                  |
+| getSalesByUserId | ResponseEntity      | Public          | Método para obtener todas las ventas realizadas por un usuario específico. |
 
 ### 5.3.3. Application Layer.
+
 En la capa de aplicacion del contexto de IAM de la aplicacion, se definen los servicios que manejan la logica de negocio relacionada con los usuarios y roles. Estos servicios son utilizados por los controladores para realizar las operaciones necesarias.
 
 ### Service 1: SalesService
 
-| **Nombre**       | **Categoría** | **Propósito**                                                                 |
-|------------------|----------------|--------------------------------------------------------------------------------|
-| SalesService     | Servicio       | Maneja la lógica de negocio relacionada con el registro, consulta y gestión de ventas. |
+| **Nombre**   | **Categoría** | **Propósito**                                                                          |
+| ------------ | ------------- | -------------------------------------------------------------------------------------- |
+| SalesService | Servicio      | Maneja la lógica de negocio relacionada con el registro, consulta y gestión de ventas. |
 
 ### Atributos del SalesService
 
-| **Nombre**         | **Tipo de dato**    | **Visibilidad** | **Descripción**                                             |
-|--------------------|---------------------|------------------|-------------------------------------------------------------|
-| salesRepository    | SalesRepository     | Privado          | Repositorio que gestiona la persistencia de las ventas.     |
+| **Nombre**      | **Tipo de dato** | **Visibilidad** | **Descripción**                                         |
+| --------------- | ---------------- | --------------- | ------------------------------------------------------- |
+| salesRepository | SalesRepository  | Privado         | Repositorio que gestiona la persistencia de las ventas. |
 
 #### Métodos del SalesService
 
-| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                                  |
-|----------------------|---------------------|------------------|----------------------------------------------------------------------------------|
-| registerSale         | Sale                | Public           | Registra una nueva venta en el sistema.                                          |
-| getAllSales          | List<Sale>          | Public           | Retorna todas las ventas registradas en la aplicación.                          |
-| getSaleById          | Sale                | Public           | Obtiene los detalles de una venta a partir de su ID.                             |
-| deleteSale           | Void                | Public           | Elimina una venta existente por su ID.                                           |
-| getSalesByUserId     | List<Sale>          | Public           | Devuelve las ventas asociadas a un usuario específico.                          |
-
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                        |
+| ---------------- | ------------------- | --------------- | ------------------------------------------------------ |
+| registerSale     | Sale                | Public          | Registra una nueva venta en el sistema.                |
+| getAllSales      | List<Sale>          | Public          | Retorna todas las ventas registradas en la aplicación. |
+| getSaleById      | Sale                | Public          | Obtiene los detalles de una venta a partir de su ID.   |
+| deleteSale       | Void                | Public          | Elimina una venta existente por su ID.                 |
+| getSalesByUserId | List<Sale>          | Public          | Devuelve las ventas asociadas a un usuario específico. |
 
 ### 5.3.4. Infrastructure Layer.
+
 En la capa de infraestructura del contexto de SALES de la aplicacion, se definen los repositorios que manejan la persistencia de los usuarios y roles. Estos repositorios son utilizados por los servicios para realizar las operaciones necesarias.
 
 ### Repository 1: SalesRepository
 
-| **Nombre**         | **Categoría** | **Propósito**                                                       |
-|--------------------|----------------|----------------------------------------------------------------------|
-| SalesRepository    | Repositorio    | Maneja la persistencia de las ventas en la base de datos.           |
+| **Nombre**      | **Categoría** | **Propósito**                                             |
+| --------------- | ------------- | --------------------------------------------------------- |
+| SalesRepository | Repositorio   | Maneja la persistencia de las ventas en la base de datos. |
 
 #### Métodos del SalesRepository
 
-| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                      |
-|--------------------|---------------------|------------------|----------------------------------------------------------------------|
-| findAll            | List<Sale>          | Public           | Retorna todas las ventas almacenadas.                                |
-| findById           | Sale                | Public           | Busca una venta por su ID.                                           |
-| findByUserId       | List<Sale>          | Public           | Devuelve las ventas asociadas a un usuario específico.               |
-| save               | Sale                | Public           | Guarda una venta en la base de datos.                                |
-| deleteById         | Void                | Public           | Elimina una venta específica de la base de datos.                    |
-
+| **Nombre**   | **Tipo de retorno** | **Visibilidad** | **Descripción**                                        |
+| ------------ | ------------------- | --------------- | ------------------------------------------------------ |
+| findAll      | List<Sale>          | Public          | Retorna todas las ventas almacenadas.                  |
+| findById     | Sale                | Public          | Busca una venta por su ID.                             |
+| findByUserId | List<Sale>          | Public          | Devuelve las ventas asociadas a un usuario específico. |
+| save         | Sale                | Public          | Guarda una venta en la base de datos.                  |
+| deleteById   | Void                | Public          | Elimina una venta específica de la base de datos.      |
 
 ### 5.3.6. Bounded Context Software Architecture Component Level Diagrams.
+
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de **SALES**. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 ![Diagrama de componentes del contexto de SALES](./assets/capitulo-5/bc-sales/component-bc-sales-detekto.png)
 
 ### 5.3.7. Bounded Context Software Architecture Code Level Diagrams.
+
 En esta seccion, el equipo de Softwarinos presenta la implementacion de los componentes dentro de cada contexto.
 
-  - **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de SALES.
+- **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de SALES.
 
-  - **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
+- **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
 
 #### 5.3.7.1. Bounded Context Domain Layer Class Diagrams.
+
 En esta seccion se presentan los diagramas de clases del contexto de SALES, en el que se muestrran las entidades claves para la autenticacion del usuario, los roles, junto la relacion que tienen los mismos
 
 ![Diagrama de clases del contexto de SALES](./assets/capitulo-5/bc-sales/sales-class-diagram.png)
+
 #### 5.3.7.2. Bounded Context Database Design Diagram.
+
 En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de SALES. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
 
 ![Diagrama de base de datos del contexto de SALES](./assets/capitulo-5/bc-sales/sales-db.png)
 
 ## 5.4. Bounded Context: NOTIFICATIONS
+
 ### 5.4.1. Domain Layer.
+
 En la capa de dominio del contexto de Notifications, se definen las entidades y servicios que permiten gestionar el envío de notificaciones hacia los administradores o usuarios del sistema. Las notificaciones pueden enviarse a través de canales externos como el correo electrónico, y se lleva un registro de su estado.
 
 #### Aggregate 1: Notificacion
 
-| **Nombre**    | **Categoría** | **Propósito** |
-|---------------|---------------|----------------|
-| Notificacion  | Entidad       | Representa un mensaje dirigido a un usuario, el cual puede ser enviado mediante un canal externo como el correo electrónico. |
+| **Nombre**   | **Categoría** | **Propósito**                                                                                                                |
+| ------------ | ------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Notificacion | Entidad       | Representa un mensaje dirigido a un usuario, el cual puede ser enviado mediante un canal externo como el correo electrónico. |
 
 **Atributos**
 
-| **Nombre**       | **Tipo de dato**     | **Visibilidad** | **Descripción** |
-|------------------|----------------------|------------------|-----------------|
-| id               | UUID                 | Privado          | Identificador único de la notificación. |
-| destinatarioEmail| String               | Privado          | Correo del destinatario de la notificación. |
-| asunto           | String               | Privado          | Título o asunto de la notificación. |
-| mensaje          | String               | Privado          | Contenido del mensaje enviado. |
-| fechaEnvio       | LocalDateTime        | Privado          | Fecha y hora en la que se intentó enviar la notificación. |
-| estado           | EstadoNotificacion   | Privado          | Estado actual de la notificación (enviada, fallida, pendiente). |
+| **Nombre**        | **Tipo de dato**   | **Visibilidad** | **Descripción**                                                 |
+| ----------------- | ------------------ | --------------- | --------------------------------------------------------------- |
+| id                | UUID               | Privado         | Identificador único de la notificación.                         |
+| destinatarioEmail | String             | Privado         | Correo del destinatario de la notificación.                     |
+| asunto            | String             | Privado         | Título o asunto de la notificación.                             |
+| mensaje           | String             | Privado         | Contenido del mensaje enviado.                                  |
+| fechaEnvio        | LocalDateTime      | Privado         | Fecha y hora en la que se intentó enviar la notificación.       |
+| estado            | EstadoNotificacion | Privado         | Estado actual de la notificación (enviada, fallida, pendiente). |
 
 **Métodos**
 
-| **Nombre**             | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|------------------------|---------------------|------------------|-----------------|
-| Constructor            | Void                | Público          | Constructor de la clase. |
-| marcarComoEnviada      | Void                | Público          | Cambia el estado a ENVIADA. |
-| marcarComoFallida      | Void                | Público          | Cambia el estado a FALLIDA. |
+| **Nombre**        | **Tipo de retorno** | **Visibilidad** | **Descripción**             |
+| ----------------- | ------------------- | --------------- | --------------------------- |
+| Constructor       | Void                | Público         | Constructor de la clase.    |
+| marcarComoEnviada | Void                | Público         | Cambia el estado a ENVIADA. |
+| marcarComoFallida | Void                | Público         | Cambia el estado a FALLIDA. |
 
 #### Enum: EstadoNotificacion
 
-| **Nombre**             | **Categoría** | **Propósito** |
-|------------------------|---------------|----------------|
-| EstadoNotificacion     | Enumeración   | Enum que representa el estado actual de una notificación enviada. |
+| **Nombre**         | **Categoría** | **Propósito**                                                     |
+| ------------------ | ------------- | ----------------------------------------------------------------- |
+| EstadoNotificacion | Enumeración   | Enum que representa el estado actual de una notificación enviada. |
 
 **Valores del Enum**
 
-  - **ENVIADA**: La notificación fue enviada exitosamente.
-  - **FALLIDA**: La notificación no pudo ser enviada.
-  - **PENDIENTE**: La notificación está pendiente de envío.
-
+- **ENVIADA**: La notificación fue enviada exitosamente.
+- **FALLIDA**: La notificación no pudo ser enviada.
+- **PENDIENTE**: La notificación está pendiente de envío.
 
 ### 5.4.2. Interface Layer.
+
 En esta capa se define el controlador que expone los endpoints para consultar o generar notificaciones desde otros módulos de la aplicación.
 
 #### Controller: NotificacionesController
 
-| **Nombre**                  | **Categoría** | **Propósito** |
-|-----------------------------|---------------|----------------|
-| NotificacionesController    | Controlador   | Maneja las solicitudes relacionadas con la generación y visualización de notificaciones. |
+| **Nombre**               | **Categoría** | **Propósito**                                                                            |
+| ------------------------ | ------------- | ---------------------------------------------------------------------------------------- |
+| NotificacionesController | Controlador   | Maneja las solicitudes relacionadas con la generación y visualización de notificaciones. |
 
 **Métodos**
 
-| **Nombre**              | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|-------------------------|---------------------|------------------|-----------------|
-| enviarNotificacion      | ResponseEntity      | Público          | Recibe los datos de una notificación y la envía al destinatario. |
-| listarNotificaciones    | ResponseEntity      | Público          | Devuelve la lista de notificaciones registradas. |
-| obtenerPorEstado        | ResponseEntity      | Público          | Devuelve las notificaciones según su estado. |
-
+| **Nombre**           | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                  |
+| -------------------- | ------------------- | --------------- | ---------------------------------------------------------------- |
+| enviarNotificacion   | ResponseEntity      | Público         | Recibe los datos de una notificación y la envía al destinatario. |
+| listarNotificaciones | ResponseEntity      | Público         | Devuelve la lista de notificaciones registradas.                 |
+| obtenerPorEstado     | ResponseEntity      | Público         | Devuelve las notificaciones según su estado.                     |
 
 ### 5.4.3. Application Layer.
+
 En esta capa se orquesta el envío de notificaciones, validando la lógica del negocio antes de delegar a la infraestructura el envío final.
 
 #### Service: NotificacionService
 
-| **Nombre**           | **Categoría** | **Propósito** |
-|----------------------|---------------|----------------|
-| NotificacionService  | Servicio      | Se encarga de validar, registrar y gestionar el proceso de envío de una notificación. |
+| **Nombre**          | **Categoría** | **Propósito**                                                                         |
+| ------------------- | ------------- | ------------------------------------------------------------------------------------- |
+| NotificacionService | Servicio      | Se encarga de validar, registrar y gestionar el proceso de envío de una notificación. |
 
 **Métodos**
 
-| **Nombre**                | **Tipo de retorno** | **Visibilidad** | **Descripción** |
-|---------------------------|---------------------|------------------|-----------------|
-| crearYEnviarNotificacion  | Notificacion        | Público          | Registra una nueva notificación y gestiona su envío. |
-| listarNotificaciones      | List<Notificacion>  | Público          | Devuelve la lista de notificaciones registradas. |
-| obtenerPorEstado          | List<Notificacion>  | Público          | Devuelve notificaciones según su estado. |
+| **Nombre**               | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+| ------------------------ | ------------------- | --------------- | ---------------------------------------------------- |
+| crearYEnviarNotificacion | Notificacion        | Público         | Registra una nueva notificación y gestiona su envío. |
+| listarNotificaciones     | List<Notificacion>  | Público         | Devuelve la lista de notificaciones registradas.     |
+| obtenerPorEstado         | List<Notificacion>  | Público         | Devuelve notificaciones según su estado.             |
 
 #### External Service Interface: EmailSender
 
-| **Nombre**      | **Categoría** | **Propósito** |
-|-----------------|---------------|----------------|
-| EmailSender     | Interface     | Representa un proveedor externo de correo que permite el envío de notificaciones. |
+| **Nombre**  | **Categoría** | **Propósito**                                                                     |
+| ----------- | ------------- | --------------------------------------------------------------------------------- |
+| EmailSender | Interface     | Representa un proveedor externo de correo que permite el envío de notificaciones. |
 
 **Métodos**
 
-| **Nombre**           | **Tipo de retorno** | **Descripción** |
-|----------------------|---------------------|-----------------|
-| enviar               | Boolean             | Envía un correo al destinatario y retorna si fue exitoso. |
-
+| **Nombre** | **Tipo de retorno** | **Descripción**                                           |
+| ---------- | ------------------- | --------------------------------------------------------- |
+| enviar     | Boolean             | Envía un correo al destinatario y retorna si fue exitoso. |
 
 ### 5.4.4. Infrastructure Layer.
+
 Esta capa se encarga de la persistencia de las notificaciones y de su envío a través de sistemas externos como servicios de correo.
 
 #### Repository: NotificacionRepository
 
-| **Nombre**              | **Categoría** | **Propósito** |
-|-------------------------|---------------|----------------|
-| NotificacionRepository  | Repositorio   | Maneja la persistencia de las notificaciones. |
+| **Nombre**             | **Categoría** | **Propósito**                                 |
+| ---------------------- | ------------- | --------------------------------------------- |
+| NotificacionRepository | Repositorio   | Maneja la persistencia de las notificaciones. |
 
 **Métodos**
 
-| **Nombre**           | **Tipo de retorno**    | **Visibilidad** | **Descripción** |
-|----------------------|------------------------|------------------|-----------------|
-| save                 | Notificacion           | Público          | Guarda una notificación en la base de datos. |
-| findByEstado         | List<Notificacion>     | Público          | Recupera notificaciones filtradas por estado. |
-| findAll              | List<Notificacion>     | Público          | Devuelve todas las notificaciones registradas. |
-
+| **Nombre**   | **Tipo de retorno** | **Visibilidad** | **Descripción**                                |
+| ------------ | ------------------- | --------------- | ---------------------------------------------- |
+| save         | Notificacion        | Público         | Guarda una notificación en la base de datos.   |
+| findByEstado | List<Notificacion>  | Público         | Recupera notificaciones filtradas por estado.  |
+| findAll      | List<Notificacion>  | Público         | Devuelve todas las notificaciones registradas. |
 
 ### 5.4.6. Bounded Context Software Architecture Component Level Diagrams.
+
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de **NOTIFICATIONS**. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 
 ![Diagrama de componentes del contexto de NOTIFICATIONS](./assets/capitulo-5/bc-notification/component-bc-notification-detekto.png)
 
 ### 5.4.7. Bounded Context Software Architecture Code Level Diagrams.
+
 Esta seccion presenta la implementacion de los componentes dentro de cada contexto.
 
-  - **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de NOTIFICATIONS.
+- **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de NOTIFICATIONS.
 
-  - **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
+- **Database Design Diagram**: Presenta el diseño de la base de datos, incluyendo las tablas y sus relaciones.
 
 #### 5.4.7.1. Bounded Context Domain Layer Class Diagrams.
+
 En esta seccion se presenta el diagrama de clases del contexto de NOTIFICATIONS, en el que se muestrran las entidades primordiales para la gestion de las notificaciones, junto la relacion que tienen los mismos.
 
 ![Diagrama de clases del contexto de NOTIFICATIONS](./assets/capitulo-5/bc-notification/notification-class-diagram.png)
 
 #### 5.4.7.2. Bounded Context Database Design Diagram.
+
 En esta seccion, el diagrama de base de datos nos muestra la estructura de las tablas y sus relaciones en el contexto de NOTIFICATIONS. Este diagrama es fundamental para entender cómo se almacenan y gestionan los datos en la aplicación.
 
 ![Diagrama de base de datos del contexto de NOTIFICATIONS](./assets/capitulo-5/bc-notification/notifications-db.png)
 
 ## 5.5. Bounded Context: TRACKING & MONITORING
+
 ### 5.5.1. Domain Layer.
 
 En la capa de dominio del contexto de **Tracking & Monitoring**, se definen las entidades responsables de representar la ubicación de los usuarios y el seguimiento en tiempo real.  
 Este módulo permite almacenar, actualizar y consultar la posición geográfica de un usuario para fines de monitoreo, seguridad o logística.
 
-
 ### Aggregate 1: Location
 
-| **Nombre** | **Categoría** | **Propósito** |
-|------------|----------------|----------------|
-| Location   | Entidad        | Representa la ubicación geográfica de un usuario en un momento determinado. |
+| **Nombre** | **Categoría** | **Propósito**                                                               |
+| ---------- | ------------- | --------------------------------------------------------------------------- |
+| Location   | Entidad       | Representa la ubicación geográfica de un usuario en un momento determinado. |
 
 #### Atributos del Location
 
-| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                 |
-|----------------|------------------|------------------|-------------------------------------------------|
-| id             | UUID             | Privado          | Identificador único de la ubicación.            |
-| userId         | UUID             | Privado          | Identificador del usuario al que pertenece.     |
-| latitud        | Double           | Privado          | Coordenada de latitud.                          |
-| longitud       | Double           | Privado          | Coordenada de longitud.                         |
-| fechaHora      | DateTime         | Privado          | Fecha y hora en la que se registró la ubicación.|
+| **Nombre** | **Tipo de dato** | **Visibilidad** | **Descripción**                                  |
+| ---------- | ---------------- | --------------- | ------------------------------------------------ |
+| id         | UUID             | Privado         | Identificador único de la ubicación.             |
+| userId     | UUID             | Privado         | Identificador del usuario al que pertenece.      |
+| latitud    | Double           | Privado         | Coordenada de latitud.                           |
+| longitud   | Double           | Privado         | Coordenada de longitud.                          |
+| fechaHora  | DateTime         | Privado         | Fecha y hora en la que se registró la ubicación. |
 
 #### Métodos del Location
 
-| **Nombre**     | **Tipo de retorno** | **Visibilidad** | **Descripción**                                  |
-|----------------|---------------------|------------------|--------------------------------------------------|
-| actualizar     | Void                | Public           | Permite actualizar latitud y longitud.           |
-| esReciente     | Boolean             | Public           | Indica si la ubicación fue registrada recientemente. |
+| **Nombre** | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+| ---------- | ------------------- | --------------- | ---------------------------------------------------- |
+| actualizar | Void                | Public          | Permite actualizar latitud y longitud.               |
+| esReciente | Boolean             | Public          | Indica si la ubicación fue registrada recientemente. |
 
 ### Aggregate 2: TrackingSession
 
-| **Nombre**       | **Categoría** | **Propósito** |
-|------------------|----------------|----------------|
-| TrackingSession  | Entidad        | Representa una sesión de seguimiento activo de un usuario. |
+| **Nombre**      | **Categoría** | **Propósito**                                              |
+| --------------- | ------------- | ---------------------------------------------------------- |
+| TrackingSession | Entidad       | Representa una sesión de seguimiento activo de un usuario. |
 
 #### Atributos del TrackingSession
 
-| **Nombre**     | **Tipo de dato** | **Visibilidad** | **Descripción**                                       |
-|----------------|------------------|------------------|-------------------------------------------------------|
-| id             | UUID             | Privado          | Identificador único de la sesión.                     |
-| userId         | UUID             | Privado          | Usuario que está siendo monitoreado.                  |
-| inicio         | DateTime         | Privado          | Fecha y hora de inicio del seguimiento.               |
-| fin            | DateTime?        | Privado          | Fecha y hora de finalización (puede ser nula).        |
-| ubicaciones    | List<Location>   | Privado          | Lista de ubicaciones registradas durante la sesión.   |
+| **Nombre**  | **Tipo de dato** | **Visibilidad** | **Descripción**                                     |
+| ----------- | ---------------- | --------------- | --------------------------------------------------- |
+| id          | UUID             | Privado         | Identificador único de la sesión.                   |
+| userId      | UUID             | Privado         | Usuario que está siendo monitoreado.                |
+| inicio      | DateTime         | Privado         | Fecha y hora de inicio del seguimiento.             |
+| fin         | DateTime?        | Privado         | Fecha y hora de finalización (puede ser nula).      |
+| ubicaciones | List<Location>   | Privado         | Lista de ubicaciones registradas durante la sesión. |
 
 #### Métodos del TrackingSession
 
-| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                             |
-|--------------------|---------------------|------------------|-------------------------------------------------------------|
-| agregarUbicacion   | Void                | Public           | Añade una nueva ubicación al historial de la sesión.        |
-| finalizarSesion    | Void                | Public           | Marca la sesión como finalizada.                           |
-| obtenerRecorrido   | List<Location>      | Public           | Devuelve la lista de ubicaciones ordenadas cronológicamente.|
-
+| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                              |
+| ---------------- | ------------------- | --------------- | ------------------------------------------------------------ |
+| agregarUbicacion | Void                | Public          | Añade una nueva ubicación al historial de la sesión.         |
+| finalizarSesion  | Void                | Public          | Marca la sesión como finalizada.                             |
+| obtenerRecorrido | List<Location>      | Public          | Devuelve la lista de ubicaciones ordenadas cronológicamente. |
 
 ### 5.5.2. Interface Layer.
+
 En la capa de interfaz del contexto de TRACKING & MONITORING de la aplicacion, se definen los controladores y servicios que manejan las solicitudes y respuestas de la API. Los controladores son responsables de recibir las solicitudes HTTP y devolver las respuestas correspondientes.
 
 ### Controller 1: MonitoringController
 
-| **Nombre**           | **Categoría** | **Propósito**                                           |
-|----------------------|----------------|----------------------------------------------------------|
-| MonitoringController | Controlador    | Expone endpoints públicos para geolocalizar usuarios.    |
+| **Nombre**           | **Categoría** | **Propósito**                                         |
+| -------------------- | ------------- | ----------------------------------------------------- |
+| MonitoringController | Controlador   | Expone endpoints públicos para geolocalizar usuarios. |
 
 #### Atributos del MonitoringController
 
-| **Nombre**         | **Tipo de dato**    | **Visibilidad** | **Descripción**                                         |
-|--------------------|---------------------|------------------|----------------------------------------------------------|
-| monitoringService  | MonitoringService   | Privado          | Servicio que contiene la lógica de negocio de localización. |
+| **Nombre**        | **Tipo de dato**  | **Visibilidad** | **Descripción**                                             |
+| ----------------- | ----------------- | --------------- | ----------------------------------------------------------- |
+| monitoringService | MonitoringService | Privado         | Servicio que contiene la lógica de negocio de localización. |
 
 #### Métodos del MonitoringController
 
-| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                |
-|------------------|---------------------|------------------|-----------------------------------------------------------------|
-| getCurrentLocation | ResponseEntity    | Public           | Retorna la ubicación actual del usuario.                        |
-| trackUserLocation  | ResponseEntity    | Public           | Realiza el seguimiento de un usuario en tiempo real.            |
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                      |
+| ------------------ | ------------------- | --------------- | ---------------------------------------------------- |
+| getCurrentLocation | ResponseEntity      | Public          | Retorna la ubicación actual del usuario.             |
+| trackUserLocation  | ResponseEntity      | Public          | Realiza el seguimiento de un usuario en tiempo real. |
 
 ### 5.5.3. Application Layer.
 
@@ -2412,23 +2468,22 @@ En la capa de aplicacion del contexto de TRACKING & MONITORING de la aplicacion,
 
 ### Service 1: MonitoringService
 
-| **Nombre**          | **Categoría** | **Propósito**                                                  |
-|---------------------|----------------|-----------------------------------------------------------------|
-| MonitoringService   | Servicio       | Gestiona la lógica de negocio para la obtención de ubicación.  |
+| **Nombre**        | **Categoría** | **Propósito**                                                 |
+| ----------------- | ------------- | ------------------------------------------------------------- |
+| MonitoringService | Servicio      | Gestiona la lógica de negocio para la obtención de ubicación. |
 
 ### Atributos del MonitoringService
 
-| **Nombre**      | **Tipo de dato** | **Visibilidad** | **Descripción**                                        |
-|------------------|------------------|------------------|--------------------------------------------------------|
-| mapsApiClient    | MapsAPIClient    | Privado          | Cliente que consume la API de geolocalización externa. |
+| **Nombre**    | **Tipo de dato** | **Visibilidad** | **Descripción**                                        |
+| ------------- | ---------------- | --------------- | ------------------------------------------------------ |
+| mapsApiClient | MapsAPIClient    | Privado         | Cliente que consume la API de geolocalización externa. |
 
 #### Métodos del MonitoringService
 
-| **Nombre**       | **Tipo de retorno** | **Visibilidad** | **Descripción**                                               |
-|------------------|---------------------|------------------|----------------------------------------------------------------|
-| fetchLocation    | Location            | Public           | Consulta la ubicación del usuario mediante el sistema externo. |
-| trackInRealtime  | Stream<Location>    | Public           | Inicia la monitorización en tiempo real de un usuario.         |
-
+| **Nombre**      | **Tipo de retorno** | **Visibilidad** | **Descripción**                                                |
+| --------------- | ------------------- | --------------- | -------------------------------------------------------------- |
+| fetchLocation   | Location            | Public          | Consulta la ubicación del usuario mediante el sistema externo. |
+| trackInRealtime | Stream<Location>    | Public          | Inicia la monitorización en tiempo real de un usuario.         |
 
 ### 5.5.4. Infrastructure Layer.
 
@@ -2436,40 +2491,42 @@ Esta capa define el repositorio responsable de acceder y persistir los datos rel
 
 ### Repository 1: LocationRepository
 
-| **Nombre**         | **Categoría** | **Propósito**                                                                 |
-|--------------------|----------------|--------------------------------------------------------------------------------|
-| LocationRepository | Repositorio    | Gestiona la persistencia de las ubicaciones geográficas de los usuarios.      |
+| **Nombre**         | **Categoría** | **Propósito**                                                            |
+| ------------------ | ------------- | ------------------------------------------------------------------------ |
+| LocationRepository | Repositorio   | Gestiona la persistencia de las ubicaciones geográficas de los usuarios. |
 
 #### Métodos del LocationRepository
 
-| **Nombre**         | **Tipo de retorno**  | **Visibilidad** | **Descripción**                                                    |
-|--------------------|----------------------|------------------|--------------------------------------------------------------------|
-| save               | Location             | Public           | Guarda una nueva ubicación en la base de datos.                   |
-| findByUserId       | List<Location>       | Public           | Obtiene todas las ubicaciones asociadas a un usuario.             |
-| findLatestByUserId | Location             | Public           | Retorna la última ubicación registrada de un usuario.             |
-| deleteByUserId     | Void                 | Public           | Elimina las ubicaciones asociadas a un usuario.                   |
+| **Nombre**         | **Tipo de retorno** | **Visibilidad** | **Descripción**                                       |
+| ------------------ | ------------------- | --------------- | ----------------------------------------------------- |
+| save               | Location            | Public          | Guarda una nueva ubicación en la base de datos.       |
+| findByUserId       | List<Location>      | Public          | Obtiene todas las ubicaciones asociadas a un usuario. |
+| findLatestByUserId | Location            | Public          | Retorna la última ubicación registrada de un usuario. |
+| deleteByUserId     | Void                | Public          | Elimina las ubicaciones asociadas a un usuario.       |
 
 ### Repository 2: TrackingSessionRepository
 
-| **Nombre**                | **Categoría** | **Propósito**                                                        |
-|---------------------------|----------------|-----------------------------------------------------------------------|
-| TrackingSessionRepository | Repositorio    | Administra el acceso a las sesiones de seguimiento de los usuarios.  |
+| **Nombre**                | **Categoría** | **Propósito**                                                       |
+| ------------------------- | ------------- | ------------------------------------------------------------------- |
+| TrackingSessionRepository | Repositorio   | Administra el acceso a las sesiones de seguimiento de los usuarios. |
 
 #### Métodos del TrackingSessionRepository
 
-| **Nombre**             | **Tipo de retorno**   | **Visibilidad** | **Descripción**                                                       |
-|------------------------|-----------------------|------------------|------------------------------------------------------------------------|
-| save                   | TrackingSession       | Public           | Guarda una nueva sesión de seguimiento.                               |
-| findActiveByUserId     | TrackingSession       | Public           | Devuelve la sesión activa actual de un usuario, si existe.            |
-| findById               | TrackingSession       | Public           | Busca una sesión por su identificador.                                |
-| closeSessionById       | Void                  | Public           | Finaliza una sesión marcándola con fecha de cierre.                   |
-| getSessionHistoryByUserId | List<TrackingSession> | Public        | Retorna todas las sesiones de seguimiento de un usuario.              |
-
+| **Nombre**                | **Tipo de retorno**   | **Visibilidad** | **Descripción**                                            |
+| ------------------------- | --------------------- | --------------- | ---------------------------------------------------------- |
+| save                      | TrackingSession       | Public          | Guarda una nueva sesión de seguimiento.                    |
+| findActiveByUserId        | TrackingSession       | Public          | Devuelve la sesión activa actual de un usuario, si existe. |
+| findById                  | TrackingSession       | Public          | Busca una sesión por su identificador.                     |
+| closeSessionById          | Void                  | Public          | Finaliza una sesión marcándola con fecha de cierre.        |
+| getSessionHistoryByUserId | List<TrackingSession> | Public          | Retorna todas las sesiones de seguimiento de un usuario.   |
 
 ### 5.5.6. Bounded Context Software Architecture Component Level Diagrams.
+
 Esta seccion presenta los diagramas de componentes de la arquitectura de software del contexto de TRACKING & MONITORING. Estos diagramas muestran la estructura y las relaciones entre los diferentes componentes del sistema.
 ![Diagrama de componentes del contexto de TRACKING & MONITORING](./assets/capitulo-5/bc-monitoring/component-bc-monitoring-detekto.png)
+
 ### 5.5.7. Bounded Context Software Architecture Code Level Diagrams.
+
 En esta seccion, el equipo de Softwarinos presenta la implementacion de los componentes dentro de cada contexto.
 
 - **Domain Layer Class Diagrams**: Muestra la estructura de las clases y sus relaciones en el contexto de TRACKING & MONITORING.
@@ -2489,10 +2546,15 @@ En esta seccion, el diagrama de base de datos nos muestra la estructura de las t
 ![Diagrama de base de datos del contexto de TRACKING & MONITORING](./assets/capitulo-5/bc-monitoring/monitoring-db.png)
 
 # Capítulo VI: Solution UX Design
+
 ## 6.1. Style Guidelines.
+
 En esta sección se definirán las guías visuales clave para el diseño de DETEKTO, incluyendo colores, tipografía, logotipo y tono de comunicación. Estos lineamentos asegurarán una identidad coherente y profesional que refleje los valores de confianza e innovación de la marc
+
 ### 6.1.1. General Style Guidelines.
+
 Es fundamental considerar las decisiones y elementos visuales que respaldan los principios generales de diseño para DETEKTO. Por esta razón, resulta esencial definir aspectos clave como la identidad de marca, la paleta de colores y la tipografía. Además, es necesario establecer el tono de comunicación y el lenguaje utilizado, que abarcan características como divertido o serio, formal o casual, respetuoso o irreverente, y entusiasta o sereno.
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines.
 
 <p align="center">
@@ -2510,7 +2572,6 @@ Colores:
 <p align="center">
   <img src="./assets/Capitulo-6/unnamed.png" alt="LogoUPC">
 
-
 <p align="justify">
 Se ha utilizado los colores blanco, negro y azul oscuro como colores principales para nuestro diseño.
 🔵 Azul oscuro (#2E3447): El color azul oscuro se utiliza como color principal de la marca, aportando confianza, seguridad y modernidad. Representa la tecnología y la eficiencia que caracterizan a DETEKTO en su enfoque hacia la optimización del estacionamiento urbano. Es protagonista en los botones principales, encabezados y elementos destacados de la interfaz.
@@ -2518,6 +2579,7 @@ Se ha utilizado los colores blanco, negro y azul oscuro como colores principales
 ⚪ Blanco (#FFFFFF): El blanco se emplea como color de fondo predominante, transmitiendo limpieza, claridad y simplicidad en la experiencia del usuario. Sirve como base para resaltar los demás colores y garantizar una lectura fluida, orden visual y una navegación intuitiva.
 
 ⚫ Gris (#4F566B / #8E9099): Los tonos grises se utilizan para los textos secundarios, bordes de campos de entrada, íconos y elementos informativos. Brindan equilibrio visual, profesionalismo y elegancia. Este color apoya al azul oscuro sin competir con él, manteniendo una estética sobria y tecnológica.
+
 </p>
 Tipografía:
 
@@ -2538,6 +2600,7 @@ Tonos de Comunicación:
 </p>
 
 ## 6.2. Information Architecture.
+
 ### 6.2.2. Labeling Systems.
 
 <p align="justify">
@@ -2554,6 +2617,7 @@ Contáctanos/Contact Us: Incluirá canales de atención como correo electrónico
 </p>
 
 ### 6.2.3. Searching Systems.
+
 <p align="justify">
 En esta sección se presenta el sistema de etiquetado que <strong>Detekto</strong> utilizará para facilitar la comprensión y navegación dentro de la plataforma, tanto en la aplicación como en la landing page. Los encabezados estarán organizados de forma clara, accesible y adaptada a los distintos perfiles de usuarios.
 </p>
@@ -2624,8 +2688,8 @@ El motor de búsqueda implementa funcionalidades de <em>autocompletado</em>, <em
 Estas funcionalidades permiten que tanto operadores de almacén como encargados de ventas accedan de forma inmediata a la información necesaria, optimizando la toma de decisiones y reduciendo errores operativos.
 </p>
 
-
 ### 6.2.4. SEO Tags and Meta Tags.
+
 <p align="justify">
 Para optimizar la visibilidad de Detekto en los motores de búsqueda, se definirán las siguientes etiquetas SEO y metadatos para su landing page:
 <p align="justify">
@@ -2661,29 +2725,33 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 <strong>Navegación coherente y simplificada:</strong> Toda la plataforma mantendrá una estructura de navegación consistente, con iconografía clara, rutas predecibles, menú de retroceso accesible y jerarquías visuales definidas. Esto permite que tanto nuevos usuarios como operadores experimentados puedan moverse rápidamente dentro de la aplicación sin curva de aprendizaje significativa.
 </p>
 
-
 ## 6.3. Landing Page UI Design.
 
 ### 6.3.1. Landing Page Wireframe.
+
 **Seccion Home**
+
 <p align="center">
   <img src="./assets/Capitulo-6/wlanding1.png" alt="LogoUPC">
 </p>
 <br>
 
 **Seccion Nosotros**
+
 <p align="center">
   <img src="./assets/Capitulo-6/wlanding2.png" alt="LogoUPC">
 </p>
 <br>
 
 **Seccion About the product/Aplicacion**
+
 <p align="center">
   <img src="./assets/Capitulo-6/wlanding3.png" alt="LogoUPC">
 </p>
 <br>
 
 **Seccion About the team/Equipo**
+
 <p align="center">
   <img src="./assets/Capitulo-6/wlanding4.png" alt="LogoUPC">
 </p>
@@ -2692,24 +2760,28 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 ### 6.3.2. Landing Page Mock-up.
 
 **Seccion Home**
+
 <p align="center">
   <img src="./assets/Capitulo-6/landing1.png" alt="LogoUPC">
 </p>
 <br>
 
 **Seccion Nosotros**
+
 <p align="center">
   <img src="./assets/Capitulo-6/landing2.png" alt="LogoUPC">
 </p>
 <br>
 
 **Seccion About the product/Aplicacion**
+
 <p align="center">
   <img src="./assets/Capitulo-6/landing3.png" alt="LogoUPC">
 </p>
 <br>
 
 **Seccion About the team/Equipo**
+
 <p align="center">
   <img src="./assets/Capitulo-6/landing4.png" alt="LogoUPC">
 </p>
@@ -2718,58 +2790,65 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 ## 6.4. Applications UX/UI Design.
 
 **Incia sesion, Registrom, Recupera tu cuenta:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/login.png" alt="LogoUPC">
 </p>
 <br>
 
 **Recupera tu cuenta:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/recover.png" alt="LogoUPC">
 </p>
 <br>
 
 **Inicio y Ventas:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/inicio.png" alt="LogoUPC">
 </p>
 <br>
 
 **Buscar Objeto y Métricas**
+
 <p align="center">
   <img src="./assets/Capitulo-6/buscar.png" alt="LogoUPC">
 </p>
 <br>
 
 **Ganancias, Stock y Agregar Ítem:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/ganancias.png" alt="LogoUPC">
 </p>
 <br>
 
 **Escaneo de objetos, Stock IA:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/escaneo.png" alt="LogoUPC">
 </p>
 <br>
 
 **Perfil:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/perfil.png" alt="LogoUPC">
 </p>
 <br>
 
-
-
 ### 6.4.1. Applications Wireframes.
 
 **PAGINA 1:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/1.png" alt="LogoUPC">
 </p>
 <br>
 
 **PAGINA 2:**
+
 <p align="center">
   <img src="./assets/Capitulo-6/1.png" alt="LogoUPC">
 </p>
@@ -2781,6 +2860,7 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 Los siguientes diagramas de wireflow representan visualmente las pantallas y transiciones más relevantes de la aplicación móvil DETEKTO, diseñada para la gestión de ventas en ferreterías. A diferencia del user flow, los wireflows integran tanto la lógica de navegación como la disposición preliminar de los elementos visuales en cada vista, lo cual permite validar tempranamente la experiencia de usuario (UX) antes del diseño definitivo.
 
 **login-wireflow-mov**
+
 <p align="justify">
 -Este wireflow refleja el proceso de autenticación en la aplicación DETEKTO. Comprende las pantallas de registro e inicio de sesión, incluyendo validaciones básicas y opciones como el acceso a términos y condiciones. Se prioriza una interfaz simple y clara para garantizar un acceso ágil desde dispositivos móviles.
 
@@ -2789,8 +2869,8 @@ Los siguientes diagramas de wireflow representan visualmente las pantallas y tra
 </p>
 <br>
 
-
 **ventas-wireflow-mov**
+
 <p align="justify">
 - Este flujo simula el proceso de revisión de ventas. Desde la pantalla de resumen hasta el detalle de productos más vendidos, permite al usuario filtrar por fecha o categoría y visualizar datos clave que apoyan la toma de decisiones en tiempo real.
 
@@ -2800,6 +2880,7 @@ Los siguientes diagramas de wireflow representan visualmente las pantallas y tra
 <br>
 
 **EscaneoIA-wireflow**
+
 <p align="justify">
 - Uno de los elementos diferenciadores de DETEKTO es su capacidad de detectar productos mediante visión por computadora. Este flujo muestra cómo el usuario puede escanear el entorno de su almacén o tienda, y la app detecta automáticamente productos mediante IA, listando los artículos reconocidos y facilitando su registro en el inventario sin intervención manual.
 
@@ -2808,8 +2889,8 @@ Los siguientes diagramas de wireflow representan visualmente las pantallas y tra
 </p>
 <br>
 
-
 **métricas-wireflow-mov**
+
 <p align="justify">
 - Aquí se representa la visualización de indicadores clave como ventas del día, productos con mayor rotación y distribución de ingresos. Este flujo permite al usuario analizar rápidamente el rendimiento del negocio y detectar oportunidades de mejora.
 
@@ -2818,8 +2899,8 @@ Los siguientes diagramas de wireflow representan visualmente las pantallas y tra
 </p>
 <br>
 
-
 **perfil-wireflow-mov**
+
 <p align="justify">
 - Describe el flujo de navegación hacia la configuración del perfil del usuario. Se incluye la posibilidad de editar información personal y cerrar sesión, manteniendo una estructura simple y funcional.
 
@@ -2835,7 +2916,6 @@ Los siguientes diagramas de wireflow representan visualmente las pantallas y tra
 <p align="justify">
 En esta sección se describen los principales flujos de usuario diseñados para la aplicación móvil del proyecto DETEKTO, orientada a la gestión y control de inventario mediante inteligencia artificial. Cada flujo representa el recorrido lógico que realiza un usuario al interactuar con las funcionalidades del sistema, asegurando una experiencia intuitiva, funcional y alineada con los objetivos del negocio.
 
-
 <br>
 <p align="justify">
 El flujo de autenticación incluye el registro de nuevos usuarios, recuperación de contraseña y el inicio de sesión. El usuario puede crear una cuenta ingresando su correo electrónico y contraseña, verificar su identidad mediante un código, y luego acceder a la aplicación. Este proceso garantiza la seguridad de los datos y el acceso controlado al sistema.
@@ -2845,7 +2925,6 @@ El flujo de autenticación incluye el registro de nuevos usuarios, recuperación
 </p>
 <br>
 
-
 <p align="justify">
 Una vez dentro, el usuario llega a la pantalla Inicio, donde se visualizan opciones resumidas como acceso al inventario, ventas, métricas y calendario. Este dashboard principal actúa como el punto central para acceder a las funcionalidades clave de la app.
 
@@ -2854,7 +2933,6 @@ Una vez dentro, el usuario llega a la pantalla Inicio, donde se visualizan opcio
 </p>
 <br>
 
-
 <p align="justify">
 En el flujo de gestión de stock, el usuario puede visualizar los productos disponibles, agregar nuevos ítems con descripción, imagen y categoría, y escanear objetos físicos mediante la cámara para su identificación automática con IA. Este flujo es fundamental para mantener actualizado el inventario de forma eficiente.
 
@@ -2862,7 +2940,6 @@ En el flujo de gestión de stock, el usuario puede visualizar los productos disp
   <img src="./assets/Capitulo-6/escaneo.png" alt="LogoUPC">
 </p>
 <br>
-
 
 <p align="justify">
 El módulo de ventas permite al usuario registrar ventas, consultar un histórico de transacciones, buscar productos vendidos, y visualizar los productos más comercializados. Además, se integra una sección de ganancias y métricas con visualización gráfica del rendimiento económico, facilitando la toma de decisiones basada en datos.
