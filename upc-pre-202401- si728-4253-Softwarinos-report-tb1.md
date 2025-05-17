@@ -344,70 +344,85 @@ En Softwarinos, estamos desarrollando una solución con respecto al reconocimien
 ### 1.2.2 Lean UX Process.
 
 #### 1.2.2.1. Lean UX Problem Statements.
-El estado actual de la gestión de productos en las ferreterías está centrado principalmente en métodos tradicionales, como catálogos físicos y búsqueda manual, lo que resulta en tiempos de espera largos, ineficiencia en la atención al cliente y una gestión de inventario poco precisa. Lo que los sistemas existentes no logran abordar es la integración efectiva de tecnología para agilizar la identificación de productos, mejorar la precisión en el registro de ventas e inventario, y optimizar el seguimiento de las operaciones comerciales.
+En las ferreterías, la gestión de productos y la atención al cliente siguen dependiendo en gran medida de métodos tradicionales como la búsqueda manual, el uso de catálogos físicos y sistemas poco especializados. Esta situación genera tiempos de espera prolongados, errores frecuentes en la identificación de productos, una experiencia deficiente para el cliente y una gestión de inventario ineficiente.
 
-Nuestro producto, Detekto, resolverá esta brecha mediante el desarrollo de una solución móvil innovadora que utiliza reconocimiento visual a través de la cámara del dispositivo. Nos enfocaremos en proporcionar una plataforma que permita a los vendedores identificar productos rápidamente, registrar ventas, acceder a informes de inventario en tiempo real y obtener reportes automatizados. Además, simplificaremos la gestión del inventario y mejoraremos la comunicación entre vendedores y administradores, todo desde una interfaz sencilla y fácil de usar.
+Aunque existen plataformas genéricas de ventas y CRM, estas no se adaptan a las particularidades del rubro ferretero. El problema de fondo radica en la falta de soluciones tecnológicas específicas que automaticen y agilicen tareas operativas críticas como la identificación de productos y el control del stock.
 
-Nuestro enfoque inicial será dirigirnos a ferreterías y pequeños comercios especializados en herramientas y materiales, proporcionando una solución tecnológica accesible que optimice sus procesos. Sabremos que hemos tenido éxito cuando veamos una disminución significativa en los tiempos de atención al cliente, una mejora en la precisión del inventario y una mayor satisfacción tanto de empleados como de clientes, resultando en un aumento en las ventas y eficiencia operativa.
+Para resolver esta brecha, Detekto propone una solución tecnológica innovadora basada en **tecnologías emergentes** como la **visión computacional**, la **inteligencia artificial** y la **realidad aumentada**. Nuestra aplicación móvil permitirá a los vendedores reconocer herramientas y materiales directamente con la cámara del dispositivo, facilitando el registro de ventas, la gestión de inventario en tiempo real y la generación de reportes automatizados.
+
+Además, Detekto mejorará la coordinación entre vendedores y administradores a través de una interfaz intuitiva, diseñada para entornos de trabajo con alta demanda, ruido y limitaciones técnicas. El enfoque se orienta a ferreterías pequeñas y medianas que buscan digitalizarse sin incurrir en altos costos o en procesos complejos de implementación.
+
+Sabremos que hemos tenido éxito cuando se logre:
+- Reducir significativamente los tiempos de atención al cliente.
+- Aumentar la precisión del inventario registrado.
+- Mejorar la satisfacción tanto del cliente como del personal.
+- Observar un incremento en las ventas derivado de procesos más ágiles y eficientes.
 
 #### 1.2.2.2. Lean UX Assumptions.
 - **Business Assumptions**
 
-Los vendedores y administradores de ferreterías necesitan una herramienta rápida y sencilla para identificar productos y gestionar inventarios.
-
-Detekto solucionará esto mediante una app móvil con reconocimiento visual, facilitando la identificación de productos y la gestión de ventas e inventarios.
-
-El modelo de negocio se basará en suscripciones mensuales para ferreterías, con opciones premium como reportes avanzados.
-
-La principal competencia son plataformas generales como Shopify y Zoho CRM, que no están especializadas en ferreterías.
-
-Nos diferenciamos al ofrecer una solución sencilla y enfocada, con reconocimiento visual que ahorra tiempo y mejora la eficiencia operativa.
+  - Las ferreterías requieren una solución especializada que agilice la identificación de productos y mejore la eficiencia operativa, ya que los sistemas actuales son generalistas y no se adaptan a sus procesos específicos.
+  - Una aplicación móvil con reconocimiento visual basado en inteligencia artificial y visión computacional puede reducir significativamente los tiempos de atención al cliente y mejorar la precisión en el registro de ventas e inventario.
+  - El modelo de negocio sostenible será mediante suscripciones mensuales, con niveles diferenciados (básico y premium) que incluyan funcionalidades como reportes avanzados y soporte técnico.
+  - Las principales soluciones existentes (como Shopify o Zoho CRM) carecen de un enfoque especializado en ferreterías, lo que representa una oportunidad de diferenciación para Detekto.
+  - La propuesta de valor de Detekto reside en ofrecer una herramienta intuitiva, eficiente y adaptada al entorno ferretero, que aproveche tecnologías emergentes para resolver tareas repetitivas y propensas a error.
 
 - **User Assumptions**
 
   - **¿Quién es el usuario?**  
-    Vendedores de ferretería, encargados de mostrador, y administradores de pequeñas y medianas ferreterías.
+    Vendedores de ferreterías, encargados de atención al cliente, personal de almacén y administradores de pequeños y medianos negocios del rubro.
 
-  - **¿Dónde encaja nuestro producto en su trabajo o vida?**  
-    Detekto se utilizará en el punto de venta o durante la organización de inventario, como una herramienta rápida para identificar productos y facilitar su registro, venta o seguimiento.
+  - **¿En qué parte de su trabajo encaja Detekto?**  
+    Se utiliza en el punto de venta o durante la organización del inventario, donde el tiempo y la precisión son críticos. La app actúa como un asistente digital inmediato.
 
-  - **¿Qué problema tiene nuestro producto? ¿Cómo se resuelve?**  
-    El usuario necesita identificar productos sin perder tiempo revisando catálogos físicos o digitales. El reconocimiento visual automatizado reduce este tiempo, mejora la precisión y acelera la atención al cliente.
+  - **¿Qué problema resuelve y cómo?**  
+    El usuario enfrenta demoras y errores al buscar productos manualmente. Detekto lo soluciona usando visión computacional para identificar herramientas y materiales en segundos, optimizando la atención y reduciendo el margen de error.
 
-  - **¿Cuándo y cómo es usado nuestro producto?**  
-    Detekto se usa durante el horario laboral en ferreterías, a través de dispositivos móviles (principalmente smartphones) al momento de interactuar con clientes o gestionar productos en bodega.
+  - **¿Cuándo y cómo se usa Detekto?**  
+    Durante la jornada laboral, principalmente con smartphones, al interactuar con clientes o al organizar productos en estanterías y almacenes.
 
-  - **¿Qué características son importantes?**  
-    Reconocimiento visual rápido y preciso, facilidad para registrar ventas, reportes automáticos, historial de productos buscados y acceso desde el celular sin depender de otros sistemas externos.
+  - **¿Qué características son esenciales para el usuario?**  
+    Rapidez en el reconocimiento visual, registro automático de productos, generación de reportes, interfaz intuitiva y disponibilidad offline o con conectividad limitada.
 
-  - **¿Cómo debe verse nuestro producto y comportarse?**  
-    Debe tener una interfaz limpia, visual e intuitiva, con navegación simple, botones grandes y flujos cortos. Debe ser confiable, ágil y estar optimizada para ambientes de trabajo (ruido, poco tiempo, poca conectividad).
+  - **¿Cómo debe comportarse la app?**  
+    Debe ser robusta y confiable, con una experiencia de usuario optimizada para ambientes dinámicos: botones grandes, flujos de navegación simples, interfaz visual clara y tiempos de respuesta inmediatos.
 
 - **User Benefits**
 
-  - **Identificación instantánea de productos:**  
-    El usuario puede reconocer herramientas y materiales en segundos sin buscar manualmente.
+  - **Reconocimiento automático de productos:**  
+    Ahorra tiempo y elimina la necesidad de búsqueda manual en catálogos o bases de datos.
 
-  - **Optimización de ventas y atención al cliente:**  
-    Se reduce el tiempo de atención, mejorando la experiencia del cliente y la eficiencia del vendedor.
+  - **Mejora de la atención al cliente y las ventas:**  
+    Permite ofrecer respuestas más rápidas, mejorando la experiencia y acelerando los procesos de compra.
 
-  - **Gestión simplificada para administradores:**  
-    Los responsables pueden monitorear ventas y productos más vendidos desde un panel claro.
+  - **Control eficiente para administradores:**  
+    Acceso en tiempo real a métricas clave como productos más vendidos y stock disponible, facilitando la toma de decisiones.
 
-  - **Reducción de errores:**  
-    Se evita registrar productos incorrectos gracias al reconocimiento visual automatizado.
+  - **Reducción de errores humanos:**  
+    La automatización del reconocimiento disminuye las equivocaciones en el registro y facturación de productos.
 
-  - **Adopción sencilla:**  
-    La app no requiere conocimientos técnicos avanzados, lo que permite una adopción rápida incluso por usuarios con baja familiaridad digital.
+  - **Facilidad de adopción:**  
+    Pensado para usuarios con bajo nivel de alfabetización digital, lo que garantiza una curva de aprendizaje baja.
+
+---
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
-- **Creemos que** la experiencia del vendedor mejorará si se ofrece reconocimiento automático de herramientas mediante la cámara del móvil.**Sabremos que hemos tenido éxito, cuando** el tiempo promedio de identificación de productos disminuya en un 50% durante el primer mes de uso.
 
-- **Creemos que** los administradores podrán tomar mejores decisiones si se les proporciona un panel con reportes automáticos de ventas e inventario.**Sabremos que hemos tenido éxito, cuando** el 70% de los administradores usen el panel semanalmente y reporten una mejora en la gestión del stock en los primeros tres meses.
+- **Hipótesis 1**  
+  **Creemos que** la experiencia de los vendedores mejorará significativamente si se integra reconocimiento automático de productos mediante la cámara del dispositivo móvil, basado en visión computacional.  
+  **Sabremos que hemos tenido éxito cuando** el tiempo promedio de identificación de productos se reduzca al menos en un 50% durante el primer mes de uso.
 
-- **Creemos que** los usuarios adoptarán más rápidamente la app si la interfaz es simple, visual e intuitiva. **Sabremos que hemos tenido éxito, cuando** al menos el 80% de los nuevos usuarios completen su primera venta con ayuda de Detekto en menos de 10 minutos, durante el primer uso.
+- **Hipótesis 2**  
+  **Creemos que** los administradores tomarán decisiones más efectivas si cuentan con un panel inteligente con reportes automatizados de ventas e inventario.  
+  **Sabremos que hemos tenido éxito cuando** al menos el 70% de los administradores accedan al panel semanalmente y reporten mejoras concretas en la gestión de stock en los primeros tres meses.
 
-- **Creemos que** Detekto tendrá una mayor aceptación que soluciones genéricas si se enfoca únicamente en ferreterías. **Sabremos que hemos tenido éxito, cuando** al menos el 60% de los usuarios prefieren Detekto sobre otros sistemas después de un mes de uso, según encuestas de satisfacción.
+- **Hipótesis 3**  
+  **Creemos que** una interfaz limpia, visual y optimizada para usuarios con poca experiencia tecnológica facilitará la adopción de la app.  
+  **Sabremos que hemos tenido éxito cuando** el 80% de los nuevos usuarios completen su primera venta en menos de 10 minutos durante su primer uso.
+
+- **Hipótesis 4**  
+  **Creemos que** una solución especializada como Detekto, centrada exclusivamente en el sector ferretero, será preferida frente a plataformas genéricas.  
+  **Sabremos que hemos tenido éxito cuando** al menos el 60% de los usuarios prefieran Detekto sobre otras soluciones según los resultados de encuestas de satisfacción después del primer mes.
 
 #### 1.2.2.4. Lean UX Canvas.
 <img src="assets/CAP1/LeanUXCanvas.png" alt="LeanUxCanvas">
