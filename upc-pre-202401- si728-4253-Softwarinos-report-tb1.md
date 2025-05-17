@@ -77,6 +77,17 @@ Para la entrega de la TB1 se realizó una reunión donde se asignaron las respon
 | Miquel De la Piedra | Desarrollo del Impact Mapping, Product Backlog, Strategic-Level Attribute-Driven Design, Design Purpose, Attribute-Driven Design Inputs, Primary Functionality (Primary User Stories), Quality attribute Scenarios, Constraints, Architectural Drivers Backlog, Architectural Design Decisions y Quality Attribute Scenario Refinements y Registro de entrevistas                                                    |
 | Julio De la Torre   | Desarrollo de Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping y Software Architecture, Software Architecture System Landscape Diagram, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams y Software Architecture Deployment Diagrams y Registro de entrevistas |
 
+## TB2
+
+Para la entrega de la TB2 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
+| Integrante          | Responsabilidad                                                                                                                                                                                                                                                                                                         |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| José Ampudia        | Desarrollo de las secciones Domain Layer, Interface Layer, Application Layer e Infrastructure Layer del contexto Object-Recognition. Participación en diseño de Landing Page (wireframe y mock-up), Applications Wireframes y Wireflow Diagrams.                                                                    |
+| Manuel Gutierrez    | Redacción inicial del Capítulo V: Tactical-Level Software Design. Participación en la definición del contexto Object-Recognition y desarrollo de Application Layer e Infrastructure Layer.                                                                                                                           |
+| Miquel De la Piedra | Desarrollo de Style Guidelines para Web, Mobile & Devices. Creación de sistemas de etiquetado, búsqueda y SEO (Labeling Systems, Searching Systems y SEO Tags).                                                                                                               |
+| Julio Elsner        | Revisión de estructura por capas y redacción inicial del Capítulo V. Desarrollo del Bounded Context: NOTIFICATIONS. Redacción de General Style Guidelines e inicio del Capítulo VI. Participación en Domain Layer e Interface Layer del contexto Object-Recognition.         |
+
+
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron _commits_ respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
 Para tener mejor precisión en los integrantes del equipo, a continuación presentamos los usuarios de GitHub de los integrantes:
