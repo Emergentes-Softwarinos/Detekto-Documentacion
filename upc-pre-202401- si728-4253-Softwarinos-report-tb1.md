@@ -39,13 +39,18 @@ Profesor: De Los Rios Fernandez, Christian Luis
 
 # Registro de Versiones del informe
 
-| Versión | Fecha | Autor | Descripción de modificación |
-| ------- | ----- | ----- | --------------------------- |
-| 0.1     |       |       |                             |
-| 0.2     |       |       |                             |
-| 0.3     |       |       |                             |
-| 0.4     |       |       |                             |
-| 0.5     |       |       |                             |
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                                                                            |
+| ------- | ---------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 0.1     | 19-04-2025 | Manuel Gutierrez    | Redacción de Student Outcome, Startup Profile, Descripción de la Startup y Perfiles del equipo.                                                        |
+| 0.2     | 21-04-2025 | Jose Ampudia        | Elaboración del Solution Profile: Antecedentes, Problemática, Lean UX Process (Problem Statements, Assumptions, Hypotheses, Canvas).                   |
+| 0.3     | 22-04-2025 | Miquel De la Piedra | Desarrollo de Segmentos Objetivo, análisis de Competidores, estrategias y tácticas frente a la competencia.                                            |
+| 0.4     | 23-04-2025 | Julio Elsner        | Diseño de entrevistas, registro de entrevistas y análisis de entrevistas.                                                                              |
+| 0.5     | 24-04-2025 | Manuel Gutierrez    | Elaboración de Needfinding: User Personas, User Task Matrix, Empathy Mapping, As-is Scenario Mapping.                                                  |
+| 0.6     | 24-04-2025 | Miquel De la Piedra | Creación de Ubiquitous Language.                                                                                                                       |
+| 0.7     | 25-04-2025 | Julio Elsner        | Desarrollo del To-Be Scenario Mapping, User Stories e Impact Mapping.                                                                                  |
+| 0.8     | 25-04-2025 | Jose Ampudia        | Construcción del Product Backlog y definición del Strategic-Level Attribute-Driven Design: Design Purpose, Inputs, Constraints, Architectural Drivers. |
+| 0.9     | 26-04-2025 | Manuel Gutierrez    | Desarrollo de EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Context Mapping.                                              |
+| 1.0     | 26-04-2025 | Jose Ampudia        | Finalización de Software Architecture: Landscape Diagram, Context Level, Container Level y Deployment Diagrams.                                        |
 
 # Project Report Collaboration Insights
 
