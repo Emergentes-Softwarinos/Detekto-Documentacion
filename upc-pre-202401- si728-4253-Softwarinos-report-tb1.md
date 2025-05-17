@@ -51,6 +51,12 @@ Profesor: De Los Rios Fernandez, Christian Luis
 | 0.8     | 25-04-2025 | Jose Ampudia        | Construcción del Product Backlog y definición del Strategic-Level Attribute-Driven Design: Design Purpose, Inputs, Constraints, Architectural Drivers. |
 | 0.9     | 26-04-2025 | Manuel Gutierrez    | Desarrollo de EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Context Mapping.                                              |
 | 1.0     | 26-04-2025 | Jose Ampudia        | Finalización de Software Architecture: Landscape Diagram, Context Level, Container Level y Deployment Diagrams.                                        |
+| 1.1     | 30-04-2025 | Julio Elsner, Manuel Gutierrez | Inicio de redacción del Capítulo V: Tactical-Level Software Design. Revisión de estructura por capas y definición inicial del contexto Object-Recognition. |
+| 1.2     | 02-05-2025 | Julio Elsner, Jose Ampudia     | Desarrollo de las secciones Domain Layer e Interface Layer del contexto Object-Recognition.                                                           |
+| 1.3     | 10-05-2025 | Manuel Gutierrez, Jose Ampudia | Desarrollo de Application Layer e Infrastructure Layer del contexto Object-Recognition.                                                               |
+| 1.4     | 13-05-2025 | Julio Elsner                   | Redacción del Bounded Context: NOTIFICATIONS. Inicio del Capítulo VI con Style Guidelines y General Style Guidelines.                                |
+| 1.5     | 16-05-2025 | Miquel De la Piedra            | Redacción de Web, Mobile & Devices Style Guidelines, y desarrollo de Labeling, Searching y SEO Tags Systems.                                         |
+| 1.6     | 17-05-2025 | Jose Ampudia                   | Avance en Navigation Systems, Landing Page Wireframe y Mock-up. Diseño de Applications Wireframes y Wireflow Diagrams.                              |
 
 # Project Report Collaboration Insights
 
