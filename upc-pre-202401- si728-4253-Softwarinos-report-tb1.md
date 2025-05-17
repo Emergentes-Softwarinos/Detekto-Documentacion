@@ -2535,12 +2535,30 @@ La navegación en <strong>Detekto</strong> se diseñará para ofrecer una experi
 
 ## 6.3. Landing Page UI Design.
 
-**...:**
-
-
-
 ### 6.3.1. Landing Page Wireframe.
+**Seccion Home**
+<p align="center">
+  <img src="./assets/Capitulo-6/landing1.png" alt="LogoUPC">
+</p>
+<br>
+**Seccion Nosotros**
+<p align="center">
+  <img src="./assets/Capitulo-6/landing2.png" alt="LogoUPC">
+</p>
+<br>
+**Seccion About the product/Aplicacion**
+<p align="center">
+  <img src="./assets/Capitulo-6/landing3.png" alt="LogoUPC">
+</p>
+<br>
+**Seccion About the team/Equipo**
+<p align="center">
+  <img src="./assets/Capitulo-6/landing4.png" alt="LogoUPC">
+</p>
+<br>
+
 ### 6.3.2. Landing Page Mock-up.
+
 ## 6.4. Applications UX/UI Design.
 
 **Incia sesion, Registrom, Recupera tu cuenta:**
