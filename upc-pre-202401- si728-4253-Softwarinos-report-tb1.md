@@ -1696,6 +1696,10 @@ Link del LucidChart: https://lucid.app/lucidchart/ebfb06fe-73a6-4849-b4dc-4d220b
   <img src="assets/capitulo-4/contexto.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
+<p align="center">
+  <img src="assets/capitulo-4/contenedores.png" alt="Imagen extraída de Figma" width="900"/>
+</p>
+
 ### 4.3.3. Software Architecture Deployment Diagrams.
 
 <p align="center">
