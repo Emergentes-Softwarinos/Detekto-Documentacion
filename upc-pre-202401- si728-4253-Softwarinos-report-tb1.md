@@ -589,7 +589,7 @@ Estos mock-ups permitieron validar con usuarios la disposición de los elementos
 ### 6.3.2. Landing Page Mock-up.
 ## 6.4. Applications UX/UI Design.
 
-**Incia sesion, Registrom, Recupera tu cuenta:**
+**Incia sesion, Registro, Recupera tu cuenta:**
 <p align="center">
   <img src="./assets/Capitulo-6/login.png" alt="LogoUPC">
 </p>
@@ -625,7 +625,7 @@ Estos mock-ups permitieron validar con usuarios la disposición de los elementos
 </p>
 <br>
 
-**Perfil:**
+**Perfil :**
 <p align="center">
   <img src="./assets/Capitulo-6/perfil.png" alt="LogoUPC">
 </p>
@@ -702,6 +702,65 @@ Los siguientes diagramas de wireflow representan visualmente las pantallas y tra
 
 ### 6.4.2. Applications Mock-ups.
 
+Se evidencian los Mocku-Ups finales de la aplicación móvil:
+
+**Incia sesion, Registro, Recupera tu cuenta:**
+<p align="center">
+  <img src="./assets/Capitulo-6/login.png" alt="LogoUPC">
+</p>
+<br>
+
+**Recupera tu cuenta:**
+<p align="center">
+  <img src="./assets/Capitulo-6/recover.png" alt="LogoUPC">
+</p>
+<br>
+
+**Inicio y Ventas:**
+<p align="center">
+  <img src="./assets/Capitulo-6/inicio.png" alt="LogoUPC">
+</p>
+<br>
+
+**Buscar Objeto y Métricas**
+<p align="center">
+  <img src="./assets/Capitulo-6/buscar.png" alt="LogoUPC">
+</p>
+<br>
+
+**Ganancias, Stock y Agregar Ítem:**
+<p align="center">
+  <img src="./assets/Capitulo-6/ganancias.png" alt="LogoUPC">
+</p>
+<br>
+
+**Escaneo de objetos, Stock IA:**
+<p align="center">
+  <img src="./assets/Capitulo-6/escaneo.png" alt="LogoUPC">
+</p>
+<br>
+
+**Perfil:**
+<p align="center">
+  <img src="./assets/Capitulo-6/perfil.png" alt="LogoUPC">
+</p>
+<br>
+
+
+
+### 6.4.1. Applications Wireframes.
+
+**PAGINA 1:**
+<p align="center">
+  <img src="./assets/Capitulo-6/1.png" alt="LogoUPC">
+</p>
+<br>
+
+**PAGINA 2:**
+<p align="center">
+  <img src="./assets/Capitulo-6/1.png" alt="LogoUPC">
+</p>
+<br>
 
 
 ### 6.4.3. Applications User Flow Diagrams.
