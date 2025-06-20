@@ -3414,7 +3414,7 @@ Para el despliegue de la landing page de DETEKTO, se utilizará GitHub Pages com
     - Acceder a la URL proporcionada por GitHub Pages para verificar que la landing page se despliega correctamente.
     - Realizar pruebas de funcionalidad y enlaces para asegurar que todo funciona como se espera.
 
-![Deployment-github](./assets/Capitulo-7/7.1.4-software-deployment-configuration/deploy.png)
+![Deployment-github](./assets/capitulo-7/7.1.4-software-deployment-configuration/deploy.png)
 
 Accede a la landing page de DETEKTO en el siguiente enlace: [Detekto Landing Page](https://emergentes-softwarinos.github.io/Detekto-LandingPage/)
 
