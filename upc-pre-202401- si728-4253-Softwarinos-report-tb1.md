@@ -3043,3 +3043,344 @@ Para validar la experiencia de usuario y la disposición visual de las principal
   <img src="./assets/Capitulo-6/14.png" alt="LogoUPC">
 </p>
 <br>
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+## 7.1. Software Configuration Management.
+### 7.1.1. Software Development Environment Configuration.
+### 7.1.2. Source Code Management.
+Para la gestión del código fuente, se utilizará Git como sistema de control de versiones. Se ha creado una organización en GitHub llamada "Softwarinos" donde se alojará el repositorio del proyecto DETEKTO, tanto la documentación como el código fuente de la solución. El repositorio estará estructurado para facilitar la colaboración y el seguimiento de cambios, incluyendo ramas para desarrollo, pruebas y producción.
+
+Enlace a GitHub: [Softwarinos](https://github.com/Emergentes-Softwarinos)
+
+La metodología de trabajo seguirá el modelo Git Flow, que incluye ramas principales como `main` para producción y `develop` para desarrollo. Las características nuevas se desarrollarán en ramas específicas (`feature/nombre-caracteristica`), y las correcciones de errores en ramas de tipo `bugfix/nombre-error`. Los pull requests serán revisados por al menos un miembro del equipo antes de ser fusionados.
+
+Para esto, se utilizarán las siguientes convenciones de nomenclatura:
+| **Tipo de rama** | **Convención de nomenclatura**         | **Descripción**                                         |
+| ---------------- | ------------------------------------- | ------------------------------------------------------- |
+| `main`           | `main`                                | Rama principal para la versión estable del producto.    |
+| `develop`        | `develop`                             | Rama de desarrollo donde se integran las nuevas características. |
+| `feature`        | `feature/nombre-caracteristica`       | Rama para desarrollar nuevas funcionalidades.           |
+| `bugfix`         | `bugfix/nombre-error`                | Rama para corregir errores específicos.                 |
+| `hotfix`         | `hotfix/nombre-correccion`           | Rama para correcciones urgentes en producción.          |
+
+Para asegurar la calidad del código, se implementarán revisiones de código mediante pull requests, donde al menos un miembro del equipo revisará los cambios antes de su integración. Además, se utilizarán herramientas de análisis estático de código y pruebas automatizadas para validar la funcionalidad y detectar posibles errores.
+
+**Stack Tecnológico:**
+  - Landing Page: HTML, CSS, JavaScript.
+  - Aplicación Móvil: Flutter (Dart).
+  - Backend: Python (Django).
+  - Base de Datos: MySQL.
+
+**Convenciones de idioma:**
+  - Todo el código fuente y la documentación se desarrollará en inglés para asegurar la accesibilidad y comprensión por parte de un público global. Los comentarios en el código, nombres de variables, funciones y documentación seguirán las convenciones de nomenclatura en inglés. El español será utilizado únicamente en la documentación del proyecto para facilitar la comprensión por parte de los miembros del equipo que hablan español.
+
+**Convenciones de versionamiento**
+  - El versionamiento del software seguirá el esquema Semantic Versioning 2.0.0, que consiste en tres números separados por puntos: `MAJOR.MINOR.PATCH`. 
+    - `MAJOR`: Incrementado cuando se realizan cambios incompatibles con versiones anteriores.
+    - `MINOR`: Incrementado cuando se añaden funcionalidades de manera compatible con versiones anteriores.
+    - `PATCH`: Incrementado cuando se realizan correcciones de errores compatibles con versiones anteriores.
+
+**Convenciones de documentación:**
+  - La documentación del proyecto se mantendrá en un repositorio separado en GitHub, siguiendo la estructura de carpetas para facilitar la navegación. Se utilizará Markdown para la redacción de documentos, asegurando que sean legibles y fáciles de editar. La documentación incluirá guías de usuario, manuales de instalación, y especificaciones técnicas.
+
+**Convenciones de commits:**
+  - Los mensajes de commit seguirán la convención de estilo "Conventional Commits" en su version 1.0.0, que consiste en un tipo de cambio seguido de un mensaje descriptivo. Los tipos de cambios incluyen:
+    - `feat`: Nueva característica.
+    - `fix`: Corrección de errores.
+    - `docs`: Cambios en la documentación.
+    - `style`: Cambios que no afectan la lógica del código (formato, espacios, etc.).
+    - `refactor`: Cambios en el código que no corrigen errores ni añaden características.
+    - `test`: Añadir pruebas faltantes o corregir pruebas existentes.
+    - `chore`: Cambios menores que no afectan el código fuente (actualizaciones de dependencias, configuración, etc.).
+
+### 7.1.3. Source Code Style Guide & Conventions.
+Para asegurar la consistencia y legibilidad del código fuente, se seguirán las siguientes guías de estilo y convenciones:
+
+**Flutter (Dart):**
+  - Seguir las [Guías de estilo de Dart](https://dart.dev/guides/language/effective-dart/style) para la nomenclatura de variables, funciones y clases.
+  - Utilizar `camelCase` para nombres de variables y funciones, y `PascalCase` para nombres de clases.
+  - Mantener una indentación de 2 espacios y evitar el uso de tabulaciones.
+  - Incluir comentarios claros y concisos para explicar la lógica compleja.
+  - Utilizar `const` y `final` donde sea posible para mejorar el rendimiento y la claridad del código.
+  - Utilizar `async` y `await` para manejar operaciones asíncronas de manera legible.
+  - Utilizar widgets reutilizables para componentes comunes de la interfaz de usuario, siguiendo el principio DRY (Don't Repeat Yourself).
+  - Mantener un tamaño de archivo razonable, dividiendo el código en múltiples archivos y carpetas según la funcionalidad.
+
+```Dart
+// Ejemplo de código Dart siguiendo las convenciones
+lib/
+├── main.dart
+├── core/                         // Config. global, servicios comunes, errores
+├── features/
+│   ├── object_recognition/       // Módulo para escaneo y reconocimiento de objetos
+│   │   ├── application/          // Casos de uso (coordinan la lógica)
+│   │   ├── domain/               // Entidades, interfaces de repositorios, lógica pura
+│   │   ├── infrastructure/       // Implementaciones de repositorios, integraciones (TensorFlow, API)
+│   │   └── presentation/         // UI, widgets, pantallas, estado (Bloc/Provider)
+│
+│   └── inventory/                // Módulo para stock, precios, productos
+│       ├── application/
+│       ├── domain/
+│       ├── infrastructure/
+│       └── presentation/
+│
+├── shared/                       // Estilos, componentes UI comunes, helpers
+└── l10n/                         // Internacionalización
+```
+
+**Flutter (Dart) Estructura de carpetas:**
+
+- ``domain/``
+  - Entidades (entities): Product, ObjectScanResult
+  - Value objects: ProductName, StockQuantity
+  - Interfaces de repositorio: IProductRepository
+
+- ``application/``
+  - Casos de uso: GetProductDetails, ScanObjectUseCase
+  - Coordinadores de lógica de negocio que usan interfaces del dominio.
+
+- ``infrastructure/``
+  - Implementaciones reales: ProductRepositoryImpl, TensorFlowService
+  - Llamados HTTP, acceso a TensorFlow, bases de datos locales, etc.
+
+- ``presentation/``
+  - Pantallas: ObjectScannerScreen, ProductDetailsScreen
+  - Bloc/Provider: ObjectRecognitionBloc, ProductState
+  - Widgets: ProductCard, ScanButton
+
+**Reglas y convenciones de carpetas de codigo Dart:**
+- Utilizar nombres de carpetas en minúsculas y separados por guiones bajos (`snake_case`).
+- Agrupar archivos relacionados en carpetas según su funcionalidad.
+
+```bash
+object_scan_result.dart
+scan_object_use_case.dart
+i_product_repository.dart
+```
+
+**Clases y métodos:**
+- Utilizar `PascalCase` para nombres de clases y `camelCase` para nombres de métodos y variables.
+- Mantener los nombres descriptivos y concisos, evitando abreviaturas innecesarias.
+- Métodos y variables → camelCase: ``scanObject()``, ``getStockInfo()``
+- Evitar ``var``, preferir ``final`` o ``const``.
+
+
+
+**Python (Django):**
+  - Seguir las [Guías de estilo de Python (PEP 8)](https://www.python.org/dev/peps/pep-0008/) para la nomenclatura de variables, funciones y clases.
+- Usar ``snake_case`` para funciones, variables, archivos y métodos.
+- Usar ``PascalCase`` para clases y modelos.
+-Mantener una indentación de 4 espacios (nunca usar tabulaciones).
+- Dividir las apps de Django por contexto funcional: reconocimiento, inventario, usuarios, etc.
+- Separar la lógica de vistas, modelos y servicios para aplicar el principio de responsabilidad única (SRP).
+- Documentar funciones y clases con docstrings siguiendo el estándar PEP 257.
+- Evitar lógica compleja en las vistas. Usar servicios o managers dedicados.
+- Preferir ``path()`` sobre ``url()`` en ``urls.py.``
+
+```python
+# Estructura de carpetas recomendada usando separación modular por dominio
+backend/
+├── manage.py
+├── core/                         # Configuración base, middlewares comunes, utilidades
+├── apps/
+│   ├── recognition/              # Lógica de detección de objetos
+│   │   ├── models.py             # Modelos de base de datos
+│   │   ├── views.py              # Controladores (endpoint handlers)
+│   │   ├── urls.py               # Rutas locales del módulo
+│   │   ├── services/             # Lógica de negocio (procesamiento, IA)
+│   │   │   └── tensorflow_inference.py
+│   │   ├── serializers.py        # Serialización para APIs REST
+│   │   └── tests/                # Pruebas unitarias
+│
+│   ├── inventory/                # Gestión de productos, precios y stock
+│   └── analytics/                # Exposición de métricas para Power BI
+│
+├── media/                        # Imágenes utilizadas para entrenamiento
+└── settings/
+    ├── base.py
+    ├── dev.py
+    └── prod.py
+```
+
+**Convenios de nomenclatura de carpetas y archivos:**
+
+| Elemento            | Convención de nomenclatura | Ejemplo |
+| ------------------- | -------------------------- | ------- |
+| Clases              | PascalCase                 | `Product`, `ObjectScanResult` |
+| Métodos y funciones | snake_case                 | `scan_object()`, `get_stock_info()` |
+| Variables           | snake_case                 | `product_name`, `stock_quantity` |
+| Archivos            | snake_case                 | `object_scan_result.py`, `scan_object_use_case.py` |
+| Constantes           | UPPER_SNAKE_CASE           | `MAX_STOCK_QUANTITY`, `API_URL` |
+| Templates           | snake_case.html          | `product_details.html`, `scan_object.html` |
+
+**Buenas prácticas específicas Django**
+
+- En ``views.py``, usar ``class-based views (CBV)`` sobre `function-based views` para mayor extensibilidad.
+- Las funciones en `services/` deben ser puras o desacopladas del framework Django cuando sea posible.
+- Crear un módulo de `exceptions.py` para definir errores personalizados reutilizables.
+- Usar `settings.py` separados por entorno (`base.py`, `dev.py`, `prod.py`) y variables de entorno con `python-decouple`.
+- Toda lógica de TensorFlow debe encapsularse en `tensorflow_service.py` dentro de services/.
+
+A continuación se muestra un ejemplo de código Python siguiendo las convenciones:
+
+```Python
+# apps/recognition/services/tensorflow_inference.py
+
+class TensorFlowService:
+    def __init__(self, model_path: str):
+        self.model = self.load_model(model_path)
+
+    def load_model(self, path: str):
+        # Cargar modelo previamente entrenado
+        return tf.keras.models.load_model(path)
+
+    def predict_object(self, image_data: bytes) -> str:
+        """Realiza inferencia del objeto a partir de imagen cruda"""
+        processed_image = preprocess_image(image_data)
+        result = self.model.predict(processed_image)
+        return decode_prediction(result)
+```
+
+A continuacion se muestra un ejemplo de la estructura de modulos ``app/recognition`` usando responsabilidad única (SRP) y separación de capas:
+
+```bash
+recognition/
+├── models.py            # Define la entidad ObjectScanResult
+├── views.py             # Gestiona los endpoints REST
+├── urls.py              # Rutas locales del módulo
+├── serializers.py       # Serialización/deserialización de datos
+├── services/
+│   └── tensorflow_service.py
+├── exceptions.py        # Errores específicos del módulo
+└── tests/
+    ├── test_views.py
+    ├── test_services.py
+    └── test_models.py
+```
+
+**Documentación del código:**
+- Toda clase debe tener un docstring que explique su propósito general.
+- Cada función debe incluir una breve descripción, argumentos y valor de retorno.
+
+A continuacion se muestra un ejemplo sobre como documentar el código Python siguiendo las convenciones:
+
+```Python
+def get_product_by_id(product_id: int) -> Product:
+    """
+    Recupera el producto desde base de datos a partir del ID.
+    
+    Args:
+        product_id (int): ID del producto
+
+    Returns:
+        Product: Instancia del producto correspondiente
+    """
+```
+
+**Angular:**
+  - Seguir las [Guías de estilo de Angular](https://angular.io/guide/styleguide) para la nomenclatura de componentes, servicios y módulos.
+  - Utilizar `kebab-case` para nombres de archivos y carpetas.
+  - Utilizar `PascalCase` para nombres de clases y componentes, y `camelCase` para nombres de variables y funciones.
+  - Mantener una indentación de 2 espacios y evitar el uso de tabulaciones.
+  - Utilizar módulos para agrupar funcionalidades relacionadas y mantener una estructura modular.
+
+```typescript
+product-scanner.component.ts
+product-scanner.component.html
+product-scanner.component.scss
+product-scanner.component.spec.ts
+```
+
+**Estructura de carpetas Angular:**
+
+```bash
+src/
+├── app/
+│   ├── core/                     // Servicios globales, guards, interceptores
+│   ├── shared/                   // Componentes y pipes reutilizables
+│   ├── features/
+│   │   ├── recognition/          // Escaneo y reconocimiento
+│   │   │   ├── components/
+│   │   │   ├── services/
+│   │   │   ├── recognition.module.ts
+│   │   └── inventory/            // Consulta de precios y stock
+│   │       ├── components/
+│   │       ├── services/
+│   │       ├── inventory.module.ts
+│   ├── app-routing.module.ts
+│   └── app.module.ts
+├── assets/                     // Recursos estáticos (imágenes, fuentes)
+├── environments/               // Configuraciones por entorno
+└── index.html
+``` 
+
+**Convenciones de nomenclatura Angular:**
+| Elemento            | Convención de nomenclatura | Ejemplo |
+| ------------------- | -------------------------- | ------- |
+| Componentes         | kebab-case                 | `product-scanner` |
+| Servicios           | kebab-case                 | `product-service` |
+| Módulos             | kebab-case                 | `recognition.module` |
+| Clases              | PascalCase                 | `ProductScannerComponent` |
+| Métodos y funciones | camelCase                 | `scanProduct()`, `getStockInfo()` |
+
+**Buenas prácticas específicas Angular:**
+- Utilizar `@Input()` y `@Output()` para la comunicación entre componentes.
+- Mantener los servicios en un módulo separado para facilitar la inyección de dependencias.
+- Utilizar `async pipe` en las plantillas para manejar observables de manera eficiente.
+- Evitar lógica compleja en las plantillas, moviendo la lógica a los componentes o servicios.
+- Inyectar dependencias mediante el sistema de DI (Dependency Injection) nativo.
+- Toda llamada HTTP debe pasar por un servicio dedicado.
+- Utilizar interfaces (`.ts`) para tipado de datos.
+
+
+### 7.1.4. Software Deployment Configuration.
+En esta sección se detalla el proceso de despliegue de cada uno de los productos digitales que componen la solución DETEKTO, especificando los pasos necesarios para pasar del código fuente almacenado en repositorios a sistemas desplegados y operativos. Además, se presenta el Deployment Diagram del sistema basado en el modelo C4 para ilustrar visualmente los entornos de ejecución y sus interacciones.
+
+**Landing Page Deployment Configuration:**
+Para el despliegue de la landing page de DETEKTO, se utilizará GitHub Pages como plataforma de hosting. Los pasos para el despliegue son los siguientes:
+
+1. **Preparación del código fuente:**
+   - Asegurarse de que el código HTML, CSS y JavaScript esté listo y probado localmente.
+   - Confirmar que todos los enlaces y recursos estén correctamente referenciados.
+
+2. **Creación del repositorio en GitHub:**
+    - Crear un nuevo repositorio en GitHub llamado `detekto-landing-page`.
+    - Subir el código fuente de la landing page al repositorio.
+
+3. **Configuración de GitHub Pages:**
+    - Ir a la pestaña "Settings" del repositorio.
+    - En la sección "Pages", seleccionar la rama `main` y la carpeta `/ (root)` como fuente de publicación.
+    - Guardar los cambios y esperar a que GitHub genere la URL de la página.
+
+4. **Verificación del despliegue:**
+    - Acceder a la URL proporcionada por GitHub Pages para verificar que la landing page se despliega correctamente.
+    - Realizar pruebas de funcionalidad y enlaces para asegurar que todo funciona como se espera.
+
+![Deployment-github](./assets/Capitulo-7/7.1.4-software-deployment-configuration/deploy.png)
+
+Accede a la landing page de DETEKTO en el siguiente enlace: [Detekto Landing Page](https://emergentes-softwarinos.github.io/Detekto-LandingPage/)
+
+A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, que ilustra los entornos de ejecución y sus interacciones:
+
+<p align="center">
+  <img src="assets/capitulo-4/det1.png" width="900"/>
+</p>
+<p align="center">
+  <img src="assets/capitulo-4/det2.png" width="900"/>
+</p>
+
+### 7.2. Solution Implementation.
+### 7.2.1. Sprint 1
+### 7.2.1.1. Sprint Planning 1.
+#### 7.2.1.2. Sprint Backlog 1.
+#### 7.2.1.3. Development Evidence for Sprint Review.
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 7.2.1.5. Execution Evidence for Sprint Review.
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 7.2.1.8. Team Collaboration Insights during Sprint.
+#### 7.3. Validation Interviews.
+#### 7.3.1. Diseño de Entrevistas.
+#### 7.3.2. Registro de Entrevistas.
+#### 7.3.3. Evaluaciones según heurísticas.
+## 7.4. Video About-the-Product.
