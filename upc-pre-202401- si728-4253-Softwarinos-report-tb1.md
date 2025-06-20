@@ -3047,6 +3047,64 @@ Para validar la experiencia de usuario y la disposición visual de las principal
 # Capítulo VII: Product Implementation, Validation & Deployment
 ## 7.1. Software Configuration Management.
 ### 7.1.1. Software Development Environment Configuration.
+Para el desarrollo del proyecto DETEKTO, se utilizará un entorno de desarrollo configurado con las siguientes herramientas y tecnologías:
+
+**Project Management:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | Discord | Comunicación instantánea mediante chat de voz y mensajes. Se utilizó para coordinar tareas diarias, reuniones virtuales y seguimiento grupal.	 | https://discord.com |
+  | Microsoft 365 | Gestión de tareas y planificación del proyecto. Se empleó para asignar tareas, establecer plazos y realizar seguimiento del progreso.	 | https://www.microsoft.com/es-es/microsoft-365 |
+
+**Requirements Management:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | Trello | Gestión de requisitos y tareas del proyecto. Se utilizó para organizar los requisitos funcionales y no funcionales, asignar tareas a los miembros del equipo y realizar seguimiento del avance.	 | https://trello.com |
+  | UXPressia | Creación de mapas de empatía y customer journey. Se empleó para definir las necesidades y expectativas de los usuarios finales, así como para visualizar su recorrido a través de la aplicación.	 | https://uxpressia.com |
+  | Lucidchart | Diagramación de casos de uso y flujos de usuario. Se utilizó para representar gráficamente los casos de uso del sistema y los flujos de interacción del usuario con la aplicación.	 | https://lucidchart.com |
+  | Miro | Creación de esquemas del event storming, diseños As-Is y To-Be. Se empleó para colaborar en tiempo real en la definición de procesos y flujos de trabajo, facilitando la visualización y comprensión del sistema.	 | https://miro.com |
+  | Structurzr DSL | Generación de diagramas de arquitectura del sistema según el modelo C4 (Contexto, Contenedor, Componente y Despliegue). Se utilizó para documentar la arquitectura del sistema de manera estructurada y comprensible.	 | https://structurzr.com |
+
+**Product Design:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | Figma | Diseño de prototipos de alta fidelidad y wireframes. Se utilizó para crear maquetas interactivas de la aplicación móvil, permitiendo validar la experiencia de usuario antes del desarrollo.	 | https://www.figma.com |
+
+**Software Development:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | Visual Studio Code | Entorno de desarrollo integrado (IDE) para escribir y depurar el código fuente. Se utilizó para desarrollar la aplicación móvil en Flutter, el backend en Django y la base de datos en MySQL.	 | https://code.visualstudio.com |
+  | Android Studio | IDE específico para el desarrollo de aplicaciones Android. Se utilizó para compilar y probar la aplicación móvil en dispositivos Android.	 | https://developer.android.com/studio |
+  | Git | Sistema de control de versiones para gestionar el código fuente. Se utilizó para llevar un registro de los cambios en el código, colaborar entre los miembros del equipo y facilitar la integración continua.	 | https://git-scm.com |
+  | GitHub | Plataforma de alojamiento de repositorios Git. Se utilizó para almacenar el código fuente del proyecto, gestionar pull requests y realizar revisiones de código.	 | https://github.com |
+  | MySQL Workbench | Herramienta de diseño y administración de bases de datos MySQL. Se utilizó para modelar la base de datos del proyecto, realizar consultas y gestionar los datos.	 | https://www.mysql.com/products/workbench/ |
+
+**Software Testing:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | Flutter Test | Framework de pruebas unitarias y de integración para aplicaciones Flutter. Se utilizó para escribir y ejecutar pruebas automatizadas que validan el comportamiento de la aplicación móvil.	 | https://flutter.dev/docs/testing |
+  | Pytest | Framework de pruebas para aplicaciones Python. Se utilizó para escribir y ejecutar pruebas unitarias y de integración en el backend desarrollado con Django.	 | https://docs.pytest.org/en/stable/ |
+  | Postman | Herramienta para pruebas de APIs. Se utilizó para crear y ejecutar pruebas automatizadas sobre los endpoints del backend, asegurando su correcto funcionamiento y validando las respuestas esperadas.	 | https://www.postman.com |
+
+**Software Deployment:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | Github Pages | Publicación de la landing page del proyecto. Se utilizó para alojar y servir la página web estática del proyecto DETEKTO, permitiendo su acceso público.	 | https://pages.github.com |
+  | Firebase | Plataforma para el despliegue y hosting de aplicaciones móviles. Se utilizó para alojar la aplicación móvil DETEKTO, permitiendo su distribución a usuarios finales a través de Google Play Store y Apple App Store.	 | https://firebase.google.com |
+  | Render | Plataforma de hosting para aplicaciones web. Se utilizó para desplegar la aplicación web del proyecto DETEKTO, asegurando su disponibilidad y rendimiento en producción.	 | https://render.com |
+  
+**Software Documentation:**
+  
+  | Herramienta | Propósito | Enlace |
+  | ----------- | --------- | ------ |
+  | GitHub Wiki | Documentación del proyecto. Se utilizó para mantener la documentación técnica, guías de usuario y especificaciones del sistema de manera colaborativa y accesible.	 | https://github.com |
+  | Swagger | Documentación de la API RESTful. Se utilizó para generar documentación interactiva de los endpoints del backend, facilitando su comprensión y uso por parte de desarrolladores externos.	 | https://swagger.io |
+
 ### 7.1.2. Source Code Management.
 Para la gestión del código fuente, se utilizará Git como sistema de control de versiones. Se ha creado una organización en GitHub llamada "Softwarinos" donde se alojará el repositorio del proyecto DETEKTO, tanto la documentación como el código fuente de la solución. El repositorio estará estructurado para facilitar la colaboración y el seguimiento de cambios, incluyendo ramas para desarrollo, pruebas y producción.
 
