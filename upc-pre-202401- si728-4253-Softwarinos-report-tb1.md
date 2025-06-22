@@ -1693,10 +1693,6 @@ Link del LucidChart: https://lucid.app/lucidchart/ebfb06fe-73a6-4849-b4dc-4d220b
 ### 4.3.2. Software Architecture Context Level Diagrams.
 
 <p align="center">
-  <img src="assets/capitulo-4/contexto1.png" alt="Imagen extraída de Figma" width="900"/>
-</p>
-
-<p align="center">
   <img src="assets/capitulo-4/contenedores1.png" alt="Imagen extraída de Figma" width="900"/>
 </p>
 
