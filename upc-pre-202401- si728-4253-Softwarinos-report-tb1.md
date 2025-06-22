@@ -3431,6 +3431,25 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 ### 7.2.1. Sprint 1
 ### 7.2.1.1. Sprint Planning 1.
 #### 7.2.1.2. Sprint Backlog 1.
+| User Story | User Story Title                                          | Work Item ID | Work Item Title                                 | Description                                                                                         | Estimation (Hours) | Assigned To     | Status     |
+|:-----------|:----------------------------------------------------------|:-------------|:--------------------------------------------------|:----------------------------------------------------------------------------------------------------|:--------------------|:----------------|:-----------|
+| US01       | Registro de vendedor como usuario                         | TSK-01       | Endpoint de registro de vendedor                 | Crear endpoint para registrar un nuevo vendedor. Validar datos y aplicar cifrado de contraseña.    | 2                   | Ariana Vargas   | Done       |
+| US02       | Inicio de sesión de vendedor                              | TSK-02       | Endpoint de login para vendedor                  | Autenticación mediante correo y contraseña. Retornar token JWT.                                     | 2                   | Ariana Vargas   | Done       |
+| US03       | Escaneo de producto con cámara (TensorFlow)               | TSK-03       | Integración del modelo de detección de objetos   | Usar la cámara del celular para detectar productos y reconocer nombre + código con TensorFlow.     | 5                   | Julio Elsner    | Done       |
+| US04       | Visualización de producto reconocido y su stock           | TSK-04       | Interfaz de resultado de escaneo                 | Mostrar en tiempo real el nombre, imagen, y cantidad en stock del producto detectado.              | 3                   | Lucero Obispo   | Done       |
+| US05       | Edición manual del producto detectado                     | TSK-05       | Funcionalidad de corrección manual               | Permitir al vendedor editar el nombre o confirmar si el producto detectado es incorrecto.          | 2                   | Lucero Obispo   | Done       |
+| US06       | Visualización de historial de escaneos del vendedor       | TSK-06       | Módulo de historial de escaneos                  | Listar productos escaneados con fecha, hora y cantidad detectada.                                  | 3                   | Lucero Obispo   | Done       |
+| US07       | Filtro y búsqueda de productos                            | TSK-07       | Filtros por categoría, nombre o stock            | Permitir búsqueda de productos por nombre, código, marca o nivel de stock.                         | 3                   | Lucero Obispo   | Done       |
+| US08       | Alertas por bajo stock en tiempo real                     | TSK-08       | Sistema de alertas visuales y sonoras            | Notificar al vendedor si un producto escaneado tiene stock bajo.                                   | 3                   | Luis Herrera    | Done       |
+| US09       | Visualización del stock general por administrador         | TSK-09       | Dashboard principal de stock                     | Mostrar vista general con productos, stock y últimos movimientos de escaneo.                       | 3                   | Luis Herrera    | Done       |
+| US10       | Reporte histórico de stock por día/semana/mes             | TSK-10       | Generación de reportes PDF/Excel                 | Permitir descarga de reportes de stock históricos con filtros por fecha y categoría.               | 4                   | Ariana Vargas   | Done       |
+| US11       | Administración de usuarios y roles                        | TSK-11       | Servicio IAM                                     | Gestionar roles y sesiones (vendedor, administrador).                                              | 2                   | Ariana Vargas   | Done       |
+| US12       | Implementación de seguridad con JWT                       | TSK-12       | Middleware de autenticación                      | Validar tokens para acceder a los endpoints y proteger información sensible.                       | 2                   | Ariana Vargas   | Done       |
+| US13       | Visualización en dashboard web en tiempo real             | TSK-13       | Websocket/Streaming en interfaz web              | Mostrar en tiempo real los productos escaneados en el sistema web del administrador.               | 4                   | Luis Herrera    | Done       |
+| US14       | Configuración del modelo TensorFlow en servidor backend   | TSK-14       | Integración de modelo con API backend            | Desplegar y consumir el modelo de detección de objetos en el backend vía REST.                     | 5                   | Julio Elsner    | Done       |
+| US15       | Onboarding inicial en app móvil                           | TSK-15       | Tutorial interactivo                             | Mostrar pasos básicos sobre cómo escanear productos y revisar resultados.                          | 2                   | Lucero Obispo   | Done       |
+| US16       | Gestión de productos desde plataforma web                 | TSK-16       | CRUD de productos                                | Crear, editar y eliminar productos desde el panel de administrador.                                | 3                   | Ariana Vargas   | Done       |
+
 #### 7.2.1.3. Development Evidence for Sprint Review.
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.1.5. Execution Evidence for Sprint Review.
@@ -3438,7 +3457,63 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 #### 7.3. Validation Interviews.
+Para validar las funcionalidades del sistema basado en detección de objetos y su alineación con las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios de la aplicación móvil) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y tienen como objetivo identificar puntos de fricción, confirmar decisiones de diseño e identificar oportunidades de mejora antes del despliegue final.
+
+El guion de entrevista se estructuró en base a hipótesis previas y a atributos clave de calidad como usabilidad, eficiencia operativa y precisión en la detección de objetos. Las preguntas, de tipo cualitativo, permitieron obtener percepciones detalladas sobre la experiencia de uso del sistema, la claridad de las interfaces y la utilidad de las funcionalidades como la visualización de espacios disponibles, la lectura de QR y la identificación automática de vehículos.
+
+Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde la experiencia individual del usuario al interactuar con el sistema, como desde la gestión operativa del estacionamiento. Asimismo, las entrevistas permitieron detectar posibles problemas no previstos, validar funcionalidades clave como el reconocimiento visual en tiempo real y proponer ajustes orientados a aumentar la adopción del sistema y mejorar la toma de decisiones a nivel administrativo.
 #### 7.3.1. Diseño de Entrevistas.
+### Vendedores
+- ¿Cuál es tu nombre y edad?
+- ¿En qué distrito vives actualmente?
+- ¿Cuál es tu estado civil y con quién vives?
+- ¿Cuál es tu ocupación actual y cuántos años llevas trabajando como vendedor?
+- ¿Con qué frecuencia usas el celular o dispositivos móviles en tu trabajo?
+- ¿Cómo sueles identificar un producto cuando el cliente no lo describe bien?
+- ¿Qué haces si un cliente te muestra una imagen del producto que quiere?
+- ¿Cómo verificas si hay stock de un producto en ese momento?
+- ¿Te sentirías cómodo usando una app que te permita identificar productos con la cámara del celular? ¿Por qué?
+- ¿Te ha pasado que pierdes una venta por no encontrar rápido el producto?
+- ¿Usas actualmente alguna app o sistema digital en tu trabajo? ¿Cuál?
+- ¿Qué tipo de celular usas y qué tan buena es su cámara?
+- ¿Qué tan seguido usas la cámara del celular en el trabajo?
+- ¿Qué funcionalidades esperas que tenga una app que te ayude a identificar productos de forma visual?
+- ¿Qué es lo que más te frustra en tu día a día como vendedor?
+
+### Administradores
+- ¿Cuál es su nombre y edad?
+- ¿Dónde vive actualmente?
+- ¿Cuál es su ocupación dentro del negocio y desde cuándo ocupa ese cargo?
+- ¿Qué nivel educativo tiene?
+- ¿Con qué frecuencia utiliza una computadora en su trabajo?
+- ¿Cómo realiza actualmente el seguimiento del inventario en tienda?
+- ¿Qué información considera más importante visualizar sobre ventas y productos?
+- ¿Cómo hace proyecciones o estimaciones de ingresos a partir de la información disponible?
+- ¿Usa alguna herramienta digital para la gestión del negocio?
+- ¿Qué tan cómodo se siente usando plataformas web o paneles con datos en tiempo real?
+- ¿Qué decisiones toma habitualmente en base al movimiento de productos y ventas?
+- ¿Con qué frecuencia revisa el rendimiento de los vendedores?
+- ¿Qué tipo de reportes o visualizaciones considera útiles para su gestión?
+- ¿Le gustaría contar con una solución que identifique productos usando cámaras o imágenes?
+- ¿Qué le resulta más complicado o frustrante al hacer seguimiento del negocio?
+- ¿Cuáles son sus principales objetivos como administrador para mejorar el control del negocio?
+
 #### 7.3.2. Registro de Entrevistas.
+
 #### 7.3.3. Evaluaciones según heurísticas.
+### 🧪 Evaluación Heurística – Sistema de Reconocimiento de Stock con TensorFlow
+
+| #  | Heurística Evaluada                         | Descripción del Problema                                                                 | Evidencia (captura o ubicación)             | Recomendación de Mejora                                                      | Severidad (0-4) |
+|----|---------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|--------------------------------------------------------------------------------|------------------|
+| 1  | Claridad en la navegación                   | Algunos vendedores no identifican fácilmente cómo acceder al historial de escaneos.      | Pantalla principal de la app móvil            | Reubicar el historial en un lugar visible y con íconos explicativos.           | 2                |
+| 2  | Visibilidad del estado del sistema          | No se muestra claramente si el sistema está reconociendo el producto en tiempo real.     | Pantalla de cámara durante escaneo            | Incluir animaciones o estados (ej. "Detectando...", "Producto identificado").  | 3                |
+| 3  | Reconocimiento antes que recuerdo           | No hay leyendas visibles ni nombres al mostrar productos detectados.                     | Resultado del reconocimiento en app           | Añadir etiquetas automáticas con nombre, código y estado de stock.             | 2                |
+| 4  | Control y libertad del usuario              | El vendedor no puede corregir manualmente el nombre si el sistema reconoce mal el objeto.| Resultado del escaneo                         | Permitir editar el nombre o confirmar manualmente el producto reconocido.      | 3                |
+| 5  | Flexibilidad y eficiencia de uso            | Los administradores no pueden aplicar filtros por categoría o marca en el panel web.     | Dashboard de stock en plataforma web          | Incorporar filtros dinámicos y opción de exportar por categoría o estado.      | 2                |
+| 6  | Utilidad de los datos para la gestión       | No se muestra un historial de escaneos ni alertas por bajo stock.                        | Vista principal del administrador             | Incluir historial de escaneos, tendencias y alertas automáticas.               | 3                |
+| 7  | Prevención de errores                       | Si la cámara está mal enfocada, se envía información incorrecta sin validación.          | Escaneo rápido con cámara móvil               | Añadir un paso de confirmación o notificación si el reconocimiento es incierto.| 4                |
+| 8  | Consistencia y estándares                   | El estilo visual de la app y la plataforma web no coincide en colores e íconos.          | Comparación entre app y panel web             | Unificar el diseño visual (colores, íconos y tipografía) entre ambas plataformas.| 1                |
+| 9  | Ayuda al usuario a reconocer y recuperarse de errores | No hay mensajes claros si el reconocimiento falla.                            | App móvil durante fallos de escaneo           | Mostrar mensajes como “No se detectó producto. Intenta enfocar de nuevo.”      | 3                |
+| 10 | Ayuda y documentación                       | No hay tutorial para nuevos usuarios sobre cómo escanear o interpretar los resultados.   | Inicio de la app y primera sesión en la web   | Incluir onboarding interactivo con ejemplos y guía paso a paso.                | 2                |
+
 ## 7.4. Video About-the-Product.
