@@ -56,12 +56,12 @@ Profesor: De Los Rios Fernandez, Christian Luis
 | 1.3     | 10-05-2025 | Manuel Gutierrez, Jose Ampudia | Desarrollo de Application Layer e Infrastructure Layer del contexto Object-Recognition.                                                                    |
 | 1.4     | 13-05-2025 | Julio Elsner                   | Redacción del Bounded Context: NOTIFICATIONS. Inicio del Capítulo VI con Style Guidelines y General Style Guidelines.                                      |
 | 1.5     | 16-05-2025 | Miquel De la Piedra            | Redacción de Web, Mobile & Devices Style Guidelines, y desarrollo de Labeling, Searching y SEO Tags Systems.                                               |
-| 1.6     | 17-05-2025 | Jose Ampudia                   | Avance en Navigation Systems, Landing Page Wireframe y Mock-up. Diseño de Applications Wireframes y Wireflow Diagrams.                                     |
-| 1.7     | 18-05-2025 | Manuel Gutierrez, Miquel De la Piedra | Desarrollo de Applications Mock-ups y User Flow Diagrams.                                                                                               |
-| 1.8     | 20-05-2025 | Julio Elsner, Jose Ampudia      | Inicio del Capítulo VII: Product Implementation, Validation & Deployment. Definición de Software Configuration Management.                             |
-| 1.9     | 22-05-2025 | Miquel De la Piedra             | Desarrollo de Software Development Environment Configuration y Source Code Management.                                                                |
-| 2.0     | 25-05-2025 | Jose Ampudia, Manuel Gutierrez  | Redacción de Software Deployment Configuration y comienzo de Solution Implementation.                                                                  |
-| 2.1     | 28-05-2025 | Julio Elsner, Miquel De la Piedra | Avance en Sprint 1: Sprint Planning, Sprint Backlog y Development Evidence for Sprint Review.                                                        |
+| 1.6     | 17-06-2025 | Jose Ampudia                   | Avance en Navigation Systems, Landing Page Wireframe y Mock-up. Diseño de Applications Wireframes y Wireflow Diagrams.                                     |
+| 1.7     | 10-06-2025 | Manuel Gutierrez, Miquel De la Piedra | Desarrollo de Applications Mock-ups y User Flow Diagrams.                                                                                               |
+| 1.8     | 15-06-2025 | Julio Elsner, Jose Ampudia      | Inicio del Capítulo VII: Product Implementation, Validation & Deployment. Definición de Software Configuration Management.                             |
+| 1.9     | 17-06-2025 | Miquel De la Piedra             | Desarrollo de Software Development Environment Configuration y Source Code Management.                                                                |
+| 2.0     | 20-06-2025 | Jose Ampudia, Manuel Gutierrez  | Redacción de Software Deployment Configuration y comienzo de Solution Implementation.                                                                  |
+| 2.1     | 21-06-2025 | Julio Elsner, Miquel De la Piedra | Avance en Sprint 1: Sprint Planning, Sprint Backlog y Development Evidence for Sprint Review.                                                        |
 
 # Project Report Collaboration Insights
 
