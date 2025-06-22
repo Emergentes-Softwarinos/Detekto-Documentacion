@@ -28,7 +28,7 @@ Profesor: De Los Rios Fernandez, Christian Luis
 | -------------------------------------- | ---------- |
 | Ampudia Flores, Jose Carlos Isaac      | u202112936 |
 | De La Piedra Quintanilla, Erwin Miquel | U202112179 |
-| Elsner De La Torre Ugarte              | u202111654 |
+| Elsner De La Torre Ugarte, Julio       | u202111654 |
 | Gutierrez Zumaeta, Manuel Alonso       | U202112353 |
 
 #### Ciclo 2025-10
@@ -247,77 +247,45 @@ rango de audiencias.
   </thead>
   <tbody>
     <tr>
-      <td><strong>Comunica oralmente con efectividad a diferentes rangos de audiencia</strong></td>
+      <td><strong>Implementación de Endpoints para Artículos y API de Reconocimiento de Objetos</strong></td>
       <td>
         <strong>José Ampudia</strong><br />
         <strong>TB1</strong><br />
-        Participó activamente en entrevistas con usuarios para la recopilación de información clave sobre necesidades reales. Durante estas sesiones, empleó un lenguaje claro y empático para asegurar la comprensión del propósito del proyecto, facilitando así una retroalimentación útil y precisa.
-        <br />
+        Me encargué de la implementación de la interfaz de usuario para la visualización de productos escaneados y la funcionalidad de corrección manual de productos. Además, desarrollé un sistema de alertas que notifica a los vendedores sobre productos con bajo stock en tiempo real.<br />
+        <strong>TP</strong><br />
+        Implementé el historial de escaneos para que los vendedores puedan consultar los productos escaneados anteriormente, facilitando así la gestión del inventario de manera más eficiente.<br />
         <strong>TB2</strong><br />
-        Explicó verbalmente la estructura y funcionalidad de las capas Domain, Interface, Application e Infrastructure del contexto Object-Recognition durante sesiones técnicas del equipo, logrando que todos comprendieran la relación entre cada componente y su rol en el sistema.
-        <br />
+        Después de las pruebas, trabajé en la optimización de los endpoints para manejar un mayor volumen de datos, lo que mejoró la eficiencia del sistema al procesar artículos de ferretería en tiempo real.<br /><br/>
         <strong>Manuel Gutierrez</strong><br />
         <strong>TB1</strong><br />
-        Comunicó de manera clara la problemática y el enfoque estratégico del proyecto durante las entrevistas con usuarios y discusiones del equipo, asegurando que todos comprendieran la visión general del producto. Además, facilitó sesiones explicativas sobre la propuesta de valor frente a competidores.
-        <br />
+        Me centré en la creación de los endpoints para el registro de vendedores y la autenticación de usuarios, implementando seguridad mediante JWT. También trabajé en la integración de la API de reconocimiento de objetos, optimizando su uso dentro de la plataforma.<br />
+        <strong>TP</strong><br />
+        Realicé pruebas de validación para asegurar que los endpoints funcionaran correctamente y fueran seguros. Aseguré que los datos de los productos fueran correctos al ser procesados por la API de reconocimiento de objetos.<br />
         <strong>TB2</strong><br />
-        Presentó en reuniones del equipo la redacción inicial del Capítulo V, articulando de forma clara cómo se definió el contexto Object-Recognition y las decisiones tomadas sobre la Application Layer e Infrastructure Layer, facilitando su validación por parte de todos los miembros.
-        <br /><br />
+        Durante el proceso de integración, también optimicé la experiencia de usuario mediante la inclusión de botones de navegación más intuitivos y la mejora de los tiempos de respuesta en la interfaz móvil.<br /><br />
         <strong>Miquel De la Piedra</strong><br />
         <strong>TB1</strong><br />
-        Explicó el propósito y funcionamiento del Impact Mapping a su equipo, así como las decisiones de diseño arquitectónico a nivel estratégico, asegurando que todos los miembros comprendieran la relación entre funcionalidades y metas del proyecto.
-        <br />
+        Me encargué de la integración de la API de reconocimiento de objetos con el sistema backend, asegurándome de que los productos detectados fueran correctamente enviados y mostrados en la interfaz de usuario.<br />
+        <strong>TP</strong><br />
+        También trabajé en el desarrollo del sistema de visualización de productos escaneados en tiempo real, lo que permitió a los vendedores acceder rápidamente a la información relevante sobre el stock y las ventas.<br />
         <strong>TB2</strong><br />
-        Expuso verbalmente las Style Guidelines diseñadas para plataformas Web y Mobile, detallando cómo se aplican los sistemas de etiquetado, búsqueda y SEO en el diseño UX, y resolvió dudas técnicas del equipo para alinear la arquitectura de información con el estilo visual.
-        <br /><br />
+        Implementé mejoras adicionales en la visualización de resultados para hacerla más accesible, incluyendo filtros avanzados que permitieron a los vendedores buscar productos con mayor facilidad.<br /><br />
         <strong>Julio Elsner</strong><br />
         <strong>TB1</strong><br />
-        Facilitó el entendimiento de conceptos técnicos complejos como el EventStorming, Candidate Context Discovery y la arquitectura del sistema mediante presentaciones orales y debates dentro del equipo, adaptando el lenguaje técnico según el nivel de conocimiento de la audiencia.
-        <br />
+        Mi labor se centró en la integración del modelo de detección de objetos con el backend, asegurando que los productos escaneados se reflejaran correctamente en el panel de administración. Además, trabajé en la visualización de alertas de bajo stock en tiempo real para mejorar la gestión del inventario.<br />
+        <strong>TP</strong><br />
+        Implementé la visualización de datos en tiempo real en el panel web, lo que permitió a los administradores hacer un seguimiento preciso del inventario y las ventas a través de la plataforma.<br />
         <strong>TB2</strong><br />
-        Expuso oralmente el diseño por capas del contexto NOTIFICATIONS, así como la justificación de la redacción inicial del Capítulo VI. Además, facilitó la comunicación entre los miembros para integrar su trabajo con la Domain e Interface Layer del contexto Object-Recognition.
+        Realicé una revisión de la interfaz para mejorar su usabilidad, asegurando que las alertas de bajo stock fueran más visibles y fáciles de entender, lo que facilitó la toma de decisiones para los administradores.<br />
       </td>
       <td>
-        Las habilidades de comunicación oral del equipo permitieron un entendimiento claro y compartido del proyecto tanto a nivel técnico como no técnico, mejorando la colaboración con usuarios y entre los miembros del equipo.
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Comunica por escrito con efectividad a diferentes rangos de audiencia</strong></td>
-      <td>
-        <strong>José Ampudia</strong><br />
-        <strong>TB1</strong><br />
-        Redactó documentos como el análisis de entrevistas, User Personas, y escenarios As-Is/To-Be de forma estructurada y clara, facilitando la comprensión por parte del equipo y stakeholders del contexto del usuario y sus necesidades.
-        <br />
-        <strong>TB2</strong><br />
-        Documentó las capas Domain, Interface, Application e Infrastructure del contexto Object-Recognition con una redacción técnica clara. También aportó en los wireframes y wireflows de las aplicaciones, describiendo los flujos con enfoque funcional y técnico.
-        <br /><br />
-        <strong>Manuel Gutierrez</strong><br />
-        <strong>TB1</strong><br />
-        Elaboró entregables como el Lean UX Canvas, Problem Statements y el análisis competitivo con una redacción precisa y orientada a la toma de decisiones estratégicas. Su documentación fue esencial para definir la propuesta de valor del proyecto.
-        <br />
-        <strong>TB2</strong><br />
-        Redactó el borrador estructurado del Capítulo V, describiendo con claridad el enfoque general del diseño táctico. También explicó por escrito las funcionalidades clave de las capas Application e Infrastructure, permitiendo una interpretación consistente por parte de todos.
-        <br /><br />
-        <strong>Miquel De la Piedra</strong><br />
-        <strong>TB1</strong><br />
-        Documentó el diseño arquitectónico a través del Attribute-Driven Design y Backlog técnico, asegurando claridad en los lineamientos técnicos para los futuros desarrolladores y partes interesadas.
-        <br />
-        <strong>TB2</strong><br />
-        Escribió las guías de estilo visual y la arquitectura de información para Web y Mobile, incluyendo el desarrollo de los sistemas de etiquetado, búsqueda y SEO. Su redacción estructurada facilitó la implementación posterior por parte del equipo de desarrollo.
-        <br /><br />
-        <strong>Julio Elsner</strong><br />
-        <strong>TB1</strong><br />
-        Generó documentación técnica detallada sobre los componentes de la arquitectura del sistema, diagramas y mapeos de contexto, facilitando así la comprensión integral del sistema por parte de audiencias tanto técnicas como no técnicas.
-        <br />
-        <strong>TB2</strong><br />
-        Redactó el contexto NOTIFICATIONS en el Capítulo V, definiendo sus capas y describiendo sus interacciones. También elaboró las secciones introductorias del Capítulo VI, estableciendo las bases conceptuales del diseño UX de forma clara y coherente.
-      </td>
-      <td>
-        La calidad de los entregables escritos permitió transmitir efectivamente tanto el enfoque de usuario como las decisiones técnicas, mejorando la comunicación y coordinación entre todos los actores involucrados.
+        La implementación de los endpoints y la API de reconocimiento de objetos ha permitido que el sistema de ferretería sea más funcional y eficiente, mejorando tanto la experiencia del vendedor como la del administrador. La integración efectiva de las funcionalidades permitió avanzar en la optimización del proceso de escaneo y gestión de productos. Las mejoras en la interfaz y los tiempos de respuesta también contribuyeron a una experiencia más fluida y accesible para todos los usuarios.
       </td>
     </tr>
   </tbody>
 </table>
+
+
 
 # Capítulo I: Introducción
 
@@ -3627,6 +3595,37 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   Sí, mucho. Le permitió saber de inmediato si podía ofrecer el producto al cliente sin tener que ir a verificar físicamente.
 
   01:25 - ¿Hubo algo en el proceso de escaneo o visualización del stock que te causó confusión o molestia?
+  Solo comentó que en algunos casos el reconocimiento falló con productos mal enfocados, pero volver a escanear resolvió el problema rápidamente.
+
+  - Segunda Entrevista:
+    ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistadming.png)
+
+
+  - Entrevistado: Oscar Palacios
+
+  - Residencia: Lima
+
+  - Ocupación: Dueño de empresa de Ferreteria
+  
+  - Entrevistadora: Miquel De la Piedra
+
+  - Enlace: []
+
+  - Resumen de la entrevista:
+
+  01:55 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+  Opino que la informacion era la necesario y optima, sin quejas respecto
+
+  02:10 - ¿Cómo describirías tu experiencia general usando la app para reconocer productos y consultar el stock?
+  Le parecio eficaz e intuitivo, para llevar un control optimo de sus productos
+
+  02:30 - Durante el proceso de escaneo con la cámara, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+  Dijo que se entendia facilmente, que era eficaz y efectivo y que le facilitaba muchas tareas al buscar productos
+
+  03:45 - ¿Te resultó útil poder ver el stock disponible en tiempo real después del escaneo?
+  Sí, mucho. Le ayuda a llevar un control optimo y no tener problemas al realizar las respectivas ventas
+  
+  04:07 - ¿Hubo algo en el proceso de escaneo o visualización del stock que te causó confusión o molestia?
   Solo comentó que en algunos casos el reconocimiento falló con productos mal enfocados, pero volver a escanear resolvió el problema rápidamente.
 
 #### 7.3.3. Evaluaciones según heurísticas.
