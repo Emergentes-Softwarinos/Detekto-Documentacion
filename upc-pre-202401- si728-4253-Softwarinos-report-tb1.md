@@ -57,6 +57,11 @@ Profesor: De Los Rios Fernandez, Christian Luis
 | 1.4     | 13-05-2025 | Julio Elsner                   | Redacción del Bounded Context: NOTIFICATIONS. Inicio del Capítulo VI con Style Guidelines y General Style Guidelines.                                      |
 | 1.5     | 16-05-2025 | Miquel De la Piedra            | Redacción de Web, Mobile & Devices Style Guidelines, y desarrollo de Labeling, Searching y SEO Tags Systems.                                               |
 | 1.6     | 17-05-2025 | Jose Ampudia                   | Avance en Navigation Systems, Landing Page Wireframe y Mock-up. Diseño de Applications Wireframes y Wireflow Diagrams.                                     |
+| 1.7     | 18-05-2025 | Manuel Gutierrez, Miquel De la Piedra | Desarrollo de Applications Mock-ups y User Flow Diagrams.                                                                                               |
+| 1.8     | 20-05-2025 | Julio Elsner, Jose Ampudia      | Inicio del Capítulo VII: Product Implementation, Validation & Deployment. Definición de Software Configuration Management.                             |
+| 1.9     | 22-05-2025 | Miquel De la Piedra             | Desarrollo de Software Development Environment Configuration y Source Code Management.                                                                |
+| 2.0     | 25-05-2025 | Jose Ampudia, Manuel Gutierrez  | Redacción de Software Deployment Configuration y comienzo de Solution Implementation.                                                                  |
+| 2.1     | 28-05-2025 | Julio Elsner, Miquel De la Piedra | Avance en Sprint 1: Sprint Planning, Sprint Backlog y Development Evidence for Sprint Review.                                                        |
 
 # Project Report Collaboration Insights
 
@@ -76,7 +81,7 @@ Para la entrega de la TB1 se realizó una reunión donde se asignaron las respon
 | Miquel De la Piedra | Desarrollo del Impact Mapping, Product Backlog, Strategic-Level Attribute-Driven Design, Design Purpose, Attribute-Driven Design Inputs, Primary Functionality (Primary User Stories), Quality attribute Scenarios, Constraints, Architectural Drivers Backlog, Architectural Design Decisions y Quality Attribute Scenario Refinements y Registro de entrevistas                                                    |
 | Julio De la Torre   | Desarrollo de Strategic-Level Domain-Driven Design, EventStorming, Candidate Context Discovery, Domain Message Flows Modeling, Bounded Context Canvases, Context Mapping y Software Architecture, Software Architecture System Landscape Diagram, Software Architecture Context Level Diagrams, Software Architecture Container Level Diagrams y Software Architecture Deployment Diagrams y Registro de entrevistas |
 
-## TB2
+## TP
 
 Para la entrega de la TB2 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
 | Integrante | Responsabilidad |
@@ -85,6 +90,17 @@ Para la entrega de la TB2 se realizó una reunión donde se asignaron las respon
 | Manuel Gutierrez | Redacción inicial del Capítulo V: Tactical-Level Software Design. Participación en la definición del contexto Object-Recognition y desarrollo de Application Layer e Infrastructure Layer. |
 | Miquel De la Piedra | Desarrollo de Style Guidelines para Web, Mobile & Devices. Creación de sistemas de etiquetado, búsqueda y SEO (Labeling Systems, Searching Systems y SEO Tags). |
 | Julio Elsner | Revisión de estructura por capas y redacción inicial del Capítulo V. Desarrollo del Bounded Context: NOTIFICATIONS. Redacción de General Style Guidelines e inicio del Capítulo VI. Participación en Domain Layer e Interface Layer del contexto Object-Recognition. |
+
+## TP
+
+Para la entrega de la TB2 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
+
+| Integrante         | Responsabilidad                                                                                                                                                                                             |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| José Ampudia       | Desarrollo de Software Deployment Configuration y inicio de Solution Implementation. Participación en la planificación de Sprint 1 y desarrollo de Sprint Backlog.                                            |
+| Manuel Gutierrez   | Redacción de Software Configuration Management y Source Code Management. Participación en Sprint 1, incluyendo el desarrollo de Evidence for Sprint Review y la documentación de la colaboración del equipo.   |
+| Miquel De la Piedra| Desarrollo de Software Development Environment Configuration. Participación en Sprint 1: Desarrollo de Evidence for Sprint Review y Testing Suite Evidence.                                                 |
+| Julio Elsner       | Avance en Sprint 1: Sprint Planning, Sprint Backlog y Development Evidence for Sprint Review. Desarrollo de Sprint Review Testing Suite Evidence.                                                         |
 
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron _commits_ respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
