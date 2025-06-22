@@ -3580,6 +3580,23 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 ## Segmento Vendedor 
 
  **Primera Entrevista:**
+ ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistaVend2.png)
+
+  - Entrevistado: Xiomara Cardenas
+
+  - Residencia: Lima
+
+  - Ocupación: Vendedor Ferreteria
+
+  - Entrevistador: Jose Ampudia
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EddjwPjWMP1Lptn6cDqNQz4BgWvnGnKOs1yFWAvYr1WsZw?e=4wiCRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
+
+  - Resumen de la entrevista:
+  Xiomara nos comento que la aplicacion es muy innovadora ya que actualmente no existe una aplicacion que te permita escanear un producto y ver el stock actual del producto, nos menciona tambien que Detekto posee una interfaz bastante agradable y los colores que se utilizaron son muy llamativos, nos comento que la aplicacion le parece muy util para su trabajo y que le gustaria que se pueda agregar una funcionalidad de poder escanear varios productos a la vez, ya que actualmente solo se puede escanear un producto a la vez. Ademas de poder adicionar un campo mas al recuperar contraseña, usando el numero telefonico del usuario, ya que actualmente solo se puede recuperar la contraseña con el correo electronico.
+  
+**Segunda entrevista:**
+  
     ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistavend1.png)
 
   - Entrevistado: Diego Cantoral
@@ -3595,21 +3612,6 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   - Resumen de la entrevista:
   Diego nos cuenta que la aplicacion le parecio muy util, ya que le ayuda en su proceso de venta con un cliente, nos comento que la app le parecio muy intutiva y que dificil de perderse en cuanto al funcionamiento, tambien lo que mas le sorprendio es que se incluya la funcionalidad de poder escanear un producto para ver cuanto es el stock actual del producto en diferentes marcas, tambien nos dio algunas recomentadacion que vamos a tomar entrega para una posible mejora
 
-**Segunda entrevista:**
-  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistaVend2.png)
-
-  - Entrevistado: Xiomara Cardenas
-
-  - Residencia: Lima
-
-  - Ocupación: Vendedor Ferreteria
-
-  - Entrevistador: Jose Ampudia
-
-  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EddjwPjWMP1Lptn6cDqNQz4BgWvnGnKOs1yFWAvYr1WsZw?e=4wiCRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
-
-  - Resumen de la entrevista:
-  Xiomara nos comento que la aplicacion es muy innovadora ya que actualmente no existe una aplicacion que te permita escanear un producto y ver el stock actual del producto, nos menciona tambien que Detekto posee una interfaz bastante agradable y los colores que se utilizaron son muy llamativos, nos comento que la aplicacion le parece muy util para su trabajo y que le gustaria que se pueda agregar una funcionalidad de poder escanear varios productos a la vez, ya que actualmente solo se puede escanear un producto a la vez. Ademas de poder adicionar un campo mas al recuperar contraseña, usando el numero telefonico del usuario, ya que actualmente solo se puede recuperar la contraseña con el correo electronico.
 
 ## Segmento Administrador
 
