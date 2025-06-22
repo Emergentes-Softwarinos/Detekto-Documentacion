@@ -91,7 +91,7 @@ Para la entrega de la TB2 se realizó una reunión donde se asignaron las respon
 | Miquel De la Piedra | Desarrollo de Style Guidelines para Web, Mobile & Devices. Creación de sistemas de etiquetado, búsqueda y SEO (Labeling Systems, Searching Systems y SEO Tags). |
 | Julio Elsner | Revisión de estructura por capas y redacción inicial del Capítulo V. Desarrollo del Bounded Context: NOTIFICATIONS. Redacción de General Style Guidelines e inicio del Capítulo VI. Participación en Domain Layer e Interface Layer del contexto Object-Recognition. |
 
-## TP
+## TB2
 
 Para la entrega de la TB2 se realizó una reunión donde se asignaron las responsabilidades a cada integrante del equipo. A continuación se muestra la siguiente tabla con los detalles:
 
@@ -3590,13 +3590,13 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   
   - Entrevistadora: Manuel Gutierrez
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ETO7unvIDzNDsKoCur5ELKQB5xTBPIb5jZrg_URgmlQZlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t4JDex]
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EddjwPjWMP1Lptn6cDqNQz4BgWvnGnKOs1yFWAvYr1WsZw?e=4wiCRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
   
   - Resumen de la entrevista:
   Diego nos cuenta que la aplicacion le parecio muy util, ya que le ayuda en su proceso de venta con un cliente, nos comento que la app le parecio muy intutiva y que dificil de perderse en cuanto al funcionamiento, tambien lo que mas le sorprendio es que se incluya la funcionalidad de poder escanear un producto para ver cuanto es el stock actual del producto en diferentes marcas, tambien nos dio algunas recomentadacion que vamos a tomar entrega para una posible mejora
 
 **Segunda entrevista:**
-![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistavend2.png)
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistavend2.png)
 
   - Entrevistado: Xiomara Cardenas
 
@@ -3606,14 +3606,14 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 
   - Entrevistador: Jose Ampudia
 
-  - Enlace: [Ingresa a la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112936_upc_edu_pe/EZKXL57GHtVJg9UvCGsdyJsB8KbpBtknRjZTJx_Ca9tLTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fWk8W4)
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EddjwPjWMP1Lptn6cDqNQz4BgWvnGnKOs1yFWAvYr1WsZw?e=4wiCRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
   - Resumen de la entrevista:
   Xiomara nos comento que la aplicacion es muy innovadora ya que actualmente no existe una aplicacion que te permita escanear un producto y ver el stock actual del producto, nos menciona tambien que Detekto posee una interfaz bastante agradable y los colores que se utilizaron son muy llamativos, nos comento que la aplicacion le parece muy util para su trabajo y que le gustaria que se pueda agregar una funcionalidad de poder escanear varios productos a la vez, ya que actualmente solo se puede escanear un producto a la vez. Ademas de poder adicionar un campo mas al recuperar contraseña, usando el numero telefonico del usuario, ya que actualmente solo se puede recuperar la contraseña con el correo electronico.
 
 ## Segmento Administrador
 
-  - Primera Entrevista:
+  **Primera Entrevista:**
     ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistadming.png)
 
 
@@ -3625,7 +3625,7 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   
   - Entrevistadora: Julio Elsner
 
-  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ETO7unvIDzNDsKoCur5ELKQB5xTBPIb5jZrg_URgmlQZlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t4JDex]
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EddjwPjWMP1Lptn6cDqNQz4BgWvnGnKOs1yFWAvYr1WsZw?e=4wiCRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
   
   - Resumen de la entrevista:
 
@@ -3644,8 +3644,8 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   01:25 - ¿Hubo algo en el proceso de escaneo o visualización del stock que te causó confusión o molestia?
   Solo comentó que en algunos casos el reconocimiento falló con productos mal enfocados, pero volver a escanear resolvió el problema rápidamente.
 
-  - Segunda Entrevista:
-    ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistadming.png)
+  **Segunda Entrevista:**
+    ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistadming2.png)
 
 
   - Entrevistado: Oscar Palacios
@@ -3656,7 +3656,7 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   
   - Entrevistadora: Miquel De la Piedra
 
-  - Enlace: []
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112179_upc_edu_pe/EddjwPjWMP1Lptn6cDqNQz4BgWvnGnKOs1yFWAvYr1WsZw?e=4wiCRE&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D]
 
   - Resumen de la entrevista:
 
