@@ -3625,3 +3625,5 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 | 10 | Ayuda y documentación                       | No hay tutorial para nuevos usuarios sobre cómo escanear o interpretar los resultados.   | Inicio de la app y primera sesión en la web   | Incluir onboarding interactivo con ejemplos y guía paso a paso.                | 2                |
 
 ## 7.4. Video About-the-Product.
+
+Video About the product: https://www.youtube.com/watch?v=M_NTxiztU_I&ab_channel=Isaac
