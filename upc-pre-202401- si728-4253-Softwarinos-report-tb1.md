@@ -3526,8 +3526,8 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 
   - Residencia: Lima
 
-  - Ocupación: Dueña de empresa de Catering
-
+  - Ocupación: Dueño de empresa de Ferreteria
+  
   - Entrevistadora: Julio Elsner
 
   - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ETO7unvIDzNDsKoCur5ELKQB5xTBPIb5jZrg_URgmlQZlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t4JDex]
