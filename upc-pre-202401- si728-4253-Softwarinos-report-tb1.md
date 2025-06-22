@@ -3465,6 +3465,29 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 | US16       | Gestión de productos desde plataforma web                 | TSK-16       | CRUD de productos                                | Crear, editar y eliminar productos desde el panel de administrador.                                | 3                   | Julio Elsner   | Done       |
 
 #### 7.2.1.3. Development Evidence for Sprint Review.
+
+| Repository                                | Branch    | Commit Id  | Commit Message                                         | Commit Message Body                  | Commited on (Date)    |
+|-------------------------------------------|-----------|------------|-------------------------------------------------------|--------------------------------------|-----------------------|
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 5c7d1f2    | fix preguntas                                           |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 48bc241    | registro de entrevistas admin                           |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | b7adf93    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | c7b4eab    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | d19a2f3    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | e78f4ad    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 3f3a35e    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 9f84bbf    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 7a21eeb    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 7b598f9    | added photos                                            |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | b0d2250    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | a1f6784    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | c1b8d97    | Merge branch 'CAP7' of https://github.com/Emergentes-Softwarinos/Detekto-Documentacion into CAP7 |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 4c2e6b1    | feat: added Sprint planning                             |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 2d7bca4    | added sprint backlog, interview design and mockup      |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 0f6c67d    | fix: correct image path for deployment configuration in Softwarinos report |                                      | 20/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 1b23c5f    | feat: add development environment configuration and tools for DETEKTO project |                                      | 20/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | d2f239b    | docs: add software deployment configuration chapter and deployment diagram |                                      | 20/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 3a65c64    | added mockups                                          |                                      | 18/06/2025            |
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
