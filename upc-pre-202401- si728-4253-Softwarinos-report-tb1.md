@@ -3470,6 +3470,11 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+<p align="center">
+  <img src="assets/capitulo-7/git2.png" width="900"/>
+</p>
+
 #### 7.3. Validation Interviews.
 Para validar las funcionalidades del sistema basado en detección de objetos y su alineación con las necesidades reales de los usuarios, se realizaron entrevistas estructuradas a dos perfiles clave: conductores (usuarios de la aplicación móvil) y administradores de estacionamientos (usuarios de la plataforma web). Estas entrevistas forman parte del enfoque de diseño centrado en el usuario y tienen como objetivo identificar puntos de fricción, confirmar decisiones de diseño e identificar oportunidades de mejora antes del despliegue final.
 
