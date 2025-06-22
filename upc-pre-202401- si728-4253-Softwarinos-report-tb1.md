@@ -3484,38 +3484,33 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 #### 7.3.1. Diseño de Entrevistas.
 ### Vendedores
 - ¿Cuál es tu nombre y edad?
-- ¿En qué distrito vives actualmente?
-- ¿Cuál es tu estado civil y con quién vives?
-- ¿Cuál es tu ocupación actual y cuántos años llevas trabajando como vendedor?
-- ¿Con qué frecuencia usas el celular o dispositivos móviles en tu trabajo?
-- ¿Cómo sueles identificar un producto cuando el cliente no lo describe bien?
-- ¿Qué haces si un cliente te muestra una imagen del producto que quiere?
-- ¿Cómo verificas si hay stock de un producto en ese momento?
-- ¿Te sentirías cómodo usando una app que te permita identificar productos con la cámara del celular? ¿Por qué?
-- ¿Te ha pasado que pierdes una venta por no encontrar rápido el producto?
-- ¿Usas actualmente alguna app o sistema digital en tu trabajo? ¿Cuál?
-- ¿Qué tipo de celular usas y qué tan buena es su cámara?
-- ¿Qué tan seguido usas la cámara del celular en el trabajo?
-- ¿Qué funcionalidades esperas que tenga una app que te ayude a identificar productos de forma visual?
-- ¿Qué es lo que más te frustra en tu día a día como vendedor?
+
+- ¿Cuál es tu nombre?
+- Edad:
+- ¿Los campos de registro e inicio de sesión fueron los justos?
+- ¿Te resultó fácil entender cómo usar la app desde el primer uso?
+- ¿Tuviste dificultades para escanear un producto usando la cámara del celular?
+- ¿El sistema reconoció correctamente los productos la mayoría de veces?
+- ¿Sentiste que el tiempo de respuesta al escanear fue adecuado?
+- ¿La visualización del stock del producto fue clara y útil para tu trabajo diario?
+- ¿El historial de escaneos o productos te ayudó a dar mejor atención?
+- ¿Hubo algo que te generó confusión o molestia al usar la aplicación?
+- ¿Qué funcionalidades nuevas te gustaría que tuviera la app?
+
 
 ### Administradores
-- ¿Cuál es su nombre y edad?
-- ¿Dónde vive actualmente?
-- ¿Cuál es su ocupación dentro del negocio y desde cuándo ocupa ese cargo?
-- ¿Qué nivel educativo tiene?
-- ¿Con qué frecuencia utiliza una computadora en su trabajo?
-- ¿Cómo realiza actualmente el seguimiento del inventario en tienda?
-- ¿Qué información considera más importante visualizar sobre ventas y productos?
-- ¿Cómo hace proyecciones o estimaciones de ingresos a partir de la información disponible?
-- ¿Usa alguna herramienta digital para la gestión del negocio?
-- ¿Qué tan cómodo se siente usando plataformas web o paneles con datos en tiempo real?
-- ¿Qué decisiones toma habitualmente en base al movimiento de productos y ventas?
-- ¿Con qué frecuencia revisa el rendimiento de los vendedores?
-- ¿Qué tipo de reportes o visualizaciones considera útiles para su gestión?
-- ¿Le gustaría contar con una solución que identifique productos usando cámaras o imágenes?
-- ¿Qué le resulta más complicado o frustrante al hacer seguimiento del negocio?
-- ¿Cuáles son sus principales objetivos como administrador para mejorar el control del negocio?
+- ¿Cuál es su nombre?
+- Edad:
+- ¿Los campos de registro e inicio de sesión fueron los adecuados para su rol?
+- ¿Le resultó fácil navegar por la app móvil desde el primer uso?
+- ¿La información del stock se actualizó en tiempo real como lo esperaba?
+- ¿Pudo revisar correctamente los productos con bajo stock desde su vista?
+- ¿Los filtros por categoría, marca u otros le facilitaron la gestión?
+- ¿Los reportes e historial de stock en la app fueron claros y útiles?
+- ¿Sintió que tenía el control suficiente para tomar decisiones desde la app?
+- ¿Hubo algo que le generó confusión o le impidió hacer su trabajo con fluidez?
+- ¿Qué funcionalidades o mejoras considera necesarias para su gestión?
+
 
 #### 7.3.2. Registro de Entrevistas.
 
@@ -3538,7 +3533,7 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ETO7unvIDzNDsKoCur5ELKQB5xTBPIb5jZrg_URgmlQZlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t4JDex]
   
   - Resumen de la entrevista:
-  
+
   00:31 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
   Le parecieron todos necesarios. Destacó que el proceso fue rápido y claro, sin solicitar datos innecesarios.
 
