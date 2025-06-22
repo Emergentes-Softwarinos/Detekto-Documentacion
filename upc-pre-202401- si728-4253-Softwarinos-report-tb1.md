@@ -3519,6 +3519,41 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 
 #### 7.3.2. Registro de Entrevistas.
 
+## Segmento Vendedor 
+
+## Segmento Administrador
+
+  - Primera Entrevista:
+    ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistadming.png)
+
+
+  - Entrevistado: Ian Sanchez
+
+  - Residencia: Lima
+
+  - Ocupación: Dueña de empresa de Catering
+
+  - Entrevistadora: Julio Elsner
+
+  - Enlace: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111654_upc_edu_pe/ETO7unvIDzNDsKoCur5ELKQB5xTBPIb5jZrg_URgmlQZlQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t4JDex]
+  
+  - Resumen de la entrevista:
+  
+  00:31 - ¿Qué opinas sobre los datos que se te pidieron al registrarte? ¿Te parecieron necesarios o hubo alguno que sentiste innecesario?
+  Le parecieron todos necesarios. Destacó que el proceso fue rápido y claro, sin solicitar datos innecesarios.
+
+  00:43 - ¿Cómo describirías tu experiencia general usando la app para reconocer productos y consultar el stock?
+  Comentó que fue muy útil, especialmente para identificar productos cuando los clientes no saben el nombre exacto. Agradeció que la app mostrara el stock al instante.
+
+  01:10 - Durante el proceso de escaneo con la cámara, ¿sentiste que sabías claramente lo que tenías que hacer, o hubo algo que te generó duda o confusión?
+  Dijo que el flujo era intuitivo y claro. Entendió de inmediato cómo enfocar el producto para que lo reconozca.
+
+  01:13 - ¿Te resultó útil poder ver el stock disponible en tiempo real después del escaneo?
+  Sí, mucho. Le permitió saber de inmediato si podía ofrecer el producto al cliente sin tener que ir a verificar físicamente.
+
+  01:25 - ¿Hubo algo en el proceso de escaneo o visualización del stock que te causó confusión o molestia?
+  Solo comentó que en algunos casos el reconocimiento falló con productos mal enfocados, pero volver a escanear resolvió el problema rápidamente.
+
 #### 7.3.3. Evaluaciones según heurísticas.
 ### 🧪 Evaluación Heurística – Sistema de Reconocimiento de Stock con TensorFlow
 
