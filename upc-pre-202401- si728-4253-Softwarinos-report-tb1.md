@@ -3594,10 +3594,10 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 
   - Resumen de la entrevista:
   Xiomara nos comento que la aplicacion es muy innovadora ya que actualmente no existe una aplicacion que te permita escanear un producto y ver el stock actual del producto, nos menciona tambien que Detekto posee una interfaz bastante agradable y los colores que se utilizaron son muy llamativos, nos comento que la aplicacion le parece muy util para su trabajo y que le gustaria que se pueda agregar una funcionalidad de poder escanear varios productos a la vez, ya que actualmente solo se puede escanear un producto a la vez. Ademas de poder adicionar un campo mas al recuperar contraseña, usando el numero telefonico del usuario, ya que actualmente solo se puede recuperar la contraseña con el correo electronico.
-  
+
 **Segunda entrevista:**
   
-    ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistavend1.png)
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistavend1.png)
 
   - Entrevistado: Diego Cantoral
 
