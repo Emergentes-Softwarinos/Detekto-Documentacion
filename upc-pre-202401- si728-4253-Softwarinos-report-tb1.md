@@ -3525,6 +3525,15 @@ Servicio de reconocimiento de objetos:
 
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
+Se va hacer el despliegue del servicio python en Vercel
+
+<p align="center">
+  <img src="assets/capitulo-7/vercel1.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/vercel2.png" width="900"/>
+</p> 
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
 <p align="center">
