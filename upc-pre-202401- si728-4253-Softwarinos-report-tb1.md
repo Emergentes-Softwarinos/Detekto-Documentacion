@@ -3596,7 +3596,7 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
   Diego nos cuenta que la aplicacion le parecio muy util, ya que le ayuda en su proceso de venta con un cliente, nos comento que la app le parecio muy intutiva y que dificil de perderse en cuanto al funcionamiento, tambien lo que mas le sorprendio es que se incluya la funcionalidad de poder escanear un producto para ver cuanto es el stock actual del producto en diferentes marcas, tambien nos dio algunas recomentadacion que vamos a tomar entrega para una posible mejora
 
 **Segunda entrevista:**
-  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistavend2.png)
+  ![assets/capitulo-6/6.3.2-Entrevista-Conductor-1.PNG](assets/capitulo-7/entrevistaVend2.png)
 
   - Entrevistado: Xiomara Cardenas
 
