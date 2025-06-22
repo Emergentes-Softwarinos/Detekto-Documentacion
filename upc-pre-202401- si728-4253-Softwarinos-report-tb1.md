@@ -3511,8 +3511,20 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 
 
 #### 7.2.1.5. Execution Evidence for Sprint Review.
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Servicio de reconocimiento de objetos:
+- <p align="center">
+  <img src="assets/capitulo-7/vs1.png" width="900"/>
+</p>
+
+- <p align="center">
+  <img src="assets/capitulo-7/vs2.png" width="900"/>
+</p>
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
 <p align="center">
