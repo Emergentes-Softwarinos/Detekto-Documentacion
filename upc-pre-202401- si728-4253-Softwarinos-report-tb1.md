@@ -3490,8 +3490,6 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
-### 7.2.1.2. Sprint Backlog 1. - Tests en Gherkin
-
 | User Story | User Story Title                                          | Gherkin Test                                                                                                                                                                                                 |
 |:-----------|:----------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | US01       | Registro de vendedor como usuario                         | **Feature**: Registro de vendedor como usuario<br>**Scenario**: Registro de un nuevo vendedor<br>Given el vendedor ingresa su correo electrónico y contraseña<br>When el vendedor presiona el botón de registro<br>Then el sistema debe crear un nuevo vendedor y cifrar la contraseña<br>And el vendedor recibe una confirmación de registro exitoso |
