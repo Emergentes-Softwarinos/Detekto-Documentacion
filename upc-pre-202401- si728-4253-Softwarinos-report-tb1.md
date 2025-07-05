@@ -3437,7 +3437,7 @@ A continuación se muestra el Deployment Diagram de nuestra solución DETEKTO, q
 | US04       | Visualización de producto reconocido y su stock           | TSK-04       | Interfaz de resultado de escaneo                 | Mostrar en tiempo real el nombre, imagen, y cantidad en stock del producto detectado.              | 3                   | Jose Ampudia   | Done       |
 | US05       | Edición manual del producto detectado                     | TSK-05       | Funcionalidad de corrección manual               | Permitir al vendedor editar el nombre o confirmar si el producto detectado es incorrecto.          | 2                   | Jose Ampudia   | Done       |
 | US06       | Visualización de historial de escaneos del vendedor       | TSK-06       | Módulo de historial de escaneos                  | Listar productos escaneados con fecha, hora y cantidad detectada.                                  | 3                   | Jose Ampudia   | Done       |
-| US07       | Filtro y búsqueda de productos                            | TSK-07       | Filtros por categoría, nombre o stock            | Permitir búsqueda de productos por nombre, código, marca o nivel de stock.                         | 3                   |    | Done       |
+| US07       | Filtro y búsqueda de productos                            | TSK-07       | Filtros por categoría, nombre o stock            | Permitir búsqueda de productos por nombre, código, marca o nivel de stock.                         | 3                   |  Miquel De la Piedra  | Done       |
 | US08       | Alertas por bajo stock en tiempo real                     | TSK-08       | Sistema de alertas visuales y sonoras            | Notificar al vendedor si un producto escaneado tiene stock bajo.                                   | 3                   | Jose Ampudia    | Done       |
 | US09       | Visualización del stock general por administrador         | TSK-09       | Dashboard principal de stock                     | Mostrar vista general con productos, stock y últimos movimientos de escaneo.                       | 3                   | Julio Elsner    | Done       |
 | US10       | Reporte histórico de stock por día/semana/mes             | TSK-10       | Generación de reportes PDF/Excel                 | Permitir descarga de reportes de stock históricos con filtros por fecha y categoría.               | 4                   | Manuel Gutierrez   | Done       |
@@ -3536,6 +3536,135 @@ Se va hacer el despliegue del servicio python en Vercel
 
 <p align="center">
   <img src="assets/capitulo-7/git2.png" width="900"/>
+</p>
+
+### 7.2.2. Sprint 2
+### 7.2.2.1. Sprint Planning 2.
+
+<p>Se planeó el segundo sprint a través de una reunión dentro de la plataforma Discord. Para esto, se realizó una tabla que permitió registrar toda la información discutida.</p>
+
+| **Sprint #**                     | Sprint 2                                                                                                                                                                                                                                                                                                               |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint Planning Background**   |                                                                                                                                                                                                                                                                                                                        |
+| Date                             | 2025-06-28                                                                                                                                                                                                                                                                                                             |
+| Time                             | 12:30 PM                                                                                                                                                                                                                                                                                                               |
+| Location                         | Virtual                                                                                                                                                                                                                                                                                                                |
+| Prepared by                      | Gutierrez Zumaeta, Manuel Alonso                                                                                                                                                                                                                                                                                       |
+| Attendees (to planning meeting)  | <p>De La Piedra Quintanilla, Erwin Miquel</p><p>Gutierrez Zumaeta, Manuel Alonso</p><p>Elsner De La Torre Ugarte, Julio</p><p>Ampudia Flores, Jose Carlos Isaac</p>                                                                                                                |
+| **Sprint 2 - Review Summary**        |                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 - Retrospective Summary | El equipo destacó como puntos positivos la buena organización en las tareas y el cumplimiento del cronograma. Como mejora, se mencionó la necesidad de perfeccionar la rquitectura ya establecida para un desarrollo mas optimo.        |
+| **Sprint Goal & User Stories**   |                                                                                                                                                                                                                                                                                                                        |
+| Sprint 2 Goal                    | El objetivo principal de este sprint fue desarrollar las respectivas API, principalmente la que se conecte con los productos de la tienda, ademas de realizar sus respectivas conexiones con la app. |
+| Sprint 2 Velocity                | 20                                                                                                                                                                                                                                                                                                                     |
+| Sum of Story Points              | 21                                                                                                                                                                                                                                                                                                                     |
+
+#### 7.2.2.2. Sprint Backlog 2.
+| User Story | User Story Title                                        | Work Item ID | Work Item Title                               | Description                                                                                       | Estimation (Hours) | Assigned To       | Status |
+|------------|---------------------------------------------------------|---------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------|--------------------|--------|
+| US17       | Sugerencias automáticas de compras                     | HU-22         | Visualización sobre sugerencias de compras     | Como administrador, quiero recibir sugerencias automáticas de compras.                          | 3                  | Julio Elsner        | To Do   |
+| US18       | Proyecciones de ventas y stock                         | HU-23         | Visualización de proyecciones mensuales o rango| Como administrador, quiero ver proyecciones de ventas y stock.                                  | 3                  | Manuel Gutierrez    | To Do   |
+| US19       | Exportación de reportes en PDF o Excel                 | HU-24         | Exportar reportes a formatos descargables      | Como administrador, quiero exportar los reportes en PDF o Excel.                                | 2                  | Jose Ampudia        | To Do   |
+| US20       | Ubicación de vendedores en mapa                        | HU-13         | Ver ubicación de vendedores activos            | Como administrador, quiero ver en el mapa la ubicación de vendedores.                           | 5                  | Julio Elsner        | To Do   |
+| US21       | Alertas por inactividad o desvíos                      | HU-14         | Recibir alertas por inactividad o desvíos      | Como administrador, quiero recibir alertas si un vendedor está inactivo o desviado.             | 5                  | Jose Ampudia        | To Do   |
+| US22       | Consulta de rutas por fecha                            | HU-15         | Consultar historial de rutas por fecha         | Como administrador, quiero consultar rutas seguidas por los vendedores.                         | 3                  | Manuel Gutierrez    | To Do   |
+| US23       | Historial de asistencia                                | HU-18         | Consultar Historial de Asistencia              | Como administrador, quiero consultar el historial de asistencia de vendedores.                  | 3                  | Jose Ampudia        | To Do   |
+| US24       | Reporte mensual de asistencia                          | HU-20         | Generar Reporte Mensual                        | Como administrador, quiero generar un reporte mensual de asistencia.                            | 2                  | Manuel Gutierrez    | To Do   |
+| US25       | Registro de usuarios                                   | TS-01         | Desarrollar API para registro de usuario       | Como Developer, quiero desarrollar una API que permita registrar cuentas de usuario.            | 3                  | Julio Elsner        | To Do   |
+| US26       | Autenticación de usuarios                              | TS-02         | Desarrollar API para autenticación de usuario  | Como Developer, quiero crear una API que valide credenciales y genere token de autenticación.   | 3                  | Manuel Gutierrez    | Done   |
+| US27       | Escaneo de productos                                   | TS-03         | Desarrollar API para escanear productos        | Como Developer, quiero crear una API que reciba imagen o código de barras y devuelva info.      | 5                  | Jose Ampudia        | Done   |
+| US28       | Registro de ventas                                     | TS-04         | Desarrollar API para registrar una venta       | Como Developer, quiero crear una API que registre productos vendidos, cantidades y total.       | 5                  | Julio Elsner        | Done   |
+| US29       | Generación de reportes filtrados por fechas            | TS-05         | Desarrollar API para generar reportes de ventas| Como Developer, quiero crear una API que genere reportes filtrados por fechas, productos, etc.  | 5                  | Jose Ampudia        | To Do   |
+| US30       | Exportación de reportes                                | TS-06         | Desarrollar API para exportación de reportes   | Como Developer, quiero crear una API que permita exportar los reportes en PDF o Excel.          | 3                  | Manuel Gutierrez    | To Do   |
+| US31       | Geolocalización en tiempo real de vendedores           | TS-07         | Desarrollar API para geolocalización de vendedores | Como Developer, quiero crear una API que registre coordenadas en tiempo real.               | 5                  | Julio Elsner        | To Do   |
+
+
+#### 7.2.2.3. Development Evidence for Sprint Review.
+
+| Repository                                | Branch    | Commit Id  | Commit Message                                         | Commit Message Body                  | Commited on (Date)    |
+|-------------------------------------------|-----------|------------|-------------------------------------------------------|--------------------------------------|-----------------------|
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 5c7d1f2    | fix preguntas                                           |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 48bc241    | registro de entrevistas admin                           |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | b7adf93    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | c7b4eab    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | d19a2f3    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | e78f4ad    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 3f3a35e    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 9f84bbf    | Add files via upload                                    |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 7a21eeb    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 7b598f9    | added photos                                            |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | b0d2250    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | a1f6784    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | c1b8d97    | Merge branch 'CAP7' of https://github.com/Emergentes-Softwarinos/Detekto-Documentacion into CAP7 |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 4c2e6b1    | feat: added Sprint planning                             |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 2d7bca4    | added sprint backlog, interview design and mockup      |                                      | 21/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 0f6c67d    | fix: correct image path for deployment configuration in Softwarinos report |                                      | 20/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 1b23c5f    | feat: add development environment configuration and tools for DETEKTO project |                                      | 20/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | d2f239b    | docs: add software deployment configuration chapter and deployment diagram |                                      | 20/06/2025            |
+| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 3a65c64    | added mockups                                          |                                      | 18/06/2025            |
+
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+| User Story | User Story Title                             | Gherkin Test |
+|------------|----------------------------------------------|--------------|
+| US17 | Sugerencias automáticas de compras | **Feature**: Sugerencias automáticas de compras <br>**Scenario**: Mostrar sugerencias al administrador <br>Given el administrador accede al sistema <br>When se genera una sugerencia de compra <br>Then el sistema debe mostrarla automáticamente en el panel del administrador |
+| US18 | Proyecciones de ventas y stock | **Feature**: Proyecciones de ventas y stock <br>**Scenario**: Visualizar proyecciones <br>Given el administrador está en el dashboard <br>When selecciona un rango de fechas <br>Then el sistema debe mostrar proyecciones de ventas y stock para ese periodo |
+| US19 | Exportación de reportes en PDF o Excel | **Feature**: Exportación de reportes <br>**Scenario**: Exportar reportes históricos <br>Given el administrador accede a los reportes <br>When selecciona el formato PDF o Excel <br>Then el sistema debe generar y descargar el archivo correspondiente |
+| US20 | Ubicación de vendedores en mapa | **Feature**: Ubicación de vendedores <br>**Scenario**: Visualizar vendedores activos <br>Given el administrador accede al módulo de ubicación <br>When el sistema detecta vendedores activos <br>Then el sistema debe mostrar su localización en un mapa interactivo |
+| US21 | Alertas por inactividad o desvíos | **Feature**: Alertas por inactividad o desvíos <br>**Scenario**: Generar alertas por inactividad <br>Given un vendedor no ha reportado actividad <br>When el sistema detecta la inactividad o desvío <br>Then se debe enviar una alerta al administrador |
+| US22 | Consulta de rutas por fecha | **Feature**: Consulta de rutas por fecha <br>**Scenario**: Ver rutas realizadas <br>Given el administrador necesita revisar las rutas <br>When selecciona una fecha específica <br>Then el sistema debe mostrar el historial de rutas recorridas por cada vendedor |
+| US23 | Historial de asistencia | **Feature**: Historial de asistencia <br>**Scenario**: Consultar asistencia <br>Given el administrador accede al módulo de asistencia <br>When selecciona un rango de fechas <br>Then el sistema debe mostrar el historial de asistencia por vendedor |
+| US24 | Reporte mensual de asistencia | **Feature**: Reporte mensual de asistencia <br>**Scenario**: Generar reporte mensual <br>Given es fin de mes <br>When el administrador solicita el reporte <br>Then el sistema debe generar un archivo con la asistencia mensual en PDF o Excel |
+| US25 | Registro de usuarios | **Feature**: Registro de usuario <br>**Scenario**: Registrar nuevo usuario <br>Given el Developer ha creado la API de registro <br>When la app móvil envía los datos del usuario <br>Then la API debe almacenar la cuenta y devolver confirmación |
+| US26 | Autenticación de usuarios | **Feature**: Autenticación de usuario <br>**Scenario**: Login mediante API <br>Given el usuario tiene credenciales registradas <br>When envía sus datos de acceso <br>Then la API debe validar la información y devolver un token de autenticación |
+| US27 | Escaneo de productos | **Feature**: Escaneo de producto <br>**Scenario**: Procesar imagen de producto <br>Given el usuario ha tomado una foto o escaneado un código <br>When la app envía la imagen a la API <br>Then el sistema debe reconocer el producto y devolver su información |
+| US28 | Registro de ventas | **Feature**: Registro de venta <br>**Scenario**: Crear registro de venta <br>Given el vendedor ha confirmado los productos vendidos <br>When la app envía los datos a la API <br>Then la API debe registrar los productos, cantidades y total de la venta |
+| US29 | Generación de reportes filtrados por fechas | **Feature**: Generación de reportes de ventas <br>**Scenario**: Filtrar reportes por fecha <br>Given el administrador solicita reportes de ventas <br>When elige un periodo determinado <br>Then el sistema debe devolver un listado filtrado de ventas realizadas |
+| US30 | Exportación de reportes | **Feature**: Exportación de reportes <br>**Scenario**: Descargar reportes <br>Given el administrador ha generado un reporte <br>When selecciona exportar <br>Then el sistema debe permitir la descarga en PDF o Excel |
+| US31 | Geolocalización en tiempo real de vendedores | **Feature**: Geolocalización de vendedores <br>**Scenario**: Obtener ubicación en tiempo real <br>Given los vendedores están en campo <br>When la app envía su posición a la API <br>Then el sistema debe mostrar sus coordenadas actualizadas al administrador en el mapa |
+
+
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+
+<p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p>
+
+
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Servicio de reconocimiento de objetos:
+- <p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p>
+
+- <p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p>
+
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+
+Se va hacer el despliegue del servicio python en Vercel
+
+<p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
+</p> 
+
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+<p align="center">
+  <img src="assets/capitulo-7/name.png" width="900"/>
 </p>
 
 #### 7.3. Validation Interviews.
