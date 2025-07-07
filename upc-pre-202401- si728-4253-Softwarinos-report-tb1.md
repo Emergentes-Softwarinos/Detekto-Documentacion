@@ -3580,27 +3580,29 @@ Se va hacer el despliegue del servicio python en Vercel
 
 #### 7.2.2.3. Development Evidence for Sprint Review.
 
-| Repository                                | Branch    | Commit Id  | Commit Message                                         | Commit Message Body                  | Commited on (Date)    |
-|-------------------------------------------|-----------|------------|-------------------------------------------------------|--------------------------------------|-----------------------|
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 5c7d1f2    | fix preguntas                                           |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 48bc241    | registro de entrevistas admin                           |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | b7adf93    | Add files via upload                                    |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | c7b4eab    | Add files via upload                                    |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | d19a2f3    | Add files via upload                                    |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | e78f4ad    | Add files via upload                                    |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 3f3a35e    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 9f84bbf    | Add files via upload                                    |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 7a21eeb    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 7b598f9    | added photos                                            |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | b0d2250    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | a1f6784    | Update upc-pre-202401- si728-4253-Softwarinos-report-tb1.md |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | c1b8d97    | Merge branch 'CAP7' of https://github.com/Emergentes-Softwarinos/Detekto-Documentacion into CAP7 |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 4c2e6b1    | feat: added Sprint planning                             |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 2d7bca4    | added sprint backlog, interview design and mockup      |                                      | 21/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 0f6c67d    | fix: correct image path for deployment configuration in Softwarinos report |                                      | 20/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 1b23c5f    | feat: add development environment configuration and tools for DETEKTO project |                                      | 20/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | d2f239b    | docs: add software deployment configuration chapter and deployment diagram |                                      | 20/06/2025            |
-| Emergentes-Softwarinos/Detekto-Documentacion | CAP7      | 3a65c64    | added mockups                                          |                                      | 18/06/2025            |
+| Repository                                 | Branch | Commit Id | Commit Message                                                                 | Commit Message Body | Commited on (Date) |
+|--------------------------------------------|--------|------------|----------------------------------------------------------------------------------|----------------------|---------------------|
+| Emergentes-Softwarinos/Detekto-API         | main   | 33cb55e    | feat: remove unused training artifacts and SQL script                            |                      | 06/07/2025          |
+| Emergentes-Softwarinos/Detekto-API         | main   | d0fab30    | feat: update for deploy                                                          |                      | 06/07/2025          |
+| Emergentes-Softwarinos/Detekto-API         | main   | d337823    | feat: create ferreteria database and martillos table with initial data          |                      | 05/07/2025          |
+| Emergentes-Softwarinos/Detekto-API         | main   | 9be16ad    | feat: create initial SQL script for martillos database and table                |                      | 05/07/2025          |
+| Emergentes-Softwarinos/Detekto-API         | main   | 9cd8565    | feat: add endpoints for retrieving hammer data and image URLs                   |                      | 05/07/2025          |
+| Emergentes-Softwarinos/Detekto-API         | main   | 94d91c0    | feat: added new endpoint to get the image of the detection                      |                      | 03/07/2025          |
+| Emergentes-Softwarinos/Detekto-API         | main   | 61196b5    | first commit                                                                     |                      | 03/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 3c77475    | feat: add StoreVendor model with properties and constructor                     |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | b51cb81    | Merge pull request #3 from Emergentes-Softwarinos/develop                       |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 68495d6    | docs: update README with improved product description                           |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 39577cf    | Merge pull request #1 from Emergentes-Softwarinos/develop                       |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 53a7493    | fix: add missing newline at end of README.md                                    |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | bf9f58c    | feat: update README with project description and remove boilerplate             |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | d086a8c    | feat: detekto-app v0.1-home_screen                                              |                      | 02/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 3f429bb    | feat: enhance BottomNavigationBar with dynamic icon rendering and theming       |                      | 05/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | f9d3c59    | feat: refactor Hammer class and implement HammerListPage with API integration   |                      | 05/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | bd503ec    | feat: backend link updated                                                       |                      | 04/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 05a9d6c    | feat: Add image preview, camera view, and upload button for object detection    |                      | 04/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | cbdaaaf    | feat: added connection with new endpoint to show the image                      |                      | 03/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 1f2dacb    | feat: integrate full object detection flow with image input and API call        |                      | 03/07/2025          |
+| Emergentes-Softwarinos/Detekto-APP         | main   | 18eaa58    | feat: implement authentication screens and profile management                   |                      | 03/07/2025          |
 
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 
