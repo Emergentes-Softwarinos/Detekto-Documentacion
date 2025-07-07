@@ -62,6 +62,11 @@ Profesor: De Los Rios Fernandez, Christian Luis
 | 1.9     | 17-06-2025 | Miquel De la Piedra             | Desarrollo de Software Development Environment Configuration y Source Code Management.                                                                |
 | 2.0     | 20-06-2025 | Jose Ampudia, Manuel Gutierrez  | Redacción de Software Deployment Configuration y comienzo de Solution Implementation.                                                                  |
 | 2.1     | 21-06-2025 | Julio Elsner, Miquel De la Piedra | Avance en Sprint 1: Sprint Planning, Sprint Backlog y Development Evidence for Sprint Review.                                                        |
+| 2.2     | 03-07-2025 | Jose Ampudia, Manuel Gutierrez  | Implementación de conexión API para detección de objetos. Avance en geolocalización y endpoints para escaneo.                                          |
+| 2.3     | 04-07-2025 | Julio Elsner, Isaac Ampudia     | Integración de escaneo de producto y vista previa con cámara en Flutter. Pruebas iniciales de flujo de detección completo.                              |
+| 2.4     | 05-07-2025 | Manuel Gutierrez, Jose Ampudia  | Creación de base de datos ferretería y tabla de martillos. API para obtener lista e imágenes.                                                           |
+| 2.5     | 06-07-2025 | Julio Elsner, Miquel De la Piedra | Limpieza de artefactos de entrenamiento, mejora de navegación y diseño visual. Preparación para despliegue.                                          |
+| 2.6     | 07-07-2025 | Jose Ampudia, Manuel Gutierrez  | Redacción de Testing Suite, Execution Evidence, Services Documentation y Sprint Backlog 2. Sprint Planning 2 documentado.                              |
 
 # Project Report Collaboration Insights
 
@@ -101,6 +106,18 @@ Para la entrega de la TB2 se realizó una reunión donde se asignaron las respon
 | Manuel Gutierrez   | Redacción de Software Configuration Management y Source Code Management. Participación en Sprint 1, incluyendo el desarrollo de Evidence for Sprint Review y la documentación de la colaboración del equipo.   |
 | Miquel De la Piedra| Desarrollo de Software Development Environment Configuration. Participación en Sprint 1: Desarrollo de Evidence for Sprint Review y Testing Suite Evidence.                                                 |
 | Julio Elsner       | Avance en Sprint 1: Sprint Planning, Sprint Backlog y Development Evidence for Sprint Review. Desarrollo de Sprint Review Testing Suite Evidence.                                                         |
+
+## TF
+
+Para la entrega de la TF se realizó una reunión donde se asignaron nuevas responsabilidades a cada integrante del equipo, en función de los avances realizados durante el sprint. A continuación se presenta la tabla con los detalles:
+
+| Integrante         | Responsabilidad                                                                                                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| José Ampudia       | Desarrollo de la base de datos y endpoints relacionados a productos (martillos). Redacción del Testing Suite Evidence, Execution Evidence y Sprint Backlog 2. Participación activa en el desarrollo de APIs REST.    |
+| Manuel Gutierrez   | Implementación de la lógica de detección de objetos con integración de API y procesamiento de imágenes. Redacción de documentación técnica, así como la evidencia de ejecución y colaboración del equipo.            |
+| Miquel De la Piedra| Revisión y mejora de artefactos de despliegue. Participación en la mejora visual del sistema, planificación del Sprint 2 y documentación del Services Documentation Evidence.                                         |
+| Julio Elsner       | Integración de la navegación dinámica en la app, mejoras en interfaz y pantalla de martillos. Desarrollo del Sprint Planning 2 y colaboración en el desarrollo del Testing Suite y documentación de la TB3.          |
+
 
 Durante la elaboración de las aplicaciones, tanto web como mobile, se realizaron _commits_ respectivos con el fin de mantener el orden y un control de versiones eficiente.
 
@@ -271,21 +288,27 @@ rango de audiencias.
         <strong>TP</strong><br />
         Implementé el historial de escaneos para que los vendedores puedan consultar los productos escaneados anteriormente, facilitando así la gestión del inventario de manera más eficiente.<br />
         <strong>TB2</strong><br />
-        Después de las pruebas, trabajé en la optimización de los endpoints para manejar un mayor volumen de datos, lo que mejoró la eficiencia del sistema al procesar artículos de ferretería en tiempo real.<br /><br/>
+        Después de las pruebas, trabajé en la optimización de los endpoints para manejar un mayor volumen de datos, lo que mejoró la eficiencia del sistema al procesar artículos de ferretería en tiempo real.<br />
+        <strong>TF</strong><br />
+        Participé en la construcción de la base de datos definitiva de martillos, integré los endpoints en el backend y desarrollé la funcionalidad para exportar los datos escaneados. Documenté los servicios y colaboré en la planificación del sprint final.<br /><br />
         <strong>Manuel Gutierrez</strong><br />
         <strong>TB1</strong><br />
         Me centré en la creación de los endpoints para el registro de vendedores y la autenticación de usuarios, implementando seguridad mediante JWT. También trabajé en la integración de la API de reconocimiento de objetos, optimizando su uso dentro de la plataforma.<br />
         <strong>TP</strong><br />
         Realicé pruebas de validación para asegurar que los endpoints funcionaran correctamente y fueran seguros. Aseguré que los datos de los productos fueran correctos al ser procesados por la API de reconocimiento de objetos.<br />
         <strong>TB2</strong><br />
-        Durante el proceso de integración, también optimicé la experiencia de usuario mediante la inclusión de botones de navegación más intuitivos y la mejora de los tiempos de respuesta en la interfaz móvil.<br /><br />
+        Durante el proceso de integración, también optimicé la experiencia de usuario mediante la inclusión de botones de navegación más intuitivos y la mejora de los tiempos de respuesta en la interfaz móvil.<br />
+        <strong>TF</strong><br />
+        Desarrollé y desplegué los endpoints finales para escaneo y visualización, mejoré la arquitectura del sistema para producción y participé en la depuración de errores de integración entre Flutter y el backend.<br /><br />
         <strong>Miquel De la Piedra</strong><br />
         <strong>TB1</strong><br />
         Me encargué de la integración de la API de reconocimiento de objetos con el sistema backend, asegurándome de que los productos detectados fueran correctamente enviados y mostrados en la interfaz de usuario.<br />
         <strong>TP</strong><br />
         También trabajé en el desarrollo del sistema de visualización de productos escaneados en tiempo real, lo que permitió a los vendedores acceder rápidamente a la información relevante sobre el stock y las ventas.<br />
         <strong>TB2</strong><br />
-        Implementé mejoras adicionales en la visualización de resultados para hacerla más accesible, incluyendo filtros avanzados que permitieron a los vendedores buscar productos con mayor facilidad.<br /><br />
+        Implementé mejoras adicionales en la visualización de resultados para hacerla más accesible, incluyendo filtros avanzados que permitieron a los vendedores buscar productos con mayor facilidad.<br />
+        <strong>TF</strong><br />
+        Me encargué del diseño final de pantallas, revisión de consistencia visual, y mejora de navegación. También realicé pruebas de usabilidad con usuarios simulados y documenté los flujos UI más críticos.<br /><br />
         <strong>Julio Elsner</strong><br />
         <strong>TB1</strong><br />
         Mi labor se centró en la integración del modelo de detección de objetos con el backend, asegurando que los productos escaneados se reflejaran correctamente en el panel de administración. Además, trabajé en la visualización de alertas de bajo stock en tiempo real para mejorar la gestión del inventario.<br />
@@ -293,6 +316,8 @@ rango de audiencias.
         Implementé la visualización de datos en tiempo real en el panel web, lo que permitió a los administradores hacer un seguimiento preciso del inventario y las ventas a través de la plataforma.<br />
         <strong>TB2</strong><br />
         Realicé una revisión de la interfaz para mejorar su usabilidad, asegurando que las alertas de bajo stock fueran más visibles y fáciles de entender, lo que facilitó la toma de decisiones para los administradores.<br />
+        <strong>TF</strong><br />
+        Refactoricé las vistas críticas del sistema y coordiné la revisión final del código fuente. Además, estructuré la documentación técnica de las funcionalidades implementadas y validé su despliegue exitoso en producción.<br />
       </td>
       <td>
         La implementación de los endpoints y la API de reconocimiento de objetos ha permitido que el sistema de ferretería sea más funcional y eficiente, mejorando tanto la experiencia del vendedor como la del administrador. La integración efectiva de las funcionalidades permitió avanzar en la optimización del proceso de escaneo y gestión de productos. Las mejoras en la interfaz y los tiempos de respuesta también contribuyeron a una experiencia más fluida y accesible para todos los usuarios.
