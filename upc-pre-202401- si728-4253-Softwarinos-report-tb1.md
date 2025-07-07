@@ -3653,7 +3653,11 @@ Se va hacer el despliegue del servicio python en Vercel
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 
 <p align="center">
-  <img src="assets/capitulo-7/app1.png" width="900"/>
+  <img src="assets/capitulo-7/7.2.2.5-excecution-evidence-for-sprint/1.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/7.2.2.5-excecution-evidence-for-sprint/2-register.png" width="900"/>
 </p>
 
 <p align="center">
@@ -3662,14 +3666,25 @@ Se va hacer el despliegue del servicio python en Vercel
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Servicio de reconocimiento de objetos desplegado: 
-- <p align="center">
-  <img src="assets/capitulo-7/servicio1.png" width="900"/>
+- **Servicio de reconocimiento de objetos desplegado:**
+- Acceso al servicio desplegado de reconocimiento de objetos:
+https://apidetekto-deploy-emcw.onrender.com/docs
+
+<p align="center">
+  <img src="assets/capitulo-7/7.2.2.6-services-documentation-evidence/detekto_api.png" width="900"/>
 </p>
 
-Backend desplegado
-- <p align="center">
-  <img src="assets/capitulo-7/servicio2.png" width="900"/>
+
+- **Backend desplegado**
+- Acceso al servicio desplegado del backend: 
+https://detektobackend-production.up.railway.app/swagger-ui/index.html#/
+
+<p align="center">
+  <img src="assets/capitulo-7/7.2.2.6-services-documentation-evidence/detekto_back_01.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/7.2.2.6-services-documentation-evidence/detekto_back_02.png" width="900"/>
 </p>
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
