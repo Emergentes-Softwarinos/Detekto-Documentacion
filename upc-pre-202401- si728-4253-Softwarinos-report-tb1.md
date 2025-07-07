@@ -3626,45 +3626,48 @@ Se va hacer el despliegue del servicio python en Vercel
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 
 <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
+  <img src="assets/capitulo-7/app1.png" width="900"/>
 </p>
 
 <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
+  <img src="assets/capitulo-7/app2.png" width="900"/>
 </p>
-
-<p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
-</p>
-
 
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 
-Servicio de reconocimiento de objetos:
+Servicio de reconocimiento de objetos desplegado: 
 - <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
+  <img src="assets/capitulo-7/servicio1.png" width="900"/>
 </p>
 
+Backend desplegado
 - <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
+  <img src="assets/capitulo-7/servicio2.png" width="900"/>
 </p>
 
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 
-Se va hacer el despliegue del servicio python en Vercel
+Se va hacer el despliegue del servicio de deteccion de obejetos en python en Render
 
 <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
+  <img src="assets/capitulo-7/render.png" width="900"/>
 </p>
 
+Se va hacer el despliegue del backend en Railway
+
 <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
-</p> 
+  <img src="assets/capitulo-7/railway1.png" width="900"/>
+</p>
+
 
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
 
 <p align="center">
-  <img src="assets/capitulo-7/name.png" width="900"/>
+  <img src="assets/capitulo-7/git3.png" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/capitulo-7/git4.png" width="900"/>
 </p>
 
 #### 7.3. Validation Interviews.
