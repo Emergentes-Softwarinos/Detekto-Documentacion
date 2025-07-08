@@ -3870,3 +3870,7 @@ Involucrar ambos perfiles resulta esencial para evaluar la solución tanto desde
 ## 7.4. Video About-the-Product.
 
 Video About the product: https://www.youtube.com/watch?v=M_NTxiztU_I&ab_channel=Isaac
+
+Video about the team: https://upcedupe-my.sharepoint.com/personal/u202112179_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202112179%5Fupc%5Fedu%5Fpe%2FDocuments%2FVideo%5FAbout%5Fthe%5Fteam%5FDetekto%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed0905bfc%2Df42c%2D4d1f%2D9ac2%2D488169651d56&isDarkMode=false
+
+Expo TF: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112353_upc_edu_pe/EWxzqNyc00VPrFmu1JiPK48BgifFGLGbkWWRmbodIrMYAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dj6HRJ
